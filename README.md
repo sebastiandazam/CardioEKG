@@ -1,98 +1,89 @@
-# CardioEKG
+CardioEKG
 
-Flujo guiado de revisión de ECG de 12 derivaciones, con una instalación para investigación clínica supervisada. La edición educativa incluye cuatro simulaciones y dos registros clínicos de PhysioNet. La representación de la conducción sigue la línea de tiempo de los ejemplos simulados. El eje frontal se muestra cuando está disponible. La geometría 3D representa anatomía humana de referencia. Los registros clínicos se muestran junto a un esquema de referencia y conservan su atribución.
+Guided 12-lead ECG review workflow, with an installation mode for supervised clinical research. The educational edition includes four simulations and two clinical recordings from PhysioNet. Conduction rendering follows the timeline of the simulated examples. The frontal axis is displayed when available. The 3D geometry represents reference human anatomy. Clinical recordings are shown alongside a reference diagram and retain their attribution.
 
-La interfaz está disponible en español e inglés mediante **ES / EN**. El recuadro **Diagnóstico presuntivo / Presumptive Diagnosis** muestra la impresión asociada al patrón, manejo inicial orientativo para adultos, signos de alarma y las fuentes clínicas. En el flujo de investigación, se basa en el hallazgo revisado por el investigador. Una clasificación automatizada requiere pesos validados e instalados.
+The interface is available in Spanish and English via ES / EN. The Diagnóstico presuntivo / Presumptive Diagnosis panel displays the impression associated with the pattern, orientative initial adult management, red flags, and clinical sources. In the research workflow, it is based on the finding reviewed by the investigator. Automated classification requires validated and installed weights.
 
-## Abrir la aplicación
+Opening the application
 
-Abrir **Cardioscopio.html** en el navegador. El archivo autónomo incluye el visor y el flujo de captura. Las funciones locales de imagen requieren un navegador con Web Workers y acceso a Web Crypto. La opción de OpenEvidence abre el sitio externo únicamente al pulsar su enlace. La pregunta se genera localmente a partir del hallazgo y se puede leer antes de copiarla.
+Open Cardioscopio.html in your browser. The standalone file includes the viewer and the capture workflow. Local image features require a browser with Web Workers and Web Crypto access. The OpenEvidence option opens the external site only when its link is clicked. The query is generated locally from the finding and can be read before copying it.
 
-Para ejecutar o desplegar la web desde el código, instalar Node.js 22.12 o posterior.
+To run or deploy the web app from source, install Node.js 22.12 or later.
 
-```sh
 npm install
 npm test
 npm run dev
 npm run build
 npm run build:offline
-```
 
-Publicar `dist/` con un servidor de archivos estáticos. `build:offline` genera de nuevo la edición autónoma. El código propio usa licencia MIT. La portada usa un shader WebGL propio inspirado en ShaderGradient, con un fondo estático cuando WebGL no está disponible. Las dependencias, marcas y señales conservan sus licencias y condiciones. Consultar [fuentes y licencias](docs/fuentes-y-licencias.md) y [avisos de terceros](THIRD_PARTY_NOTICES.md).
 
-## Investigación supervisada
+Serve dist/ with a static file server. build:offline regenerates the standalone edition. Original code is licensed under MIT. The landing page uses a custom WebGL shader inspired by ShaderGradient, with a static fallback background when WebGL is unavailable. Dependencies, trademarks, and signals retain their respective licenses and terms. See sources and licenses and third-party notices.
 
-La compilación pública permite probar la captura en el dispositivo con trazados simulados o ejemplos públicos autorizados. El formulario pide confirmarlo antes de acceder a la captura. La compilación privada exige una decisión de habilitación institucional. Antes de desplegarla con pacientes, completar los requisitos de [investigación en Colombia](docs/investigacion-colombia.md).
+Supervised research
 
-```sh
+The public build allows testing on-device capture with simulated traces or authorized public examples. The form requires confirming this before accessing capture. The private build requires an institutional authorization decision. Before deploying it with patients, complete the requirements in research in Colombia.
+
 VITE_APPROVED_RESEARCH=1 npm run build:research
-```
-
-La institución debe servir **dist-research/** en un origen HTTPS privado con autenticación institucional en el servidor. El indicador de compilación habilita la interfaz, y el servidor controla quién puede acceder. No desplegar este directorio en el mismo origen que aplicaciones de terceros. Excluir analítica y servicios remotos de este origen. Aplicar una política de seguridad que restrinja conexiones, trabajadores y recursos al origen local, autorice `blob:` solo para previsualizaciones y permita `wasm-unsafe-eval` únicamente si se instala ONNX.
-
-El flujo revisa 12 recortes calibrados del mismo ECG, estima la frecuencia cuando la tira lo permite y calcula PR, QRS, QT y eje a partir de los puntos que marque el investigador. Al confirmar, el visor recibe únicamente las señales y los resultados derivados en memoria. El estudio debe establecer su propio procedimiento para documentar lecturas y autorizaciones.
-
-Sin pesos aprobados, la clasificación permanece indeterminada hasta que el investigador seleccione un hallazgo. Para instalar un modelo validado, servir el módulo de ONNX Runtime Web, sus archivos WASM y el modelo desde `/models/` en el mismo origen. Inyectar en la compilación la configuración `VITE_APPROVED_MODEL` como un objeto JSON con `runtimeModule`, `wasmDirectory`, `modelUrl`, `sha256` y `decisionBands`. Usar el SHA‑256 del archivo exacto y los umbrales validados. El clasificador exige formato 4×3, tira II de 10 s y confirmación de que las imágenes corresponden al mismo ECG.
-
-## Entrenamiento
-
-El [flujo reproducible](training/README.md) prepara ECG reales, compara modelos, exporta ONNX y calcula métricas de evaluación. Los modelos candidatos y sus métricas requieren ejecutar ese flujo con las cohortes y fotos autorizadas. En esta entrega se verificó el flujo con pruebas locales y la carga de los ejemplos clínicos en el visor. El acceso de red del entorno no permitió descargar las cohortes completas ni ejecutar el entrenamiento.
 
 
-### Mapa de derivaciones y OCR local
+The institution must serve dist-research/ over a private HTTPS origin with server-side institutional authentication. The build flag enables the interface, while the server controls who can access it. Do not deploy this directory on the same origin as third-party applications. Exclude analytics and remote services from this origin. Enforce a security policy that restricts connections, workers, and resources to the local origin, authorizes blob: only for previews, and allows wasm-unsafe-eval only if ONNX is installed.
 
-Al cargar una hoja completa, aparece primero un mapa con recuadros de colores y un panel lateral. Cada zona se puede seleccionar, mover, volver a dibujar, reasignar y confirmar. Las doce zonas deben confirmarse antes de reconstruir; esa confirmación no sustituye la revisión de la calibración ni de la señal extraída. Las etiquetas OCR y las propuestas por posición se distinguen en el panel.
+The workflow reviews 12 calibrated crops of the same ECG, estimates heart rate when the strip permits, and computes PR, QRS, QT, and axis from the points marked by the investigator. Upon confirmation, the viewer receives only the signals and derived results in memory. The study must establish its own procedure for documenting readings and authorizations.
 
-La lectura de etiquetas usa Tesseract.js y un modelo LSTM inglés preentrenado, servido desde el mismo sitio (`public/ocr/`). No envía imágenes a un servicio de OCR. Una lectura cancelada, fallida o superior a 60 segundos deja disponibles las propuestas por posición. El modelo y licencias acompañan la distribución; versión tessdata_fast 4.1.0, SHA256 del archivo comprimido `4eecbf64c3bad3835d16773a8d6372ccaaa8b1f253df52a9fa7d3faa4c09afc2`.
+Without approved weights, classification remains indeterminate until the investigator selects a finding. To install a validated model, serve the ONNX Runtime Web module, its WASM files, and the model from /models/ on the same origin. Inject the VITE_APPROVED_MODEL configuration at build time as a JSON object with runtimeModule, wasmDirectory, modelUrl, sha256, and decisionBands. Use the SHA-256 of the exact file and the validated thresholds. The classifier requires a 4×3 format, a 10 s lead II strip, and confirmation that the images belong to the same ECG.
 
-Se prepararon 256 ECG reales y sus hojas anotadas para el [piloto reproducible de OCR](training/sheet-ocr-results/README.md). Este trabajo selecciona preprocesamiento de un OCR existente y no entrena nuevos pesos. La evaluación nativa tiene errores y no valida el navegador ni fotos clínicas independientes. El OCR en la edición HTML de un solo archivo necesita los recursos `/ocr/`; si faltan, continúa la selección por posición.
+Training
 
-También se ejecutó entrenamiento nuevo de un clasificador compacto de etiquetas con 9.216 recortes aumentados de 192 ECG (pacientes distintos de selección y prueba). Su alta exactitud en recortes conocidos no se generaliza al papel y al fondo: el [informe del candidato](training/lead-label-results/README.md) documenta falsas aceptaciones de regiones sin etiqueta. Se conserva como investigación, sin activar en la preselección pública.
+The reproducible pipeline prepares real ECGs, compares models, exports ONNX, and computes evaluation metrics. Candidate models and their metrics require running this pipeline with authorized cohorts and photos. In this release, the pipeline was verified with local tests and by loading the clinical examples into the viewer. Network access in the environment did not allow downloading the full cohorts or running training.
 
+Lead map and local OCR
 
-### PDF, formatos y signos de alarma
+When loading a full sheet, a map with colored boxes and a side panel appear first. Each zone can be selected, moved, redrawn, reassigned, and confirmed. All twelve zones must be confirmed before reconstruction; this confirmation does not replace reviewing the calibration or the extracted signal. OCR labels and position-based proposals are distinguished in the panel.
 
-El selector de archivos admite JPG, PNG, WebP y PDF (hasta 20 MB). Un PDF se abre localmente con PDF.js: se elige una página entre hasta 200, se previsualiza y se rasteriza con un máximo de 8 millones de píxeles antes del OCR y del recorte de derivaciones. No se cargan archivos a un servicio. Los PDF con contraseña deben exportarse sin protección o como imagen. El límite de resolución controla memoria, no demuestra exactitud de digitalización. La prueba de renderizado local verificó un documento simulado de dos páginas, seleccionando y dibujando la segunda con etiquetas y calibración.
+Label reading uses Tesseract.js and a pretrained English LSTM model served from the same site (public/ocr/). It does not send images to an external OCR service. A canceled, failed, or >60-second read leaves the position-based proposals available. The model and licenses accompany the distribution; tessdata_fast version 4.1.0, compressed archive SHA-256 4eecbf64c3bad3835d16773a8d6372ccaaa8b1f253df52a9fa7d3faa4c09afc2.
 
-La selección del formato incluye ejemplos simulados 4×3 y 2×6 y una tira de II para mostrar qué no equivale a 12 derivaciones. Que una imagen cumpla el formato no garantiza una reconstrucción fiable.
+256 real ECGs and their annotated sheets were prepared for the reproducible OCR pilot. This work selects preprocessing for an existing OCR engine and does not train new weights. Native evaluation has errors and does not validate browser execution or independent clinical photos. OCR in the single-file HTML edition requires the /ocr/ assets; if missing, position-based selection continues to work.
 
-Los casos con signos de alarma o incertidumbre pueden continuar tras aceptar expresamente un aviso de alcance y prioridad de atención urgente. El recordatorio continúa visible durante la captura y en el visor del caso. Siguen vigentes la restricción a adultos y la separación entre práctica pública e instalación institucional para datos de pacientes.
+New training of a compact label classifier was also run using 9,216 augmented crops from 192 ECGs (separate patients for selection and testing). Its high accuracy on known crops does not generalize to paper and background: the candidate report documents false acceptances of unlabeled regions. It is kept for research only and is not enabled in public prescreening.
 
+PDF, formats, and red flags
 
-### Identidad CardioEKG
+The file picker supports JPG, PNG, WebP, and PDF (up to 20 MB). A PDF is opened locally with PDF.js: a page is selected from up to 200 pages, previewed, and rasterized at a maximum of 8 million pixels before OCR and lead cropping. No files are uploaded to any service. Password-protected PDFs must be exported without protection or as an image. The resolution cap controls memory usage and does not demonstrate digitization accuracy. Local rendering tests verified a simulated two-page document by selecting and drawing the second page with labels and calibration.
 
-CardioEKG es el nuevo nombre de la aplicación. La K del logotipo incorpora un trazo inspirado en el QRS, generado para el proyecto y guardado en `public/cardioekg-logo.png`. La marca se usa en la cabecera, pie y favicon. Los fondos crema combinan degradados suaves rojos, coral y naranja; las zonas de trazado e imágenes mantienen su contraste de lectura. Se conservan el ID de Sites y la URL histórica `cardioscopio-ecg` para no romper enlaces. Los archivos históricos que conservan ese nombre siguen documentados por su nombre real.
+Format selection includes simulated 4×3 and 2×6 examples and a single lead II strip to show what does not equal 12 leads. Matching a format does not guarantee reliable reconstruction.
 
+Cases with red flags or uncertainty may proceed after expressly accepting a scope and urgent-care priority notice. The reminder remains visible during capture and in the case viewer. The adult-only restriction and the separation between public practice and institutional deployment for patient data remain in effect.
 
-### Reconstrucción en lote y calibración de cuadrícula
+CardioEKG identity
 
-La confirmación del mapa (individual o en conjunto) inicia la reconstrucción local de todas las derivaciones seleccionadas. Los trabajadores se ejecutan de forma secuencial para acotar memoria en móviles. Cada resultado aparece superpuesto a su recorte; los trazados sin incidencias pasan al conjunto de revisión y solo los fallidos abren la corrección individual. Una nueva ejecución reutiliza los resultados correctos cuando imagen, recorte, velocidad y ganancia coinciden. La confirmación clínica final del conjunto se mantiene.
+CardioEKG is the new name of the application. The K in the logo incorporates a QRS-inspired stroke, generated for the project and saved in public/cardioekg-logo.png. The branding is used in the header, footer, and favicon. Cream backgrounds combine soft red, coral, and orange gradients; trace and image areas preserve reading contrast. The Sites ID and the historical cardioscopio-ecg URL are preserved to avoid breaking links. Historical files that retain that name remain documented under their actual filenames.
 
-Los recuadros iniciales se limitan a filas sin solapamiento. Al moverlos se detienen frente al vecino; un recorte nuevo no puede invadir otra zona. La tira larga solo se incluye automáticamente si se detecta una fila independiente; también puede añadirse o excluirse explícitamente.
+Batch reconstruction and grid calibration
 
-Se reprodujo y corrigió una confusión entre líneas principales de 5 mm y menores de 1 mm: el digitalizador anterior calculaba 1,99978 s para un trazado simulado de 10 s. Ahora conserva líneas grises tenues y estima el período fundamental por posiciones, con pruebas de alineación fraccionaria y recortes cortos/largos. Una cuadrícula periódica sin evidencia suficiente de unidades se marca `periodic-only`: su escala es provisional y requiere calibración manual, no aceptación automática. Se mantiene el rechazo de deformación real entre los ejes. Estas pruebas no validan fotos clínicas independientes ni garantizan toda preselección.
+Confirming the map (individually or together) starts local reconstruction of all selected leads. Workers run sequentially to bound memory usage on mobile devices. Each result is overlaid on its crop; traces without issues proceed to the review set, and only failed ones open individual correction. Re-running reuses successful results when the image, crop, speed, and gain match. Final clinical confirmation of the full set remains required.
 
+Initial boxes are constrained to non-overlapping rows. When moved, they stop against neighboring boxes; a new crop cannot invade another zone. The long rhythm strip is only included automatically if an independent row is detected; it can also be added or excluded explicitly.
 
-### Papel y bandas oscuras en la preselección
+A confusion between 5 mm major lines and 1 mm minor lines was reproduced and fixed: the previous digitizer calculated 1.99978 s for a simulated 10 s trace. It now preserves faint gray lines and estimates the fundamental period by position, with fractional alignment tests and short/long crop checks. A periodic grid without sufficient unit evidence is marked periodic-only: its scale is provisional and requires manual calibration rather than automatic acceptance. Rejection of true inter-axis distortion is maintained. These tests do not validate independent clinical photos or guarantee every prescreening result.
 
-La preselección separa primero el papel claro de los márgenes negros o transparentes. Normaliza la iluminación y busca filas solo dentro de ese papel; no cuenta el negro exterior como tinta. Los recortes y las etiquetas OCR se transforman después a porcentajes del archivo original. La vista inicial se centra en el papel, con opción de ver la imagen completa, usando una previsualización generada del mismo bitmap que se analizó. El puntero y los recuadros usan la transformación inversa del mismo marco, independiente del zoom.
+Paper and dark borders in prescreening
 
-Si no hay evidencia de filas, no aparecen recuadros automáticos: se informa del fallo y puede elegirse explícitamente una plantilla manual. El papel vacío o la cuadrícula sin trazado no equivalen a una detección. La regresión que saltaba una primera fila situada antes del 14 % se eliminó, manteniendo un pequeño margen para bordes.
+Prescreening first separates light paper from black or transparent margins. It normalizes illumination and searches for rows only within that paper area, without counting outer black margins as ink. Crops and OCR labels are then transformed into percentages of the original file. The initial view centers on the paper, with an option to view the full image, using a preview generated from the same bitmap that was analyzed. The pointer and boxes use the inverse transform of the same frame, independent of zoom.
 
-Se comprobó el caso de bandas negras en una imagen sintética y, localmente, en la región de la captura aportada: los doce recuadros quedan dentro del papel y las cuatro filas abarcan sus trazados. Los [resultados y límites](training/paper-region-results/README.md) documentan coordenadas, no validación clínica ni verificación interactiva. La captura y sus recortes quedan fuera de Git y del sitio publicado; no se usaron para entrenamiento.
+If no row evidence is found, no automatic boxes appear: the failure is reported and a manual template can be explicitly chosen. Blank paper or a grid without traces does not constitute a detection. The regression that skipped a first row located above 14% was fixed, while keeping a small margin for edges.
 
+The dark-border case was verified on a synthetic image and locally on the region of the provided screenshot: all twelve boxes fall within the paper and the four rows span their traces. The results and limits document coordinates, not clinical validation or interactive verification. The screenshot and its crops remain outside Git and the published site; they were not used for training.
 
-### Escala común y vistas provisionales
+Common scale and provisional views
 
-La calibración dejó de elegir la primera periodicidad de píxeles: ahora verifica una retícula principal y evidencia de líneas intermedias, para no confundir el tramado de escáner de 2 px con 1 mm. El análisis global del papel puede aportar una referencia automática verificada por varias regiones. Se usa como respaldo solo para errores de escala locales; no sustituye una calibración local correcta ni anula anisotropía medida localmente. No se supone duración fija ni ancho físico de la hoja.
+Calibration no longer picks the first pixel periodicity: it now verifies a major grid and evidence of intermediate lines, so 2 px scanner dithering is not confused with 1 mm. Global paper analysis can provide an automatic reference verified across multiple regions. It is used as a fallback only for local scale errors; it does not override a valid local calibration or cancel locally measured anisotropy. Neither fixed duration nor fixed physical sheet width is assumed.
 
-Si falla la escala, se conserva la reconstrucción provisional en píxeles, sin segundos ni mV y sin incorporarla como señal calibrada al visor. Los errores de escala se agrupan como un problema común del papel, no como trece recuadros mal dimensionados. La herramienta «Calibrar el papel una vez» permite encajar una referencia en un cuadro real de 5 × 5 mm y aplicar sus dimensiones a todos los recortes del mismo archivo. Esa referencia se confirma explícitamente, y no sirve para corregir perspectiva no uniforme.
+If scaling fails, the provisional reconstruction is kept in pixels, without seconds or mV, and is not added to the viewer as a calibrated signal. Scale errors are grouped as a common paper issue rather than thirteen mis-sized boxes. The "Calibrate paper once" ("Calibrar el papel una vez") tool lets you fit a reference to a real 5 × 5 mm square and apply its dimensions to all crops from the same file. That reference is explicitly confirmed and does not correct non-uniform perspective.
 
-Se comprobó una imagen pública mediante el mismo código de recorte, redimensionado y procesamiento utilizado por el worker, con adaptadores Canvas de Node: las 13 calibraciones pasan y quedan cuatro avisos de calidad de señal. Los [resultados](training/calibration-e2e-results/README.md) distinguen esta comprobación de una prueba interactiva en Safari y de la reproducción exacta del archivo original del usuario, que no estaba en las capturas de error.
+A public image was verified using the same cropping, resizing, and processing code used by the worker, with Node Canvas adapters: all 13 calibrations pass, leaving four signal-quality warnings. The results distinguish this check from an interactive Safari test and from exact reproduction of the user's original file, which was not present in the error screenshots.
 
+Flexible overlap and joint acceptance
 
-### Solapamiento flexible y aceptación conjunta
+Boxes can be expanded or moved over part of another box to capture waves that extend beyond the neighboring zone. This geometric intersection does not block confirmation, reconstruction, or recalibration. Only extensive overlap triggers an advisory warning; it is not a blocking error. Actual image bounds, scale verification, and signal-quality checks remain enforced.
 
-Los recuadros pueden ampliarse o moverse sobre parte de otro recuadro para abarcar ondas que se extienden más allá de la zona vecina. Esa intersección geométrica no impide confirmar, reconstruir ni recalibrar. Solo una superposición amplia produce un aviso orientativo; no es un error bloqueante. Se mantienen los límites reales de imagen, la comprobación de escala y los controles de calidad de señal.
-
-El mapa incluye «Aceptar todas las zonas con un solo botón», activado inicialmente. «Aceptar todos y reconstruir» confirma las zonas visibles e inicia el lote sin un OK para cada derivación ni una casilla adicional. El ajuste puede desactivarse para volver a la confirmación individual. La revisión final del caso permanece separada de la aceptación de zonas. Esta sección sustituye la restricción estricta de solapamiento descrita en versiones anteriores.
+The map includes "Accept all zones with a single button" ("Aceptar todas las zonas con un solo botón"), enabled by default. "Accept all and reconstruct" ("Aceptar todos y reconstruir") confirms the visible zones and starts batch processing without requiring an OK for each lead or an extra checkbox. The setting can be disabled to return to individual confirmation. Final case review remains separate from zone acceptance. This section supersedes the strict non-overlap restriction described in earlier versions.
