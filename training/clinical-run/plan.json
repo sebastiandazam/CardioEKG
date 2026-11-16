@@ -1,0 +1,16 @@
+{
+  "frozen_before_training": true,
+  "seed": 20261112,
+  "source_versions": {"ptb_xl":"1.0.3","chapman_shaoxing_ningbo":"ecg-arrhythmia/1.0.0","ludb":"1.0.1","qtdb":"1.0.0"},
+  "diagnosis_sampling": {"ptb_fit_folds":[1,2,3,4,5,6,7],"ptb_fit_records":4000,"selection_fold":8,"selection_records":500,"calibration_fold":9,"calibration_records":500,"test_fold":10,"test_records":1000,"external_chapman_records":1000,"external_directory_count":20,"selection_order":"SHA256 seed+record within partition, without looking at labels","exclude_prior_photo_pilot_patients":true},
+  "diagnosis_models":["standardized one-vs-rest logistic regression","extra-trees multilabel classifier"],
+  "diagnosis_classes":["sinus","af","rbbb","lbbb","first_avb","lafb","wpw","sinus_brady","sinus_tachy","pac","pvc","lvh","mi","st_t","normal"],
+  "minimum_fit_positives":25,
+  "selection_metric":"macro AUROC across evaluable labels",
+  "abstention_thresholds":"class-specific lower/upper thresholds chosen on calibration fold9 only; require >=95% sensitivity for negative bound and >=90% positive predictive value for positive bound with >=10 relevant examples; unsupported bounds disabled",
+  "diagnosis_gate":{"internal_macro_auroc_min":0.90,"external_macro_auroc_min":0.90,"external_sensitivity_min_per_class":0.90,"external_ppv_min_per_class":0.90,"external_coverage_min_per_class":0.80,"minimum_external_positives_per_class":30,"independent_photographic_validation_required":true},
+  "delineation":{"fit_ludb_records":140,"selection_ludb_records":20,"test_ludb_records":40,"lead":"II","external_qtdb_records":30,"split_order":"SHA256 seed+record; LUDB one record per subject per source documentation; QTDB independent database without subject linkage","model":"extra-trees regressors for annotated P/QRS/T onset and offset conditioned on a matched R peak","comparator":"NeuroKit2 DWT delineation, no fitting to test"},
+  "delineation_gate":{"boundary_median_absolute_error_ms_max":20,"boundary_p95_absolute_error_ms_max":40,"matched_reference_boundary_coverage_min":0.90,"independent_photographic_validation_required":true},
+  "activation":"research only unless all gates including clinical image validation pass; no automatic production installation",
+  "wave_maven":"not used; permission not verified"
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-13",
+  "purpose": "Synthetic software smoke screening, not clinical validation or model training",
+  "input": {
+    "origin": "CardioEKG sinus simulator",
+    "rateBpm": 75,
+    "prMs": 162,
+    "qrsMs": 86,
+    "qtMs": 398,
+    "axisDeg": 46
+  },
+  "models": [
+    {
+      "id": "onnx-community/Qwen3.5-0.8B-ONNX",
+      "revision": "8fe9dbe3fb39fe902e18df9be84b6a0ac77ae0f6",
+      "observedErrors": [
+        "Called 75 bpm bradycardic",
+        "Called 46 degrees right-axis deviation"
+      ],
+      "published": false
+    },
+    {
+      "id": "onnx-community/Qwen3.5-2B-ONNX",
+      "revision": "315216e893038beefcc6eba41ac168913dd0d879",
+      "observedErrors": [
+        "Called a PR of 162 ms physically impossible"
+      ],
+      "published": false
+    }
+  ],
+  "backend": "ONNX Runtime Node CPU; Transformers.js 4.3.2",
+  "clinicalValidation": false,
+  "caveat": "One synthetic development case cannot estimate clinical sensitivity, specificity or calibration. Results may depend on prompt, quantization and backend; no general comparative benchmark is claimed."
+}

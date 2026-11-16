@@ -1,0 +1,5 @@
+/** Shared scope statement for intake, viewer and exported report. */
+export const clinicalScope={
+ es:'Descargo de responsabilidad: CardioEKG es una herramienta experimental de apoyo a la revisión de ECG de adultos, sin validación clínica independiente. Las medidas y la impresión presuntiva pueden contener errores; no constituyen un diagnóstico definitivo ni sustituyen la valoración de un profesional. No debe utilizarse como única base para decidir un tratamiento ni retrasar la atención urgente. Revisa solo registros que estés autorizado a utilizar y sin identificadores. Su uso asistencial requiere validación y autorización institucional.',
+ en:'Disclaimer: CardioEKG is an experimental support tool for adult ECG review without independent clinical validation. Measurements and the presumptive impression may contain errors; they are not a definitive diagnosis and do not replace professional assessment. Do not use it as the sole basis for treatment decisions or delay emergency care. Review only records you are authorized to use and that contain no identifiers. Clinical use requires institutional validation and authorization.',
+};

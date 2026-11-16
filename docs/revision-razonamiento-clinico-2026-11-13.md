@@ -1,0 +1,38 @@
+# Revisión del razonamiento presuntivo — 13 de noviembre de 2026
+
+La versión `cardioekg-kb-1.2.0` utiliza medidas y morfología observables para presentar patrones presuntivos, evidencia a favor, criterios no satisfechos, datos que faltan y diagnósticos diferenciales. No utiliza el título, la etiqueta diagnóstica de la fuente ni texto libre para confirmar una entidad. La fuerza que muestra la interfaz es cualitativa y no constituye una probabilidad calibrada. Los factores heurísticos y las razones de verosimilitud existentes ordenan candidatos; los criterios relacionados no son observaciones independientes.
+
+## Hallazgos que motivaron los cambios
+
+Se contrastaron los límites del motor con anotaciones docentes de Wave-Maven recuperadas durante la revisión del catálogo. El caso 15 describe una taquicardia irregular de complejo ancho, con FA preexcitada, TV y TSV con aberrancia en el diferencial. Los casos 32 y 69 recuerdan que taquicardia y sobrecarga derecha no diagnostican embolia pulmonar. El caso 19 distingue dextrocardia de inversión de electrodos mediante las precordiales. Los casos 253 y 375 distinguen patrón de Brugada, síndrome clínico y cambios inducidos por fármacos. Los casos 514 y 536 muestran que Takotsubo puede imitar un patrón de Wellens/isquemia y se confirma con estudios posteriores; esos resultados no son contexto prospectivo disponible al interpretar el ECG inicial. Estas observaciones orientan escenarios y límites; no equivalen a entrenamiento, revisión independiente de todas las imágenes ni validación de exactitud sobre esos casos.
+
+## Cambios concretos
+
+- Se incorpora el síndrome de **taquicardia irregular de QRS ancho** cuando se miden frecuencia >100 lpm, QRS >120 ms e irregularidad. Deja abiertos FA con aberrancia, FA preexcitada y TV polimórfica. No diagnostica WPW por la irregularidad ni FA por una P no delimitada. Los algoritmos de taquicardia regular de QRS ancho requieren ahora regularidad.
+- Una frecuencia regular cercana a 150 lpm deja flutter como diferencial si no se mide actividad auricular compatible. La P sinusal reproducible con conducción 1:1 y PR estable contradice la atribución automática a flutter o reentrada. Una taquicardia regular estrecha sin mecanismo demostrado se nombra como patrón, no como AVNRT/AVRT confirmada.
+- La falta de delimitación de P, una P ruidosa y un número insuficiente de latidos producen un resultado desconocido. Ya no se transforman respectivamente en ausencia de P o en irregularidad. La ausencia de P solo se acepta si un detector la informa explícitamente.
+- Un `deltaSlurMs` positivo pequeño también existe en complejos normales. Se utiliza el mismo umbral operativo ≥30 ms que ya usaban los filtros de ST secundario. **Este umbral no es un detector de onda delta validado**: la morfología debe comprobarse en el original y una delta sutil puede pasar inadvertida.
+- La elevación anterior del ST con Q no demuestra que el cambio sea crónico ni que exista aneurisma. Faltan ECG previos y confirmación estructural; se conserva ese diagnóstico en el diferencial. La fórmula de infarto anterior sutil queda fuera de ámbito ante Q/QS anteriores, elevación marcada, depresión recíproca o QRS ancho.
+- La integración real con Python detectó un falso QS aislado en V2 de una señal sinusal sintética: el mismo resultado contenía una R positiva de 0,049 mV y duración de Q de cero. Las medidas contradictorias Q/QS pasan a desconocidas. La confirmación automatizada anterior exige V2 y V3 concordantes; las Q anterolaterales requieren precordiales adyacentes. Una R dominante con T positiva sin duración de R medida es solo apoyo inespecífico. Se presenta un **patrón Q/QS**, sin afirmar infarto antiguo ni cronología desde un solo trazado. Este caso queda conservado como una prueba de regresión sobre medidas reales del motor, sin usar el identificador de caso para decidir.
+- Un antecedente de marcapasos no prueba captura ventricular activa. Se pide evidencia de espiga y captura, que el medidor actual no establece, y se conserva la posibilidad en el diferencial.
+- La inversión precordial derecha de T se nombra como patrón que orienta hacia miocardiopatía arritmogénica, sin convertir un criterio de repolarización aislado en enfermedad estructural. Lo mismo ocurre con los patrones compatibles con pericarditis, Wellens e isquemia. El patrón de aVR con depresión difusa no afirma una anatomía coronaria específica.
+- El antecedente familiar inespecífico de muerte súbita no satisface por sí solo el criterio adicional de síndrome de QT corto. Se informa un patrón de QT corto marcado y se exige evaluación del síndrome y de causas secundarias.
+- Una entidad emergente cuyos criterios observables se cumplen aparece antes de hallazgos rutinarios aunque estos acumulen más factores heurísticos. Se corrige la lógica trivaluada del recuento de derivaciones y se respeta el número solicitado de derivaciones conectadas.
+- Se exige QRS medido <120 ms para atribuir automáticamente voltajes, puntuación de Romhilt–Estes o cambios de sobrecarga a HVI. Es un filtro conservador de aplicabilidad: la conducción anómala altera voltaje, eje, tiempos de R y ST-T. No requiere asumir `rPrime=false` cuando el detector no lo mide. No excluye HVI anatómica ni confirma un bloqueo de rama por anchura sola. La regresión usa las medidas reales de la señal sintética de QRS 161 ms cuyo Romhilt–Estes sin ese filtro resultaba positivo; también comprueba el caso de anchura desconocida.
+
+## Referencias y aplicabilidad
+
+Se reutilizan las referencias y sus límites documentados en `src/ecg/knowledge/kb/`:
+
+- [ESC 2019, taquicardia supraventricular](https://academic.oup.com/eurheartj/article/41/5/655/5556821): diferencial de taquicardia regular e irregular de QRS ancho; la regularidad y la anchura no establecen un mecanismo.
+- [ACC/AHA/HRS 2015, TSV](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000000311): distinción de mecanismos sinusales y supraventriculares.
+- [AHA/ACCF/HRS 2009, trastornos de conducción](https://doi.org/10.1161/CIRCULATIONAHA.108.191095): rasgos que sugieren preexcitación; la traducción a un umbral de empastamiento es una aproximación explícita.
+- [Cuarta Definición Universal de Infarto](https://doi.org/10.1093/eurheartj/ehy462): criterios de cambios isquémicos y limitaciones con trastornos secundarios de repolarización; el ECG no establece etiología, cronología ni anatomía por sí solo.
+- La fórmula de Smith y los rasgos de aneurisma conservan las fuentes primarias/secundarias y las advertencias ya anotadas en la base. La fórmula utiliza QTc de Bazett en su estudio; el QTc general de la aplicación usa Fridericia. Esa diferencia sigue siendo una limitación y sus cifras publicadas no describen el rendimiento del motor.
+- Los criterios Task Force/Padua y ESC 2022 de QT corto se utilizan como patrones que requieren estudio adicional, según las referencias existentes.
+
+## Verificación y límites
+
+Las pruebas sintéticas dirigidas comprueban los cambios anteriores, los datos ausentes y la invariancia frente a etiquetas de fuente o texto libre. No miden sensibilidad, especificidad ni calibración clínica. Los casos del catálogo no son un conjunto de prueba independiente: son material docente seleccionado, con múltiples diagnósticos, y no sustituyen adjudicación clínica ni mediciones verificadas.
+
+La representación de latido mediano no demuestra por sí sola disociación AV, actividad auricular independiente, latidos de captura/fusión, polimorfismo, espigas con captura ni persistencia en el tiempo. Esas carencias se mantienen como desconocidas. El riesgo clínico y los pasos siguientes dependen de la valoración del paciente y del trazado original.

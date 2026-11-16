@@ -1,0 +1,3767 @@
+{
+  "domain": "repolarization",
+  "references": [
+    {
+      "id": "macfarlane-2015",
+      "citation": "Macfarlane PW, Antzelevitch C, Haïssaguerre M, Huikuri HV, Potse M, Rosso R, et al. The Early Repolarization Pattern: A Consensus Paper. J Am Coll Cardiol. 2015;66(4):470-477.",
+      "url": "https://www.jacc.org/doi/10.1016/j.jacc.2015.05.033",
+      "doi": "10.1016/j.jacc.2015.05.033",
+      "pmid": "26205599",
+      "verified": true
+    },
+    {
+      "id": "mercer-2016",
+      "citation": "Mercer BN, Begg GA, Page SP, Bennett CP, Tayebjee MH, Mahida S. Early Repolarization Syndrome; Mechanistic Theories and Clinical Correlates. Front Physiol. 2016;7:266. (revisión secundaria, usada solo para el riesgo según territorio y la prevalencia)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4927622",
+      "doi": "10.3389/fphys.2016.00266",
+      "pmid": "27445855",
+      "verified": true
+    },
+    {
+      "id": "adler-2015",
+      "citation": "Adler Y, Charron P, Imazio M, Badano L, Barón-Esquivias G, Bogaert J, et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921-2964.",
+      "url": "https://doi.org/10.1093/eurheartj/ehv318",
+      "doi": "10.1093/eurheartj/ehv318",
+      "verified": true
+    },
+    {
+      "id": "imazio-2015",
+      "citation": "Imazio M, Gaita F. Diagnosis and treatment of pericarditis. Heart. 2015;101:1159-1168. (revisión; estadios ECG y diagnóstico diferencial)",
+      "url": "https://bcardio.gr/images/MULTIPLE_CHOISE/4/Heart-2015-Imazio-1159-68.pdf",
+      "doi": "10.1136/heartjnl-2014-306362",
+      "verified": true
+    },
+    {
+      "id": "ginzton-1982",
+      "citation": "Ginzton LE, Laks MM. The differential diagnosis of acute pericarditis from the normal variant: new electrocardiographic criteria. Circulation. 1982;65(5):1004-1009.",
+      "url": "https://www.osti.gov/biblio/5476717",
+      "doi": "10.1161/01.CIR.65.5.1004",
+      "verified": true
+    },
+    {
+      "id": "rautaharju-2009",
+      "citation": "Rautaharju PM, Surawicz B, Gettes LS. AHA/ACCF/HRS Recommendations for the Standardization and Interpretation of the Electrocardiogram. Part IV: The ST Segment, T and U Waves, and the QT Interval. Circulation. 2009 (publ. 19 feb 2009).",
+      "url": "https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.108.191096",
+      "doi": "10.1161/CIRCULATIONAHA.108.191096",
+      "pmid": "19281931",
+      "verified": true
+    },
+    {
+      "id": "smith-anterior-2012",
+      "citation": "Smith SW, Khalil A, Henry TD, Rosas M, Chang RJ, Heller K, et al. Electrocardiographic differentiation of early repolarization from subtle anterior ST-segment elevation myocardial infarction. Ann Emerg Med. 2012;60(1):45-56.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22520989/",
+      "pmid": "22520989",
+      "verified": true,
+      "doi": "10.1016/j.annemergmed.2012.02.015"
+    },
+    {
+      "id": "smith-blog",
+      "citation": "Smith SW. Dr. Smith's ECG Blog: 'Rules + Equations' y '12 Example Cases of Use of 3- and 4-variable formulas…' (fuente secundaria, no revisada por pares; cita la fórmula de 4 variables de Driver & Smith, J Electrocardiol, y la simplificada de Aslanger, Am J Cardiol 2018;122(8):1303-1309, cuyos artículos originales no se abrieron).",
+      "url": "https://drsmithsecgblog.com/rules-equations/",
+      "verified": true
+    },
+    {
+      "id": "montague-2008",
+      "citation": "Montague BT, Ouellette JR, Buller GK. Retrospective review of the frequency of ECG changes in hyperkalemia. Clin J Am Soc Nephrol. 2008;3(2):324-330.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2390954/",
+      "doi": "10.2215/CJN.04611007",
+      "pmid": "18235147",
+      "verified": true
+    },
+    {
+      "id": "wrenn-1991",
+      "citation": "Wrenn KD, Slovis CM, Slovis BS. The ability of physicians to predict hyperkalemia from the ECG. Ann Emerg Med. 1991;20(11):1229-1232.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1952310/",
+      "pmid": "1952310",
+      "verified": true
+    },
+    {
+      "id": "durfey-2017",
+      "citation": "Durfey N, Lehnhof B, Bergeson A, Durfey SNM, Leytin V, McAteer K, et al. Severe Hyperkalemia: Can the Electrocardiogram Risk Stratify for Short-term Adverse Events? West J Emerg Med. 2017;18(5):963-971.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5576635/",
+      "doi": "10.5811/westjem.2017.6.33033",
+      "pmid": "28874951",
+      "verified": true
+    },
+    {
+      "id": "ukka-hyperk",
+      "citation": "UK Kidney Association. Clinical Practice Guidelines, Hyperkalaemia: 11.1.2 II Hyperkalaemia in Hospital (Guidelines 14.1-14.2). Web, 2024. (guía de sociedad; solo para valores de referencia de amplitud de T)",
+      "url": "https://guidelines.ukkidney.org/hyperkalaemia/11-1-ii-hyperkalaemia-in-hospital/11-1-2-ii-hyperkalaemia-in-hospital-14-1-14-2/",
+      "verified": true
+    },
+    {
+      "id": "kildegaard-2023",
+      "citation": "Kildegaard H, Brabrand M, Forberg JL, Platonov PG, Lassen AT, Ekelund UEG. Prevalence and prognostic value of electrocardiographic abnormalities in hypokalemia: A multicenter cohort study. J Intern Med. 2023 (publ. 14 dic 2023).",
+      "url": "https://europepmc.org/article/MED/38098171",
+      "pmid": "38098171",
+      "verified": true
+    },
+    {
+      "id": "calcium-review",
+      "citation": "Electrocardiographic Manifestations of Calcium Abnormalities. Ann Noninvasive Electrocardiol (editorial/revisión; autores y año no mostrados en la página abierta; resume a Sonoda et al.).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6931435/",
+      "verified": false
+    },
+    {
+      "id": "bronsky-1961",
+      "citation": "Bronsky D, Dubin A, Kushner DS, Waldstein SS. Calcium and the electrocardiogram. Am J Cardiol. 1961 (año inferido del identificador PII de la página).",
+      "url": "https://www.ajconline.org/article/0002-9149(61)90403-9/abstract",
+      "verified": true
+    },
+    {
+      "id": "rumancik-jama",
+      "citation": "Rumancik WM, Denlinger JK, Nahrwold ML, Falk RB. The QT interval and serum ionized calcium. JAMA. (año y volumen no mostrados en el resumen abierto).",
+      "url": "https://jamanetwork.com/journals/jama/article-abstract/360625",
+      "verified": false
+    },
+    {
+      "id": "ccjm-digoxin-2024",
+      "citation": "Durán Crane A, Militello M, Faulx MD. Digoxin is still useful, but is still causing toxicity. Cleve Clin J Med. 2024;91(8):489.",
+      "url": "https://www.ccjm.org/content/91/8/489",
+      "verified": true
+    },
+    {
+      "id": "emnews-digoxin-2002",
+      "citation": "The Diagnosis: Digoxin toxicity. Emergency Medicine News. 2002 jun. (autores no mostrados en la página abierta; fuente secundaria)",
+      "url": "https://journals.lww.com/em-news/fulltext/2002/06000/the_diagnosis__digoxin_toxicity.16.aspx",
+      "verified": false
+    },
+    {
+      "id": "drew-2010",
+      "citation": "Drew BJ, Ackerman MJ, Funk M, Gibler WB, Kligfield P, Menon V, et al. Prevention of Torsade de Pointes in Hospital Settings: A Scientific Statement From the American Heart Association and the American College of Cardiology Foundation. Circulation. 2010;121(8):1047-1060.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3056123/",
+      "verified": true
+    },
+    {
+      "id": "boehnert-1985",
+      "citation": "Boehnert MT, Lovejoy FH Jr. Value of the QRS duration versus the serum drug level in predicting seizures and ventricular arrhythmias after an acute overdose of tricyclic antidepressants. N Engl J Med. 1985;313(8):474-479.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4022081/",
+      "doi": "10.1056/NEJM198508223130804",
+      "pmid": "4022081",
+      "verified": true
+    },
+    {
+      "id": "liebelt-1995",
+      "citation": "Liebelt EL, Francis PD, Woolf AD. ECG lead aVR versus QRS interval in predicting seizures and arrhythmias in acute tricyclic antidepressant toxicity. Ann Emerg Med. 1995;26(2):195-201.",
+      "url": "https://www.annemergmed.com/article/S0196-0644(95)70151-6/abstract",
+      "verified": true
+    },
+    {
+      "id": "desouza-2007",
+      "citation": "de Souza D, Pérez Riera AR, Bombig MT, Francisco YA, Brollo L, Luna Filho B, et al. Electrocardiographic changes by accidental hypothermia in an urban and a tropical region. J Electrocardiol. 2007;40(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17027018/",
+      "pmid": "17027018",
+      "verified": true
+    },
+    {
+      "id": "higuchi-2013",
+      "citation": "Higuchi S, Takahashi T, Kabeya Y, Hasegawa T, Nakagawa S, Mitamura H. J Waves in Accidental Hypothermia. Circ J. 2013 (publ. 7 nov 2013).",
+      "url": "https://doi.org/10.1253/circj.cj-13-0704",
+      "doi": "10.1253/circj.cj-13-0704",
+      "verified": true
+    },
+    {
+      "id": "dietrichs-2019",
+      "citation": "Dietrichs ES, Tveita T, Smith G. Hypothermia and cardiac electrophysiology: a systematic review of clinical and experimental data. Cardiovasc Res. (publ. 11 dic 2018).",
+      "url": "https://doi.org/10.1093/cvr/cvy305",
+      "doi": "10.1093/cvr/cvy305",
+      "verified": true
+    },
+    {
+      "id": "sommargren-2002",
+      "citation": "Sommargren CE. Electrocardiographic abnormalities in patients with subarachnoid hemorrhage. Am J Crit Care. 2002;11(1).",
+      "url": "https://doi.org/10.4037/ajcc2002.11.1.48",
+      "doi": "10.4037/ajcc2002.11.1.48",
+      "verified": true
+    },
+    {
+      "id": "ghadri-2018",
+      "citation": "Ghadri JR, Wittstein IS, Prasad A, Sharkey S, Dote K, Akashi YJ, et al. International Expert Consensus Document on Takotsubo Syndrome (Part I): Clinical Characteristics, Diagnostic Criteria, and Pathophysiology. Eur Heart J. 2018;39(22):2032-2046.",
+      "url": "https://doi.org/10.1093/eurheartj/ehy076",
+      "doi": "10.1093/eurheartj/ehy076",
+      "verified": true
+    },
+    {
+      "id": "templin-2015",
+      "citation": "Templin C, Ghadri JR, Diekmann J, Napp LC, Bataiosu DR, et al. Clinical features and outcomes of takotsubo (stress) cardiomyopathy. N Engl J Med. 2015;373(10):929-938.",
+      "url": "https://www.nejm.org/doi/full/10.1056/nejmoa1406761",
+      "doi": "10.1056/NEJMoa1406761",
+      "pmid": "26332547",
+      "verified": true
+    },
+    {
+      "id": "ghadri-2017",
+      "citation": "Ghadri JR, Cammann VL, Jurisic S, Seifert B, Napp LC, Diekmann J, et al. A novel clinical score (InterTAK Diagnostic Score) to differentiate takotsubo syndrome from acute coronary syndrome: results from the International Takotsubo Registry. Eur J Heart Fail. 2017;19(8):1036-1042.",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/ejhf.683",
+      "doi": "10.1002/ejhf.683",
+      "verified": true
+    },
+    {
+      "id": "caforio-2013",
+      "citation": "Caforio ALP, Pankuweit S, Arbustini E, Basso C, Gimeno-Blanes J, Felix SB, et al. Current state of knowledge on aetiology, diagnosis, management, and therapy of myocarditis: a position statement of the ESC Working Group on Myocardial and Pericardial Diseases. Eur Heart J. 2013;34(33):2636-2648.",
+      "url": "https://academic.oup.com/eurheartj/article/34/33/2636/408735",
+      "verified": true
+    },
+    {
+      "id": "petek-2022",
+      "citation": "Petek BJ, Drezner JA, Churchill TW. The International Criteria for Electrocardiogram Interpretation in Athletes: Common Pitfalls and Future Directions. (2022; revista no mostrada en la página abierta)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10292923/",
+      "verified": false
+    },
+    {
+      "id": "sharma-2017",
+      "citation": "Sharma S, Drezner JA, Baggish A, Papadakis M, Wilson MG, Prutkin JM, et al. International Recommendations for Electrocardiographic Interpretation in Athletes. J Am Coll Cardiol. 2017;69(8):1057-1075.",
+      "url": "https://doi.org/10.1016/j.jacc.2017.01.015",
+      "doi": "10.1016/j.jacc.2017.01.015",
+      "verified": true
+    },
+    {
+      "id": "schulz-menger-2025-imps",
+      "citation": "Jeanette Schulz-Menger, Valentino Collini, Jan Gröschel, et al. 2025 ESC Guidelines for the management of myocarditis and pericarditis. European heart journal. 2025 Oct 22;46(40):3952-4041. doi:10.1093/eurheartj/ehaf192. PMID:40878297.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40878297/",
+      "doi": "10.1093/eurheartj/ehaf192",
+      "pmid": "40878297",
+      "verified": true,
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "clinical-practice-guideline",
+      "population": "Suspected myocarditis and/or pericarditis; app applies adult scope",
+      "locator": "Table 4; sections 3.3.1–3.3.2, 5.1–5.6"
+    },
+    {
+      "id": "drazner-2024-myocarditis",
+      "citation": "Writing Committee, Mark H Drazner, Biykem Bozkurt, et al. 2024 ACC Expert Consensus Decision Pathway on Strategies and Criteria for the Diagnosis and Management of Myocarditis: A Report of the American College of Cardiology Solution Set Oversight Committee. Journal of the American College of Cardiology. 2025 Feb 04;85(4):391-431. doi:10.1016/j.jacc.2024.10.080. PMID:39665703.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39665703/",
+      "doi": "10.1016/j.jacc.2024.10.080",
+      "pmid": "39665703",
+      "verified": true,
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "expert-consensus-decision-pathway",
+      "population": "Adults with suspected myocarditis",
+      "locator": "Section 4.2.1: Electrocardiogram"
+    },
+    {
+      "id": "andrews-2023-digoxin",
+      "citation": "Paul Andrews, Kurt Anseeuw, Dipak Kotecha, et al. Diagnosis and practical management of digoxin toxicity: a narrative review and consensus. European journal of emergency medicine : official journal of the European Society for Emergency Medicine. 2023 Dec 01;30(6):395-401. doi:10.1097/MEJ.0000000000001065. PMID:37650725.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37650725/",
+      "doi": "10.1097/MEJ.0000000000001065",
+      "pmid": "37650725",
+      "verified": true,
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "narrative-review-and-delphi-consensus",
+      "population": "Adults with suspected acute or chronic digoxin toxicity",
+      "locator": "Table 1; Diagnosis of digoxin toxicity; Serum digoxin concentrations"
+    },
+    {
+      "id": "khatib-2021-drug-qt",
+      "citation": "Rani Khatib, Fatima R N Sabir, Caroline Omari, et al. Managing drug-induced QT prolongation in clinical practice. Postgraduate medical journal. 2021 Jul;97(1149):452-458. doi:10.1136/postgradmedj-2020-138661. PMID:33122341.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33122341/",
+      "doi": "10.1136/postgradmedj-2020-138661",
+      "pmid": "33122341",
+      "verified": true,
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "clinical-review",
+      "population": "Patients exposed to QT-prolonging medicines; app applies adult scope",
+      "locator": "QT measurement; Assessing risk; Drug interactions; Monitoring; When to refer"
+    },
+    {
+      "id": "huang-2024-qt-hf",
+      "citation": "Chien-Yu Huang, Brian R Overholser, Kevin M Sowinski, et al. Drug-induced QT interval prolongation in patients with heart failure with preserved ejection fraction. PloS one. 2024;19(8):e0308999. doi:10.1371/journal.pone.0308999. PMID:39159176.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39159176/",
+      "doi": "10.1371/journal.pone.0308999",
+      "pmid": "39159176",
+      "verified": true,
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "retrospective-cohort",
+      "population": "Hospitalized dofetilide/sotalol recipients: HFpEF 109, HFrEF 138, no HF 729",
+      "locator": "Methods; Results; Discussion and study limitations"
+    },
+    {
+      "id": "raffee-2022-hyperkalemia",
+      "citation": "Liqaa A Raffee, Khaled Z Alawneh, Muhannad J Ababneh, et al. Clinical and electrocardiogram presentations of patients with high serum potassium concentrations within emergency settings: a prospective study. International journal of emergency medicine. 2022 May 26;15(1):23. doi:10.1186/s12245-022-00422-8. PMID:35619089.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35619089/",
+      "doi": "10.1186/s12245-022-00422-8",
+      "pmid": "35619089",
+      "verified": true,
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "prospective-observational-study",
+      "population": "67 adults with serum potassium at least 5.5 mmol/L in a single emergency department",
+      "locator": "Methods; Results: ECG findings; Discussion: limitations; Conclusions"
+    },
+    {
+      "id": "scafa-2024-takotsubo",
+      "citation": "Alexandru Scafa-Udriste, Ruxandra-Nicoleta Horodinschi, Miruna Babos, et al. Diagnostic challenges between takotsubo cardiomyopathy and acute myocardial infarction-where is the emergency?: a literature review. International journal of emergency medicine. 2024 Feb 15;17(1):22. doi:10.1186/s12245-024-00595-4. PMID:38360558.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38360558/",
+      "doi": "10.1186/s12245-024-00595-4",
+      "pmid": "38360558",
+      "verified": true,
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "narrative-review",
+      "population": "Patients with suspected Takotsubo versus acute MI",
+      "locator": "ECG; Echocardiography; Coronary angiography; CMR; Conclusions"
+    }
+  ],
+  "entities": [
+    {
+      "id": "acute-pericarditis",
+      "name": {
+        "es": "Patrón de elevación difusa del ST compatible con pericarditis",
+        "en": "Diffuse ST-elevation pattern compatible with pericarditis"
+      },
+      "category": "repolarization",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "widespread-st-elevation",
+          "role": "required",
+          "text": {
+            "es": "Elevación del ST ≥ 0,075–0,1 mV en ≥ 2 territorios (inferiores, laterales o anteriores) sin descenso recíproco típico ni depresión en III/aVL",
+            "en": "Diffuse ST elevation ≥ 0.075–0.1 mV across ≥ 2 territories (inferior, lateral, anterior) without classic reciprocal ST depression"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "contiguous": "inferior",
+                    "where": {
+                      "field": "stMv",
+                      "op": ">=",
+                      "value": 0.1
+                    },
+                    "min": 2
+                  },
+                  {
+                    "contiguous": "lateral",
+                    "where": {
+                      "field": "stMv",
+                      "op": ">=",
+                      "value": 0.1
+                    },
+                    "min": 2
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "countLeads": [
+                      "I",
+                      "II",
+                      "aVF",
+                      "V3",
+                      "V4",
+                      "V5",
+                      "V6"
+                    ],
+                    "where": {
+                      "field": "stMv",
+                      "op": ">=",
+                      "value": 0.075
+                    },
+                    "op": ">=",
+                    "value": 5
+                  },
+                  {
+                    "feature": "lead.aVR.stMv",
+                    "op": "<=",
+                    "value": -0.05
+                  },
+                  {
+                    "feature": "lead.III.stMv",
+                    "op": ">",
+                    "value": -0.1
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "adler-2015",
+          "note": {
+            "es": "ESC 2015 exige «elevación ST generalizada nueva o descenso del PR» sin definir número de derivaciones ni mV. El umbral 0,1 mV es el de elevación anormal del punto J fuera de V2-V3 (Rautaharju 2009); el requisito de ≥ 2 derivaciones en dos territorios es un umbral operativo, no publicado.",
+            "en": "ESC 2015 requires 'new widespread ST elevation or PR depression' without defining number of leads or mV. The 0.1 mV cut-off is the abnormal J-point elevation threshold outside V2-V3 (Rautaharju 2009); requiring ≥ 2 leads in two territories is an operational, unpublished threshold."
+          }
+        },
+        {
+          "id": "pr-depression",
+          "role": "supporting",
+          "text": {
+            "es": "Descenso del segmento PR en ≥ 2 de II, aVF, V5, V6",
+            "en": "PR-segment depression in ≥ 2 of II, aVF, V5, V6"
+          },
+          "predicate": {
+            "countLeads": [
+              "II",
+              "aVF",
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "prSegMv",
+              "op": "<=",
+              "value": -0.05
+            },
+            "op": ">=",
+            "value": 2
+          },
+          "ref": "adler-2015",
+          "note": {
+            "es": "La guía ESC cita el descenso del PR como criterio, sin cifra en mV. El valor −0,05 mV es operativo, no publicado.",
+            "en": "The ESC guideline cites PR depression as a criterion without an mV value. −0.05 mV is an operational, unpublished value."
+          }
+        },
+        {
+          "id": "st-t-ratio-v6",
+          "role": "supporting",
+          "text": {
+            "es": "Razón ST/T en V6 ≥ 0,25 (J / amplitud de T, con T positiva)",
+            "en": "ST/T ratio in V6 ≥ 0.25 (J / T amplitude, T positive)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "lead.V6.tMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "expr": "lead.V6.jMv/lead.V6.tMv",
+                "op": ">=",
+                "value": 0.25
+              }
+            ]
+          },
+          "ref": "ginzton-1982",
+          "note": {
+            "es": "Ginzton y Laks 1982: 19 pacientes con pericarditis aguda frente a 20 con repolarización precoz típica; ST/T ≥ 0,25 en V6 clasificó a todos (VPP = VPN = 1,0, de ahí sensibilidad y especificidad 1,0 en esa muestra). Muestra pequeña, sin validación externa en la fuente abierta; cifras probablemente optimistas. Se mide el comienzo del ST (punto J) respecto del PR o TP. Ginzton: T plana o negativa impide calcular la razón. Revisiones posteriores (Imazio 2015) citan el valor como > 0,24.",
+            "en": "Ginzton & Laks 1982: 19 patients with acute pericarditis vs 20 with typical early repolarization; ST/T ≥ 0.25 in V6 classified all (PPV = NPV = 1.0, hence sensitivity and specificity 1.0 in that sample). Small sample, no external validation in the opened source; figures likely optimistic. Onset of ST (J point) is measured vs PR or TP baseline. Ginzton: flat or negative T makes the ratio incalculable. Later reviews (Imazio 2015) quote the value as > 0.24."
+          }
+        },
+        {
+          "id": "ascending-st",
+          "role": "supporting",
+          "text": {
+            "es": "ST ascendente (proxy de concavidad) en ≥ 3 de I, II, aVF, V5, V6",
+            "en": "Ascending ST (proxy for concavity) in ≥ 3 of I, II, aVF, V5, V6"
+          },
+          "predicate": {
+            "countLeads": [
+              "I",
+              "II",
+              "aVF",
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "stSlope",
+              "op": "==",
+              "value": "up"
+            },
+            "op": ">=",
+            "value": 3
+          },
+          "ref": "imazio-2015",
+          "note": {
+            "es": "La concavidad superior es un rasgo descrito (Imazio 2015) pero no medible con los rasgos disponibles; stSlope «up» es solo un sustituto. El recuento ≥ 3 es operativo.",
+            "en": "Upward concavity is a described feature (Imazio 2015) but not directly measurable with the available features; stSlope 'up' is only a proxy. The count ≥ 3 is operational."
+          }
+        },
+        {
+          "id": "st-excl-lbbb-paced",
+          "role": "exclusion",
+          "text": {
+            "es": "BRI o estimulación ventricular: los umbrales ordinarios de ST-T están fuera de ámbito",
+            "en": "LBBB or ventricular pacing: ordinary ST-T thresholds are outside scope"
+          },
+          "predicate": {
+            "any": [
+              {
+                "context": "paced",
+                "op": "==",
+                "value": "yes"
+              },
+              {
+                "all": [
+                  {
+                    "feature": "qrsMs",
+                    "op": ">=",
+                    "value": 120
+                  },
+                  {
+                    "feature": "lead.V1.rPrime",
+                    "op": "==",
+                    "value": false
+                  },
+                  {
+                    "feature": "lead.V2.rPrime",
+                    "op": "==",
+                    "value": false
+                  }
+                ]
+              }
+            ]
+          },
+          "note": "Preexcitation attribution is handled separately as a measured confounder, without inferring that coexisting disease is absent. No raw slur-duration cutoff establishes preexcitation."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "chest-pain"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "El dolor torácico pleurítico es criterio clínico de la definición (≥ 2 de 4 criterios).",
+            "en": "Pleuritic chest pain is a clinical criterion of the definition (≥ 2 of 4 criteria)."
+          },
+          "ref": "adler-2015"
+        }
+      ],
+      "mimics": [
+        "early-repolarization",
+        "anterior-stemi",
+        "inferior-stemi",
+        "myocarditis",
+        "lv-aneurysm",
+        "takotsubo"
+      ],
+      "nextSteps": {
+        "es": "Correlacionar con clínica (ESC 2015: diagnóstico con ≥ 2 de 4: dolor pericárdico, roce, ECG nuevo, derrame), marcadores inflamatorios, troponina y ecocardiograma; si el ST/T no distingue claramente de IAMCEST, no descartar síndrome coronario agudo. Integrar clínica, troponina, marcadores inflamatorios y ecocardiograma; valorar RM cardíaca y pruebas adicionales según el riesgo. Dolor persistente, síncope, arritmia o inestabilidad requieren evaluación urgente y consideración de SCA.",
+        "en": "Correlate with clinical findings (ESC 2015: diagnosis with ≥ 2 of 4: pericardial pain, rub, new ECG changes, effusion), inflammatory markers, troponin and echocardiography; if ECG does not clearly separate from STEMI, do not exclude acute coronary syndrome. Integrate symptoms, troponin, inflammatory markers and echocardiography; consider CMR and further testing according to risk. Persistent pain, syncope, arrhythmia or instability calls for urgent assessment and consideration of ACS."
+      },
+      "limitations": {
+        "es": "Los cambios típicos aparecen en hasta el 60 % de los casos (ESC 2015); el ECG normal no excluye. Estadios (Imazio 2015): 1 ST cóncavo difuso con PR descendido; 2 normalización; 3 T invertidas difusas; 4 normal o T invertidas persistentes. La concavidad, el PR en aVR y la ausencia de depresión recíproca no son medibles tras digitalizar con fiabilidad; la medición del segmento PR es ruidosa. Con ECG digitalizado no se ven roces ni derrame. La concurrencia de miocarditis no se distingue. ESC 2025 (§3.3, tabla 4 y §5.1): el ECG aporta un criterio de apoyo, no un diagnóstico clínico completo. Los cambios pueden evolucionar y un ECG normal no excluye un síndrome inflamatorio miopericárdico. En pericarditis, los cambios ECG sugieren afectación miocárdica concomitante.",
+        "en": "Typical changes appear in up to 60% of cases (ESC 2015); a normal ECG does not exclude. Stages (Imazio 2015): 1 diffuse concave ST elevation with PR depression; 2 normalization; 3 diffuse T-wave inversion; 4 normal or persistent T inversion. Concavity, PR in aVR and absence of reciprocal depression cannot be reliably measured after digitization; PR-segment measurement is noisy. Rubs and effusion are not visible on a digitized ECG. Concomitant myocarditis cannot be distinguished. ESC 2025 (§3.3, Table 4 and §5.1): ECG provides supportive evidence, not a complete clinical diagnosis. Changes can evolve and a normal ECG does not exclude an inflammatory myopericardial syndrome. ECG changes in pericarditis suggest concomitant myocardial involvement."
+      },
+      "references": [
+        "adler-2015",
+        "imazio-2015",
+        "ginzton-1982",
+        "rautaharju-2009",
+        "schulz-menger-2025-imps"
+      ],
+      "confounders": [
+        {
+          "when": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "text": {
+            "es": "La preexcitación medida puede modificar el QRS, el eje y ST-T y simular este patrón. No se puede atribuir este hallazgo a una enfermedad coexistente ni descartarla sin trazado basal/no preexcitado, evolución y valoración clínica.",
+            "en": "Measured preexcitation can alter QRS, axis and ST-T and mimic this pattern. This finding cannot establish or exclude coexisting disease without a baseline/non-preexcited tracing, serial assessment and clinical evaluation."
+          },
+          "ref": "surawicz-2009",
+          "criteria": [
+            "widespread-st-elevation"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "early-repolarization",
+      "name": {
+        "es": "Patrón de repolarización precoz",
+        "en": "Early repolarization pattern"
+      },
+      "category": "repolarization",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "end-qrs-notch",
+          "role": "required",
+          "text": {
+            "es": "Muesca (R mellada) en ≥ 1 derivación inferior o lateral (la muesca o empastamiento terminal del QRS no se distingue por completo)",
+            "en": "Notched R in ≥ 1 inferior or lateral lead (end-QRS notch vs slur cannot be fully distinguished)"
+          },
+          "predicate": {
+            "countLeads": [
+              "II",
+              "III",
+              "aVF",
+              "I",
+              "aVL",
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "notched",
+              "op": "==",
+              "value": true
+            },
+            "op": ">=",
+            "value": 1
+          },
+          "ref": "macfarlane-2015",
+          "note": {
+            "es": "Consenso: muesca o empastamiento al final de la rama descendente de una R prominente, en el 50 % final de la rama; la muesca debe quedar sobre la línea de base. El rasgo «notched» no localiza la muesca en el tramo final ni detecta el empastamiento terminal (deltaSlurMs es inicial): infradetecta.",
+            "en": "Consensus: notch or slur on the final 50% of the downslope of a prominent R wave; a notch must lie above the baseline. The 'notched' feature does not locate the notch in the terminal part nor detect a terminal slur (deltaSlurMs is initial): it under-detects."
+          }
+        },
+        {
+          "id": "jp-elevation",
+          "role": "required",
+          "text": {
+            "es": "Punto J ≥ 0,1 mV en ≥ 2 derivaciones contiguas inferiores o laterales (se excluyen V1-V3)",
+            "en": "J point ≥ 0.1 mV in ≥ 2 contiguous inferior or lateral leads (V1-V3 excluded)"
+          },
+          "predicate": {
+            "any": [
+              {
+                "contiguous": "inferior",
+                "where": {
+                  "field": "jMv",
+                  "op": ">=",
+                  "value": 0.1
+                },
+                "min": 2
+              },
+              {
+                "contiguous": "lateral",
+                "where": {
+                  "field": "jMv",
+                  "op": ">=",
+                  "value": 0.1
+                },
+                "min": 2
+              }
+            ]
+          },
+          "ref": "macfarlane-2015",
+          "note": {
+            "es": "Consenso 2015: Jp ≥ 0,1 mV en ≥ 2 derivaciones contiguas del ECG de 12 derivaciones, excluidas V1-V3. Jp es el pico de la muesca o el inicio del empastamiento; jMv es el punto J del latido mediano y puede diferir. La elevación del ST no es obligatoria.",
+            "en": "2015 consensus: Jp ≥ 0.1 mV in ≥ 2 contiguous leads of the 12-lead ECG, excluding V1-V3. Jp is the notch peak or slur onset; jMv is the median-beat J point and may differ. ST elevation is not required."
+          }
+        },
+        {
+          "id": "qrs-lt-120",
+          "role": "required",
+          "text": {
+            "es": "Duración del QRS < 120 ms",
+            "en": "QRS duration < 120 ms"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": "<",
+            "value": 120
+          },
+          "ref": "macfarlane-2015",
+          "note": {
+            "es": "Tercer criterio del consenso 2015.",
+            "en": "Third criterion of the 2015 consensus."
+          }
+        },
+        {
+          "id": "ascending-st",
+          "role": "supporting",
+          "text": {
+            "es": "ST ascendente en las derivaciones con elevación",
+            "en": "Ascending ST in leads with J elevation"
+          },
+          "predicate": {
+            "countLeads": [
+              "II",
+              "III",
+              "aVF",
+              "I",
+              "aVL",
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "stSlope",
+              "op": "==",
+              "value": "up"
+            },
+            "op": ">=",
+            "value": 2
+          },
+          "ref": "macfarlane-2015",
+          "note": {
+            "es": "El consenso distingue ST ascendente de horizontal/descendente; Tikkanen (citado en el consenso) asocia ST horizontal o descendente con mayor riesgo arrítmico. Sin cifras de sensibilidad aquí.",
+            "en": "The consensus distinguishes ascending from horizontal/downsloping ST; Tikkanen (cited in the consensus) associates horizontal or downsloping ST with greater arrhythmic risk. No sensitivity figures here."
+          }
+        },
+        {
+          "id": "st-excl-lbbb-paced",
+          "role": "exclusion",
+          "text": {
+            "es": "BRI o estimulación ventricular: los umbrales ordinarios de ST-T están fuera de ámbito",
+            "en": "LBBB or ventricular pacing: ordinary ST-T thresholds are outside scope"
+          },
+          "predicate": {
+            "any": [
+              {
+                "context": "paced",
+                "op": "==",
+                "value": "yes"
+              },
+              {
+                "all": [
+                  {
+                    "feature": "qrsMs",
+                    "op": ">=",
+                    "value": 120
+                  },
+                  {
+                    "feature": "lead.V1.rPrime",
+                    "op": "==",
+                    "value": false
+                  },
+                  {
+                    "feature": "lead.V2.rPrime",
+                    "op": "==",
+                    "value": false
+                  }
+                ]
+              }
+            ]
+          },
+          "note": "Preexcitation attribution is handled separately as a measured confounder, without inferring that coexisting disease is absent. No raw slur-duration cutoff establishes preexcitation."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "syncope"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Con síncope inexplicado un patrón de repolarización precoz inferior debe tratarse como posible síndrome de repolarización precoz; no usar como patrón benigno.",
+            "en": "With unexplained syncope an inferior early-repolarization pattern should be handled as possible early repolarization syndrome, not as a benign pattern."
+          },
+          "ref": "macfarlane-2015"
+        },
+        {
+          "when": {
+            "context": "history",
+            "op": "contains",
+            "value": "family-sudden-death"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Antecedente familiar de muerte súbita: el patrón se vinculó a fibrilación ventricular idiopática (2008); requiere valoración de riesgo.",
+            "en": "Family history of sudden death: the pattern was linked to idiopathic ventricular fibrillation (2008); risk assessment needed."
+          },
+          "ref": "macfarlane-2015"
+        },
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "chest-pain"
+          },
+          "effect": "lower",
+          "text": {
+            "es": "Con dolor torácico agudo, un patrón de repolarización precoz no excluye pericarditis ni IAMCEST; ver diferenciales.",
+            "en": "With acute chest pain, an early-repolarization pattern does not exclude pericarditis or STEMI; see differentials."
+          },
+          "ref": "smith-anterior-2012"
+        }
+      ],
+      "mimics": [
+        "acute-pericarditis",
+        "anterior-stemi",
+        "brugada-type1",
+        "hypothermia",
+        "hypercalcemia",
+        "athlete-heart"
+      ],
+      "nextSteps": {
+        "es": "Si hay síntomas (síncope, dolor torácico) o antecedentes familiares de muerte súbita, valoración clínica; si hay dolor agudo con elevación del ST, aplicar el diferencial con pericarditis e IAMCEST anterior.",
+        "en": "If symptomatic (syncope, chest pain) or family history of sudden death, clinical assessment; with acute pain and ST elevation, apply the differential with pericarditis and anterior STEMI."
+      },
+      "limitations": {
+        "es": "Un ECG digitalizado no garantiza detectar el empastamiento terminal del QRS ni localizar la muesca en el 50 % final de la rama descendente; por tanto infradetecta. El consenso indica que elevación del ST sin muesca ni empastamiento no es repolarización precoz. Prevalencia: en un estudio citado por el consenso, muesca/empastamiento con elevación de Jt ≥ 0,1 mV en 2,1 % de 1.496 adultos blancos sanos (edad media 37,4 años) frente a 29,3 % si solo había muesca/empastamiento sin elevación de Jt: se pide cautela. Una revisión (Mercer 2016) da prevalencia de 2-31 % (probablemente 5-10 %) y menor riesgo de FV con el patrón lateral que con el inferior o global.",
+        "en": "A digitized ECG does not guarantee detection of terminal QRS slurring or locating the notch in the final 50% of the downslope, so it under-detects. The consensus states that ST elevation without notch or slur is not early repolarization. Prevalence: in a study cited by the consensus, notch/slur with Jt elevation ≥ 0.1 mV occurred in 2.1% of 1,496 healthy white adults (mean age 37.4) vs 29.3% if only notch/slur without Jt elevation: caution is advised. A review (Mercer 2016) gives prevalence 2-31% (probably 5-10%) and lower VF risk with the lateral pattern than with inferior or global patterns."
+      },
+      "references": [
+        "macfarlane-2015",
+        "mercer-2016",
+        "smith-anterior-2012"
+      ],
+      "confounders": [
+        {
+          "when": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "text": {
+            "es": "La preexcitación medida puede modificar el QRS, el eje y ST-T y simular este patrón. No se puede atribuir este hallazgo a una enfermedad coexistente ni descartarla sin trazado basal/no preexcitado, evolución y valoración clínica.",
+            "en": "Measured preexcitation can alter QRS, axis and ST-T and mimic this pattern. This finding cannot establish or exclude coexisting disease without a baseline/non-preexcited tracing, serial assessment and clinical evaluation."
+          },
+          "ref": "surawicz-2009",
+          "criteria": [
+            "end-qrs-notch",
+            "jp-elevation",
+            "qrs-lt-120"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "subtle-anterior-stemi-smith",
+      "name": {
+        "es": "Elevación ST anterior sutil: oclusión de la DA favorecida frente a repolarización precoz (fórmula de Smith)",
+        "en": "Subtle anterior ST elevation: LAD occlusion favored over early repolarization (Smith formula)"
+      },
+      "category": "repolarization",
+      "urgency": "emergent",
+      "criteria": [
+        {
+          "id": "ste-v2-v4",
+          "role": "required",
+          "text": {
+            "es": "Elevación del ST ≥ 0,1 mV en ≥ 1 de V2-V4 (condición de uso de la fórmula)",
+            "en": "ST elevation ≥ 0.1 mV in ≥ 1 of V2-V4 (condition for using the formula)"
+          },
+          "predicate": {
+            "countLeads": [
+              "V2",
+              "V3",
+              "V4"
+            ],
+            "where": {
+              "field": "stMv",
+              "op": ">=",
+              "value": 0.1
+            },
+            "op": ">=",
+            "value": 1
+          },
+          "ref": "smith-blog",
+          "note": {
+            "es": "Fuente secundaria (blog de S. Smith): la fórmula solo debe usarse con ST ≥ 1 mm y sin signos obvios de IAMCEST (depresión del ST, convexidad, Q, ST ≥ 5 mm) ni HVI; esos casos se excluyeron del estudio.",
+            "en": "Secondary source (S. Smith's blog): the formula should be used only with STE ≥ 1 mm and without obvious STEMI features (ST depression, convexity, Q waves, STE ≥ 5 mm) nor LVH; those cases were excluded from the study."
+          }
+        },
+        {
+          "id": "smith-3var-gt-23-4",
+          "role": "required",
+          "text": {
+            "es": "1,196 × STE60 en V3 (mm) + 0,059 × QTc (ms) − 0,326 × R en V4 (mm) > 23,4",
+            "en": "1.196 × STE60 in V3 (mm) + 0.059 × QTc (ms) − 0.326 × R in V4 (mm) > 23.4"
+          },
+          "predicate": {
+            "expr": "11.96*lead.V3.stMv+0.059*qtcMs-3.26*lead.V4.rMv",
+            "op": ">",
+            "value": 23.4
+          },
+          "sensitivity": 0.86,
+          "specificity": 0.91,
+          "lrPositive": 9.2,
+          "lrNegative": 0.1,
+          "ref": "smith-anterior-2012",
+          "note": {
+            "es": "Smith 2012, derivación y validación combinadas: 143 IAMCEST anteriores sutiles con oclusión de la DA frente a 171 ECG de repolarización precoz en pacientes con dolor torácico no cardíaco; sensibilidad 86 % (IC 95 % 79-91), especificidad 91 % (85-95), RV+ 9,2, RV− 0,1. Conversión: 1 mV = 10 mm, de ahí los coeficientes 11,96 y 3,26. STE60 = ST a 60 ms del punto J respecto del segmento PR. El estudio usó QTc automático (Bazett); la app usa Fridericia, que puede dar valores menores a frecuencias altas; el autor advierte no corregir el QT si FC < 60 lpm.",
+            "en": "Smith 2012, derivation and validation combined: 143 subtle anterior STEMIs with LAD occlusion vs 171 early-repolarization ECGs in patients with noncardiac chest pain; sensitivity 86% (95% CI 79-91), specificity 91% (85-95), LR+ 9.2, LR− 0.1. Conversion: 1 mV = 10 mm, hence coefficients 11.96 and 3.26. STE60 = ST at 60 ms after J point relative to the PR segment. The study used computerized QTc (Bazett); the app uses Fridericia, which can give lower values at high rates; the author advises not correcting QT if HR < 60 bpm."
+          }
+        },
+        {
+          "id": "smith-4var-gt-18-2",
+          "role": "supporting",
+          "text": {
+            "es": "Fórmula de 4 variables (añade amplitud total del QRS en V2): 1,062 × STE60 V3 + 0,052 × QTc − 0,151 × QRS V2 − 0,268 × R V4 > 18,2",
+            "en": "4-variable formula (adds total QRS amplitude in V2): 1.062 × STE60 V3 + 0.052 × QTc − 0.151 × QRS V2 − 0.268 × R V4 > 18.2"
+          },
+          "predicate": {
+            "expr": "10.62*lead.V3.stMv+0.052*qtcMs-1.51*lead.V2.rMv+1.51*lead.V2.sMv-2.68*lead.V4.rMv",
+            "op": ">",
+            "value": 18.2
+          },
+          "ref": "smith-blog",
+          "note": {
+            "es": "Solo fuente secundaria (blog): se cita a Driver y Smith (J Electrocardiol) como «más precisa»; no se abrió el artículo original y por eso no se incluyen sensibilidad ni especificidad. QRS V2 = R + |S| en mm (sMv es negativo).",
+            "en": "Secondary source only (blog) citing Driver & Smith (J Electrocardiol) as 'slightly more accurate'; the original paper was not opened, so no sensitivity or specificity is given. QRS V2 = R + |S| in mm (sMv is negative)."
+          }
+        },
+        {
+          "id": "st-excl-lbbb-paced",
+          "role": "exclusion",
+          "text": {
+            "es": "BRI o estimulación ventricular: los umbrales ordinarios de ST-T están fuera de ámbito",
+            "en": "LBBB or ventricular pacing: ordinary ST-T thresholds are outside scope"
+          },
+          "predicate": {
+            "any": [
+              {
+                "context": "paced",
+                "op": "==",
+                "value": "yes"
+              },
+              {
+                "all": [
+                  {
+                    "feature": "qrsMs",
+                    "op": ">=",
+                    "value": 120
+                  },
+                  {
+                    "feature": "lead.V1.rPrime",
+                    "op": "==",
+                    "value": false
+                  },
+                  {
+                    "feature": "lead.V2.rPrime",
+                    "op": "==",
+                    "value": false
+                  }
+                ]
+              }
+            ]
+          },
+          "note": "Preexcitation attribution is handled separately as a measured confounder, without inferring that coexisting disease is absent. No raw slur-duration cutoff establishes preexcitation."
+        },
+        {
+          "id": "smith-obvious-mi-exclusion",
+          "role": "exclusion",
+          "text": {
+            "es": "Ondas Q/QS anteriores, ST anterior ≥0,5 mV, depresión recíproca del ST o QRS ancho: fuera del ámbito de la fórmula de IAM sutil",
+            "en": "Anterior Q/QS waves, anterior ST >=0.5 mV, reciprocal ST depression or wide QRS: outside the subtle-MI formula scope"
+          },
+          "predicate": {
+            "any": [
+              {
+                "countLeads": [
+                  "V2",
+                  "V3",
+                  "V4"
+                ],
+                "where": {
+                  "field": "qMs",
+                  "op": ">=",
+                  "value": 30
+                },
+                "op": ">=",
+                "value": 1
+              },
+              {
+                "countLeads": [
+                  "V2",
+                  "V3",
+                  "V4"
+                ],
+                "where": {
+                  "field": "qs",
+                  "op": "==",
+                  "value": true
+                },
+                "op": ">=",
+                "value": 1
+              },
+              {
+                "countLeads": [
+                  "V2",
+                  "V3",
+                  "V4"
+                ],
+                "where": {
+                  "field": "jMv",
+                  "op": ">=",
+                  "value": 0.5
+                },
+                "op": ">=",
+                "value": 1
+              },
+              {
+                "countLeads": [
+                  "II",
+                  "III",
+                  "aVF"
+                ],
+                "where": {
+                  "field": "jMv",
+                  "op": "<=",
+                  "value": -0.05
+                },
+                "op": ">=",
+                "value": 1
+              },
+              {
+                "feature": "qrsMs",
+                "op": ">=",
+                "value": 120
+              }
+            ]
+          },
+          "ref": "smith-blog",
+          "note": "Conservative scope guard based on exclusions already described in the source. These findings require direct acute-ischemia interpretation; the subtle-STEMI formula is not a general STEMI score."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "chest-pain"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Dolor torácico agudo: la fórmula solo se aplica cuando se duda entre oclusión de la DA y repolarización precoz.",
+            "en": "Acute chest pain: the formula applies only when LAD occlusion vs early repolarization is in doubt."
+          },
+          "ref": "smith-blog"
+        }
+      ],
+      "mimics": [
+        "early-repolarization",
+        "acute-pericarditis",
+        "anterior-stemi",
+        "lbbb-complete-aha",
+        "lvh-strain",
+        "hyperkalemia"
+      ],
+      "nextSteps": {
+        "es": "Con dolor torácico y valor superior al umbral, tratar como posible IAMCEST anterior: ECG seriados, troponina y activación del protocolo de reperfusión según guías; un valor bajo no descarta oclusión.",
+        "en": "With chest pain and a value above the cut-off, treat as possible anterior STEMI: serial ECGs, troponin and reperfusion pathway per guidelines; a low value does not exclude occlusion."
+      },
+      "limitations": {
+        "es": "Derivada y validada en cohortes retrospectivas de dos hospitales; no sustituye el juicio clínico (el autor la recomienda para reconocer oclusiones no sospechadas y no para revertir una sospecha previa de oclusión). No aplicable con HVI, BRIHH ni signos obvios de IAMCEST. Depende de la medida de STE60 respecto del PR, de la R en V4 y del QTc (Bazett frente a Fridericia). Un ECG digitalizado puede cambiar estos valores unos mm.",
+        "en": "Derived and validated in retrospective two-hospital cohorts; does not replace clinical judgment (the author recommends it to recognize unsuspected occlusions, not to reverse a prior suspicion of occlusion). Not applicable with LVH, LBBB or obvious STEMI features. Depends on STE60 relative to PR, R in V4 and QTc (Bazett vs Fridericia). A digitized ECG may shift these values by a few mm."
+      },
+      "references": [
+        "smith-anterior-2012",
+        "smith-blog",
+        "rautaharju-2009"
+      ],
+      "group": "stemi-anterior",
+      "confounders": [
+        {
+          "when": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "text": {
+            "es": "La preexcitación medida puede modificar el QRS, el eje y ST-T y simular este patrón. No se puede atribuir este hallazgo a una enfermedad coexistente ni descartarla sin trazado basal/no preexcitado, evolución y valoración clínica.",
+            "en": "Measured preexcitation can alter QRS, axis and ST-T and mimic this pattern. This finding cannot establish or exclude coexisting disease without a baseline/non-preexcited tracing, serial assessment and clinical evaluation."
+          },
+          "ref": "surawicz-2009",
+          "criteria": [
+            "ste-v2-v4",
+            "smith-3var-gt-23-4"
+          ],
+          "logic": "all"
+        },
+        {
+          "when": {
+            "feature": "qtcMs",
+            "op": ">=",
+            "value": 480
+          },
+          "text": {
+            "es": "QTc marcadamente prolongado (≥ 480 ms): eleva matemáticamente el término 0,059 × QTc de la fórmula de Smith sin que implique oclusión de la DA; correlacionar con morfología ST-T y contexto clínico.",
+            "en": "Markedly prolonged QTc (≥ 480 ms) mathematically inflates the 0.059 × QTc term of Smith's formula without implying LAD occlusion; correlate with ST-T morphology and clinical context."
+          },
+          "ref": "smith-anterior-2012",
+          "criteria": [
+            "ste-v2-v4",
+            "smith-3var-gt-23-4"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "hyperkalemia",
+      "name": {
+        "es": "Hiperpotasemia",
+        "en": "Hyperkalemia"
+      },
+      "category": "metabolic-drug",
+      "urgency": "emergent",
+      "criteria": [
+        {
+          "id": "k-high-context",
+          "role": "required",
+          "text": {
+            "es": "Potasio sérico elevado (dato de contexto)",
+            "en": "Elevated serum potassium (context)"
+          },
+          "predicate": {
+            "context": "potassium",
+            "op": "==",
+            "value": "high"
+          },
+          "ref": "montague-2008",
+          "note": {
+            "es": "El ECG es poco sensible; el diagnóstico es bioquímico.",
+            "en": "The ECG is insensitive; the diagnosis is biochemical."
+          }
+        },
+        {
+          "id": "ecg-any-sign",
+          "role": "required",
+          "text": {
+            "es": "Al menos un signo ECG: T alta y picuda en V2–V4, QRS > 110 ms, PR > 200 ms o FC < 50/min",
+            "en": "At least one ECG sign: tall peaked T in V2–V4, QRS > 110 ms, PR > 200 ms or HR < 50/min"
+          },
+          "predicate": {
+            "any": [
+              {
+                "countLeads": [
+                  "V2",
+                  "V3",
+                  "V4"
+                ],
+                "where": {
+                  "field": "tMv",
+                  "op": ">",
+                  "value": 0.5
+                },
+                "op": ">=",
+                "value": 2
+              },
+              {
+                "feature": "qrsMs",
+                "op": ">",
+                "value": 110
+              },
+              {
+                "feature": "prMs",
+                "op": ">",
+                "value": 200
+              },
+              {
+                "feature": "rateBpm",
+                "op": "<",
+                "value": 50
+              }
+            ]
+          },
+          "ref": "durfey-2017",
+          "note": "[object Object] Auditoría v22: la hiperpotasemia se confirma por laboratorio; el ECG aislado no la diagnostica (sensibilidad baja). Se exige K⁺ alto informado y ≥ 1 signo ECG."
+        },
+        {
+          "id": "qrs-gt-110",
+          "role": "supporting",
+          "text": {
+            "es": "QRS > 110 ms",
+            "en": "QRS > 110 ms"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">",
+            "value": 110
+          },
+          "sensitivity": 0.43,
+          "ref": "durfey-2017",
+          "note": {
+            "es": "Frecuencia 43 % (IC 95 % 36,7-50,8) en pacientes con K ≥ 6,5 mEq/L (media 7,1). Sin grupo control normopotasémico: no hay especificidad. Riesgo relativo de evento adverso a 6 h: 4,74 (IC 2,01-11,15); QRS medio 152 ms (rango 116-266) en quienes tuvieron evento.",
+            "en": "Frequency 43% (95% CI 36.7-50.8) in patients with K ≥ 6.5 mEq/L (mean 7.1). No normokalemic control group: no specificity. Relative risk of 6-h adverse event 4.74 (95% CI 2.01-11.15); mean QRS 152 ms (range 116-266) in those with an event."
+          }
+        },
+        {
+          "id": "bradycardia-lt-50",
+          "role": "supporting",
+          "text": {
+            "es": "Frecuencia < 50 lpm",
+            "en": "Rate < 50 bpm"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": "<",
+            "value": 50
+          },
+          "sensitivity": 0.11,
+          "ref": "durfey-2017",
+          "note": {
+            "es": "11 % (21/188) en K ≥ 6,5; riesgo relativo de evento adverso a 6 h 12,29 (IC 6,69-22,57). Sin grupo control: no hay especificidad.",
+            "en": "11% (21/188) at K ≥ 6.5; relative risk of 6-h adverse event 12.29 (95% CI 6.69-22.57). No control group: no specificity."
+          }
+        },
+        {
+          "id": "pr-gt-200",
+          "role": "supporting",
+          "text": {
+            "es": "PR > 200 ms",
+            "en": "PR > 200 ms"
+          },
+          "predicate": {
+            "feature": "prMs",
+            "op": ">",
+            "value": 200
+          },
+          "sensitivity": 0.2,
+          "ref": "durfey-2017",
+          "note": {
+            "es": "20 % (28 de los 143 episodios con PR medible); el RR de evento adverso fue 4,11 con IC 0,88-19,28 (no significativo).",
+            "en": "20% (28 of 143 episodes with measurable PR); RR of adverse event 4.11 with 95% CI 0.88-19.28 (not significant)."
+          }
+        },
+        {
+          "id": "tall-t-precordial",
+          "role": "supporting",
+          "text": {
+            "es": "T > 0,5 mV en ≥ 2 de V2-V4 (T de gran amplitud; no es un punto de corte diagnóstico)",
+            "en": "T > 0.5 mV in ≥ 2 of V2-V4 (tall T; not a diagnostic cut-off)"
+          },
+          "predicate": {
+            "countLeads": [
+              "V2",
+              "V3",
+              "V4"
+            ],
+            "where": {
+              "field": "tMv",
+              "op": ">",
+              "value": 0.5
+            },
+            "op": ">=",
+            "value": 2
+          },
+          "ref": "ukka-hyperk",
+          "note": {
+            "es": "La guía UKKA indica amplitud normal de T < 5 mm en precordiales y < 10 mm en derivaciones de los miembros. Montague 2008 no pudo establecer un umbral diagnóstico de amplitud de T ni de razón T/R (hay solapamiento amplio) y Durfey 2017 no halló asociación entre T picudas y eventos adversos (RR 0,77, IC 0,35-1,70). Frecuencia de T picudas: 30 % (IC 24,1-37,2) con K ≥ 6,5 (Durfey). El criterio no evalúa la forma (simétrica, base estrecha).",
+            "en": "The UKKA guideline gives normal T amplitude as < 5 mm in precordial and < 10 mm in limb leads. Montague 2008 could not establish a diagnostic T-amplitude or T/R ratio threshold (wide overlap) and Durfey 2017 found no association between peaked T waves and adverse events (RR 0.77, 95% CI 0.35-1.70). Frequency of peaked T: 30% (95% CI 24.1-37.2) at K ≥ 6.5 (Durfey). The criterion does not assess shape (symmetric, narrow base)."
+          }
+        },
+        {
+          "id": "sine-wave",
+          "role": "supporting",
+          "text": {
+            "es": "Onda sinusoidal (QRS muy ancho fusionado con la T)",
+            "en": "Sine-wave pattern (very wide QRS merging with T)"
+          },
+          "predicate": null,
+          "ref": "montague-2008",
+          "note": {
+            "es": "Se describe en modelos experimentales y casos; no hay un rasgo disponible que lo identifique (haría falta análisis morfológico del complejo QRS-T).",
+            "en": "Described in experimental models and cases; no available feature identifies it (morphological QRS-T analysis would be needed)."
+          }
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "history",
+            "op": "contains",
+            "value": "renal"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "En el estudio de Durfey todos los pacientes con K ≥ 6,5 tenían función renal anormal.",
+            "en": "In Durfey's study all patients with K ≥ 6.5 had abnormal kidney function."
+          },
+          "ref": "durfey-2017"
+        }
+      ],
+      "mimics": [
+        "rbbb-complete",
+        "lbbb-complete-aha",
+        "sinus-bradycardia",
+        "third-degree-av-block",
+        "sodium-channel-blocker-toxicity",
+        "ventricular-tachycardia-wct",
+        "anterior-stemi",
+        "hyperacute-t-waves"
+      ],
+      "nextSteps": {
+        "es": "Si hay QRS ancho, bradicardia o ritmo de escape con sospecha clínica, confirmar de inmediato el potasio sérico (y gasometría) y monitorizar; no esperar la confirmación en un paciente inestable.",
+        "en": "With wide QRS, bradycardia or escape rhythm and clinical suspicion, immediately confirm serum potassium (and blood gas) and monitor; do not wait for confirmation in an unstable patient."
+      },
+      "limitations": {
+        "es": "Correlación imperfecta con el potasio: Montague 2008 (90 pacientes con K ≥ 6; 80 % con K < 7,2) halló el ECG poco sensible, con sensibilidades entre 0,18 (criterios estrictos) y 0,52 (cualquier cambio), y probabilidad de cambios que aumenta con el potasio; Wrenn 1991: sensibilidad de lectores 0,43 y 0,34 (0,62 y 0,55 con K > 6,5 mmol/L) y especificidad 0,85-0,86. Durfey 2017: 71 % tenía alguna anomalía con K ≥ 6,5, y todos los eventos adversos a 6 h (28/188) tuvieron al menos una alteración previa, pero el estudio no puede concluir que no haya eventos sin alteraciones del ECG. Un ECG normal no excluye hiperpotasemia. Las T picudas y la aplanación de P no son medibles de forma fiable con los rasgos disponibles. Raffee 2022: en un pequeño estudio prospectivo de urgencias hubo ECG normales con hiperpotasemia confirmada. El ECG no estima de forma fiable el potasio sérico ni su ausencia de cambios descarta hiperpotasemia; el estudio sin controles normopotasémicos no aporta especificidad ni una exactitud aplicable a este motor.",
+        "en": "Imperfect correlation with potassium: Montague 2008 (90 patients with K ≥ 6; 80% with K < 7.2) found the ECG insensitive, with sensitivities from 0.18 (strict criteria) to 0.52 (any change), and the probability of changes rising with potassium; Wrenn 1991: reader sensitivity 0.43 and 0.34 (0.62 and 0.55 with K > 6.5 mmol/L) and specificity 0.85-0.86. Durfey 2017: 71% had some abnormality at K ≥ 6.5, and all 6-h adverse events (28/188) had at least one prior abnormality, but the study cannot conclude that no events occur without ECG abnormalities. A normal ECG does not exclude hyperkalemia. Peaked T and P flattening cannot be measured reliably with the available features. Raffee 2022: a small prospective ED study found normal ECGs despite confirmed hyperkalemia. ECG cannot reliably estimate serum potassium or exclude hyperkalemia when changes are absent; the lack of normokalemic controls precludes specificity or accuracy estimates applicable to this engine."
+      },
+      "references": [
+        "montague-2008",
+        "wrenn-1991",
+        "durfey-2017",
+        "ukka-hyperk",
+        "raffee-2022-hyperkalemia"
+      ]
+    },
+    {
+      "id": "hypokalemia",
+      "name": {
+        "es": "Hipopotasemia",
+        "en": "Hypokalemia"
+      },
+      "category": "metabolic-drug",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "k-low-context",
+          "role": "required",
+          "text": {
+            "es": "Potasio sérico bajo (dato de contexto)",
+            "en": "Low serum potassium (context)"
+          },
+          "predicate": {
+            "context": "potassium",
+            "op": "==",
+            "value": "low"
+          },
+          "ref": "kildegaard-2023",
+          "note": {
+            "es": "Diagnóstico bioquímico.",
+            "en": "Biochemical diagnosis."
+          }
+        },
+        {
+          "id": "k-low-ecg",
+          "role": "required",
+          "text": {
+            "es": "QTc marcadamente prolongado (≥ 490 ms) con descenso difuso del ST sin patrón de isquemia transmural (sugiere hipopotasemia / onda QU)",
+            "en": "Markedly prolonged QTc (≥ 490 ms) with diffuse ST depression (suggestive of hypokalemia / QU fusion)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "qtcMs",
+                "op": ">=",
+                "value": 490
+              },
+              {
+                "feature": "qrsMs",
+                "op": "<",
+                "value": 120
+              },
+              {
+                "countLeads": [
+                  "III",
+                  "V4",
+                  "V5",
+                  "V6"
+                ],
+                "where": {
+                  "field": "stMv",
+                  "op": "<=",
+                  "value": -0.05
+                },
+                "op": ">=",
+                "value": 3
+              }
+            ]
+          },
+          "ref": "kildegaard-2023"
+        },
+        {
+          "id": "u-wave-ge-t",
+          "role": "required",
+          "text": {
+            "es": "Onda U de amplitud ≥ la de la T en V2 o V3",
+            "en": "U wave amplitude ≥ T amplitude in V2 or V3"
+          },
+          "predicate": {
+            "any": [
+              {
+                "expr": "lead.V2.uMv-lead.V2.tMv",
+                "op": ">=",
+                "value": 0
+              },
+              {
+                "expr": "lead.V3.uMv-lead.V3.tMv",
+                "op": ">=",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "Rautaharju 2009: se ha sostenido que la U puede superar a la T con K < 2,7 mmol/L, aunque información reciente sugiere que se debe a fusión U-T y no a mayor amplitud de U; la U normal mide ≈ 0,33 mV (11 % de la T) en V2-V3 y es más evidente a FC < 65. Sin cifras de sensibilidad aquí.",
+            "en": "Rautaharju 2009: it has been held that U may exceed T at K < 2.7 mmol/L, although recent information suggests this is U-T fusion rather than greater U amplitude; normal U is ≈ 0.33 mV (11% of T) in V2-V3 and most evident at HR < 65. No sensitivity figures here."
+          }
+        },
+        {
+          "id": "st-depression",
+          "role": "supporting",
+          "text": {
+            "es": "Descenso del ST ≥ 0,1 mV en ≥ 2 derivaciones",
+            "en": "ST depression ≥ 0.1 mV in ≥ 2 leads"
+          },
+          "predicate": {
+            "countLeads": [
+              "I",
+              "II",
+              "III",
+              "aVF",
+              "aVL",
+              "V4",
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "stMv",
+              "op": "<=",
+              "value": -0.1
+            },
+            "op": ">=",
+            "value": 2
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "Rautaharju 2009: −0,1 mV es el umbral anormal fuera de V2-V3 (−0,05 mV en V2-V3); cita la hipopotasemia entre las causas de descenso primario del ST. Kildegaard 2023 (79.599 pacientes con K < 4,4; ECG computarizado): descenso del ST en 16 % con K < 3,5, 12 % en normopotasémicos y 36 % con K < 2,5; la definición computarizada no se detalla en el resumen, así que no se asigna sensibilidad al criterio.",
+            "en": "Rautaharju 2009: −0.1 mV is the abnormal threshold outside V2-V3 (−0.05 mV in V2-V3); lists hypokalemia among causes of primary ST depression. Kildegaard 2023 (79,599 patients with K < 4.4; computerized ECG): ST depression in 16% at K < 3.5, 12% in normokalemic and 36% at K < 2.5; the computerized definition is not detailed in the abstract, so no sensitivity is assigned to the criterion."
+          }
+        },
+        {
+          "id": "qt-prolonged-sex",
+          "role": "supporting",
+          "text": {
+            "es": "QTc prolongado: ≥ 460 ms en mujeres, ≥ 450 ms en varones",
+            "en": "Prolonged QTc: ≥ 460 ms in women, ≥ 450 ms in men"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "female"
+                  },
+                  {
+                    "feature": "qtcMs",
+                    "op": ">=",
+                    "value": 460
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "male"
+                  },
+                  {
+                    "feature": "qtcMs",
+                    "op": ">=",
+                    "value": 450
+                  }
+                ]
+              }
+            ]
+          },
+          "sensitivity": 0.14,
+          "ref": "kildegaard-2023",
+          "note": {
+            "es": "Umbrales de Rautaharju 2009 (recomendación: ≥ 460 ms mujeres, ≥ 450 ms varones; el texto del cuerpo dice «> 450»). Kildegaard 2023: QTc prolongado con esos umbrales en 14 % con K < 3,5 y en 39 % con K < 2,5 (8,3 % en normopotasémicos); la fórmula de corrección del estudio no se indica en el resumen. Los valores publicados no son de Fridericia necesariamente.",
+            "en": "Rautaharju 2009 thresholds (recommendation: ≥ 460 ms women, ≥ 450 ms men; body text says '> 450'). Kildegaard 2023: prolonged QTc with those thresholds in 14% at K < 3.5 and 39% at K < 2.5 (8.3% in normokalemic); the study's correction formula is not stated in the abstract. Published values are not necessarily Fridericia."
+          }
+        },
+        {
+          "id": "t-flat",
+          "role": "supporting",
+          "text": {
+            "es": "T plana (−0,1 a +0,1 mV) en ≥ 2 de I, II, V4, V5, V6",
+            "en": "Flat T (−0.1 to +0.1 mV) in ≥ 2 of I, II, V4, V5, V6"
+          },
+          "predicate": {
+            "countLeads": [
+              "I",
+              "II",
+              "V4",
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "tMv",
+              "op": "between",
+              "value": [
+                -0.1,
+                0.1
+              ]
+            },
+            "op": ">=",
+            "value": 2
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "Definición de T plana de Rautaharju 2009 (pico entre −0,1 y 0,1 mV en I, II, aVL con R > 0,3 mV y V4-V6); el recuento ≥ 2 es operativo. Kildegaard 2023: aplanamiento de T en 27 % con K < 3,5 (20 % en normopotasémicos), sin ajuste a esta definición.",
+            "en": "Rautaharju 2009 definition of flat T (peak between −0.1 and 0.1 mV in I, II, aVL with R > 0.3 mV and V4-V6); the count ≥ 2 is operational. Kildegaard 2023: T flattening in 27% at K < 3.5 (20% in normokalemic), not matched to this definition."
+          }
+        }
+      ],
+      "requiredLogic": "any",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "medications",
+            "op": "contains",
+            "value": "qt-prolonging"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "La hipopotasemia es factor de riesgo de torsade de pointes con fármacos que alargan el QT.",
+            "en": "Hypokalemia is a risk factor for torsade de pointes with QT-prolonging drugs."
+          },
+          "ref": "drew-2010"
+        },
+        {
+          "when": {
+            "context": "medications",
+            "op": "contains",
+            "value": "digoxin"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "La hipopotasemia favorece la toxicidad digitálica.",
+            "en": "Hypokalemia favors digoxin toxicity."
+          },
+          "ref": "ccjm-digoxin-2024"
+        }
+      ],
+      "mimics": [
+        "hypomagnesemia",
+        "drug-induced-qt-prolongation",
+        "digoxin-effect",
+        "nonspecific-st-t-changes",
+        "hypocalcemia"
+      ],
+      "nextSteps": {
+        "es": "Confirmar potasio y magnesio séricos; si el QTc es prolongado, vigilar arritmias ventriculares polimórficas.",
+        "en": "Confirm serum potassium and magnesium; if QTc is prolonged, watch for polymorphic ventricular arrhythmias."
+      },
+      "limitations": {
+        "es": "Kildegaard 2023: 40 % de los hipopotasémicos (K < 3,5) tenían alguna alteración (aplanamiento de T 27 %, descenso del ST 16 %, QTc prolongado 14 %) y 75 % con K < 2,5; las alteraciones del ECG fueron malos marcadores pronósticos a corto plazo. No hay rasgo para el intervalo QU, la fusión T-U ni la inversión de U; la U se mide con baja fiabilidad en ECG digitalizados y con FC alta.",
+        "en": "Kildegaard 2023: 40% of hypokalemic patients (K < 3.5) had some abnormality (T flattening 27%, ST depression 16%, prolonged QTc 14%) and 75% at K < 2.5; ECG abnormalities were poor short-term prognostic markers. No feature exists for QU interval, T-U fusion or U inversion; U is measured with low reliability on digitized ECGs and at high heart rates."
+      },
+      "references": [
+        "rautaharju-2009",
+        "kildegaard-2023",
+        "drew-2010",
+        "ccjm-digoxin-2024"
+      ]
+    },
+    {
+      "id": "hypercalcemia",
+      "name": {
+        "es": "Hipercalcemia",
+        "en": "Hypercalcemia"
+      },
+      "category": "metabolic-drug",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "ca-high-context",
+          "role": "required",
+          "text": {
+            "es": "Calcio sérico elevado (dato de contexto)",
+            "en": "Elevated serum calcium (context)"
+          },
+          "predicate": {
+            "context": "calcium",
+            "op": "==",
+            "value": "high"
+          },
+          "ref": "calcium-review",
+          "note": {
+            "es": "Diagnóstico bioquímico; el ECG no es fiable para cuantificarlo.",
+            "en": "Biochemical diagnosis; the ECG is not reliable to quantify it."
+          }
+        },
+        {
+          "id": "ca-high-ecg",
+          "role": "required",
+          "text": {
+            "es": "QTc muy corto (≤ 355 ms) con QT absoluto corto (≤ 310 ms) y elevación precordial del punto J sin descenso recíproco inferior",
+            "en": "Very short QTc (≤ 355 ms) with short absolute QT (≤ 310 ms) and precordial J-point takeoff without reciprocal inferior ST depression"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "qtcMs",
+                "op": "<=",
+                "value": 355
+              },
+              {
+                "feature": "qtMs",
+                "op": "<=",
+                "value": 310
+              },
+              {
+                "feature": "lead.III.stMv",
+                "op": ">",
+                "value": -0.05
+              },
+              {
+                "feature": "lead.V2.jMv",
+                "op": ">=",
+                "value": 0.15
+              }
+            ]
+          },
+          "ref": "calcium-review"
+        },
+        {
+          "id": "short-qtc",
+          "role": "supporting",
+          "text": {
+            "es": "QTc ≤ 390 ms (intervalo QT corto)",
+            "en": "QTc ≤ 390 ms (short QT)"
+          },
+          "predicate": {
+            "feature": "qtcMs",
+            "op": "<=",
+            "value": 390
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "Umbral de QT corto de Rautaharju 2009 (≤ 390 ms en mujeres y varones). El acortamiento no es lineal con el calcio y los QT son «clínicamente poco fiables» como guía de hipercalcemia (Rumancik, JAMA); Bronsky 1961 halló que Q-oTc es el mejor indicador (inversamente proporcional al calcio hasta ≈ 16 mg/dl). En la serie de Sonoda (referida por la revisión) el QT se acortó en promedio 24 ms con calcio corregido > 12 mg/dl.",
+            "en": "Short-QT threshold from Rautaharju 2009 (≤ 390 ms in women and men). Shortening is not linear with calcium and QT intervals are 'clinically unreliable' as a guide to hypercalcemia (Rumancik, JAMA); Bronsky 1961 found Q-oTc to be the best indicator (inversely proportional to calcium up to ≈ 16 mg/dl). In Sonoda's series (reported by the review) QT shortened on average by 24 ms with corrected calcium > 12 mg/dl."
+          }
+        },
+        {
+          "id": "j-elevation",
+          "role": "supporting",
+          "text": {
+            "es": "Punto J ≥ 0,1 mV en ≥ 2 derivaciones inferiores o laterales",
+            "en": "J point ≥ 0.1 mV in ≥ 2 inferior or lateral leads"
+          },
+          "predicate": {
+            "any": [
+              {
+                "contiguous": "inferior",
+                "where": {
+                  "field": "jMv",
+                  "op": ">=",
+                  "value": 0.1
+                },
+                "min": 2
+              },
+              {
+                "contiguous": "lateral",
+                "where": {
+                  "field": "jMv",
+                  "op": ">=",
+                  "value": 0.1
+                },
+                "min": 2
+              }
+            ]
+          },
+          "ref": "calcium-review",
+          "note": {
+            "es": "Sonoda (89 pacientes con calcio corregido > 12 mg/dl frente a 267 controles): ondas J en 30 % frente a 9 %; desaparecieron en 8 de 11 tras normalizar el calcio; PR +12 ms y QRS +7 ms en promedio (según la revisión, sin abrir el original).",
+            "en": "Sonoda (89 patients with corrected calcium > 12 mg/dl vs 267 controls): J waves in 30% vs 9%; disappeared in 8 of 11 after calcium normalized; PR +12 ms and QRS +7 ms on average (per the review, original not opened)."
+          }
+        }
+      ],
+      "requiredLogic": "any",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "medications",
+            "op": "contains",
+            "value": "digoxin"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "La hipercalcemia agrava la toxicidad digitálica.",
+            "en": "Hypercalcemia aggravates digoxin toxicity."
+          },
+          "ref": "ccjm-digoxin-2024"
+        }
+      ],
+      "mimics": [
+        "short-qt",
+        "early-repolarization",
+        "digoxin-effect",
+        "hypothermia",
+        "brugada-type2"
+      ],
+      "nextSteps": {
+        "es": "Confirmar calcio iónico/corregido; si hay arritmias o digoxina, monitorizar.",
+        "en": "Confirm ionized/corrected calcium; monitor if arrhythmias or digoxin."
+      },
+      "limitations": {
+        "es": "Sin contexto de calcio el motor no propone la entidad: el QT corto es inespecífico y la relación QT-calcio no es lineal. En hipercalcemia grave (> 16 mg/dl) la duración de T puede aumentar y el QT parecer normal con ST corto; no hay rasgo para la duración del segmento ST. Pueden verse elevación del ST, T bifásica y U prominente (revisión).",
+        "en": "Without calcium context the engine does not propose this entity: short QT is nonspecific and the QT-calcium relation is not linear. In severe hypercalcemia (> 16 mg/dl) T duration may increase and QT may look normal with a short ST; no feature exists for ST-segment duration. ST elevation, biphasic T and prominent U may be seen (review)."
+      },
+      "references": [
+        "calcium-review",
+        "bronsky-1961",
+        "rumancik-jama",
+        "rautaharju-2009",
+        "ccjm-digoxin-2024"
+      ]
+    },
+    {
+      "id": "hypocalcemia",
+      "name": {
+        "es": "Hipocalcemia",
+        "en": "Hypocalcemia"
+      },
+      "category": "metabolic-drug",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "ca-low-context",
+          "role": "required",
+          "text": {
+            "es": "Calcio sérico bajo (dato de contexto)",
+            "en": "Low serum calcium (context)"
+          },
+          "predicate": {
+            "context": "calcium",
+            "op": "==",
+            "value": "low"
+          },
+          "ref": "calcium-review",
+          "note": {
+            "es": "Diagnóstico bioquímico.",
+            "en": "Biochemical diagnosis."
+          }
+        },
+        {
+          "id": "ca-low-ecg",
+          "role": "required",
+          "text": {
+            "es": "QTc discretamente prolongado con QRS estrecho, T positivas y sin descenso del ST (patrón compatible con segmento ST alargado de hipocalcemia)",
+            "en": "Mild QTc prolongation with narrow QRS, upright T waves and without ST depression (pattern compatible with hypocalcemic ST prolongation)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "qtcMs",
+                "op": "between",
+                "value": [
+                  415,
+                  470
+                ]
+              },
+              {
+                "feature": "qrsMs",
+                "op": "<",
+                "value": 100
+              },
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": true
+              },
+              {
+                "countLeads": [
+                  "I",
+                  "II",
+                  "V4",
+                  "V5",
+                  "V6"
+                ],
+                "where": {
+                  "field": "tMv",
+                  "op": ">=",
+                  "value": 0.1
+                },
+                "op": ">=",
+                "value": 4
+              },
+              {
+                "feature": "lead.V1.tMv",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "calcium-review"
+        },
+        {
+          "id": "qt-prolonged-sex",
+          "role": "supporting",
+          "text": {
+            "es": "QTc prolongado: ≥ 460 ms en mujeres, ≥ 450 ms en varones",
+            "en": "Prolonged QTc: ≥ 460 ms in women, ≥ 450 ms in men"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "female"
+                  },
+                  {
+                    "feature": "qtcMs",
+                    "op": ">=",
+                    "value": 460
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "male"
+                  },
+                  {
+                    "feature": "qtcMs",
+                    "op": ">=",
+                    "value": 450
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "Umbrales de Rautaharju 2009. La revisión describe prolongación del QT por alargamiento del segmento ST, proporcional al grado de hipocalcemia, con el QTc rara vez > 140 % de lo normal y T normales en duración, amplitud y morfología. Rumancik (JAMA): utilidad diagnóstica limitada por la amplia distribución de valores normales. Sin cifras de sensibilidad.",
+            "en": "Rautaharju 2009 thresholds. The review describes QT prolongation from lengthening of the ST segment, proportional to the degree of hypocalcemia, with QTc rarely > 140% of normal and T waves normal in duration, amplitude and morphology. Rumancik (JAMA): diagnostic usefulness limited by the wide distribution of normal values. No sensitivity figures."
+          }
+        },
+        {
+          "id": "long-st-segment",
+          "role": "supporting",
+          "text": {
+            "es": "Segmento ST largo con T de morfología normal",
+            "en": "Long ST segment with normally shaped T wave"
+          },
+          "predicate": null,
+          "ref": "calcium-review",
+          "note": {
+            "es": "Requeriría medir la duración del segmento ST (de J al inicio de T), rasgo que no existe en la lista.",
+            "en": "Would require measuring ST-segment duration (J to T onset), a feature not in the list."
+          }
+        }
+      ],
+      "requiredLogic": "any",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "medications",
+            "op": "contains",
+            "value": "qt-prolonging"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Con fármacos que alargan el QT se suma al riesgo de torsade de pointes; la hipocalcemia y la hipomagnesemia pueden coexistir.",
+            "en": "Adds to torsade de pointes risk with QT-prolonging drugs; hypocalcemia and hypomagnesemia may coexist."
+          },
+          "ref": "calcium-review"
+        }
+      ],
+      "mimics": [
+        "drug-induced-qt-prolongation",
+        "hypomagnesemia",
+        "hypokalemia",
+        "long-qt-congenital"
+      ],
+      "nextSteps": {
+        "es": "Confirmar calcio iónico, magnesio y potasio; vigilar el QTc.",
+        "en": "Confirm ionized calcium, magnesium and potassium; monitor QTc."
+      },
+      "limitations": {
+        "es": "Sin contexto de calcio el motor no propone la entidad. En casos raros se describieron elevación del ST, T aplanadas o invertidas; el QT largo es inespecífico y puede deberse a otras causas. La hipomagnesemia concomitante agrava los cambios.",
+        "en": "Without calcium context the engine does not propose this entity. Rare cases with ST elevation or flat/inverted T are described; long QT is nonspecific and may have other causes. Concomitant hypomagnesemia worsens the changes."
+      },
+      "references": [
+        "calcium-review",
+        "rumancik-jama",
+        "rautaharju-2009"
+      ]
+    },
+    {
+      "id": "digoxin-effect",
+      "name": {
+        "es": "Efecto digitálico (ST «en cubeta»)",
+        "en": "Digitalis effect (scooped ST)"
+      },
+      "category": "metabolic-drug",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "on-digoxin",
+          "role": "required",
+          "text": {
+            "es": "En tratamiento con digoxina",
+            "en": "On digoxin therapy"
+          },
+          "predicate": {
+            "context": "medications",
+            "op": "contains",
+            "value": "digoxin"
+          },
+          "ref": "ccjm-digoxin-2024",
+          "note": {
+            "es": "El efecto digitálico se define por la presencia del fármaco, no por toxicidad.",
+            "en": "Digitalis effect is defined by drug presence, not toxicity."
+          }
+        },
+        {
+          "id": "scooped-st",
+          "role": "required",
+          "text": {
+            "es": "ST descendente («en cubeta») en ≥ 2 de I, II, V5, V6",
+            "en": "Downsloping ('scooped') ST in ≥ 2 of I, II, V5, V6"
+          },
+          "predicate": {
+            "all": [
+              {
+                "countLeads": [
+                  "I",
+                  "II",
+                  "V5",
+                  "V6"
+                ],
+                "where": {
+                  "field": "stSlope",
+                  "op": "==",
+                  "value": "down"
+                },
+                "op": ">=",
+                "value": 2
+              },
+              {
+                "countLeads": [
+                  "I",
+                  "II",
+                  "V5",
+                  "V6"
+                ],
+                "where": {
+                  "field": "stMv",
+                  "op": "<",
+                  "value": 0
+                },
+                "op": ">=",
+                "value": 2
+              }
+            ]
+          },
+          "ref": "ccjm-digoxin-2024",
+          "note": {
+            "es": "Cleveland Clinic J Med 2024: depresión del ST «en sagging» no específica; no implica toxicidad y puede verse con niveles terapéuticos. La forma «en cubeta» no es medible exactamente; el recuento ≥ 2 es operativo.",
+            "en": "Cleve Clin J Med 2024: nonspecific 'sagging' ST depression; does not imply toxicity and can occur at therapeutic levels. Most evident in leads with tall R (V4-V6) in other reviews. The 'scooped' shape cannot be measured exactly; the count ≥ 2 is operational."
+          }
+        },
+        {
+          "id": "short-qtc",
+          "role": "supporting",
+          "text": {
+            "es": "QTc ≤ 390 ms",
+            "en": "QTc ≤ 390 ms"
+          },
+          "predicate": {
+            "feature": "qtcMs",
+            "op": "<=",
+            "value": 390
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "La digoxina acorta el QT (CCJM 2024); umbral de QT corto de Rautaharju 2009.",
+            "en": "Digoxin shortens QT (CCJM 2024); short-QT threshold from Rautaharju 2009."
+          }
+        },
+        {
+          "id": "pr-gt-200",
+          "role": "supporting",
+          "text": {
+            "es": "PR > 200 ms",
+            "en": "PR > 200 ms"
+          },
+          "predicate": {
+            "feature": "prMs",
+            "op": ">",
+            "value": 200
+          },
+          "ref": "ccjm-digoxin-2024",
+          "note": {
+            "es": "Prolongación del PR descrita con digoxina.",
+            "en": "PR prolongation described with digoxin."
+          }
+        },
+        {
+          "id": "qrs-wide-excl",
+          "role": "exclusion",
+          "text": {
+            "es": "QRS ≥ 120 ms (cambios del ST-T secundarios a trastorno de conducción)",
+            "en": "QRS ≥ 120 ms (ST-T changes secondary to conduction disturbance)"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">=",
+            "value": 120
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "Rautaharju 2009: las alteraciones ST-T secundarias a trastornos de conducción ventricular deben rotularse como tales; 120 ms es el límite usual de QRS ancho.",
+            "en": "Rautaharju 2009: ST-T abnormalities secondary to ventricular conduction disturbances should be labeled as such; 120 ms is the usual wide-QRS limit."
+          }
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "digoxin-toxicity",
+        "hypokalemia",
+        "lvh-strain",
+        "nste-ischemia",
+        "nonspecific-st-t-changes"
+      ],
+      "nextSteps": {
+        "es": "Sin arritmias, no requiere más pasos por sí mismo; si hay síntomas o arritmias considerar toxicidad (nivel de digoxina, función renal, potasio).",
+        "en": "Without arrhythmias it needs no further step by itself; if symptoms or arrhythmias, consider toxicity (digoxin level, renal function, potassium)."
+      },
+      "limitations": {
+        "es": "Diagnóstico por el contexto de fármaco; la morfología «en cubeta» es subjetiva y la medición de la pendiente del ST en un ECG digitalizado es aproximada. Los cambios del ST pueden confundirse con isquemia (descenso del ST) o HVI con sobrecarga. No indica nivel terapéutico ni toxicidad. Andrews 2023 (consenso, tabla 1): el efecto digitálico puede aparecer sin intoxicación y ninguna arritmia es específica. Los niveles séricos no se correlacionan de forma constante con toxicidad; interpretar tiempo desde la ingesta, síntomas, función renal, electrolitos e interacciones.",
+        "en": "Diagnosis rests on drug context; 'scooped' morphology is subjective and ST slope measurement on a digitized ECG is approximate. ST changes may be confused with ischemia (ST depression) or LVH with strain. It does not indicate therapeutic level or toxicity. Andrews 2023 (consensus, Table 1): digitalis effect may occur without toxicity and no arrhythmia is specific. Serum levels do not consistently correlate with toxicity; interpret ingestion timing, symptoms, renal function, electrolytes and interactions."
+      },
+      "references": [
+        "ccjm-digoxin-2024",
+        "rautaharju-2009",
+        "andrews-2023-digoxin"
+      ],
+      "group": "digoxin"
+    },
+    {
+      "id": "digoxin-toxicity",
+      "name": {
+        "es": "Intoxicación digitálica (arritmias)",
+        "en": "Digoxin toxicity (arrhythmias)"
+      },
+      "category": "metabolic-drug",
+      "urgency": "emergent",
+      "criteria": [
+        {
+          "id": "on-digoxin",
+          "role": "required",
+          "text": {
+            "es": "En tratamiento con digoxina",
+            "en": "On digoxin therapy"
+          },
+          "predicate": {
+            "context": "medications",
+            "op": "contains",
+            "value": "digoxin"
+          },
+          "ref": "ccjm-digoxin-2024",
+          "note": {
+            "es": "La toxicidad se sospecha por clínica, nivel y ECG; ningún hallazgo del ECG es patognomónico.",
+            "en": "Toxicity is suspected from clinical findings, level and ECG; no ECG finding is pathognomonic."
+          }
+        },
+        {
+          "id": "toxic-arrhythmia",
+          "role": "required",
+          "text": {
+            "es": "Taquicardia auricular con bloqueo (frecuencia auricular 150-250 lpm con más ondas P que QRS), latido agrupado/bigeminismo o bradicardia < 50 lpm",
+            "en": "Atrial tachycardia with block (atrial rate 150-250 bpm with more P waves than QRS), grouped beating/bigeminy or rate < 50 bpm"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "feature": "pRate",
+                    "op": "between",
+                    "value": [
+                      150,
+                      250
+                    ]
+                  },
+                  {
+                    "feature": "pQrsRatio",
+                    "op": ">",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "feature": "groupedBeating",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "rateBpm",
+                "op": "<",
+                "value": 50
+              }
+            ]
+          },
+          "ref": "emnews-digoxin-2002",
+          "note": {
+            "es": "Frecuencia auricular 150-250 lpm con bloqueo AV variable procede de una fuente secundaria (Emergency Medicine News 2002). CCJM 2024: cualquier arritmia, bloqueo AV de todo grado, sinusal con salida, ectopia ventricular precoz, taquicardia ventricular bidireccional y taquicardia de la unión (> 80 lpm) sugerentes pero no específicas. FC < 50 lpm es operativa (umbral de bradicardia sinusal; no es de esta fuente). Se desconocen sensibilidad y especificidad.",
+            "en": "Atrial rate 150-250 bpm with variable AV block comes from a secondary source (Emergency Medicine News 2002). CCJM 2024: any arrhythmia, AV block of any degree, sinus exit block, early ventricular ectopy, bidirectional ventricular tachycardia and junctional tachycardia (> 80 bpm) are suggestive but not specific. Rate < 50 bpm is operational (sinus bradycardia threshold; not from this source). Sensitivity and specificity unknown."
+          }
+        },
+        {
+          "id": "scooped-st",
+          "role": "supporting",
+          "text": {
+            "es": "ST descendente en cubeta",
+            "en": "Scooped downsloping ST"
+          },
+          "predicate": {
+            "countLeads": [
+              "I",
+              "II",
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "stSlope",
+              "op": "==",
+              "value": "down"
+            },
+            "op": ">=",
+            "value": 2
+          },
+          "ref": "ccjm-digoxin-2024",
+          "note": {
+            "es": "Es efecto digitálico, no toxicidad; solo apoyo.",
+            "en": "It is digitalis effect, not toxicity; supportive only."
+          }
+        },
+        {
+          "id": "k-low-context",
+          "role": "supporting",
+          "text": {
+            "es": "Hipopotasemia",
+            "en": "Hypokalemia"
+          },
+          "predicate": {
+            "context": "potassium",
+            "op": "==",
+            "value": "low"
+          },
+          "ref": "ccjm-digoxin-2024",
+          "note": {
+            "es": "Factor de riesgo de toxicidad (junto con insuficiencia renal, hipomagnesemia, hipercalcemia).",
+            "en": "Risk factor for toxicity (together with renal impairment, hypomagnesemia, hypercalcemia)."
+          }
+        },
+        {
+          "id": "bidirectional-vt",
+          "role": "supporting",
+          "text": {
+            "es": "Taquicardia ventricular bidireccional",
+            "en": "Bidirectional ventricular tachycardia"
+          },
+          "predicate": null,
+          "ref": "ccjm-digoxin-2024",
+          "note": {
+            "es": "Sugerente de toxicidad; con los rasgos disponibles no se puede identificar la alternancia latido a latido de la morfología (hay `qrsAlternans` pero no distingue el eje).",
+            "en": "Suggestive of toxicity; with available features beat-to-beat alternation of axis cannot be identified (there is `qrsAlternans` but it does not distinguish axis)."
+          }
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "history",
+            "op": "contains",
+            "value": "renal"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "La insuficiencia renal es el factor de riesgo principal (CCJM 2024).",
+            "en": "Renal impairment is a major risk factor (CCJM 2024)."
+          },
+          "ref": "ccjm-digoxin-2024"
+        }
+      ],
+      "mimics": [
+        "digoxin-effect",
+        "atrial-flutter-2to1-suspected",
+        "focal-atrial-tachycardia",
+        "junctional-rhythm",
+        "second-degree-mobitz-i",
+        "third-degree-av-block",
+        "hyperkalemia"
+      ],
+      "nextSteps": {
+        "es": "Si hay sospecha, medir digoxinemia (≥ 6 h desde la última dosis), potasio, magnesio y función renal, y monitorizar de forma continua. Valorar ECG seriados, monitorización cardíaca, función renal, electrolitos y nivel de digoxina con horario de última dosis; una arritmia grave o inestabilidad exige valoración toxicológica/urgente sin esperar el nivel sérico.",
+        "en": "If suspected, measure digoxin level (≥ 6 h after last dose), potassium, magnesium and renal function, and monitor continuously. Assess serial ECGs, cardiac monitoring, renal function, electrolytes and a digoxin level with last-dose timing; severe arrhythmia or instability requires urgent/toxicology assessment without waiting for the serum result."
+      },
+      "limitations": {
+        "es": "Ningún hallazgo del ECG es patognomónico; las alteraciones pueden verse con digoxina sin toxicidad. La frecuencia auricular y el cociente P/QRS dependen de que las ondas P se detecten. Con FA conocida, un ritmo regular puede indicar escape de la unión por digoxina; esto no se evalúa con los rasgos actuales. Andrews 2023 (consenso, tabla 1): el efecto digitálico puede aparecer sin intoxicación y ninguna arritmia es específica. Los niveles séricos no se correlacionan de forma constante con toxicidad; interpretar tiempo desde la ingesta, síntomas, función renal, electrolitos e interacciones.",
+        "en": "No ECG finding is pathognomonic; abnormalities can occur on digoxin without toxicity. Atrial rate and P/QRS ratio depend on P waves being detected. With known AF, a regular rhythm may indicate digoxin-induced junctional escape; this is not assessed with current features. Andrews 2023 (consensus, Table 1): digitalis effect may occur without toxicity and no arrhythmia is specific. Serum levels do not consistently correlate with toxicity; interpret ingestion timing, symptoms, renal function, electrolytes and interactions."
+      },
+      "references": [
+        "ccjm-digoxin-2024",
+        "emnews-digoxin-2002",
+        "andrews-2023-digoxin"
+      ],
+      "group": "digoxin"
+    },
+    {
+      "id": "drug-induced-qt-prolongation",
+      "name": {
+        "es": "QT prolongado por fármacos y riesgo de torsade de pointes",
+        "en": "Drug-induced QT prolongation and torsade de pointes risk"
+      },
+      "category": "metabolic-drug",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "qt-drug",
+          "role": "required",
+          "text": {
+            "es": "Fármaco que prolonga el QT",
+            "en": "QT-prolonging drug"
+          },
+          "predicate": {
+            "context": "medications",
+            "op": "contains",
+            "value": "qt-prolonging"
+          },
+          "ref": "drew-2010",
+          "note": {
+            "es": "Lista actualizada de fármacos: www.qtdrugs.org (citada por Drew 2010).",
+            "en": "Updated drug list: www.qtdrugs.org (cited by Drew 2010)."
+          }
+        },
+        {
+          "id": "qtc-over-99th",
+          "role": "required",
+          "text": {
+            "es": "QTc ≥ 470 ms en varones o ≥ 480 ms en mujeres (percentil 99 aproximado)",
+            "en": "QTc ≥ 470 ms in men or ≥ 480 ms in women (approximate 99th percentile)"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "male"
+                  },
+                  {
+                    "feature": "qtcMs",
+                    "op": ">=",
+                    "value": 470
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "female"
+                  },
+                  {
+                    "feature": "qtcMs",
+                    "op": ">=",
+                    "value": 480
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "drew-2010",
+          "note": {
+            "es": "Drew 2010: QTc sobre el percentil 99 = anormalmente prolongado; valores aproximados 470 ms (varones) y 480 ms (mujeres) en posadolescentes sanos. Los QTc publicados suelen ser de Bazett; la app usa Fridericia.",
+            "en": "Drew 2010: QTc above the 99th percentile = abnormally prolonged; approximate values 470 ms (men) and 480 ms (women) in healthy postpubertal individuals. Published QTc values are mostly Bazett; the app uses Fridericia."
+          }
+        },
+        {
+          "id": "qtc-gt-500",
+          "role": "supporting",
+          "text": {
+            "es": "QTc > 500 ms",
+            "en": "QTc > 500 ms"
+          },
+          "predicate": {
+            "feature": "qtcMs",
+            "op": ">",
+            "value": 500
+          },
+          "ref": "drew-2010",
+          "note": {
+            "es": "Drew 2010: «muy anormal»; los datos de SQTL congénito muestran riesgo de TdP 2-3 veces mayor con QTc > 500 ms; cada aumento de 10 ms aporta ≈ 5-7 % de riesgo exponencial en SQTL congénito; no existe umbral a partir del cual TdP sea cierto. Tras iniciar el fármaco, QTc > 500 ms o aumento ≥ 60 ms sobre la basal exige acción rápida.",
+            "en": "Drew 2010: 'highly abnormal'; congenital LQTS data show 2-3-fold higher TdP risk with QTc > 500 ms; each 10-ms increase contributes ≈ 5-7% exponential risk in congenital LQTS; there is no threshold at which TdP is certain. After starting the drug, QTc > 500 ms or an increase ≥ 60 ms over baseline calls for prompt action."
+          }
+        },
+        {
+          "id": "qtc-delta-60",
+          "role": "supporting",
+          "text": {
+            "es": "Aumento del QTc ≥ 60 ms respecto de la basal previa al fármaco",
+            "en": "QTc increase ≥ 60 ms from pre-drug baseline"
+          },
+          "predicate": null,
+          "ref": "drew-2010",
+          "note": {
+            "es": "Requiere un ECG basal previo al fármaco, que el motor no recibe.",
+            "en": "Requires a pre-drug baseline ECG, which the engine does not receive."
+          }
+        },
+        {
+          "id": "tu-distortion-alternans",
+          "role": "supporting",
+          "text": {
+            "es": "Distorsión T-U tras pausa, alternancia macroscópica de T, ectopia nueva",
+            "en": "T-U distortion after a pause, macroscopic T-wave alternans, new ectopy"
+          },
+          "predicate": null,
+          "ref": "drew-2010",
+          "note": {
+            "es": "Signos de TdP inminente (Drew 2010) que requieren monitorización continua; no evaluables con un ECG de 12 derivaciones mediano.",
+            "en": "Signs of impending TdP (Drew 2010) requiring continuous monitoring; not evaluable with a median 12-lead ECG."
+          }
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "sexAtBirth",
+            "op": "==",
+            "value": "female"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Factor de riesgo de TdP inducido por fármacos (Drew 2010).",
+            "en": "Risk factor for drug-induced TdP (Drew 2010)."
+          },
+          "ref": "drew-2010"
+        },
+        {
+          "when": {
+            "context": "potassium",
+            "op": "==",
+            "value": "low"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "La hipopotasemia es factor de riesgo.",
+            "en": "Hypokalemia is a risk factor."
+          },
+          "ref": "drew-2010"
+        },
+        {
+          "when": {
+            "context": "history",
+            "op": "contains",
+            "value": "cardiac"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Cardiopatía es factor de riesgo.",
+            "en": "Heart disease is a risk factor."
+          },
+          "ref": "drew-2010"
+        }
+      ],
+      "mimics": [
+        "long-qt-congenital",
+        "hypokalemia",
+        "hypocalcemia",
+        "hypomagnesemia",
+        "sodium-channel-blocker-toxicity"
+      ],
+      "nextSteps": {
+        "es": "Con QTc > 500 ms o aumento ≥ 60 ms, Drew 2010 indica revisar el fármaco, interacciones, bradiarritmias y electrolitos (K, Mg), y disponer de desfibrilador. Revisar exposición, interacciones, función renal y hepática, potasio y magnesio; comparar ECG basal y evolución tras cambios de medicación bajo supervisión del prescriptor. Palpitaciones, mareo o síncope con un fármaco que prolonga QT requieren evaluación clínica y ECG.",
+        "en": "With QTc > 500 ms or increase ≥ 60 ms, Drew 2010 indicates reviewing the drug, interactions, bradyarrhythmias and electrolytes (K, Mg), and having a defibrillator available. Review exposure, interactions, renal/hepatic function, potassium and magnesium; compare baseline and follow-up ECG after medication changes under prescriber supervision. Palpitations, dizziness or syncope during QT-prolonging therapy require clinical assessment and ECG."
+      },
+      "limitations": {
+        "es": "El QT es difícil de medir (fin de la T, U superpuesta); Rautaharju 2009 recomienda validar visualmente la prolongación informada por el ordenador y evitar corregir con FC irregular. Drew 2010 recomienda usar un método consistente de corrección; el valor con Fridericia puede diferir del Bazett de los umbrales. El ECG digitalizado no ve espigas de marcapasos ni alternancia de T. Con QRS ≥ 120 ms el QTc sobrestima la repolarización (valorar JT o QT ajustado al QRS). Khatib 2021: verificar manualmente QT y frecuencia; Bazett puede sobrecorregir en taquicardia e infracorregir en bradicardia, y un QRS ancho altera la interpretación habitual. El QTc aislado no demuestra causalidad farmacológica ni predice por sí solo torsades. Huang 2024 halló asociación con insuficiencia cardíaca en hospitalizados tratados con dofetilida/sotalol; no generalizar a todos los fármacos ni convertir esa asociación en probabilidad individual.",
+        "en": "QT is hard to measure (T end, superimposed U); Rautaharju 2009 recommends visually validating computer-reported prolongation and avoiding rate correction with irregular rhythm. Drew 2010 recommends a consistent correction method; the Fridericia value may differ from the Bazett used for thresholds. The digitized ECG cannot show pacing spikes or T-wave alternans. With QRS ≥ 120 ms QTc overestimates repolarisation (consider JT or QRS-adjusted QT). Khatib 2021: manually verify QT and heart rate; Bazett may overcorrect in tachycardia and undercorrect in bradycardia, while wide QRS alters usual interpretation. Isolated QTc does not prove drug causality or predict torsades alone. Huang 2024 found an association with heart failure among inpatients receiving dofetilide/sotalol; do not generalize to all drugs or convert the association into an individual probability."
+      },
+      "references": [
+        "drew-2010",
+        "rautaharju-2009",
+        "khatib-2021-drug-qt",
+        "huang-2024-qt-hf"
+      ],
+      "group": "qt-prolongation"
+    },
+    {
+      "id": "sodium-channel-blocker-toxicity",
+      "name": {
+        "es": "Bloqueo de canales de sodio / antidepresivos tricíclicos (toxicidad)",
+        "en": "Sodium-channel blocker / tricyclic antidepressant toxicity"
+      },
+      "category": "metabolic-drug",
+      "urgency": "emergent",
+      "criteria": [
+        {
+          "id": "scb-drug",
+          "role": "required",
+          "text": {
+            "es": "Fármaco bloqueador de canales de sodio (p. ej. antidepresivo tricíclico)",
+            "en": "Sodium-channel-blocking drug (e.g. tricyclic antidepressant)"
+          },
+          "predicate": {
+            "context": "medications",
+            "op": "contains",
+            "value": "sodium-channel-blocker"
+          },
+          "ref": "liebelt-1995",
+          "note": {
+            "es": "Los dos estudios son en sobredosis de antidepresivos tricíclicos.",
+            "en": "Both studies are in tricyclic antidepressant overdose."
+          }
+        },
+        {
+          "id": "qrs-ge-100",
+          "role": "required",
+          "text": {
+            "es": "QRS ≥ 100 ms",
+            "en": "QRS ≥ 100 ms"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">=",
+            "value": 100
+          },
+          "sensitivity": 0.82,
+          "specificity": 0.58,
+          "lrPositive": 1.95,
+          "lrNegative": 0.31,
+          "ref": "liebelt-1995",
+          "note": {
+            "es": "Liebelt 1995 (79 pacientes con sobredosis aguda de ATC; convulsiones en 16 [20 %] y arritmias ventriculares en 5 [6 %]): QRS ≥ 100 ms para predecir convulsiones o arritmias: sensibilidad 82 %, especificidad 58 %, VPP 35 %; son cifras de predicción de convulsiones/arritmias, no de diagnóstico de toxicidad. RV calculadas a partir de sensibilidad y especificidad publicadas. Boehnert 1985 (49 pacientes): 0 de 13 con QRS < 100 ms tuvo convulsiones ni arritmias; con QRS ≥ 100 ms, 34 % convulsiones (p < 0,05) y 14 % arritmias ventriculares.",
+            "en": "Liebelt 1995 (79 patients with acute TCA overdose; seizures in 16 [20%] and ventricular arrhythmias in 5 [6%]): QRS ≥ 100 ms for predicting seizures or arrhythmias: sensitivity 82%, specificity 58%, PPV 35%; these are prediction figures for seizures/arrhythmias, not for diagnosing toxicity. LRs computed from the published sensitivity and specificity. Boehnert 1985 (49 patients): 0 of 13 with QRS < 100 ms had seizures or arrhythmias; with QRS ≥ 100 ms, 34% seizures (p < 0.05) and 14% ventricular arrhythmias."
+          }
+        },
+        {
+          "id": "r-avr-ge-3mm",
+          "role": "supporting",
+          "text": {
+            "es": "R (terminal) en aVR ≥ 3 mm (0,3 mV)",
+            "en": "(Terminal) R in aVR ≥ 3 mm (0.3 mV)"
+          },
+          "predicate": {
+            "feature": "lead.aVR.rMv",
+            "op": ">=",
+            "value": 0.3
+          },
+          "sensitivity": 0.81,
+          "specificity": 0.73,
+          "lrPositive": 3,
+          "lrNegative": 0.26,
+          "ref": "liebelt-1995",
+          "note": {
+            "es": "Liebelt 1995: R aVR ≥ 3 mm: sensibilidad 81 %, especificidad 73 %, VPP 43 % para convulsiones o arritmias (OR 6,9; IC 95 % 1,2-40; p = 0,03): la única variable ECG significativa en la regresión logística. RV calculadas a partir de las cifras publicadas. rMv es la R de aVR, no necesariamente la R terminal.",
+            "en": "Liebelt 1995: R aVR ≥ 3 mm: sensitivity 81%, specificity 73%, PPV 43% for seizures or arrhythmias (OR 6.9; 95% CI 1.2-40; p = 0.03): the only significant ECG variable in logistic regression. LRs computed from published figures. rMv is the R wave in aVR, not necessarily the terminal R."
+          }
+        },
+        {
+          "id": "r-avr-ge-5mm",
+          "role": "supporting",
+          "text": {
+            "es": "R en aVR ≥ 5 mm (0,5 mV)",
+            "en": "R in aVR ≥ 5 mm (0.5 mV)"
+          },
+          "predicate": {
+            "feature": "lead.aVR.rMv",
+            "op": ">=",
+            "value": 0.5
+          },
+          "sensitivity": 0.5,
+          "specificity": 0.97,
+          "lrPositive": 16.7,
+          "lrNegative": 0.52,
+          "ref": "liebelt-1995",
+          "note": {
+            "es": "Liebelt 1995: R aVR ≥ 5 mm: sensibilidad 50 %, especificidad 97 %, VPP 80 % (8 de 10) para convulsiones o arritmias. RV calculadas.",
+            "en": "Liebelt 1995: R aVR ≥ 5 mm: sensitivity 50%, specificity 97%, PPV 80% (8 of 10) for seizures or arrhythmias. LRs computed."
+          }
+        },
+        {
+          "id": "qrs-ge-120",
+          "role": "supporting",
+          "text": {
+            "es": "QRS ≥ 120 ms",
+            "en": "QRS ≥ 120 ms"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">=",
+            "value": 120
+          },
+          "sensitivity": 0.59,
+          "specificity": 0.87,
+          "lrPositive": 4.5,
+          "lrNegative": 0.47,
+          "ref": "liebelt-1995",
+          "note": {
+            "es": "Liebelt 1995: QRS ≥ 120 ms: sensibilidad 59 %, especificidad 87 % para convulsiones o arritmias. RV calculadas.",
+            "en": "Liebelt 1995: QRS ≥ 120 ms: sensitivity 59%, specificity 87% for seizures or arrhythmias. LRs computed."
+          }
+        },
+        {
+          "id": "qrs-ge-160",
+          "role": "supporting",
+          "text": {
+            "es": "QRS ≥ 160 ms",
+            "en": "QRS ≥ 160 ms"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">=",
+            "value": 160
+          },
+          "ref": "boehnert-1985",
+          "note": {
+            "es": "Boehnert 1985: arritmias ventriculares solo con QRS ≥ 0,16 s (p < 0,0005). Sin cifras de sensibilidad en el resumen.",
+            "en": "Boehnert 1985: ventricular arrhythmias only with QRS ≥ 0.16 s (p < 0.0005). No sensitivity in the abstract."
+          }
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "syncope"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Con síncope o convulsión tras sobredosis, el QRS ancho es de alto riesgo.",
+            "en": "With syncope or seizure after overdose, wide QRS is high risk."
+          },
+          "ref": "boehnert-1985"
+        }
+      ],
+      "mimics": [
+        "hyperkalemia",
+        "rbbb-complete",
+        "lbbb-complete-aha",
+        "brugada-type1",
+        "ventricular-tachycardia-wct",
+        "drug-induced-qt-prolongation"
+      ],
+      "nextSteps": {
+        "es": "Con sospecha de sobredosis y QRS ≥ 100 ms o R en aVR ≥ 3 mm: monitorización continua, consulta con toxicología y ECG seriados (las convulsiones y arritmias ocurrieron en las primeras 6 h y cedieron a las 24 h en Boehnert).",
+        "en": "With suspected overdose and QRS ≥ 100 ms or R in aVR ≥ 3 mm: continuous monitoring, toxicology consult and serial ECGs (seizures and arrhythmias occurred in the first 6 h and resolved by 24 h in Boehnert)."
+      },
+      "limitations": {
+        "es": "Los umbrales proceden de estudios pequeños, de ATC, que predicen complicaciones, no el diagnóstico de intoxicación; los intervalos de confianza son amplios (OR 6,9; IC 1,2-40). La referencia de «R terminal en aVR» exige el eje terminal de 40 ms (no disponible); aquí se usa rMv. Un QRS ancho por BRDHH, hiperpotasemia u otros bloqueadores es indistinguible. En niños no se aplica.",
+        "en": "Thresholds come from small TCA studies that predict complications, not the diagnosis of poisoning; confidence intervals are wide (OR 6.9; CI 1.2-40). 'Terminal R in aVR' normally relies on the terminal 40-ms axis (not available); rMv is used here. Wide QRS from RBBB, hyperkalemia or other blockers is indistinguishable. Not applicable in children."
+      },
+      "references": [
+        "liebelt-1995",
+        "boehnert-1985"
+      ]
+    },
+    {
+      "id": "hypothermia",
+      "name": {
+        "es": "Hipotermia (onda J de Osborn)",
+        "en": "Hypothermia (Osborn J wave)"
+      },
+      "category": "metabolic-drug",
+      "urgency": "emergent",
+      "criteria": [
+        {
+          "id": "temp-low",
+          "role": "required",
+          "text": {
+            "es": "Temperatura baja (dato de contexto)",
+            "en": "Low temperature (context)"
+          },
+          "predicate": {
+            "context": "temperature",
+            "op": "==",
+            "value": "low"
+          },
+          "ref": "desouza-2007",
+          "note": {
+            "es": "Hipotermia: temperatura central < 35 °C (de Souza 2007).",
+            "en": "Hypothermia: core temperature < 35 °C (de Souza 2007)."
+          }
+        },
+        {
+          "id": "j-waves",
+          "role": "supporting",
+          "text": {
+            "es": "Punto J ≥ 0,1 mV en ≥ 2 derivaciones (onda J/Osborn)",
+            "en": "J point ≥ 0.1 mV in ≥ 2 leads (J/Osborn wave)"
+          },
+          "predicate": {
+            "countLeads": [
+              "II",
+              "III",
+              "aVF",
+              "I",
+              "aVL",
+              "V3",
+              "V4",
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "jMv",
+              "op": ">=",
+              "value": 0.1
+            },
+            "op": ">=",
+            "value": 2
+          },
+          "sensitivity": 0.86,
+          "ref": "desouza-2007",
+          "note": {
+            "es": "de Souza 2007 (59 pacientes con hipotermia accidental): onda J en 51 (86 %, calculado) con voltaje inversamente relacionado con la temperatura central. Higuchi 2013 (64 pacientes): 50 % con ondas J (31 al ingreso), todos con temperatura < 30 °C. Revisión sistemática (Dietrichs): ondas J en 100 % con temperatura < 32 °C (o < 30 °C) en algunos estudios y apenas 3 de 19 con < 26,2 °C en otro; 41 % en hipotermia terapéutica (estudio coreano). El umbral de 0,1 mV y el conjunto de derivaciones son operativos, tomados de la definición del patrón de repolarización precoz (Macfarlane); no se definen en los estudios abiertos.",
+            "en": "de Souza 2007 (59 accidental hypothermia patients): J wave in 51 (86%, computed) with voltage inversely related to core temperature. Higuchi 2013 (64 patients): 50% with J waves (31 on admission), all with temperature < 30 °C. Systematic review (Dietrichs): J waves in 100% at < 32 °C (or < 30 °C) in some studies but only 3 of 19 at < 26.2 °C in another; 41% in therapeutic hypothermia (Korean study). The 0.1 mV threshold and lead set are operational, borrowed from the early-repolarization definition (Macfarlane); not defined in the opened studies."
+          }
+        },
+        {
+          "id": "bradycardia",
+          "role": "supporting",
+          "text": {
+            "es": "Frecuencia < 60 lpm",
+            "en": "Rate < 60 bpm"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": "<",
+            "value": 60
+          },
+          "ref": "desouza-2007",
+          "note": {
+            "es": "Bradicardia sinusal en 52,5 % (de Souza 2007); el umbral de 60 lpm es operativo (no se especifica en el resumen).",
+            "en": "Sinus bradycardia in 52.5% (de Souza 2007); the 60 bpm threshold is operational (not specified in the abstract)."
+          }
+        },
+        {
+          "id": "qt-prolonged-sex",
+          "role": "supporting",
+          "text": {
+            "es": "QTc prolongado: ≥ 460 ms en mujeres, ≥ 450 ms en varones",
+            "en": "Prolonged QTc: ≥ 460 ms in women, ≥ 450 ms in men"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "female"
+                  },
+                  {
+                    "feature": "qtcMs",
+                    "op": ">=",
+                    "value": 460
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "male"
+                  },
+                  {
+                    "feature": "qtcMs",
+                    "op": ">=",
+                    "value": 450
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "desouza-2007",
+          "note": {
+            "es": "QT corregido prolongado en 72,8 % (de Souza 2007; Bazett y Fridericia); umbrales de Rautaharju 2009.",
+            "en": "Corrected QT prolonged in 72.8% (de Souza 2007; Bazett and Fridericia); thresholds from Rautaharju 2009."
+          }
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "early-repolarization",
+        "hypercalcemia",
+        "brugada-type1",
+        "anterior-stemi",
+        "acute-pericarditis",
+        "sinus-bradycardia"
+      ],
+      "nextSteps": {
+        "es": "Con temperatura baja y ondas J, monitorización cardíaca continua (riesgo de arritmias ventriculares, fibrilación auricular y asistolia en hipotermia grave) y manejo según protocolo de hipotermia.",
+        "en": "With low temperature and J waves, continuous cardiac monitoring (risk of ventricular arrhythmias, atrial fibrillation and asystole in severe hypothermia) and management per hypothermia protocol."
+      },
+      "limitations": {
+        "es": "Las ondas J son frecuentes pero no constantes y no son patognomónicas; se superponen con repolarización precoz, hipercalcemia y síndrome de Brugada. La ausencia de onda J no excluye hipotermia. Temperatura debe venir del contexto. El temblor muscular puede producir artefacto de línea de base.",
+        "en": "J waves are frequent but not constant and not pathognomonic; they overlap with early repolarization, hypercalcemia and Brugada syndrome. Absence of J wave does not exclude hypothermia. Temperature must come from context. Muscle tremor may cause baseline artefact."
+      },
+      "references": [
+        "desouza-2007",
+        "higuchi-2013",
+        "dietrichs-2019",
+        "rautaharju-2009",
+        "macfarlane-2015"
+      ]
+    },
+    {
+      "id": "neurogenic-t-waves",
+      "name": {
+        "es": "Patrón de T cerebral (T gigantes invertidas, QT largo; p. ej. hemorragia subaracnoidea)",
+        "en": "Cerebral T-wave pattern (giant inverted T, long QT; e.g. subarachnoid hemorrhage)"
+      },
+      "category": "repolarization",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "giant-t-inversion",
+          "role": "required",
+          "text": {
+            "es": "T negativa gigante (< −1,0 mV) en ≥ 2 derivaciones",
+            "en": "Giant negative T (< −1.0 mV) in ≥ 2 leads"
+          },
+          "predicate": {
+            "countLeads": [
+              "I",
+              "II",
+              "aVL",
+              "aVF",
+              "V2",
+              "V3",
+              "V4",
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "tMv",
+              "op": "<",
+              "value": -1
+            },
+            "op": ">=",
+            "value": 2
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "Rautaharju 2009 define «negativa gigante» como amplitud < −1,0 mV (profunda −0,5 a −1,0; invertida −0,1 a −0,5) y señala que la T gigante invertida suele limitarse a miocardiopatía hipertrófica, IAMSEST y eventos neurológicos (sobre todo hemorragia intracraneal). El recuento ≥ 2 derivaciones es operativo.",
+            "en": "Rautaharju 2009 defines 'giant negative' as amplitude < −1.0 mV (deep −0.5 to −1.0; inverted −0.1 to −0.5) and notes giant T inversion is usually limited to hypertrophic cardiomyopathy, NSTEMI and neurological events (especially intracranial hemorrhage). The count ≥ 2 leads is operational."
+          }
+        },
+        {
+          "id": "long-qt",
+          "role": "supporting",
+          "text": {
+            "es": "QTc prolongado: ≥ 460 ms en mujeres, ≥ 450 ms en varones",
+            "en": "Prolonged QTc: ≥ 460 ms in women, ≥ 450 ms in men"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "female"
+                  },
+                  {
+                    "feature": "qtcMs",
+                    "op": ">=",
+                    "value": 460
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "male"
+                  },
+                  {
+                    "feature": "qtcMs",
+                    "op": ">=",
+                    "value": 450
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "sommargren-2002",
+          "note": {
+            "es": "Sommargren 2002 (227 pacientes con HSA, 89.430 ECG de 12 derivaciones, monitorización media de 114 h): QTc prolongado en 73 %, inversión de T en 82 %, elevación del ST en 67 %, descenso del ST en 50 %, onda U anormal en 20 % (frecuencias acumuladas en toda la monitorización continua, no de un ECG aislado); QTc prolongado fue predictor independiente de lesión miocárdica (OR 8; p = 0,01). No son sensibilidad de un criterio.",
+            "en": "Sommargren 2002 (227 SAH patients, 89,430 12-lead ECGs, mean monitoring 114 h): prolonged QTc in 73%, T inversion in 82%, ST elevation in 67%, ST depression in 50%, abnormal U wave in 20% (cumulative frequencies over continuous monitoring, not from a single ECG); prolonged QTc was an independent predictor of myocardial injury (OR 8; p = 0.01). These are not the sensitivity of a criterion."
+          }
+        },
+        {
+          "id": "u-wave",
+          "role": "supporting",
+          "text": {
+            "es": "Onda U presente",
+            "en": "U wave present"
+          },
+          "predicate": {
+            "feature": "lead.V3.uMv",
+            "op": ">",
+            "value": 0.1
+          },
+          "ref": "sommargren-2002",
+          "note": {
+            "es": "Onda U anormal en 20 % (Sommargren 2002); umbral de 0,1 mV operativo, no publicado.",
+            "en": "Abnormal U wave in 20% (Sommargren 2002); 0.1 mV threshold operational, unpublished."
+          }
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "syncope"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Síncope o alteración neurológica aguda orientan al origen intracraneal.",
+            "en": "Syncope or acute neurological change points to an intracranial origin."
+          },
+          "ref": "rautaharju-2009"
+        }
+      ],
+      "mimics": [
+        "nste-ischemia",
+        "wellens-pattern",
+        "takotsubo",
+        "hypertrophic-cardiomyopathy",
+        "lvh-strain",
+        "acute-pe-rv-strain",
+        "myocarditis"
+      ],
+      "nextSteps": {
+        "es": "Rautaharju 2009 pide una interpretación descriptiva con mención de causas habituales; correlacionar con neurología (imagen cerebral) y descartar síndrome coronario agudo con troponina y ECG seriados.",
+        "en": "Rautaharju 2009 calls for a descriptive interpretation listing common causes; correlate with neurology (brain imaging) and rule out acute coronary syndrome with troponin and serial ECGs."
+      },
+      "limitations": {
+        "es": "No específico: la T gigante invertida aparece también en miocardiopatía hipertrófica apical y en IAMSEST/Wellens. El ECG no distingue origen neurológico; la mayoría de cambios en HSA se acumulan en días y son inespecíficos, sin que el ECG sustituya a la imagen cerebral. No se evalúa la forma de la T (ancha, base amplia, asimétrica).",
+        "en": "Nonspecific: giant inverted T also occurs in apical hypertrophic cardiomyopathy and NSTEMI/Wellens. The ECG cannot identify neurological origin; most SAH changes accumulate over days and are nonspecific, and the ECG does not replace brain imaging. T-wave shape (broad, wide-based, asymmetric) is not assessed."
+      },
+      "references": [
+        "rautaharju-2009",
+        "sommargren-2002"
+      ]
+    },
+    {
+      "id": "takotsubo",
+      "name": {
+        "es": "Miocardiopatía de Takotsubo",
+        "en": "Takotsubo syndrome"
+      },
+      "category": "repolarization",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "transient-lv-dysfunction",
+          "role": "required",
+          "text": {
+            "es": "Disfunción ventricular izquierda transitoria (balonamiento apical, medioventricular, basal o focal)",
+            "en": "Transient left ventricular dysfunction (apical, midventricular, basal or focal ballooning)"
+          },
+          "predicate": null,
+          "ref": "ghadri-2018",
+          "note": {
+            "es": "Criterio 1 de InterTAK; requiere ecocardiograma o ventriculografía, no el ECG.",
+            "en": "InterTAK criterion 1; requires echocardiography or ventriculography, not ECG."
+          }
+        },
+        {
+          "id": "new-ecg-abnormality",
+          "role": "required",
+          "text": {
+            "es": "Alteración ECG: elevación del ST ≥ 0,1 mV en ≥ 2 derivaciones contiguas anteriores o laterales, T negativa ≥ 0,1 mV en ≥ 2 derivaciones, o QTc prolongado",
+            "en": "ECG abnormality: ST elevation ≥ 0.1 mV in ≥ 2 contiguous anterior or lateral leads, T inversion ≥ 0.1 mV in ≥ 2 leads, or prolonged QTc"
+          },
+          "predicate": {
+            "any": [
+              {
+                "contiguous": "anterior",
+                "where": {
+                  "field": "stMv",
+                  "op": ">=",
+                  "value": 0.1
+                },
+                "min": 2
+              },
+              {
+                "contiguous": "lateral",
+                "where": {
+                  "field": "stMv",
+                  "op": ">=",
+                  "value": 0.1
+                },
+                "min": 2
+              },
+              {
+                "countLeads": [
+                  "I",
+                  "II",
+                  "aVL",
+                  "aVF",
+                  "V2",
+                  "V3",
+                  "V4",
+                  "V5",
+                  "V6"
+                ],
+                "where": {
+                  "field": "tMv",
+                  "op": "<=",
+                  "value": -0.1
+                },
+                "op": ">=",
+                "value": 2
+              },
+              {
+                "any": [
+                  {
+                    "all": [
+                      {
+                        "context": "sexAtBirth",
+                        "op": "==",
+                        "value": "female"
+                      },
+                      {
+                        "feature": "qtcMs",
+                        "op": ">=",
+                        "value": 460
+                      }
+                    ]
+                  },
+                  {
+                    "all": [
+                      {
+                        "context": "sexAtBirth",
+                        "op": "==",
+                        "value": "male"
+                      },
+                      {
+                        "feature": "qtcMs",
+                        "op": ">=",
+                        "value": 450
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "ghadri-2018",
+          "note": {
+            "es": "Criterio 4 de InterTAK: nuevas alteraciones ECG (elevación o descenso del ST, T invertida, QTc prolongado) aunque existen casos sin cambios. «Nuevo» requiere ECG previo. Los umbrales en mV son de Rautaharju 2009 (0,1 mV para elevación anormal fuera de V2-V3 y T invertida de −0,1 a −0,5) y de sexo para el QTc; el recuento es operativo. Elevación del ST: 43,1 % TTS frente a 46,3 % SCA (Ghadri 2017), sin poder discriminativo.",
+            "en": "InterTAK criterion 4: new ECG abnormalities (ST elevation or depression, T inversion, QTc prolongation) although cases without changes exist. 'New' requires a prior ECG. Thresholds in mV from Rautaharju 2009 (0.1 mV abnormal elevation outside V2-V3 and inverted T −0.1 to −0.5) and sex-specific QTc; the count is operational. ST elevation: 43.1% TTS vs 46.3% ACS (Ghadri 2017), no discriminating power."
+          }
+        },
+        {
+          "id": "no-st-depression",
+          "role": "supporting",
+          "text": {
+            "es": "Ausencia de descenso del ST ≥ 0,1 mV (salvo aVR)",
+            "en": "No ST depression ≥ 0.1 mV (except aVR)"
+          },
+          "predicate": {
+            "not": {
+              "countLeads": [
+                "I",
+                "II",
+                "III",
+                "aVL",
+                "aVF",
+                "V2",
+                "V3",
+                "V4",
+                "V5",
+                "V6"
+              ],
+              "where": {
+                "field": "stMv",
+                "op": "<=",
+                "value": -0.1
+              },
+              "op": ">=",
+              "value": 1
+            }
+          },
+          "sensitivity": 0.894,
+          "specificity": 0.289,
+          "ref": "ghadri-2017",
+          "note": {
+            "es": "Ghadri 2017 (218 TTS frente a 436 SCA): descenso del ST en 10,6 % frente a 28,9 % (de ahí 0,894 y 0,289 como complementos); NEJM 2015 (1.750 TTS): descenso del ST en 8,3 % frente a 31,1 % en SCA. La ausencia de descenso del ST (excepto aVR) suma 12 puntos en la puntuación InterTAK. La definición de descenso del ST en esos estudios no se detalla en lo abierto.",
+            "en": "Ghadri 2017 (218 TTS vs 436 ACS): ST depression in 10.6% vs 28.9% (hence 0.894 and 0.289 as complements); NEJM 2015 (1,750 TTS): ST depression in 8.3% vs 31.1% in ACS. Absence of ST depression (except aVR) adds 12 points in the InterTAK score. The definition of ST depression in those studies is not detailed in what was opened."
+          }
+        },
+        {
+          "id": "qtc-prolonged",
+          "role": "supporting",
+          "text": {
+            "es": "QTc prolongado",
+            "en": "Prolonged QTc"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "female"
+                  },
+                  {
+                    "feature": "qtcMs",
+                    "op": ">=",
+                    "value": 460
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "male"
+                  },
+                  {
+                    "feature": "qtcMs",
+                    "op": ">=",
+                    "value": 450
+                  }
+                ]
+              }
+            ]
+          },
+          "sensitivity": 0.381,
+          "specificity": 0.745,
+          "ref": "ghadri-2017",
+          "note": {
+            "es": "Ghadri 2017: QTc prolongado en 38,1 % de TTS frente a 25,5 % de SCA (especificidad 0,745 como complemento); suma 6 puntos en InterTAK. El umbral usado en el estudio no se muestra; los umbrales de sexo aquí son de Rautaharju 2009.",
+            "en": "Ghadri 2017: prolonged QTc in 38.1% of TTS vs 25.5% of ACS (specificity 0.745 as complement); adds 6 points in InterTAK. The study's threshold is not shown; the sex-specific thresholds here are from Rautaharju 2009."
+          }
+        },
+        {
+          "id": "t-inversion",
+          "role": "supporting",
+          "text": {
+            "es": "T negativa ≥ 0,1 mV en ≥ 2 derivaciones",
+            "en": "T inversion ≥ 0.1 mV in ≥ 2 leads"
+          },
+          "predicate": {
+            "countLeads": [
+              "I",
+              "II",
+              "aVL",
+              "aVF",
+              "V2",
+              "V3",
+              "V4",
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "tMv",
+              "op": "<=",
+              "value": -0.1
+            },
+            "op": ">=",
+            "value": 2
+          },
+          "sensitivity": 0.353,
+          "specificity": 0.766,
+          "ref": "ghadri-2017",
+          "note": {
+            "es": "Ghadri 2017: T invertida 35,3 % TTS frente a 23,4 % SCA (p = 0,001). Poder discriminativo bajo.",
+            "en": "Ghadri 2017: T inversion 35.3% TTS vs 23.4% ACS (p = 0.001). Low discriminative power."
+          }
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "sexAtBirth",
+            "op": "==",
+            "value": "female"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "InterTAK: predominan mujeres posmenopáusicas (89,8 % mujeres en el registro; edad media 66,8 años).",
+            "en": "InterTAK: postmenopausal women predominate (89.8% women in the registry; mean age 66.8)."
+          },
+          "ref": "templin-2015"
+        },
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "chest-pain"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Dolor torácico o disnea o síncope son las presentaciones más comunes, indistinguibles al inicio de un IAM.",
+            "en": "Chest pain, dyspnea or syncope are the commonest presentations, indistinguishable from AMI at first glance."
+          },
+          "ref": "ghadri-2018"
+        }
+      ],
+      "mimics": [
+        "anterior-stemi",
+        "nste-ischemia",
+        "myocarditis",
+        "acute-pericarditis",
+        "neurogenic-t-waves",
+        "wellens-pattern",
+        "lv-aneurysm"
+      ],
+      "nextSteps": {
+        "es": "InterTAK: la coronariografía con ventriculografía es la prueba de referencia para confirmar o excluir; la RM cardíaca ayuda a descartar miocarditis. No retrasar la valoración de un posible IAMCEST. Integrar biomarcadores y ecocardiografía; valorar anatomía coronaria y RM para el diferencial con infarto y miocarditis según la presentación.",
+        "en": "InterTAK: coronary angiography with left ventriculography is the gold standard to confirm or exclude; cardiac MRI helps exclude myocarditis. Do not delay assessment of possible STEMI. Integrate biomarkers and echocardiography; assess coronary anatomy and CMR for the infarction/myocarditis differential according to presentation."
+      },
+      "limitations": {
+        "es": "El ECG no puede diagnosticar takotsubo: InterTAK reconoce que el fenotipo se parece al IAM y que existen casos sin cambios ECG. El motor no ve la función ventricular, de modo que el criterio principal queda como «no evaluable». Las cifras de los estudios son comparaciones con SCA, no con población general. Scafa-Udriste 2024: el ECG no distingue con seguridad Takotsubo de infarto o miocarditis. El antecedente de estrés no confirma el diagnóstico; pueden existir shock y arritmias graves, por lo que no debe retrasar la evaluación de SCA.",
+        "en": "The ECG cannot diagnose takotsubo: InterTAK acknowledges the phenotype resembles AMI and that cases without ECG changes exist. The engine cannot see ventricular function, so the main criterion remains 'not evaluable'. Study figures are comparisons against ACS, not against the general population. Scafa-Udriste 2024: ECG cannot reliably distinguish Takotsubo from infarction or myocarditis. A stress trigger does not establish the diagnosis; shock and serious arrhythmias can occur, so ACS assessment must not be delayed."
+      },
+      "references": [
+        "ghadri-2018",
+        "templin-2015",
+        "ghadri-2017",
+        "rautaharju-2009",
+        "scafa-2024-takotsubo"
+      ]
+    },
+    {
+      "id": "myocarditis",
+      "name": {
+        "es": "Miocarditis (ECG inespecífico)",
+        "en": "Myocarditis (nonspecific ECG)"
+      },
+      "category": "repolarization",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "clinical-presentation",
+          "role": "required",
+          "text": {
+            "es": "Presentación clínica compatible: dolor torácico, disnea, palpitaciones o síncope",
+            "en": "Compatible clinical presentation: chest pain, dyspnea, palpitations or syncope"
+          },
+          "predicate": {
+            "any": [
+              {
+                "context": "symptoms",
+                "op": "contains",
+                "value": "chest-pain"
+              },
+              {
+                "context": "symptoms",
+                "op": "contains",
+                "value": "dyspnea"
+              },
+              {
+                "context": "symptoms",
+                "op": "contains",
+                "value": "palpitations"
+              },
+              {
+                "context": "symptoms",
+                "op": "contains",
+                "value": "syncope"
+              }
+            ]
+          },
+          "ref": "caforio-2013",
+          "note": {
+            "es": "Tabla 4 de la ESC 2013: sospecha clínica si ≥ 1 presentación clínica y ≥ 1 criterio diagnóstico de categorías diferentes (ECG, marcadores de citólisis, imagen, RM) en ausencia de enfermedad coronaria angiográfica (estenosis ≥ 50 %) y de otra causa explicativa; con asintomáticos, ≥ 2 criterios.",
+            "en": "ESC 2013 Table 4: clinically suspected if ≥ 1 clinical presentation and ≥ 1 diagnostic criterion from different categories (ECG, myocytolysis markers, imaging, CMR) without angiographic coronary disease (stenosis ≥ 50%) and without another explanation; if asymptomatic, ≥ 2 criteria."
+          }
+        },
+        {
+          "id": "new-abnormal-ecg",
+          "role": "required",
+          "text": {
+            "es": "ECG de 12 derivaciones recién anormal (BAV, bloqueo de rama, cambios ST/T, TV/FV, FA, QRS ancho, Q, bajo voltaje, extrasístoles frecuentes…)",
+            "en": "Newly abnormal 12-lead ECG (AV block, bundle branch block, ST/T changes, VT/VF, AF, wide QRS, Q waves, low voltage, frequent ectopy…)"
+          },
+          "predicate": null,
+          "ref": "caforio-2013",
+          "note": {
+            "es": "La ESC lo define como un ECG, Holter o prueba de esfuerzo «recién anormal»: requiere comparación con un ECG previo y no un umbral numérico; el ECG «no es específico ni sensible».",
+            "en": "ESC defines it as a 'newly abnormal' ECG, Holter or stress test: this requires comparison with a prior ECG and not a numeric threshold; the ECG is 'neither specific nor sensitive'."
+          }
+        },
+        {
+          "id": "diffuse-concave-ste",
+          "role": "supporting",
+          "text": {
+            "es": "Elevación del ST difusa (≥ 0,1 mV en ≥ 2 derivaciones inferiores y ≥ 2 laterales)",
+            "en": "Diffuse ST elevation (≥ 0.1 mV in ≥ 2 inferior and ≥ 2 lateral leads)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "contiguous": "inferior",
+                "where": {
+                  "field": "stMv",
+                  "op": ">=",
+                  "value": 0.1
+                },
+                "min": 2
+              },
+              {
+                "contiguous": "lateral",
+                "where": {
+                  "field": "stMv",
+                  "op": ">=",
+                  "value": 0.1
+                },
+                "min": 2
+              }
+            ]
+          },
+          "ref": "caforio-2013",
+          "note": {
+            "es": "ESC 2013: en la miocarditis el ST suele ser cóncavo y difuso sin cambios recíprocos (en la isquemia, convexo). El umbral operativo es el mismo que el de la pericarditis.",
+            "en": "ESC 2013: in myocarditis the ST is typically concave and diffuse without reciprocal changes (convex in ischemia). The operational threshold is the same as for pericarditis."
+          }
+        },
+        {
+          "id": "av-block-or-wide-qrs",
+          "role": "supporting",
+          "text": {
+            "es": "PR > 200 ms o QRS ≥ 120 ms",
+            "en": "PR > 200 ms or QRS ≥ 120 ms"
+          },
+          "predicate": {
+            "any": [
+              {
+                "feature": "prMs",
+                "op": ">",
+                "value": 200
+              },
+              {
+                "feature": "qrsMs",
+                "op": ">=",
+                "value": 120
+              }
+            ]
+          },
+          "ref": "caforio-2013",
+          "note": {
+            "es": "La ESC lista bloqueo AV de I a III grado y QRS ensanchado entre los criterios de ECG; la prolongación del QRS fue predictor independiente negativo de supervivencia en estudios recientes. Los umbrales numéricos son convenciones generales, no de la ESC.",
+            "en": "ESC lists I to III degree AV block and widened QRS among ECG criteria; QRS prolongation was an independent negative predictor of survival in recent studies. Numeric thresholds are general conventions, not ESC."
+          }
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "acute-pericarditis",
+        "anterior-stemi",
+        "takotsubo",
+        "early-repolarization",
+        "dilated-cardiomyopathy-hf",
+        "cardiac-amyloidosis"
+      ],
+      "nextSteps": {
+        "es": "ESC 2013: ECG de 12 derivaciones, ecocardiograma y troponina en toda sospecha; la RM cardíaca y la biopsia endomiocárdica confirman, según el caso. Integrar clínica, troponina, marcadores inflamatorios y ecocardiograma; valorar RM cardíaca y pruebas adicionales según el riesgo. Dolor persistente, síncope, arritmia o inestabilidad requieren evaluación urgente y consideración de SCA.",
+        "en": "ESC 2013: 12-lead ECG, echocardiography and troponin in all suspected cases; cardiac MRI and endomyocardial biopsy confirm as indicated. Integrate symptoms, troponin, inflammatory markers and echocardiography; consider CMR and further testing according to risk. Persistent pain, syncope, arrhythmia or instability calls for urgent assessment and consideration of ACS."
+      },
+      "limitations": {
+        "es": "La miocarditis no tiene un patrón ECG específico ni sensible (ESC 2013): el ECG puede ser normal o mostrar casi cualquier alteración. El motor no puede establecer «recién anormal»; la entidad solo es una pista y su criterio central queda «no evaluable». La coexistencia con pericarditis (miopericarditis) no se distingue. ESC 2025 (§3.3, tabla 4 y §5.1): el ECG aporta un criterio de apoyo, no un diagnóstico clínico completo. Los cambios pueden evolucionar y un ECG normal no excluye un síndrome inflamatorio miopericárdico. En pericarditis, los cambios ECG sugieren afectación miocárdica concomitante. El consenso ACC 2024 (§4.2.1, publicado en 2025) coincide: los hallazgos ECG son inespecíficos y un ECG normal no descarta miocarditis; no se atribuye automáticamente una arritmia o bloqueo a inflamación.",
+        "en": "Myocarditis has no specific or sensitive ECG pattern (ESC 2013): the ECG may be normal or show almost any abnormality. The engine cannot establish 'newly abnormal'; the entity is only a clue and its central criterion remains 'not evaluable'. Coexistence with pericarditis (myopericarditis) is not distinguished. ESC 2025 (§3.3, Table 4 and §5.1): ECG provides supportive evidence, not a complete clinical diagnosis. Changes can evolve and a normal ECG does not exclude an inflammatory myopericardial syndrome. ECG changes in pericarditis suggest concomitant myocardial involvement. The ACC 2024 pathway (§4.2.1, published in 2025) likewise describes nonspecific ECG findings and states that a normal ECG cannot exclude myocarditis; arrhythmia or block is not automatically attributed to inflammation."
+      },
+      "references": [
+        "caforio-2013",
+        "schulz-menger-2025-imps",
+        "drazner-2024-myocarditis"
+      ]
+    },
+    {
+      "id": "nonspecific-st-t-changes",
+      "name": {
+        "es": "Alteraciones inespecíficas del ST-T",
+        "en": "Nonspecific ST-T changes"
+      },
+      "category": "repolarization",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "mild-st-t-abnormality",
+          "role": "required",
+          "text": {
+            "es": "Descenso del ST ≥ 0,1 mV en ≥ 1 derivación (≥ 0,05 mV en V2-V3), o T plana/baja en ≥ 2 de I, II, V4, V5, V6, o T invertida (−0,1 a −0,5 mV) en ≥ 1 derivación",
+            "en": "ST depression ≥ 0.1 mV in ≥ 1 lead (≥ 0.05 mV in V2-V3), or flat T in ≥ 2 of I, II, V4, V5, V6, or inverted T (−0.1 to −0.5 mV) in ≥ 1 lead"
+          },
+          "predicate": {
+            "any": [
+              {
+                "countLeads": [
+                  "I",
+                  "II",
+                  "III",
+                  "aVL",
+                  "aVF",
+                  "V4",
+                  "V5",
+                  "V6"
+                ],
+                "where": {
+                  "field": "stMv",
+                  "op": "<=",
+                  "value": -0.1
+                },
+                "op": ">=",
+                "value": 1
+              },
+              {
+                "countLeads": [
+                  "V2",
+                  "V3"
+                ],
+                "where": {
+                  "field": "stMv",
+                  "op": "<=",
+                  "value": -0.05
+                },
+                "op": ">=",
+                "value": 1
+              },
+              {
+                "countLeads": [
+                  "I",
+                  "II",
+                  "V4",
+                  "V5",
+                  "V6"
+                ],
+                "where": {
+                  "field": "tMv",
+                  "op": "between",
+                  "value": [
+                    -0.1,
+                    0.1
+                  ]
+                },
+                "op": ">=",
+                "value": 2
+              },
+              {
+                "countLeads": [
+                  "I",
+                  "II",
+                  "V2",
+                  "V3",
+                  "V4",
+                  "V5",
+                  "V6"
+                ],
+                "where": {
+                  "field": "tMv",
+                  "op": "between",
+                  "value": [
+                    -0.5,
+                    -0.1
+                  ]
+                },
+                "op": ">=",
+                "value": 1
+              }
+            ]
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "Umbrales de Rautaharju 2009: descenso anormal del punto J −0,05 mV en V2-V3 y −0,1 mV en otras; T plana entre −0,1 y 0,1 mV; T invertida −0,1 a −0,5 mV. Rautaharju recomienda describir las alteraciones sin atribuir causa si es indeterminada; los recuentos son operativos.",
+            "en": "Rautaharju 2009 thresholds: abnormal J-point depression −0.05 mV in V2-V3 and −0.1 mV elsewhere; flat T between −0.1 and 0.1 mV; inverted T −0.1 to −0.5 mV. Rautaharju recommends describing abnormalities without attributing a cause when indeterminate; the counts are operational."
+          }
+        },
+        {
+          "id": "wide-qrs-excl",
+          "role": "exclusion",
+          "text": {
+            "es": "QRS ≥ 120 ms (cambios secundarios)",
+            "en": "QRS ≥ 120 ms (secondary changes)"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">=",
+            "value": 120
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "Las alteraciones secundarias a trastornos de conducción deben rotularse como tales.",
+            "en": "Abnormalities secondary to conduction disturbances should be labeled as such."
+          }
+        },
+        {
+          "id": "k-low-excl",
+          "role": "exclusion",
+          "text": {
+            "es": "Hipopotasemia conocida",
+            "en": "Known hypokalemia"
+          },
+          "predicate": {
+            "context": "potassium",
+            "op": "==",
+            "value": "low"
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "Los cambios ST-T con hipopotasemia, fármacos o hipertrofia se atribuyen a ellos.",
+            "en": "ST-T changes with hypokalemia, drugs or hypertrophy are attributed to them."
+          }
+        },
+        {
+          "id": "k-high-excl",
+          "role": "exclusion",
+          "text": {
+            "es": "Hiperpotasemia conocida",
+            "en": "Known hyperkalemia"
+          },
+          "predicate": {
+            "context": "potassium",
+            "op": "==",
+            "value": "high"
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "Ver entidad hiperpotasemia.",
+            "en": "See hyperkalemia entity."
+          }
+        },
+        {
+          "id": "ca-abn-excl",
+          "role": "exclusion",
+          "text": {
+            "es": "Calcio alto o bajo conocido",
+            "en": "Known high or low calcium"
+          },
+          "predicate": {
+            "any": [
+              {
+                "context": "calcium",
+                "op": "==",
+                "value": "high"
+              },
+              {
+                "context": "calcium",
+                "op": "==",
+                "value": "low"
+              }
+            ]
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "Anomalías del calcio causan alteraciones primarias de repolarización.",
+            "en": "Calcium abnormalities cause primary repolarization changes."
+          }
+        },
+        {
+          "id": "digoxin-excl",
+          "role": "exclusion",
+          "text": {
+            "es": "Digoxina o fármacos que alargan el QT en uso",
+            "en": "Digoxin or QT-prolonging drugs in use"
+          },
+          "predicate": {
+            "any": [
+              {
+                "context": "medications",
+                "op": "contains",
+                "value": "digoxin"
+              },
+              {
+                "context": "medications",
+                "op": "contains",
+                "value": "qt-prolonging"
+              }
+            ]
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "Los cambios por fármacos se atribuyen a ellos.",
+            "en": "Drug-related changes are attributed to the drug."
+          }
+        },
+        {
+          "id": "temp-excl",
+          "role": "exclusion",
+          "text": {
+            "es": "Temperatura baja",
+            "en": "Low temperature"
+          },
+          "predicate": {
+            "context": "temperature",
+            "op": "==",
+            "value": "low"
+          },
+          "ref": "rautaharju-2009",
+          "note": {
+            "es": "Cambios de temperatura causan alteraciones primarias de repolarización.",
+            "en": "Temperature changes cause primary repolarization abnormalities."
+          }
+        },
+        {
+          "id": "st-excl-lbbb-paced",
+          "role": "exclusion",
+          "text": {
+            "es": "BRI o estimulación ventricular: los umbrales ordinarios de ST-T están fuera de ámbito",
+            "en": "LBBB or ventricular pacing: ordinary ST-T thresholds are outside scope"
+          },
+          "predicate": {
+            "any": [
+              {
+                "context": "paced",
+                "op": "==",
+                "value": "yes"
+              },
+              {
+                "all": [
+                  {
+                    "feature": "qrsMs",
+                    "op": ">=",
+                    "value": 120
+                  },
+                  {
+                    "feature": "lead.V1.rPrime",
+                    "op": "==",
+                    "value": false
+                  },
+                  {
+                    "feature": "lead.V2.rPrime",
+                    "op": "==",
+                    "value": false
+                  }
+                ]
+              }
+            ]
+          },
+          "note": "Preexcitation attribution is handled separately as a measured confounder, without inferring that coexisting disease is absent. No raw slur-duration cutoff establishes preexcitation."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "chest-pain"
+          },
+          "effect": "lower",
+          "text": {
+            "es": "Con dolor torácico o disnea agudos, no etiquetar como inespecífico sin descartar isquemia (ver NSTE-isquemia, Wellens, T cerebral, embolia pulmonar).",
+            "en": "With acute chest pain or dyspnea, do not label as nonspecific without excluding ischemia (see NSTE ischemia, Wellens, cerebral T, pulmonary embolism)."
+          },
+          "ref": "rautaharju-2009"
+        }
+      ],
+      "mimics": [
+        "nste-ischemia",
+        "wellens-pattern",
+        "hypokalemia",
+        "digoxin-effect",
+        "lvh-strain",
+        "acute-pe-rv-strain",
+        "neurogenic-t-waves",
+        "myocarditis"
+      ],
+      "nextSteps": {
+        "es": "Rautaharju 2009: descripción cualitativa del ST con edad y sexo, y comparación con ECG previos; si hay síntomas, correlacionar con isquemia.",
+        "en": "Rautaharju 2009: qualitative ST description considering age and sex, and comparison with prior ECGs; if symptomatic, correlate with ischemia."
+      },
+      "limitations": {
+        "es": "Es una categoría de exclusión, no un diagnóstico: Rautaharju 2009 señala que la interpretación debe ser descriptiva e indicar si el cambio es indeterminado o más probable de una causa específica. Los cambios de ST-T inespecíficos son frecuentes y su significado depende de edad, sexo y clínica. El motor no ve la forma de T ni la pendiente exacta del ST.",
+        "en": "This is an exclusion category, not a diagnosis: Rautaharju 2009 states that interpretation should be descriptive and state whether the change is indeterminate or more likely due to a specific cause. Nonspecific ST-T changes are common and their meaning depends on age, sex and clinical context. The engine cannot see T-wave shape or exact ST slope."
+      },
+      "references": [
+        "rautaharju-2009"
+      ],
+      "group": "ischemic-st-t",
+      "confounders": [
+        {
+          "when": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "text": {
+            "es": "La preexcitación medida puede modificar el QRS, el eje y ST-T y simular este patrón. No se puede atribuir este hallazgo a una enfermedad coexistente ni descartarla sin trazado basal/no preexcitado, evolución y valoración clínica.",
+            "en": "Measured preexcitation can alter QRS, axis and ST-T and mimic this pattern. This finding cannot establish or exclude coexisting disease without a baseline/non-preexcited tracing, serial assessment and clinical evaluation."
+          },
+          "ref": "surawicz-2009",
+          "criteria": [
+            "mild-st-t-abnormality"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "juvenile-t-wave-pattern",
+      "name": {
+        "es": "Variante normal: patrón de T juvenil",
+        "en": "Normal variant: juvenile T-wave pattern"
+      },
+      "category": "repolarization",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "age-lt-16",
+          "role": "required",
+          "text": {
+            "es": "Edad < 16 años",
+            "en": "Age < 16 years"
+          },
+          "predicate": {
+            "context": "ageYears",
+            "op": "<",
+            "value": 16
+          },
+          "ref": "sharma-2017",
+          "note": {
+            "es": "Recomendaciones internacionales para atletas 2017: T invertida en V1-V3 en atletas < 16 años es una variante normal.",
+            "en": "2017 international athlete recommendations: T inversion in V1-V3 in athletes < 16 years is a normal variant."
+          }
+        },
+        {
+          "id": "anterior-t-inversion",
+          "role": "required",
+          "text": {
+            "es": "T invertida (≤ −0,1 mV) en V2 y V3 (patrón anterior, derivaciones V1-V3)",
+            "en": "Inverted T (≤ −0.1 mV) in V2 and V3 (anterior pattern, leads V1-V3)"
+          },
+          "predicate": {
+            "countLeads": [
+              "V2",
+              "V3"
+            ],
+            "where": {
+              "field": "tMv",
+              "op": "<=",
+              "value": -0.1
+            },
+            "op": ">=",
+            "value": 2
+          },
+          "ref": "sharma-2017",
+          "note": {
+            "es": "Sharma 2017: «patrón juvenil» = T invertida o bifásica más allá de V2 en adolescentes que no han alcanzado la madurez física; se observó en 10-15 % de atletas blancos adolescentes de 12 años pero solo en 2,5 % de 14-15 años, y la inversión anterior más allá de V2 es rara (0,1 %) en atletas blancos ≥ 16 años. Las cifras son de atletas, no de población general. El umbral de 1 mm (0,1 mV) es el de T invertida anormal en las recomendaciones.",
+            "en": "Sharma 2017: 'juvenile pattern' = inverted or biphasic T beyond V2 in adolescents who have not reached physical maturity; seen in 10-15% of white adolescent athletes at age 12 but only 2.5% at 14-15, and anterior inversion beyond V2 is rare (0.1%) in white athletes ≥ 16. Figures are from athletes, not the general population. The 1 mm (0.1 mV) threshold is the abnormal T-inversion threshold in the recommendations."
+          }
+        },
+        {
+          "id": "lateral-tinv-excl",
+          "role": "exclusion",
+          "text": {
+            "es": "T invertida ≥ 0,1 mV en V5 o V6, o en ≥ 2 derivaciones laterales contiguas",
+            "en": "Inverted T ≥ 0.1 mV in V5 or V6, or in ≥ 2 contiguous lateral leads"
+          },
+          "predicate": {
+            "any": [
+              {
+                "countLeads": [
+                  "V5",
+                  "V6"
+                ],
+                "where": {
+                  "field": "tMv",
+                  "op": "<=",
+                  "value": -0.1
+                },
+                "op": ">=",
+                "value": 1
+              },
+              {
+                "contiguous": "lateral",
+                "where": {
+                  "field": "tMv",
+                  "op": "<=",
+                  "value": -0.1
+                },
+                "min": 2
+              }
+            ]
+          },
+          "ref": "sharma-2017",
+          "note": {
+            "es": "Sharma 2017: T invertida ≥ 1 mm en ≥ 2 derivaciones contiguas (excluidas aVR, III y V1) es anormal; la lateral o inferolateral sugiere miocardiopatía; T invertida en V5/V6 sola figura entre los criterios anormales de las revisiones posteriores (Petek 2022). Esos criterios son para atletas.",
+            "en": "Sharma 2017: T inversion ≥ 1 mm in ≥ 2 contiguous leads (excluding aVR, III and V1) is abnormal; lateral or inferolateral suggests cardiomyopathy; T inversion in V5/V6 alone is among the abnormal criteria in later reviews (Petek 2022). These criteria are for athletes."
+          }
+        },
+        {
+          "id": "symptoms-excl",
+          "role": "exclusion",
+          "text": {
+            "es": "Síncope, dolor torácico o antecedente familiar de muerte súbita",
+            "en": "Syncope, chest pain or family history of sudden death"
+          },
+          "predicate": {
+            "any": [
+              {
+                "context": "symptoms",
+                "op": "contains",
+                "value": "syncope"
+              },
+              {
+                "context": "symptoms",
+                "op": "contains",
+                "value": "chest-pain"
+              },
+              {
+                "context": "history",
+                "op": "contains",
+                "value": "family-sudden-death"
+              }
+            ]
+          },
+          "ref": "sharma-2017",
+          "note": {
+            "es": "Sharma 2017: la T invertida anterior en < 16 años no debe motivar más estudio «en ausencia de síntomas, signos o antecedentes familiares de cardiopatía».",
+            "en": "Sharma 2017: anterior T inversion in < 16 years should not prompt further evaluation 'in the absence of symptoms, signs, or a family history of cardiac disease'."
+          }
+        },
+        {
+          "id": "qrs-lt-120",
+          "role": "supporting",
+          "text": {
+            "es": "QRS < 120 ms",
+            "en": "QRS < 120 ms"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": "<",
+            "value": 120
+          },
+          "ref": "sharma-2017",
+          "note": {
+            "es": "Un QRS ancho (p. ej. BRDHH) altera la repolarización; umbral convencional de 120 ms.",
+            "en": "A wide QRS (e.g. RBBB) alters repolarization; conventional 120 ms threshold."
+          }
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "arvc",
+        "right-ventricular-hypertrophy",
+        "acute-pe-rv-strain",
+        "brugada-type2",
+        "hypertrophic-cardiomyopathy",
+        "poor-r-wave-progression"
+      ],
+      "nextSteps": {
+        "es": "Sin síntomas ni antecedentes familiares, no requiere más estudio según las recomendaciones; si persiste o se extiende después de los 16 años, valorar miocardiopatía arritmogénica del VD.",
+        "en": "Without symptoms or family history it needs no further evaluation per the recommendations; if it persists or extends beyond age 16, consider arrhythmogenic RV cardiomyopathy."
+      },
+      "limitations": {
+        "es": "Es una variante de edad, no un diagnóstico por ECG: la T invertida de V1-V3 en adultos se asocia a miocardiopatía arritmogénica de VD y a otras causas. Las recomendaciones se redactaron para atletas; la extrapolación a niños no atletas es razonable pero no está respaldada por los números abiertos. No distingue la forma de la T (biphasic) ni la fase de maduración puberal.",
+        "en": "It is an age-related variant, not an ECG diagnosis: T inversion in V1-V3 in adults is associated with arrhythmogenic RV cardiomyopathy and other causes. The recommendations were written for athletes; extrapolation to non-athlete children is reasonable but not supported by the opened numbers. It cannot assess T-wave shape (biphasic) or pubertal maturation."
+      },
+      "references": [
+        "sharma-2017",
+        "petek-2022"
+      ]
+    }
+  ]
+}

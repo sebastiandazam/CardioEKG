@@ -1,0 +1,9 @@
+Human Reference Atlas / HuBMAP 3D Reference Organ Library, Visible Human Male Heart v1.2.
+Attribution: HuBMAP Consortium / Human Reference Atlas; Visible Human Male dataset, National Library of Medicine.
+Source: https://raw.githubusercontent.com/hubmapconsortium/ccf-releases/b036a91aaf7234f462b1249d4a5f4fb0e982f412/v1.2/models/VH_M_Heart.glb
+Reference library and license declaration: https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html
+“All CCF 3D reference objects are released under Attribution 4.0 International (CC BY 4.0).”
+License: https://creativecommons.org/licenses/by/4.0/
+Changes in CardioEKG: preserved anatomical triangles and proportions; translated and uniformly scaled for viewing; display colors and schematic conduction overlay. No patient-specific simulation or endorsement is implied.
+
+Recommended source citation for v1.2: Browne, K., Schlehlein, H., Herr II, B. W., Quardokus, E., Bueckle, A., Börner, K. (2022). HuBMAP CCF 3D Reference Object Library. https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html.

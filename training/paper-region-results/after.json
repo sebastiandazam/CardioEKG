@@ -1,0 +1,399 @@
+[
+  {
+    "detection_metadata": {
+      "rhythmDetected": true,
+      "rowsDetected": true,
+      "paper": {
+        "left": 5,
+        "right": 95.16666666666667,
+        "top": 44.76190476190476,
+        "bottom": 86.76190476190476
+      }
+    },
+    "name": "synthetic-black-padding",
+    "input_dimensions": [
+      600,
+      1050
+    ],
+    "expected_paper_percent": {
+      "left": 5,
+      "right": 95,
+      "top": 44.761904761904766,
+      "bottom": 86.66666666666667
+    },
+    "expected_trace_rows_pixels": [
+      560,
+      650,
+      740,
+      830
+    ],
+    "rhythm_detected": true,
+    "detected_paper": {
+      "left": 5,
+      "right": 95.16666666666667,
+      "top": 44.76190476190476,
+      "bottom": 86.76190476190476
+    },
+    "trace_evidence": true,
+    "row_alignment": [
+      {
+        "lead": "I",
+        "center_error_pixels": 2.0000000000001137,
+        "expected_baseline_inside": true
+      },
+      {
+        "lead": "II",
+        "center_error_pixels": 2,
+        "expected_baseline_inside": true
+      },
+      {
+        "lead": "III",
+        "center_error_pixels": 2.0000000000001137,
+        "expected_baseline_inside": true
+      },
+      {
+        "lead": "II-long",
+        "center_error_pixels": 2,
+        "expected_baseline_inside": true
+      }
+    ],
+    "lead_boxes_wholly_on_paper": 12,
+    "lead_centers_on_paper": 12,
+    "crops": {
+      "I": {
+        "left": 9.959166666666667,
+        "right": 28.849083333333333,
+        "top": 49.457142857142856,
+        "bottom": 56.82857142857143
+      },
+      "aVR": {
+        "left": 30.92291666666667,
+        "right": 49.81283333333334,
+        "top": 49.457142857142856,
+        "bottom": 56.82857142857143
+      },
+      "V1": {
+        "left": 51.88666666666667,
+        "right": 70.77658333333333,
+        "top": 49.457142857142856,
+        "bottom": 56.82857142857143
+      },
+      "V4": {
+        "left": 72.85041666666667,
+        "right": 91.74033333333335,
+        "top": 49.457142857142856,
+        "bottom": 56.82857142857143
+      },
+      "II": {
+        "left": 9.959166666666667,
+        "right": 28.849083333333333,
+        "top": 58.028571428571425,
+        "bottom": 65.4
+      },
+      "aVL": {
+        "left": 30.92291666666667,
+        "right": 49.81283333333334,
+        "top": 58.028571428571425,
+        "bottom": 65.4
+      },
+      "V2": {
+        "left": 51.88666666666667,
+        "right": 70.77658333333333,
+        "top": 58.028571428571425,
+        "bottom": 65.4
+      },
+      "V5": {
+        "left": 72.85041666666667,
+        "right": 91.74033333333335,
+        "top": 58.028571428571425,
+        "bottom": 65.4
+      },
+      "III": {
+        "left": 9.959166666666667,
+        "right": 28.849083333333333,
+        "top": 66.6,
+        "bottom": 73.97142857142858
+      },
+      "aVF": {
+        "left": 30.92291666666667,
+        "right": 49.81283333333334,
+        "top": 66.6,
+        "bottom": 73.97142857142858
+      },
+      "V3": {
+        "left": 51.88666666666667,
+        "right": 70.77658333333333,
+        "top": 66.6,
+        "bottom": 73.97142857142858
+      },
+      "V6": {
+        "left": 72.85041666666667,
+        "right": 91.74033333333335,
+        "top": 66.6,
+        "bottom": 73.97142857142858
+      },
+      "II-long": {
+        "left": 9.959166666666667,
+        "right": 91.56,
+        "top": 75.17142857142856,
+        "bottom": 82.54285714285714
+      }
+    }
+  },
+  {
+    "detection_metadata": {
+      "rhythmDetected": false,
+      "rowsDetected": false,
+      "paper": {
+        "left": 5,
+        "right": 95.16666666666667,
+        "top": 44.76190476190476,
+        "bottom": 86.76190476190476
+      }
+    },
+    "name": "blank-paper-black-padding",
+    "input_dimensions": [
+      600,
+      1050
+    ],
+    "expected_paper_percent": {
+      "left": 5,
+      "right": 95,
+      "top": 44.761904761904766,
+      "bottom": 86.66666666666667
+    },
+    "expected_trace_rows_pixels": [],
+    "rhythm_detected": false,
+    "detected_paper": {
+      "left": 5,
+      "right": 95.16666666666667,
+      "top": 44.76190476190476,
+      "bottom": 86.76190476190476
+    },
+    "trace_evidence": false,
+    "row_alignment": [],
+    "lead_boxes_wholly_on_paper": 12,
+    "lead_centers_on_paper": 12,
+    "crops": {
+      "I": {
+        "left": 9.959166666666667,
+        "right": 28.849083333333333,
+        "top": 50.43948571428571,
+        "bottom": 59.34908571428571
+      },
+      "aVR": {
+        "left": 30.92291666666667,
+        "right": 49.81283333333334,
+        "top": 50.43948571428571,
+        "bottom": 59.34908571428571
+      },
+      "V1": {
+        "left": 51.88666666666667,
+        "right": 70.77658333333333,
+        "top": 50.43948571428571,
+        "bottom": 59.34908571428571
+      },
+      "V4": {
+        "left": 72.85041666666667,
+        "right": 91.74033333333335,
+        "top": 50.43948571428571,
+        "bottom": 59.34908571428571
+      },
+      "II": {
+        "left": 9.959166666666667,
+        "right": 28.849083333333333,
+        "top": 60.82043809523809,
+        "bottom": 69.73003809523809
+      },
+      "aVL": {
+        "left": 30.92291666666667,
+        "right": 49.81283333333334,
+        "top": 60.82043809523809,
+        "bottom": 69.73003809523809
+      },
+      "V2": {
+        "left": 51.88666666666667,
+        "right": 70.77658333333333,
+        "top": 60.82043809523809,
+        "bottom": 69.73003809523809
+      },
+      "V5": {
+        "left": 72.85041666666667,
+        "right": 91.74033333333335,
+        "top": 60.82043809523809,
+        "bottom": 69.73003809523809
+      },
+      "III": {
+        "left": 9.959166666666667,
+        "right": 28.849083333333333,
+        "top": 71.20139047619048,
+        "bottom": 80.11099047619047
+      },
+      "aVF": {
+        "left": 30.92291666666667,
+        "right": 49.81283333333334,
+        "top": 71.20139047619048,
+        "bottom": 80.11099047619047
+      },
+      "V3": {
+        "left": 51.88666666666667,
+        "right": 70.77658333333333,
+        "top": 71.20139047619048,
+        "bottom": 80.11099047619047
+      },
+      "V6": {
+        "left": 72.85041666666667,
+        "right": 91.74033333333335,
+        "top": 71.20139047619048,
+        "bottom": 80.11099047619047
+      },
+      "II-long": {
+        "left": 9.959166666666667,
+        "right": 91.56,
+        "top": 80.32099047619047,
+        "bottom": 86.76190476190476
+      }
+    }
+  },
+  {
+    "detection_metadata": {
+      "rhythmDetected": true,
+      "rowsDetected": true,
+      "paper": {
+        "left": 0,
+        "right": 100,
+        "top": 42.532467532467535,
+        "bottom": 80.08658008658008
+      }
+    },
+    "name": "user-screenshot-roi",
+    "input_dimensions": [
+      520,
+      924
+    ],
+    "expected_paper_percent": {
+      "left": 0,
+      "right": 100,
+      "top": 42.532467532467535,
+      "bottom": 80.08658008658008
+    },
+    "expected_trace_rows_pixels": [
+      437,
+      523,
+      609,
+      694
+    ],
+    "rhythm_detected": true,
+    "detected_paper": {
+      "left": 0,
+      "right": 100,
+      "top": 42.532467532467535,
+      "bottom": 80.08658008658008
+    },
+    "trace_evidence": true,
+    "row_alignment": [
+      {
+        "lead": "I",
+        "center_error_pixels": 2,
+        "expected_baseline_inside": true
+      },
+      {
+        "lead": "II",
+        "center_error_pixels": 0,
+        "expected_baseline_inside": true
+      },
+      {
+        "lead": "III",
+        "center_error_pixels": 2.0000000000001137,
+        "expected_baseline_inside": true
+      },
+      {
+        "lead": "II-long",
+        "center_error_pixels": 5,
+        "expected_baseline_inside": true
+      }
+    ],
+    "lead_boxes_wholly_on_paper": 12,
+    "lead_centers_on_paper": 12,
+    "crops": {
+      "I": {
+        "left": 5.5,
+        "right": 26.45,
+        "top": 42.98268398268399,
+        "bottom": 51.17316017316018
+      },
+      "aVR": {
+        "left": 28.75,
+        "right": 49.7,
+        "top": 42.98268398268399,
+        "bottom": 51.17316017316018
+      },
+      "V1": {
+        "left": 52,
+        "right": 72.95,
+        "top": 42.98268398268399,
+        "bottom": 51.17316017316018
+      },
+      "V4": {
+        "left": 75.25,
+        "right": 96.2,
+        "top": 42.98268398268399,
+        "bottom": 51.17316017316018
+      },
+      "II": {
+        "left": 5.5,
+        "right": 26.45,
+        "top": 52.506493506493506,
+        "bottom": 60.6969696969697
+      },
+      "aVL": {
+        "left": 28.75,
+        "right": 49.7,
+        "top": 52.506493506493506,
+        "bottom": 60.6969696969697
+      },
+      "V2": {
+        "left": 52,
+        "right": 72.95,
+        "top": 52.506493506493506,
+        "bottom": 60.6969696969697
+      },
+      "V5": {
+        "left": 75.25,
+        "right": 96.2,
+        "top": 52.506493506493506,
+        "bottom": 60.6969696969697
+      },
+      "III": {
+        "left": 5.5,
+        "right": 26.45,
+        "top": 62.03030303030303,
+        "bottom": 70.22077922077922
+      },
+      "aVF": {
+        "left": 28.75,
+        "right": 49.7,
+        "top": 62.03030303030303,
+        "bottom": 70.22077922077922
+      },
+      "V3": {
+        "left": 52,
+        "right": 72.95,
+        "top": 62.03030303030303,
+        "bottom": 70.22077922077922
+      },
+      "V6": {
+        "left": 75.25,
+        "right": 96.2,
+        "top": 62.03030303030303,
+        "bottom": 70.22077922077922
+      },
+      "II-long": {
+        "left": 5.5,
+        "right": 96,
+        "top": 71.55411255411255,
+        "bottom": 79.74458874458875
+      }
+    }
+  }
+]

@@ -1,0 +1,520 @@
+{
+  "strips": 64,
+  "accepted": 62,
+  "coverage": 0.96875,
+  "median_mae_mv": 0.024145638308048632,
+  "rows": [
+    {
+      "record": "9",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.02038376217982352,
+      "quality": 1
+    },
+    {
+      "record": "9",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.01586613510170054,
+      "quality": 1
+    },
+    {
+      "record": "9",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.013589693128797316,
+      "quality": 1
+    },
+    {
+      "record": "9",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.015982098561183877,
+      "quality": 0.98828125
+    },
+    {
+      "record": "9",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.016955622970581428,
+      "quality": 1
+    },
+    {
+      "record": "9",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.020546820229576178,
+      "quality": 1
+    },
+    {
+      "record": "9",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.03408782950911689,
+      "quality": 1
+    },
+    {
+      "record": "9",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.024145638308048632,
+      "quality": 1
+    },
+    {
+      "record": "38",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.01760508692162974,
+      "quality": 1
+    },
+    {
+      "record": "38",
+      "lead": 0,
+      "accepted": false,
+      "warning": "interruptedTrace",
+      "mae_mv": 0.018146954836998533,
+      "quality": 0.70703125
+    },
+    {
+      "record": "38",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.02006633555820011,
+      "quality": 1
+    },
+    {
+      "record": "38",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.017273424980253842,
+      "quality": 1
+    },
+    {
+      "record": "38",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.04412840222074972,
+      "quality": 1
+    },
+    {
+      "record": "38",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.027329033834969377,
+      "quality": 0.98828125
+    },
+    {
+      "record": "38",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.019941375396406783,
+      "quality": 1
+    },
+    {
+      "record": "38",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.023155679204506393,
+      "quality": 0.984375
+    },
+    {
+      "record": "40",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.024898171456628936,
+      "quality": 1
+    },
+    {
+      "record": "40",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.03499116472807082,
+      "quality": 1
+    },
+    {
+      "record": "40",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.015236652728939818,
+      "quality": 1
+    },
+    {
+      "record": "40",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.02322979347230834,
+      "quality": 1
+    },
+    {
+      "record": "40",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.026447245972350084,
+      "quality": 1
+    },
+    {
+      "record": "40",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.021890042442844437,
+      "quality": 1
+    },
+    {
+      "record": "40",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.02532296632112537,
+      "quality": 1
+    },
+    {
+      "record": "40",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.021848544539147623,
+      "quality": 1
+    },
+    {
+      "record": "57",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.0335104283020082,
+      "quality": 1
+    },
+    {
+      "record": "57",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.0247813881137924,
+      "quality": 0.99609375
+    },
+    {
+      "record": "57",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.034991343821563256,
+      "quality": 1
+    },
+    {
+      "record": "57",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.029284023186308773,
+      "quality": 1
+    },
+    {
+      "record": "57",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.024744884809466107,
+      "quality": 1
+    },
+    {
+      "record": "57",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.03166559047007022,
+      "quality": 1
+    },
+    {
+      "record": "57",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.04358703189005491,
+      "quality": 1
+    },
+    {
+      "record": "57",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.0405021090294036,
+      "quality": 1
+    },
+    {
+      "record": "59",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.0199512154611662,
+      "quality": 0.98046875
+    },
+    {
+      "record": "59",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.017512951410368238,
+      "quality": 1
+    },
+    {
+      "record": "59",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.028468735270515657,
+      "quality": 1
+    },
+    {
+      "record": "59",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.01963395499051995,
+      "quality": 1
+    },
+    {
+      "record": "59",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.025392711638450662,
+      "quality": 0.99609375
+    },
+    {
+      "record": "59",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.024729779681086497,
+      "quality": 1
+    },
+    {
+      "record": "59",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.052178568344844564,
+      "quality": 1
+    },
+    {
+      "record": "59",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.046133061969439004,
+      "quality": 1
+    },
+    {
+      "record": "63",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.024744013113110037,
+      "quality": 1
+    },
+    {
+      "record": "63",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.020481537533488667,
+      "quality": 1
+    },
+    {
+      "record": "63",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.018340762774066148,
+      "quality": 1
+    },
+    {
+      "record": "63",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.022173580306074626,
+      "quality": 1
+    },
+    {
+      "record": "63",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.03049502539056429,
+      "quality": 1
+    },
+    {
+      "record": "63",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.022224471001343258,
+      "quality": 1
+    },
+    {
+      "record": "63",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.04561542548341485,
+      "quality": 0.9609375
+    },
+    {
+      "record": "63",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.023535221232029536,
+      "quality": 0.921875
+    },
+    {
+      "record": "65",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.02015990443948857,
+      "quality": 0.97265625
+    },
+    {
+      "record": "65",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.02524745059245332,
+      "quality": 1
+    },
+    {
+      "record": "65",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.042790976922415444,
+      "quality": 1
+    },
+    {
+      "record": "65",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.043890670083331446,
+      "quality": 1
+    },
+    {
+      "record": "65",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.021429551143892434,
+      "quality": 1
+    },
+    {
+      "record": "65",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.020936892899675,
+      "quality": 1
+    },
+    {
+      "record": "65",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.026443261579398317,
+      "quality": 1
+    },
+    {
+      "record": "65",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.04604733643538124,
+      "quality": 1
+    },
+    {
+      "record": "75",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.017211729919300194,
+      "quality": 1
+    },
+    {
+      "record": "75",
+      "lead": 0,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.02167875910565327,
+      "quality": 1
+    },
+    {
+      "record": "75",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.019451287911293157,
+      "quality": 1
+    },
+    {
+      "record": "75",
+      "lead": 1,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.016147588967856237,
+      "quality": 1
+    },
+    {
+      "record": "75",
+      "lead": 6,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.017921301679104617,
+      "quality": 1
+    },
+    {
+      "record": "75",
+      "lead": 6,
+      "accepted": false,
+      "warning": "interruptedTrace",
+      "mae_mv": 0.01761385613453511,
+      "quality": 0.296875
+    },
+    {
+      "record": "75",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.02800880883713329,
+      "quality": 1
+    },
+    {
+      "record": "75",
+      "lead": 10,
+      "accepted": true,
+      "warning": null,
+      "mae_mv": 0.03441025305354099,
+      "quality": 0.9609375
+    }
+  ]
+}

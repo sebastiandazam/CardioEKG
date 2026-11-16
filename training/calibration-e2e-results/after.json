@@ -1,0 +1,708 @@
+[
+  {
+    "name": "user-roi",
+    "lead": "I",
+    "crop": {
+      "left": 5.5,
+      "right": 26.45,
+      "top": 42.98268398268399,
+      "bottom": 51.17316017316018
+    },
+    "width": 109,
+    "height": 76,
+    "status": "failed",
+    "code": "smallCrop",
+    "grid": {
+      "x": 10.146359102993737,
+      "y": 2.3189197303957134,
+      "redX": 10.146359102993737,
+      "redY": null,
+      "grayX": null,
+      "grayY": 2.3189197303957134,
+      "timeMm": 10.742769785059053,
+      "voltageMm": 32.7738813050812,
+      "seconds": 0.4297107914023621,
+      "evidenceX": false,
+      "evidenceY": false
+    }
+  },
+  {
+    "name": "user-roi",
+    "lead": "aVR",
+    "crop": {
+      "left": 28.75,
+      "right": 49.7,
+      "top": 42.98268398268399,
+      "bottom": 51.17316017316018
+    },
+    "width": 108,
+    "height": 76,
+    "status": "failed",
+    "code": "smallCrop",
+    "grid": {
+      "x": 9.952606812121173,
+      "y": 2.3194401626081325,
+      "redX": 9.952606812121173,
+      "redY": null,
+      "grayX": null,
+      "grayY": 2.3194401626081325,
+      "timeMm": 10.851428378389063,
+      "voltageMm": 32.76652755488227,
+      "seconds": 0.4340571351355625,
+      "evidenceX": false,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "user-roi",
+    "lead": "V1",
+    "crop": {
+      "left": 52,
+      "right": 72.95,
+      "top": 42.98268398268399,
+      "bottom": 51.17316017316018
+    },
+    "width": 109,
+    "height": 76,
+    "status": "failed",
+    "code": "smallCrop",
+    "grid": {
+      "x": 10.110282203450156,
+      "y": 2.317843309176054,
+      "redX": 10.110282203450156,
+      "redY": null,
+      "grayX": null,
+      "grayY": 2.317843309176054,
+      "timeMm": 10.781103613784738,
+      "voltageMm": 32.78910170464303,
+      "seconds": 0.43124414455138954,
+      "evidenceX": false,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "user-roi",
+    "lead": "V4",
+    "crop": {
+      "left": 75.25,
+      "right": 96.2,
+      "top": 42.98268398268399,
+      "bottom": 51.17316017316018
+    },
+    "width": 109,
+    "height": 76,
+    "status": "failed",
+    "code": "smallCrop",
+    "grid": {
+      "x": 9.77897651560564,
+      "y": 2.3175535971426244,
+      "redX": 9.77897651560564,
+      "redY": null,
+      "grayX": null,
+      "grayY": 2.3175535971426244,
+      "timeMm": 11.146360749108448,
+      "voltageMm": 32.79320059467125,
+      "seconds": 0.4458544299643379,
+      "evidenceX": false,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "user-roi",
+    "lead": "II",
+    "crop": {
+      "left": 5.5,
+      "right": 26.45,
+      "top": 52.506493506493506,
+      "bottom": 60.6969696969697
+    },
+    "width": 109,
+    "height": 76,
+    "status": "failed",
+    "code": "smallCrop",
+    "grid": {
+      "x": 10.217753607283415,
+      "y": 2.3131204288245715,
+      "redX": 10.217753607283415,
+      "redY": null,
+      "grayX": null,
+      "grayY": 2.3131204288245715,
+      "timeMm": 10.66770683551252,
+      "voltageMm": 32.856049798764666,
+      "seconds": 0.4267082734205008,
+      "evidenceX": false,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "user-roi",
+    "lead": "aVL",
+    "crop": {
+      "left": 28.75,
+      "right": 49.7,
+      "top": 52.506493506493506,
+      "bottom": 60.6969696969697
+    },
+    "width": 108,
+    "height": 76,
+    "status": "failed",
+    "code": "smallCrop",
+    "grid": {
+      "x": 9.840042899440318,
+      "y": 2.3147764657975163,
+      "redX": 9.840042899440318,
+      "redY": null,
+      "grayX": null,
+      "grayY": 2.3147764657975163,
+      "timeMm": 10.975561905948888,
+      "voltageMm": 32.83254392938348,
+      "seconds": 0.43902247623795554,
+      "evidenceX": false,
+      "evidenceY": false
+    }
+  },
+  {
+    "name": "user-roi",
+    "lead": "V2",
+    "crop": {
+      "left": 52,
+      "right": 72.95,
+      "top": 52.506493506493506,
+      "bottom": 60.6969696969697
+    },
+    "width": 109,
+    "height": 76,
+    "status": "failed",
+    "code": "smallCrop",
+    "grid": {
+      "x": 10.037219342453671,
+      "y": 2.314136836785435,
+      "redX": 10.037219342453671,
+      "redY": null,
+      "grayX": null,
+      "grayY": 2.314136836785435,
+      "timeMm": 10.859581352274619,
+      "voltageMm": 32.84161886708978,
+      "seconds": 0.43438325409098477,
+      "evidenceX": false,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "user-roi",
+    "lead": "V5",
+    "crop": {
+      "left": 75.25,
+      "right": 96.2,
+      "top": 52.506493506493506,
+      "bottom": 60.6969696969697
+    },
+    "width": 109,
+    "height": 76,
+    "status": "failed",
+    "code": "smallCrop",
+    "grid": {
+      "x": 9.747355079767507,
+      "y": 2.3144223048622306,
+      "redX": 9.747355079767507,
+      "redY": null,
+      "grayX": null,
+      "grayY": 2.3144223048622306,
+      "timeMm": 11.182520705155214,
+      "voltageMm": 32.83756807922918,
+      "seconds": 0.4473008282062086,
+      "evidenceX": false,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "user-roi",
+    "lead": "III",
+    "crop": {
+      "left": 5.5,
+      "right": 26.45,
+      "top": 62.03030303030303,
+      "bottom": 70.22077922077922
+    },
+    "width": 109,
+    "height": 76,
+    "status": "failed",
+    "code": "smallCrop",
+    "grid": {
+      "x": 10.101729212526458,
+      "y": 2.317090164841896,
+      "redX": 10.101729212526458,
+      "redY": null,
+      "grayX": null,
+      "grayY": 2.317090164841896,
+      "timeMm": 10.790231821383276,
+      "voltageMm": 32.79975943671824,
+      "seconds": 0.43160927285533107,
+      "evidenceX": false,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "user-roi",
+    "lead": "aVF",
+    "crop": {
+      "left": 28.75,
+      "right": 49.7,
+      "top": 62.03030303030303,
+      "bottom": 70.22077922077922
+    },
+    "width": 108,
+    "height": 76,
+    "status": "failed",
+    "code": "smallCrop",
+    "grid": {
+      "x": 9.824692563090132,
+      "y": 2.3172717175156885,
+      "redX": 9.824692563090132,
+      "redY": null,
+      "grayX": null,
+      "grayY": 2.3172717175156885,
+      "timeMm": 10.992710388286296,
+      "voltageMm": 32.7971896543399,
+      "seconds": 0.43970841553145185,
+      "evidenceX": false,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "user-roi",
+    "lead": "V3",
+    "crop": {
+      "left": 52,
+      "right": 72.95,
+      "top": 62.03030303030303,
+      "bottom": 70.22077922077922
+    },
+    "width": 109,
+    "height": 76,
+    "status": "failed",
+    "code": "smallCrop",
+    "grid": {
+      "x": 10.147168728834396,
+      "y": 2.0345137979303365,
+      "redX": 10.147168728834396,
+      "redY": 2.0345137979303365,
+      "grayX": null,
+      "grayY": 2.3177164144989515,
+      "timeMm": 10.74191263719341,
+      "voltageMm": 37.35536228720249,
+      "seconds": 0.4296765054877364,
+      "evidenceX": false,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "user-roi",
+    "lead": "V6",
+    "crop": {
+      "left": 75.25,
+      "right": 96.2,
+      "top": 62.03030303030303,
+      "bottom": 70.22077922077922
+    },
+    "width": 109,
+    "height": 76,
+    "status": "failed",
+    "code": "smallCrop",
+    "grid": {
+      "x": 9.74165478448289,
+      "y": 2.317237101311451,
+      "redX": 9.74165478448289,
+      "redY": null,
+      "grayX": null,
+      "grayY": 2.317237101311451,
+      "timeMm": 11.189064118102598,
+      "voltageMm": 32.79767959739098,
+      "seconds": 0.44756256472410394,
+      "evidenceX": false,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "user-roi",
+    "lead": "II-long",
+    "crop": {
+      "left": 5.5,
+      "right": 96,
+      "top": 71.55411255411255,
+      "bottom": 79.74458874458875
+    },
+    "width": 470,
+    "height": 76,
+    "status": "failed",
+    "code": "unevenScale",
+    "grid": {
+      "x": 10.149184459896677,
+      "y": 2.3157952791495497,
+      "redX": 10.149184459896677,
+      "redY": null,
+      "grayX": null,
+      "grayY": 2.3157952791495497,
+      "timeMm": 46.30913960201929,
+      "voltageMm": 32.81809954630798,
+      "seconds": 1.8523655840807718,
+      "evidenceX": true,
+      "evidenceY": false
+    }
+  },
+  {
+    "name": "public-real",
+    "lead": "I",
+    "crop": {
+      "left": 5.5,
+      "right": 26.45,
+      "top": 35.50860215053764,
+      "bottom": 48.36236559139785
+    },
+    "width": 447,
+    "height": 212,
+    "status": "ok",
+    "evidence": "major-minor",
+    "grid": {
+      "x": 7.535003713718171,
+      "y": 7.502007355460519,
+      "redX": 7.535003713718171,
+      "redY": 2.121479480004005,
+      "grayX": null,
+      "grayY": 2.1892733814517538,
+      "timeMm": 59.32312935509177,
+      "voltageMm": 28.25910319131994,
+      "seconds": 2.372925174203671,
+      "evidenceX": true,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "public-real",
+    "lead": "aVR",
+    "crop": {
+      "left": 28.75,
+      "right": 49.7,
+      "top": 35.50860215053764,
+      "bottom": 48.36236559139785
+    },
+    "width": 447,
+    "height": 212,
+    "status": "ok",
+    "evidence": "major-minor",
+    "grid": {
+      "x": 7.51833729226866,
+      "y": 7.4892354807215495,
+      "redX": 7.51833729226866,
+      "redY": 7.4892354807215495,
+      "grayX": null,
+      "grayY": 2.1221860542545903,
+      "timeMm": 59.45463506401396,
+      "voltageMm": 28.30729525673492,
+      "seconds": 2.3781854025605584,
+      "evidenceX": false,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "public-real",
+    "lead": "V1",
+    "crop": {
+      "left": 52,
+      "right": 72.95,
+      "top": 35.50860215053764,
+      "bottom": 48.36236559139785
+    },
+    "width": 446,
+    "height": 212,
+    "status": "ok",
+    "evidence": "major-minor",
+    "grid": {
+      "x": 7.498441979804464,
+      "y": 7.49967888488371,
+      "redX": 7.498441979804464,
+      "redY": 7.49967888488371,
+      "grayX": null,
+      "grayY": 2.2228517466685935,
+      "timeMm": 59.479022602456716,
+      "voltageMm": 28.267876965679882,
+      "seconds": 2.379160904098269,
+      "evidenceX": true,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "public-real",
+    "lead": "V4",
+    "crop": {
+      "left": 75.25,
+      "right": 96.2,
+      "top": 35.50860215053764,
+      "bottom": 48.36236559139785
+    },
+    "width": 447,
+    "height": 212,
+    "status": "ok",
+    "warning": "interruptedTrace",
+    "evidence": "major-minor",
+    "grid": {
+      "x": 7.344973710332224,
+      "y": 7.518600866511792,
+      "redX": 7.344973710332224,
+      "redY": 7.518600866511792,
+      "grayX": null,
+      "grayY": null,
+      "timeMm": 60.85794417088275,
+      "voltageMm": 28.19673550490732,
+      "seconds": 2.43431776683531,
+      "evidenceX": true,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "public-real",
+    "lead": "II",
+    "crop": {
+      "left": 5.5,
+      "right": 26.45,
+      "top": 52.067741935483866,
+      "bottom": 64.92150537634409
+    },
+    "width": 447,
+    "height": 213,
+    "status": "ok",
+    "evidence": "major-minor",
+    "grid": {
+      "x": 7.543241539800684,
+      "y": 7.482706474136906,
+      "redX": 7.543241539800684,
+      "redY": 2.1343364390920856,
+      "grayX": null,
+      "grayY": 2.0991413479285805,
+      "timeMm": 59.258343729479876,
+      "voltageMm": 28.46563616202365,
+      "seconds": 2.370333749179195,
+      "evidenceX": true,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "public-real",
+    "lead": "aVL",
+    "crop": {
+      "left": 28.75,
+      "right": 49.7,
+      "top": 52.067741935483866,
+      "bottom": 64.92150537634409
+    },
+    "width": 447,
+    "height": 213,
+    "status": "ok",
+    "evidence": "major-minor",
+    "grid": {
+      "x": 7.5287862392222475,
+      "y": 7.492560748097479,
+      "redX": 7.5287862392222475,
+      "redY": 7.492560748097479,
+      "grayX": null,
+      "grayY": null,
+      "timeMm": 59.37211999343161,
+      "voltageMm": 28.428197936744823,
+      "seconds": 2.3748847997372646,
+      "evidenceX": true,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "public-real",
+    "lead": "V2",
+    "crop": {
+      "left": 52,
+      "right": 72.95,
+      "top": 52.067741935483866,
+      "bottom": 64.92150537634409
+    },
+    "width": 446,
+    "height": 213,
+    "status": "ok",
+    "warning": "interruptedTrace",
+    "evidence": "major-minor",
+    "grid": {
+      "x": 7.503017320195191,
+      "y": 7.502047369920474,
+      "redX": 7.503017320195191,
+      "redY": 7.502047369920474,
+      "grayX": null,
+      "grayY": null,
+      "timeMm": 59.44275229107392,
+      "voltageMm": 28.392249408344902,
+      "seconds": 2.3777100916429568,
+      "evidenceX": true,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "public-real",
+    "lead": "V5",
+    "crop": {
+      "left": 75.25,
+      "right": 96.2,
+      "top": 52.067741935483866,
+      "bottom": 64.92150537634409
+    },
+    "width": 447,
+    "height": 213,
+    "status": "ok",
+    "warning": "interruptedTrace",
+    "evidence": "major-minor",
+    "grid": {
+      "x": 7.316701748296954,
+      "y": 7.498969429819702,
+      "redX": 7.316701748296954,
+      "redY": 7.498969429819702,
+      "grayX": null,
+      "grayY": 2.0923612335483828,
+      "timeMm": 61.09310115094473,
+      "voltageMm": 28.4039029620529,
+      "seconds": 2.443724046037789,
+      "evidenceX": true,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "public-real",
+    "lead": "III",
+    "crop": {
+      "left": 5.5,
+      "right": 26.45,
+      "top": 68.41182795698924,
+      "bottom": 81.26559139784946
+    },
+    "width": 447,
+    "height": 213,
+    "status": "ok",
+    "evidence": "major-minor",
+    "grid": {
+      "x": 7.5368843148436655,
+      "y": 7.524045214923776,
+      "redX": 7.5368843148436655,
+      "redY": 2.10773121633764,
+      "grayX": null,
+      "grayY": 2.2122754473573485,
+      "timeMm": 59.30832706555506,
+      "voltageMm": 28.309239766066167,
+      "seconds": 2.3723330826222027,
+      "evidenceX": true,
+      "evidenceY": false
+    }
+  },
+  {
+    "name": "public-real",
+    "lead": "aVF",
+    "crop": {
+      "left": 28.75,
+      "right": 49.7,
+      "top": 68.41182795698924,
+      "bottom": 81.26559139784946
+    },
+    "width": 447,
+    "height": 213,
+    "status": "ok",
+    "evidence": "major-minor",
+    "grid": {
+      "x": 7.547560795324715,
+      "y": 7.522134502315675,
+      "redX": 7.547560795324715,
+      "redY": 7.522134502315675,
+      "grayX": null,
+      "grayY": null,
+      "timeMm": 59.22443185577135,
+      "voltageMm": 28.316430653350903,
+      "seconds": 2.368977274230854,
+      "evidenceX": true,
+      "evidenceY": true
+    }
+  },
+  {
+    "name": "public-real",
+    "lead": "V3",
+    "crop": {
+      "left": 52,
+      "right": 72.95,
+      "top": 68.41182795698924,
+      "bottom": 81.26559139784946
+    },
+    "width": 446,
+    "height": 213,
+    "status": "ok",
+    "evidence": "major-minor",
+    "grid": {
+      "x": 7.507376631872002,
+      "y": 7.522484585786491,
+      "redX": 7.507376631872002,
+      "redY": 7.522484585786491,
+      "grayX": null,
+      "grayY": 2.186330004305828,
+      "timeMm": 59.40823564206711,
+      "voltageMm": 28.315112855459635,
+      "seconds": 2.3763294256826843,
+      "evidenceX": true,
+      "evidenceY": false
+    }
+  },
+  {
+    "name": "public-real",
+    "lead": "V6",
+    "crop": {
+      "left": 75.25,
+      "right": 96.2,
+      "top": 68.41182795698924,
+      "bottom": 81.26559139784946
+    },
+    "width": 447,
+    "height": 213,
+    "status": "ok",
+    "warning": "interruptedTrace",
+    "evidence": "major-minor",
+    "grid": {
+      "x": 7.316507276113761,
+      "y": 7.530866234362892,
+      "redX": 7.316507276113761,
+      "redY": 7.530866234362892,
+      "grayX": null,
+      "grayY": 2.176500620097808,
+      "timeMm": 61.09472500072859,
+      "voltageMm": 28.28359890766533,
+      "seconds": 2.4437890000291436,
+      "evidenceX": false,
+      "evidenceY": false
+    }
+  },
+  {
+    "name": "public-real",
+    "lead": "II-long",
+    "crop": {
+      "left": 5.5,
+      "right": 96,
+      "top": 83.35806451612903,
+      "bottom": 96.21182795698925
+    },
+    "width": 1800,
+    "height": 198,
+    "status": "ok",
+    "evidence": "major-minor",
+    "grid": {
+      "x": 6.982774237169977,
+      "y": 7.010442575181751,
+      "redX": 6.982774237169977,
+      "redY": 2.1070034019232207,
+      "grayX": null,
+      "grayY": 2.1868026032993355,
+      "timeMm": 257.77720127602396,
+      "voltageMm": 28.243580612293467,
+      "seconds": 10.311088051040958,
+      "evidenceX": false,
+      "evidenceY": true
+    }
+  }
+]

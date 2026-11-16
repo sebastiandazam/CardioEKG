@@ -1,0 +1,43 @@
+From: Sebastián Daza <jsebastian.daza@javeriana.edu.co>
+To: support@biodigital.com
+Subject: Educational access request: cardiac anatomy and conduction visualization for CardioEKG
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Dear BioDigital Education and Partnerships Team,
+
+My name is Sebastián Daza. I am a student developing CardioEKG, a personal, noncommercial educational initiative for students learning to review 12-lead ECGs in Spanish and English. This is a student-led request and does not claim formal endorsement by, or authority to represent, my university. Could you please route it to the appropriate educational licensing or partnerships contact?
+
+The free public prototype is available at:
+https://cardioscopio-ecg.dorydaza.chatgpt.site
+
+CardioEKG is being developed as an open-source educational application. It guides users through ECG context, locally reconstructs authorized images, displays measurements and per-lead observations, and connects the tracing with reference anatomy and schematic conduction. We are adding an educational PDF report with sources, measurement provenance, uncertainty and limitations.
+
+The current software is experimental. Its measurement and diagnostic methods are not independently clinically validated, and it is not presented as an approved clinical device. The public edition is for simulated ECGs and authorized public examples. A private installation using patient records would require separate institutional validation and authorization. Browser-local processing is the default; any future remote inference would be optional and require explicit consent.
+
+We currently distribute reference cardiac geometry under its applicable open licenses, with attribution. We have added an open HRA/HuBMAP reference with ventricular tissue and a segmented interventricular septum, and retain a separate vascular atlas. These datasets remain limited as a unified, medically reviewed teaching experience and must not be treated as patient-specific anatomy. We would like to offer students a more anatomically complete and medically reviewed model, including chamber walls, septa, valves, papillary muscles, great vessels, coronary anatomy and the cardiac conduction system.
+
+The BioDigital conduction model shown through the MSD Manuals is close to the educational experience we hope to achieve. We understand that MSD's license and embedded model identifier do not authorize us to copy, download, modify or reuse that content in our own application. We have not assumed that a free personal account grants rights to publicly embed your models.
+
+Would BioDigital consider a no-cost educational grant, student-project collaboration or other authorized arrangement for this initiative? In particular, could you clarify:
+
+- Whether a public, free educational web application can embed an approved cardiac anatomy/conduction model, and whether viewers would need an account.
+- Which plan or agreement would permit anatomy labels, isolation of structures, cutaway views, bookmarks and educational conduction animations.
+- Whether an official SDK or API can synchronize a model timeline or highlighted structures with ECG time markers, including separately defined educational scenarios for sinus rhythm, atrial fibrillation, bundle-branch block and pre-excitation.
+- What limits apply to customization, redistribution, screenshots, print/PDF figures, downloads, attribution and publication of our own open-source application code. We would keep your licensed assets separate and would not claim them as our open-source content.
+- Whether an academic supervisor, course enrollment, institutional sponsor or formal agreement is required, and whether a small student-led pilot can qualify.
+
+The project currently has no budget for subscriptions or paid services. We would be grateful for an approved limited model or pilot license if a broader grant is not possible. We would not infer patient-specific anatomy from an ECG or describe a reference animation as a validated individual electromechanical simulation.
+
+No patient records or ECG images are attached, and the requested anatomy integration would not require transmitting ECGs or clinical context to BioDigital. If needed, I can provide a short project description, technical architecture and evaluation plan for your review.
+
+Thank you for your time and for any guidance on an appropriate educational access route.
+
+Kind regards,
+
+Sebastián Daza
+Student — CardioEKG educational project
+Personal, noncommercial initiative
+jsebastian.daza@javeriana.edu.co
+https://cardioscopio-ecg.dorydaza.chatgpt.site

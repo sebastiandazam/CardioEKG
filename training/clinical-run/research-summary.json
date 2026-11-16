@@ -1,0 +1,611 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-16T04:50:43.638384+00:00",
+  "status": "waveform_training_and_calibration_completed_pending_photo_validation",
+  "diagnostic_use_enabled": false,
+  "validated_model_available": false,
+  "candidate_weights_published": false,
+  "planned_training_completed": true,
+  "training_completed_for_available_subset": true,
+  "independent_external_validation_completed": true,
+  "activation_gate_passed": false,
+  "diagnosis": {
+    "method": "multilabel waveform ensemble with Fold-9 Platt probability calibration including PyTorch 1D ResNet",
+    "trained_models": [
+      "logistic",
+      "extra_trees",
+      "mlp_neural",
+      "resnet1d",
+      "blend_top2"
+    ],
+    "selection_scores": {
+      "logistic": 0.9205274888432886,
+      "extra_trees": 0.9270731999940399,
+      "mlp_neural": 0.9391679389474111,
+      "resnet1d": 0.9513446374034398,
+      "blend_top2": 0.9608471678384306
+    },
+    "selected_candidate": "blend_top2",
+    "trained_classes": [
+      "sinus",
+      "af",
+      "rbbb",
+      "lbbb",
+      "first_avb",
+      "lafb",
+      "sinus_brady",
+      "sinus_tachy",
+      "pac",
+      "pvc",
+      "lvh",
+      "mi",
+      "st_t",
+      "normal"
+    ],
+    "classes_with_insufficient_training_support": [
+      "wpw"
+    ],
+    "records": {
+      "fit": {
+        "records": 2683,
+        "patients": 2610
+      },
+      "selection": {
+        "records": 327,
+        "patients": 320
+      },
+      "calibration": {
+        "records": 500,
+        "patients": 486
+      },
+      "test": {
+        "records": 1000,
+        "patients": 936
+      },
+      "external": {
+        "records": 1000,
+        "patients": null
+      }
+    },
+    "cohort_sizes": {
+      "fit": 2683,
+      "selection": 327,
+      "calibration": 500,
+      "test": 1000,
+      "external": 1000
+    },
+    "planned_cohort_sizes": {
+      "fit": 4000,
+      "selection": 500,
+      "calibration": 500,
+      "test": 1000,
+      "external_chapman": 1000
+    },
+    "calibration": {
+      "probability_records": 250,
+      "threshold_records": 250,
+      "patient_overlap": 0
+    },
+    "reported_validation_performance": {
+      "selection": {
+        "macro_auroc": 0.9608471678384306,
+        "macro_auprc": 0.803876837039195,
+        "mean_brier": 0.03890083354319449,
+        "mean_ece": 0.02533744862309167
+      },
+      "calibration": {
+        "macro_auroc": 0.9477131531233114,
+        "macro_auprc": 0.7355521036503925,
+        "mean_brier": 0.04614164898540524,
+        "mean_ece": 0.01976492688718742
+      },
+      "test": {
+        "macro_auroc": 0.943745720897857,
+        "macro_auprc": 0.7329296567338688,
+        "mean_brier": 0.04768891511325518,
+        "mean_ece": 0.017242713284026028
+      },
+      "external": {
+        "macro_auroc": 0.9200585765745681,
+        "macro_auprc": 0.4516832628709077,
+        "mean_brier": 0.07817184820153499,
+        "mean_ece": 0.0984180252654875
+      }
+    },
+    "gate_failures": [
+      "sinus:externalcoveragebelow0.80",
+      "sinus:externalPPVbelow0.90",
+      "sinus:externalsensitivitybelow0.90",
+      "af:externalPPVbelow0.90",
+      "af:externalsensitivitybelow0.90",
+      "rbbb:externalpositivesbelow30",
+      "rbbb:externalcoveragebelow0.80",
+      "rbbb:externalPPVbelow0.90",
+      "rbbb:externalsensitivitybelow0.90",
+      "lbbb:externalpositivesbelow30",
+      "lbbb:externalcoveragebelow0.80",
+      "lbbb:externalPPVbelow0.90",
+      "lbbb:externalsensitivitybelow0.90",
+      "first_avb:externalcoveragebelow0.80",
+      "first_avb:externalPPVbelow0.90",
+      "first_avb:externalsensitivitybelow0.90",
+      "lafb:externalpositivesbelow30",
+      "lafb:externalPPVbelow0.90",
+      "lafb:externalsensitivitybelow0.90",
+      "sinus_brady:externalcoveragebelow0.80",
+      "sinus_brady:externalPPVbelow0.90",
+      "sinus_brady:externalsensitivitybelow0.90",
+      "sinus_tachy:externalcoveragebelow0.80",
+      "sinus_tachy:externalPPVbelow0.90",
+      "sinus_tachy:externalsensitivitybelow0.90",
+      "pac:externalpositivesbelow30",
+      "pac:externalcoveragebelow0.80",
+      "pac:externalPPVbelow0.90",
+      "pac:externalsensitivitybelow0.90",
+      "pvc:externalPPVbelow0.90",
+      "pvc:externalsensitivitybelow0.90",
+      "lvh:externalpositivesbelow30",
+      "lvh:externalPPVbelow0.90",
+      "lvh:externalsensitivitybelow0.90",
+      "mi:externalpositivesbelow30",
+      "mi:externalcoveragebelow0.80",
+      "mi:externalPPVbelow0.90",
+      "mi:externalsensitivitybelow0.90",
+      "st_t:externalpositivesbelow30",
+      "st_t:externalcoveragebelow0.80",
+      "st_t:externalPPVbelow0.90",
+      "st_t:externalsensitivitybelow0.90",
+      "normal:externalpositivesbelow30",
+      "normal:externalcoveragebelow0.80",
+      "normal:externalPPVbelow0.90",
+      "normal:externalsensitivitybelow0.90",
+      "independentclinicalphotographicvalidationnotperformed"
+    ]
+  },
+  "delineation": {
+    "method": "ExtraTrees + MLP neural boundary regressors + ECGResSEUNet1D vs ecg_analisis_v3_hybrid & NeuroKit2 DWT",
+    "annotated_training_records": 140,
+    "augmented_training_beats": 5036,
+    "available_annotated_cohorts": {
+      "ludb": {
+        "fit": 140,
+        "selection": 20,
+        "test": 40,
+        "external": 0
+      },
+      "qt": {
+        "fit": 0,
+        "selection": 0,
+        "test": 0,
+        "external": 30
+      }
+    },
+    "planned_ludb_records": 200,
+    "planned_qtdb_external_records": 30,
+    "heldout_performance_available": true,
+    "heldout_ludb_test": {
+      "trained_extra_trees": {
+        "p_onset": {
+          "median_absolute_error_ms": 4.885416666666809,
+          "mae_ms": 7.410896701388926,
+          "mean_error_ms": 2.0948151041666105,
+          "coverage": 0.9966777408637874
+        },
+        "p_offset": {
+          "median_absolute_error_ms": 5.1225260416665614,
+          "mae_ms": 7.078857638888877,
+          "mean_error_ms": 0.5735277777777226,
+          "coverage": 0.9966777408637874
+        },
+        "qrs_onset": {
+          "median_absolute_error_ms": 3.2179687499999976,
+          "mae_ms": 4.985508219401065,
+          "mean_error_ms": 1.3061055501301762,
+          "coverage": 0.9922480620155039
+        },
+        "qrs_offset": {
+          "median_absolute_error_ms": 5.183072916666784,
+          "mae_ms": 7.917802598741283,
+          "mean_error_ms": 1.2144253200954565,
+          "coverage": 0.9922480620155039
+        },
+        "t_onset": {
+          "median_absolute_error_ms": 14.729427083333551,
+          "mae_ms": 18.03076199856732,
+          "mean_error_ms": 0.6449617956064818,
+          "coverage": 0.9971428571428571
+        },
+        "t_offset": {
+          "median_absolute_error_ms": 8.580208333333339,
+          "mae_ms": 13.83297460374639,
+          "mean_error_ms": 1.7896223583092945,
+          "coverage": 0.9914285714285714
+        }
+      },
+      "trained_neural_mlp": {
+        "p_onset": {
+          "median_absolute_error_ms": 15.408001301595087,
+          "mae_ms": 20.637512391147737,
+          "mean_error_ms": 7.649143423794372,
+          "coverage": 0.9966777408637874
+        },
+        "p_offset": {
+          "median_absolute_error_ms": 11.722680825598118,
+          "mae_ms": 15.440204264798261,
+          "mean_error_ms": 1.69179398970954,
+          "coverage": 0.9966777408637874
+        },
+        "qrs_onset": {
+          "median_absolute_error_ms": 6.124414228386357,
+          "mae_ms": 7.586298796271333,
+          "mean_error_ms": 1.4628145126578815,
+          "coverage": 0.9922480620155039
+        },
+        "qrs_offset": {
+          "median_absolute_error_ms": 12.886365797290722,
+          "mae_ms": 15.324933873659328,
+          "mean_error_ms": -1.5449931291793604,
+          "coverage": 0.9922480620155039
+        },
+        "t_onset": {
+          "median_absolute_error_ms": 30.731962866437776,
+          "mae_ms": 34.761178222045295,
+          "mean_error_ms": 1.1273773580276933,
+          "coverage": 1.0
+        },
+        "t_offset": {
+          "median_absolute_error_ms": 27.771750831180967,
+          "mae_ms": 36.98045721650838,
+          "mean_error_ms": -7.24091635360333,
+          "coverage": 1.0
+        }
+      },
+      "ecg_analisis_v3_hybrid": {
+        "p_onset": {
+          "median_absolute_error_ms": null,
+          "mae_ms": null,
+          "mean_error_ms": null,
+          "coverage": 0.0
+        },
+        "p_offset": {
+          "median_absolute_error_ms": null,
+          "mae_ms": null,
+          "mean_error_ms": null,
+          "coverage": 0.0
+        },
+        "qrs_onset": {
+          "median_absolute_error_ms": 9.000000000000522,
+          "mae_ms": 11.969529085872564,
+          "mean_error_ms": 10.00277008310247,
+          "coverage": 0.9328165374677002
+        },
+        "qrs_offset": {
+          "median_absolute_error_ms": 8.000000000000492,
+          "mae_ms": 12.617728531855974,
+          "mean_error_ms": -6.113573407202235,
+          "coverage": 0.9328165374677002
+        },
+        "t_onset": {
+          "median_absolute_error_ms": 45.999999999999595,
+          "mae_ms": 50.654434250764524,
+          "mean_error_ms": 25.045871559633017,
+          "coverage": 0.9342857142857143
+        },
+        "t_offset": {
+          "median_absolute_error_ms": 18.699999999999438,
+          "mae_ms": 22.461773700305805,
+          "mean_error_ms": -14.984097859327221,
+          "coverage": 0.9342857142857143
+        }
+      },
+      "neurokit2_dwt": {
+        "p_onset": {
+          "median_absolute_error_ms": 4.000000000000433,
+          "mae_ms": 9.940000000000037,
+          "mean_error_ms": 5.726666666666646,
+          "coverage": 0.9966777408637874
+        },
+        "p_offset": {
+          "median_absolute_error_ms": 7.999999999999702,
+          "mae_ms": 11.119999999999997,
+          "mean_error_ms": 4.906666666666644,
+          "coverage": 0.9966777408637874
+        },
+        "qrs_onset": {
+          "median_absolute_error_ms": 12.000000000000046,
+          "mae_ms": 38.06521739130436,
+          "mean_error_ms": -36.40217391304349,
+          "coverage": 0.9509043927648578
+        },
+        "qrs_offset": {
+          "median_absolute_error_ms": 11.999999999998714,
+          "mae_ms": 29.717647058823502,
+          "mean_error_ms": 26.470588235294095,
+          "coverage": 0.8785529715762274
+        },
+        "t_onset": {
+          "median_absolute_error_ms": 41.9999999999999,
+          "mae_ms": 45.8622754491018,
+          "mean_error_ms": 18.137724550898202,
+          "coverage": 0.9542857142857143
+        },
+        "t_offset": {
+          "median_absolute_error_ms": 11.999999999999677,
+          "mae_ms": 29.92814371257486,
+          "mean_error_ms": -26.455089820359316,
+          "coverage": 0.9542857142857143
+        }
+      },
+      "trained_1d_resse_unet": {
+        "p_onset": {
+          "median_absolute_error_ms": 4.000000000000433,
+          "mae_ms": 6.654135338345929,
+          "mean_error_ms": 0.5789473684210265,
+          "coverage": 0.8837209302325582
+        },
+        "p_offset": {
+          "median_absolute_error_ms": 4.000000000000545,
+          "mae_ms": 5.924812030075204,
+          "mean_error_ms": 2.4661654135337994,
+          "coverage": 0.8837209302325582
+        },
+        "qrs_onset": {
+          "median_absolute_error_ms": 3.9999999999999654,
+          "mae_ms": 5.853403141361296,
+          "mean_error_ms": 0.5445026178010415,
+          "coverage": 0.9870801033591732
+        },
+        "qrs_offset": {
+          "median_absolute_error_ms": 4.000000000000264,
+          "mae_ms": 6.94764397905762,
+          "mean_error_ms": -0.1937172774869389,
+          "coverage": 0.9870801033591732
+        },
+        "t_onset": {
+          "median_absolute_error_ms": 10.00000000000012,
+          "mae_ms": 18.260869565217398,
+          "mean_error_ms": -0.2782608695652492,
+          "coverage": 0.9857142857142858
+        },
+        "t_offset": {
+          "median_absolute_error_ms": 5.999999999999838,
+          "mae_ms": 12.979710144927562,
+          "mean_error_ms": 4.7710144927536,
+          "coverage": 0.9857142857142858
+        }
+      }
+    },
+    "external_qtdb": {
+      "trained_extra_trees": {
+        "p_onset": {
+          "median_absolute_error_ms": 11.571744791642677,
+          "mae_ms": 15.933395270266345,
+          "mean_error_ms": 8.903443599846492,
+          "coverage": 0.9946236559139785
+        },
+        "p_offset": {
+          "median_absolute_error_ms": 7.8334635416710885,
+          "mae_ms": 11.026182197824928,
+          "mean_error_ms": 0.31984633070234797,
+          "coverage": 0.9946236559139785
+        },
+        "qrs_onset": {
+          "median_absolute_error_ms": 8.673567708322453,
+          "mae_ms": 9.993474123820361,
+          "mean_error_ms": 0.304702959513075,
+          "coverage": 0.9941812136325852
+        },
+        "qrs_offset": {
+          "median_absolute_error_ms": 8.786197916687977,
+          "mae_ms": 12.225254537694727,
+          "mean_error_ms": -4.179175158519251,
+          "coverage": 0.9941812136325852
+        },
+        "t_onset": {
+          "median_absolute_error_ms": 31.05208333336865,
+          "mae_ms": 46.761419005100784,
+          "mean_error_ms": -19.191669855446058,
+          "coverage": 0.9262759924385633
+        },
+        "t_offset": {
+          "median_absolute_error_ms": 18.723697916702836,
+          "mae_ms": 37.978796637008195,
+          "mean_error_ms": -21.837394963757962,
+          "coverage": 0.9652247667514843
+        }
+      },
+      "trained_neural_mlp": {
+        "p_onset": {
+          "median_absolute_error_ms": 23.90655343760112,
+          "mae_ms": 31.85838667744122,
+          "mean_error_ms": 2.784044788815642,
+          "coverage": 0.9946236559139785
+        },
+        "p_offset": {
+          "median_absolute_error_ms": 13.933367050797168,
+          "mae_ms": 17.724369397341817,
+          "mean_error_ms": 0.9933097100350524,
+          "coverage": 0.9946236559139785
+        },
+        "qrs_onset": {
+          "median_absolute_error_ms": 10.701898159608609,
+          "mae_ms": 13.122956921329473,
+          "mean_error_ms": -5.642569638375253,
+          "coverage": 0.9941812136325852
+        },
+        "qrs_offset": {
+          "median_absolute_error_ms": 17.859085096057825,
+          "mae_ms": 21.772570618167325,
+          "mean_error_ms": 5.864052672117745,
+          "coverage": 0.9941812136325852
+        },
+        "t_onset": {
+          "median_absolute_error_ms": 40.64910798205854,
+          "mae_ms": 59.841825957806144,
+          "mean_error_ms": -16.24669249995747,
+          "coverage": 0.9924385633270322
+        },
+        "t_offset": {
+          "median_absolute_error_ms": 41.69329701055441,
+          "mae_ms": 58.96619553662483,
+          "mean_error_ms": -30.963571839737085,
+          "coverage": 0.9940627650551315
+        }
+      },
+      "ecg_analisis_v3_hybrid": {
+        "p_onset": {
+          "median_absolute_error_ms": null,
+          "mae_ms": null,
+          "mean_error_ms": null,
+          "coverage": 0.0
+        },
+        "p_offset": {
+          "median_absolute_error_ms": null,
+          "mae_ms": null,
+          "mean_error_ms": null,
+          "coverage": 0.0
+        },
+        "qrs_onset": {
+          "median_absolute_error_ms": 9.000000000007399,
+          "mae_ms": 12.00000000000041,
+          "mean_error_ms": 3.6652452025548317,
+          "coverage": 0.7797173732335827
+        },
+        "qrs_offset": {
+          "median_absolute_error_ms": 9.000000000005215,
+          "mae_ms": 15.45628997867966,
+          "mean_error_ms": -6.5906183368908335,
+          "coverage": 0.7797173732335827
+        },
+        "t_onset": {
+          "median_absolute_error_ms": 62.99999999993008,
+          "mae_ms": 69.95641646488602,
+          "mean_error_ms": 12.86682808716483,
+          "coverage": 0.780718336483932
+        },
+        "t_offset": {
+          "median_absolute_error_ms": 22.59999999996767,
+          "mae_ms": 41.84102844639486,
+          "mean_error_ms": -35.77035010941344,
+          "coverage": 0.7752332485156913
+        }
+      },
+      "neurokit2_dwt": {
+        "p_onset": {
+          "median_absolute_error_ms": 11.9999999999012,
+          "mae_ms": 19.587443946186447,
+          "mean_error_ms": 9.664573991027934,
+          "coverage": 0.9991039426523297
+        },
+        "p_offset": {
+          "median_absolute_error_ms": 11.99999999997299,
+          "mae_ms": 19.375784753367533,
+          "mean_error_ms": -3.0457399103173297,
+          "coverage": 0.9991039426523297
+        },
+        "qrs_onset": {
+          "median_absolute_error_ms": 68.00000000006403,
+          "mae_ms": 66.62150719729452,
+          "mean_error_ms": -64.48772226926769,
+          "coverage": 0.9817123857024106
+        },
+        "qrs_offset": {
+          "median_absolute_error_ms": 8.00000000003843,
+          "mae_ms": 28.73809523809276,
+          "mean_error_ms": 10.14285714285103,
+          "coverage": 0.8379052369077307
+        },
+        "t_onset": {
+          "median_absolute_error_ms": 43.99999999992045,
+          "mae_ms": 58.590717299568034,
+          "mean_error_ms": 22.27004219408931,
+          "coverage": 0.8960302457466919
+        },
+        "t_offset": {
+          "median_absolute_error_ms": 19.999999999931628,
+          "mae_ms": 44.229795520943455,
+          "mean_error_ms": -30.364167478096523,
+          "coverage": 0.8710771840542832
+        }
+      },
+      "trained_1d_resse_unet": {
+        "p_onset": {
+          "median_absolute_error_ms": 12.00000000002821,
+          "mae_ms": 172.18285714285216,
+          "mean_error_ms": -141.48571428572063,
+          "coverage": 0.31362007168458783
+        },
+        "p_offset": {
+          "median_absolute_error_ms": 8.000000000028983,
+          "mae_ms": 165.55428571429098,
+          "mean_error_ms": 145.48571428570793,
+          "coverage": 0.31362007168458783
+        },
+        "qrs_onset": {
+          "median_absolute_error_ms": 8.00000000003136,
+          "mae_ms": 11.231560891945678,
+          "mean_error_ms": -0.8370497427155313,
+          "coverage": 0.969243557772236
+        },
+        "qrs_offset": {
+          "median_absolute_error_ms": 8.000000000005798,
+          "mae_ms": 12.195540308752081,
+          "mean_error_ms": -5.608919382509718,
+          "coverage": 0.969243557772236
+        },
+        "t_onset": {
+          "median_absolute_error_ms": 27.99999999993208,
+          "mae_ms": 39.47967479674568,
+          "mean_error_ms": -12.406504065045342,
+          "coverage": 0.9300567107750473
+        },
+        "t_offset": {
+          "median_absolute_error_ms": 31.999999999965446,
+          "mae_ms": 57.365678346814754,
+          "mean_error_ms": -40.79065588500125,
+          "coverage": 0.9440203562340967
+        }
+      }
+    },
+    "gate_failures": [
+      "requiredindependentclinicalphotographicvalidationnotperformed",
+      "ludb:test:t_onset:p95AEabove40ms",
+      "qt:external:p_onset:p95AEabove40ms",
+      "qt:external:t_onset:medianAEabove20ms",
+      "qt:external:t_onset:p95AEabove40ms",
+      "qt:external:t_offset:p95AEabove40ms"
+    ]
+  },
+  "sources": [
+    {
+      "name": "PTB-XL",
+      "version": "1.0.3",
+      "license": "CC BY 4.0",
+      "url": "https://physionet.org/content/ptb-xl/1.0.3/"
+    },
+    {
+      "name": "Chapman–Shaoxing–Ningbo",
+      "version": "1.0.0",
+      "license": "CC BY 4.0",
+      "url": "https://physionet.org/content/ecg-arrhythmia/1.0.0/"
+    },
+    {
+      "name": "LUDB",
+      "version": "1.0.1",
+      "license": "ODC-By 1.0",
+      "url": "https://physionet.org/content/ludb/1.0.1/"
+    },
+    {
+      "name": "QT Database",
+      "version": "1.0.0",
+      "license": "ODC-By 1.0",
+      "url": "https://physionet.org/content/qtdb/1.0.0/"
+    }
+  ],
+  "pending": [
+    "independent clinical ECG photograph validation before photographic clinical activation",
+    "institutional clinical authorization before diagnostic device claims"
+  ],
+  "wave_maven_reused": false,
+  "privacy": "Aggregate status only. No patient IDs, record IDs, raw signals, photos or candidate weights are included."
+}

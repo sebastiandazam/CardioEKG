@@ -1,0 +1,2997 @@
+{
+  "scope": "Trained label identity MLP on renderings of real clinical ECG waveforms with oracle label boxes; not a detector or a diagnostic model. Not clinically validated.",
+  "source": "PTB-XL1.0.3 CC BY4.0",
+  "seed": 20261111,
+  "partitions": {
+    "fit": {
+      "patients": 192,
+      "labels_or_augmented_crops": 9216
+    },
+    "selection": {
+      "patients": 32,
+      "labels_or_augmented_crops": 384
+    },
+    "test": {
+      "patients": 32,
+      "labels_or_augmented_crops": 384
+    }
+  },
+  "model": {
+    "kind": "MLPClassifier",
+    "hidden": [
+      32
+    ],
+    "activation": "relu",
+    "iterations": 150,
+    "input_features": 385,
+    "optimizer_converged": false
+  },
+  "selection_candidates": [
+    {
+      "labels": 384,
+      "threshold": 0.5,
+      "accepted": 384,
+      "coverage": 1.0,
+      "correct_accepted": 384,
+      "precision_among_accepted": 1.0,
+      "overall_accuracy_without_abstention": 1.0,
+      "abstained": 0
+    },
+    {
+      "labels": 384,
+      "threshold": 0.6,
+      "accepted": 384,
+      "coverage": 1.0,
+      "correct_accepted": 384,
+      "precision_among_accepted": 1.0,
+      "overall_accuracy_without_abstention": 1.0,
+      "abstained": 0
+    },
+    {
+      "labels": 384,
+      "threshold": 0.7,
+      "accepted": 384,
+      "coverage": 1.0,
+      "correct_accepted": 384,
+      "precision_among_accepted": 1.0,
+      "overall_accuracy_without_abstention": 1.0,
+      "abstained": 0
+    },
+    {
+      "labels": 384,
+      "threshold": 0.8,
+      "accepted": 384,
+      "coverage": 1.0,
+      "correct_accepted": 384,
+      "precision_among_accepted": 1.0,
+      "overall_accuracy_without_abstention": 1.0,
+      "abstained": 0
+    },
+    {
+      "labels": 384,
+      "threshold": 0.9,
+      "accepted": 384,
+      "coverage": 1.0,
+      "correct_accepted": 384,
+      "precision_among_accepted": 1.0,
+      "overall_accuracy_without_abstention": 1.0,
+      "abstained": 0
+    },
+    {
+      "labels": 384,
+      "threshold": 0.95,
+      "accepted": 384,
+      "coverage": 1.0,
+      "correct_accepted": 384,
+      "precision_among_accepted": 1.0,
+      "overall_accuracy_without_abstention": 1.0,
+      "abstained": 0
+    },
+    {
+      "labels": 384,
+      "threshold": 0.98,
+      "accepted": 384,
+      "coverage": 1.0,
+      "correct_accepted": 384,
+      "precision_among_accepted": 1.0,
+      "overall_accuracy_without_abstention": 1.0,
+      "abstained": 0
+    },
+    {
+      "labels": 384,
+      "threshold": 0.99,
+      "accepted": 384,
+      "coverage": 1.0,
+      "correct_accepted": 384,
+      "precision_among_accepted": 1.0,
+      "overall_accuracy_without_abstention": 1.0,
+      "abstained": 0
+    }
+  ],
+  "chosen_threshold": 0.5,
+  "test": {
+    "labels": 384,
+    "threshold": 0.5,
+    "accepted": 384,
+    "coverage": 1.0,
+    "correct_accepted": 384,
+    "precision_among_accepted": 1.0,
+    "overall_accuracy_without_abstention": 1.0,
+    "abstained": 0
+  },
+  "test_confusion_matrix": [
+    [
+      32,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      32,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      32,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      32,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      32,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      32,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      32,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      32,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      32
+    ]
+  ],
+  "label_order": [
+    "I",
+    "II",
+    "III",
+    "aVR",
+    "aVL",
+    "aVF",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "test_rows": [
+    {
+      "record": "9",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999940850239408,
+      "accepted": true
+    },
+    {
+      "record": "9",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.999915002759279,
+      "accepted": true
+    },
+    {
+      "record": "9",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999946291106462,
+      "accepted": true
+    },
+    {
+      "record": "9",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999875792439544,
+      "accepted": true
+    },
+    {
+      "record": "9",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.999972359293591,
+      "accepted": true
+    },
+    {
+      "record": "9",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999983669708172,
+      "accepted": true
+    },
+    {
+      "record": "9",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999866150995004,
+      "accepted": true
+    },
+    {
+      "record": "9",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999970103025905,
+      "accepted": true
+    },
+    {
+      "record": "9",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999716165815911,
+      "accepted": true
+    },
+    {
+      "record": "9",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999580608008668,
+      "accepted": true
+    },
+    {
+      "record": "9",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999940916431024,
+      "accepted": true
+    },
+    {
+      "record": "9",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999919963424092,
+      "accepted": true
+    },
+    {
+      "record": "38",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.999988212580684,
+      "accepted": true
+    },
+    {
+      "record": "38",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999816818445662,
+      "accepted": true
+    },
+    {
+      "record": "38",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999711509148458,
+      "accepted": true
+    },
+    {
+      "record": "38",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999891331309304,
+      "accepted": true
+    },
+    {
+      "record": "38",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999977736279846,
+      "accepted": true
+    },
+    {
+      "record": "38",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999955843260963,
+      "accepted": true
+    },
+    {
+      "record": "38",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999998310394339,
+      "accepted": true
+    },
+    {
+      "record": "38",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.999999134558057,
+      "accepted": true
+    },
+    {
+      "record": "38",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999815517292819,
+      "accepted": true
+    },
+    {
+      "record": "38",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999398132517617,
+      "accepted": true
+    },
+    {
+      "record": "38",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999720031973173,
+      "accepted": true
+    },
+    {
+      "record": "38",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.999916432245588,
+      "accepted": true
+    },
+    {
+      "record": "40",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999856011246029,
+      "accepted": true
+    },
+    {
+      "record": "40",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.999941329100045,
+      "accepted": true
+    },
+    {
+      "record": "40",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999993148102201,
+      "accepted": true
+    },
+    {
+      "record": "40",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999954393812518,
+      "accepted": true
+    },
+    {
+      "record": "40",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999971909713931,
+      "accepted": true
+    },
+    {
+      "record": "40",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999999894642678,
+      "accepted": true
+    },
+    {
+      "record": "40",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999973135651258,
+      "accepted": true
+    },
+    {
+      "record": "40",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999991019636334,
+      "accepted": true
+    },
+    {
+      "record": "40",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999995324950505,
+      "accepted": true
+    },
+    {
+      "record": "40",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999990821296876,
+      "accepted": true
+    },
+    {
+      "record": "40",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.999994555852185,
+      "accepted": true
+    },
+    {
+      "record": "40",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999988279356864,
+      "accepted": true
+    },
+    {
+      "record": "57",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999981977815114,
+      "accepted": true
+    },
+    {
+      "record": "57",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.999997907958129,
+      "accepted": true
+    },
+    {
+      "record": "57",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999967639239006,
+      "accepted": true
+    },
+    {
+      "record": "57",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999991469808767,
+      "accepted": true
+    },
+    {
+      "record": "57",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.999999241664407,
+      "accepted": true
+    },
+    {
+      "record": "57",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999993321403995,
+      "accepted": true
+    },
+    {
+      "record": "57",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999956010601478,
+      "accepted": true
+    },
+    {
+      "record": "57",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999920716601887,
+      "accepted": true
+    },
+    {
+      "record": "57",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999959322357463,
+      "accepted": true
+    },
+    {
+      "record": "57",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999773906550998,
+      "accepted": true
+    },
+    {
+      "record": "57",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999930332147177,
+      "accepted": true
+    },
+    {
+      "record": "57",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999978337662768,
+      "accepted": true
+    },
+    {
+      "record": "59",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999868688496734,
+      "accepted": true
+    },
+    {
+      "record": "59",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999750289828427,
+      "accepted": true
+    },
+    {
+      "record": "59",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999979690162677,
+      "accepted": true
+    },
+    {
+      "record": "59",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999998006042503,
+      "accepted": true
+    },
+    {
+      "record": "59",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999753262388634,
+      "accepted": true
+    },
+    {
+      "record": "59",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999807785500568,
+      "accepted": true
+    },
+    {
+      "record": "59",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999833244398608,
+      "accepted": true
+    },
+    {
+      "record": "59",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.999990112899222,
+      "accepted": true
+    },
+    {
+      "record": "59",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999959375311409,
+      "accepted": true
+    },
+    {
+      "record": "59",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999990717300774,
+      "accepted": true
+    },
+    {
+      "record": "59",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999054359977444,
+      "accepted": true
+    },
+    {
+      "record": "59",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9998927595623177,
+      "accepted": true
+    },
+    {
+      "record": "63",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999956449647576,
+      "accepted": true
+    },
+    {
+      "record": "63",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999949576025782,
+      "accepted": true
+    },
+    {
+      "record": "63",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999368585652032,
+      "accepted": true
+    },
+    {
+      "record": "63",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999953029409442,
+      "accepted": true
+    },
+    {
+      "record": "63",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999996257834262,
+      "accepted": true
+    },
+    {
+      "record": "63",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999991352697454,
+      "accepted": true
+    },
+    {
+      "record": "63",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999993994749774,
+      "accepted": true
+    },
+    {
+      "record": "63",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999998537698619,
+      "accepted": true
+    },
+    {
+      "record": "63",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999914319341943,
+      "accepted": true
+    },
+    {
+      "record": "63",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999986112420836,
+      "accepted": true
+    },
+    {
+      "record": "63",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999999793865832,
+      "accepted": true
+    },
+    {
+      "record": "63",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999989651571828,
+      "accepted": true
+    },
+    {
+      "record": "65",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999923091035675,
+      "accepted": true
+    },
+    {
+      "record": "65",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9998987510646014,
+      "accepted": true
+    },
+    {
+      "record": "65",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999585826068977,
+      "accepted": true
+    },
+    {
+      "record": "65",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999793590821415,
+      "accepted": true
+    },
+    {
+      "record": "65",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999808897003253,
+      "accepted": true
+    },
+    {
+      "record": "65",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999955629663131,
+      "accepted": true
+    },
+    {
+      "record": "65",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999852521364987,
+      "accepted": true
+    },
+    {
+      "record": "65",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.999996888001781,
+      "accepted": true
+    },
+    {
+      "record": "65",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999557596789164,
+      "accepted": true
+    },
+    {
+      "record": "65",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999945073994917,
+      "accepted": true
+    },
+    {
+      "record": "65",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999642754566802,
+      "accepted": true
+    },
+    {
+      "record": "65",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999948527631604,
+      "accepted": true
+    },
+    {
+      "record": "75",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999890400719523,
+      "accepted": true
+    },
+    {
+      "record": "75",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999933394193443,
+      "accepted": true
+    },
+    {
+      "record": "75",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.999984293549329,
+      "accepted": true
+    },
+    {
+      "record": "75",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999964141608141,
+      "accepted": true
+    },
+    {
+      "record": "75",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999990928135102,
+      "accepted": true
+    },
+    {
+      "record": "75",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999992331610653,
+      "accepted": true
+    },
+    {
+      "record": "75",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999998305010077,
+      "accepted": true
+    },
+    {
+      "record": "75",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999997855916365,
+      "accepted": true
+    },
+    {
+      "record": "75",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999954771070351,
+      "accepted": true
+    },
+    {
+      "record": "75",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999577945555224,
+      "accepted": true
+    },
+    {
+      "record": "75",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999976817270892,
+      "accepted": true
+    },
+    {
+      "record": "75",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.999970841232056,
+      "accepted": true
+    },
+    {
+      "record": "76",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999879904884116,
+      "accepted": true
+    },
+    {
+      "record": "76",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999692492612934,
+      "accepted": true
+    },
+    {
+      "record": "76",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999984512535199,
+      "accepted": true
+    },
+    {
+      "record": "76",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999999913891083,
+      "accepted": true
+    },
+    {
+      "record": "76",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999973594426718,
+      "accepted": true
+    },
+    {
+      "record": "76",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999999917441712,
+      "accepted": true
+    },
+    {
+      "record": "76",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999992309239121,
+      "accepted": true
+    },
+    {
+      "record": "76",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999977091019732,
+      "accepted": true
+    },
+    {
+      "record": "76",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999999545852857,
+      "accepted": true
+    },
+    {
+      "record": "76",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999999541373991,
+      "accepted": true
+    },
+    {
+      "record": "76",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999940475326436,
+      "accepted": true
+    },
+    {
+      "record": "76",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999985383530524,
+      "accepted": true
+    },
+    {
+      "record": "79",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999846887997934,
+      "accepted": true
+    },
+    {
+      "record": "79",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999863364918611,
+      "accepted": true
+    },
+    {
+      "record": "79",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999762459948756,
+      "accepted": true
+    },
+    {
+      "record": "79",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999889229444829,
+      "accepted": true
+    },
+    {
+      "record": "79",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999628579450482,
+      "accepted": true
+    },
+    {
+      "record": "79",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999807361020849,
+      "accepted": true
+    },
+    {
+      "record": "79",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999969353611677,
+      "accepted": true
+    },
+    {
+      "record": "79",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999980262877226,
+      "accepted": true
+    },
+    {
+      "record": "79",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999723909694047,
+      "accepted": true
+    },
+    {
+      "record": "79",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999887026567267,
+      "accepted": true
+    },
+    {
+      "record": "79",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999885327002637,
+      "accepted": true
+    },
+    {
+      "record": "79",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999929516996213,
+      "accepted": true
+    },
+    {
+      "record": "93",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999903335904277,
+      "accepted": true
+    },
+    {
+      "record": "93",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999859525695156,
+      "accepted": true
+    },
+    {
+      "record": "93",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999991605962024,
+      "accepted": true
+    },
+    {
+      "record": "93",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999998654535694,
+      "accepted": true
+    },
+    {
+      "record": "93",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999952905088625,
+      "accepted": true
+    },
+    {
+      "record": "93",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999965725462927,
+      "accepted": true
+    },
+    {
+      "record": "93",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999928779555285,
+      "accepted": true
+    },
+    {
+      "record": "93",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999978172983239,
+      "accepted": true
+    },
+    {
+      "record": "93",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999993827556413,
+      "accepted": true
+    },
+    {
+      "record": "93",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999998070307757,
+      "accepted": true
+    },
+    {
+      "record": "93",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999516640781426,
+      "accepted": true
+    },
+    {
+      "record": "93",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999789260556335,
+      "accepted": true
+    },
+    {
+      "record": "100",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999852306567579,
+      "accepted": true
+    },
+    {
+      "record": "100",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999974446534613,
+      "accepted": true
+    },
+    {
+      "record": "100",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999300610394211,
+      "accepted": true
+    },
+    {
+      "record": "100",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999989462884961,
+      "accepted": true
+    },
+    {
+      "record": "100",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999992675591545,
+      "accepted": true
+    },
+    {
+      "record": "100",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999993933302344,
+      "accepted": true
+    },
+    {
+      "record": "100",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999949376813911,
+      "accepted": true
+    },
+    {
+      "record": "100",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999993732447199,
+      "accepted": true
+    },
+    {
+      "record": "100",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.999997192522349,
+      "accepted": true
+    },
+    {
+      "record": "100",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999946423857016,
+      "accepted": true
+    },
+    {
+      "record": "100",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999999912482077,
+      "accepted": true
+    },
+    {
+      "record": "100",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999988968972864,
+      "accepted": true
+    },
+    {
+      "record": "112",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999964318911424,
+      "accepted": true
+    },
+    {
+      "record": "112",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999687295168324,
+      "accepted": true
+    },
+    {
+      "record": "112",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999870407699315,
+      "accepted": true
+    },
+    {
+      "record": "112",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999991758269462,
+      "accepted": true
+    },
+    {
+      "record": "112",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999833696602185,
+      "accepted": true
+    },
+    {
+      "record": "112",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999919128661862,
+      "accepted": true
+    },
+    {
+      "record": "112",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999873105976793,
+      "accepted": true
+    },
+    {
+      "record": "112",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.999990631789434,
+      "accepted": true
+    },
+    {
+      "record": "112",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999514313718895,
+      "accepted": true
+    },
+    {
+      "record": "112",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999972809505808,
+      "accepted": true
+    },
+    {
+      "record": "112",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999779801719901,
+      "accepted": true
+    },
+    {
+      "record": "112",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.999997385736448,
+      "accepted": true
+    },
+    {
+      "record": "115",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999867225661607,
+      "accepted": true
+    },
+    {
+      "record": "115",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999829033525449,
+      "accepted": true
+    },
+    {
+      "record": "115",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999673365132563,
+      "accepted": true
+    },
+    {
+      "record": "115",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999882155388053,
+      "accepted": true
+    },
+    {
+      "record": "115",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999977346756102,
+      "accepted": true
+    },
+    {
+      "record": "115",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999963803029553,
+      "accepted": true
+    },
+    {
+      "record": "115",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999998311518551,
+      "accepted": true
+    },
+    {
+      "record": "115",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.999998926615054,
+      "accepted": true
+    },
+    {
+      "record": "115",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999813944651217,
+      "accepted": true
+    },
+    {
+      "record": "115",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999500270833839,
+      "accepted": true
+    },
+    {
+      "record": "115",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999728870985728,
+      "accepted": true
+    },
+    {
+      "record": "115",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9998994050306726,
+      "accepted": true
+    },
+    {
+      "record": "116",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.999964044358635,
+      "accepted": true
+    },
+    {
+      "record": "116",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.999928545843483,
+      "accepted": true
+    },
+    {
+      "record": "116",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999987804899604,
+      "accepted": true
+    },
+    {
+      "record": "116",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999998946968411,
+      "accepted": true
+    },
+    {
+      "record": "116",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999987412158249,
+      "accepted": true
+    },
+    {
+      "record": "116",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999992113096939,
+      "accepted": true
+    },
+    {
+      "record": "116",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.999994236427632,
+      "accepted": true
+    },
+    {
+      "record": "116",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999885355907161,
+      "accepted": true
+    },
+    {
+      "record": "116",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999995033046363,
+      "accepted": true
+    },
+    {
+      "record": "116",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.999999991615513,
+      "accepted": true
+    },
+    {
+      "record": "116",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999964767565636,
+      "accepted": true
+    },
+    {
+      "record": "116",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999949419103145,
+      "accepted": true
+    },
+    {
+      "record": "117",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999941151195595,
+      "accepted": true
+    },
+    {
+      "record": "117",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999872402345603,
+      "accepted": true
+    },
+    {
+      "record": "117",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999519514436335,
+      "accepted": true
+    },
+    {
+      "record": "117",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999966382120411,
+      "accepted": true
+    },
+    {
+      "record": "117",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.999994784446888,
+      "accepted": true
+    },
+    {
+      "record": "117",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999683565486595,
+      "accepted": true
+    },
+    {
+      "record": "117",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999869528687002,
+      "accepted": true
+    },
+    {
+      "record": "117",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.999976851460094,
+      "accepted": true
+    },
+    {
+      "record": "117",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999706548982807,
+      "accepted": true
+    },
+    {
+      "record": "117",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999921478305424,
+      "accepted": true
+    },
+    {
+      "record": "117",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999986803964446,
+      "accepted": true
+    },
+    {
+      "record": "117",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999931687465281,
+      "accepted": true
+    },
+    {
+      "record": "128",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999234178983437,
+      "accepted": true
+    },
+    {
+      "record": "128",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999833216092758,
+      "accepted": true
+    },
+    {
+      "record": "128",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999976192923202,
+      "accepted": true
+    },
+    {
+      "record": "128",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999983562145258,
+      "accepted": true
+    },
+    {
+      "record": "128",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999944688943843,
+      "accepted": true
+    },
+    {
+      "record": "128",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999991234658305,
+      "accepted": true
+    },
+    {
+      "record": "128",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999950659251549,
+      "accepted": true
+    },
+    {
+      "record": "128",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999989325140151,
+      "accepted": true
+    },
+    {
+      "record": "128",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999987461134966,
+      "accepted": true
+    },
+    {
+      "record": "128",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999978256039566,
+      "accepted": true
+    },
+    {
+      "record": "128",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9998719973460558,
+      "accepted": true
+    },
+    {
+      "record": "128",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.999988088370647,
+      "accepted": true
+    },
+    {
+      "record": "129",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999957436256579,
+      "accepted": true
+    },
+    {
+      "record": "129",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999942429911047,
+      "accepted": true
+    },
+    {
+      "record": "129",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999479529556984,
+      "accepted": true
+    },
+    {
+      "record": "129",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999949927010158,
+      "accepted": true
+    },
+    {
+      "record": "129",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999996064472224,
+      "accepted": true
+    },
+    {
+      "record": "129",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999988975645425,
+      "accepted": true
+    },
+    {
+      "record": "129",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999992542865944,
+      "accepted": true
+    },
+    {
+      "record": "129",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999998612782487,
+      "accepted": true
+    },
+    {
+      "record": "129",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999929212660983,
+      "accepted": true
+    },
+    {
+      "record": "129",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999984777774554,
+      "accepted": true
+    },
+    {
+      "record": "129",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999999716368254,
+      "accepted": true
+    },
+    {
+      "record": "129",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999987509496466,
+      "accepted": true
+    },
+    {
+      "record": "157",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999573887916298,
+      "accepted": true
+    },
+    {
+      "record": "157",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999700731537524,
+      "accepted": true
+    },
+    {
+      "record": "157",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9998575157469398,
+      "accepted": true
+    },
+    {
+      "record": "157",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999892110099091,
+      "accepted": true
+    },
+    {
+      "record": "157",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999502210645475,
+      "accepted": true
+    },
+    {
+      "record": "157",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999624640545025,
+      "accepted": true
+    },
+    {
+      "record": "157",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999695875240413,
+      "accepted": true
+    },
+    {
+      "record": "157",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999904188432833,
+      "accepted": true
+    },
+    {
+      "record": "157",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.999983167604896,
+      "accepted": true
+    },
+    {
+      "record": "157",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999017223559881,
+      "accepted": true
+    },
+    {
+      "record": "157",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999753752005153,
+      "accepted": true
+    },
+    {
+      "record": "157",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999719543471729,
+      "accepted": true
+    },
+    {
+      "record": "160",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999305566903555,
+      "accepted": true
+    },
+    {
+      "record": "160",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999887344621969,
+      "accepted": true
+    },
+    {
+      "record": "160",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999865768838264,
+      "accepted": true
+    },
+    {
+      "record": "160",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999978677400341,
+      "accepted": true
+    },
+    {
+      "record": "160",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999954408498358,
+      "accepted": true
+    },
+    {
+      "record": "160",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999966516821728,
+      "accepted": true
+    },
+    {
+      "record": "160",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.999999311093616,
+      "accepted": true
+    },
+    {
+      "record": "160",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999991856635643,
+      "accepted": true
+    },
+    {
+      "record": "160",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999852393493028,
+      "accepted": true
+    },
+    {
+      "record": "160",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999408370671619,
+      "accepted": true
+    },
+    {
+      "record": "160",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999988758767737,
+      "accepted": true
+    },
+    {
+      "record": "160",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.999995154933706,
+      "accepted": true
+    },
+    {
+      "record": "162",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999919422688756,
+      "accepted": true
+    },
+    {
+      "record": "162",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999448376441198,
+      "accepted": true
+    },
+    {
+      "record": "162",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999980876927493,
+      "accepted": true
+    },
+    {
+      "record": "162",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999997372249103,
+      "accepted": true
+    },
+    {
+      "record": "162",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999851237119903,
+      "accepted": true
+    },
+    {
+      "record": "162",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999998829667901,
+      "accepted": true
+    },
+    {
+      "record": "162",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999980702687019,
+      "accepted": true
+    },
+    {
+      "record": "162",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999977165267881,
+      "accepted": true
+    },
+    {
+      "record": "162",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999997167579119,
+      "accepted": true
+    },
+    {
+      "record": "162",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999996979359369,
+      "accepted": true
+    },
+    {
+      "record": "162",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999725389679286,
+      "accepted": true
+    },
+    {
+      "record": "162",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999966723732883,
+      "accepted": true
+    },
+    {
+      "record": "167",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999553728283729,
+      "accepted": true
+    },
+    {
+      "record": "167",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999786492902653,
+      "accepted": true
+    },
+    {
+      "record": "167",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999711079536133,
+      "accepted": true
+    },
+    {
+      "record": "167",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.999990903727501,
+      "accepted": true
+    },
+    {
+      "record": "167",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9998953265195689,
+      "accepted": true
+    },
+    {
+      "record": "167",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999858426937,
+      "accepted": true
+    },
+    {
+      "record": "167",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999895995861772,
+      "accepted": true
+    },
+    {
+      "record": "167",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999263437009008,
+      "accepted": true
+    },
+    {
+      "record": "167",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999454150924096,
+      "accepted": true
+    },
+    {
+      "record": "167",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999775314714485,
+      "accepted": true
+    },
+    {
+      "record": "167",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999310788550126,
+      "accepted": true
+    },
+    {
+      "record": "167",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999771860958775,
+      "accepted": true
+    },
+    {
+      "record": "172",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999305566903555,
+      "accepted": true
+    },
+    {
+      "record": "172",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999874855358609,
+      "accepted": true
+    },
+    {
+      "record": "172",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999958149483702,
+      "accepted": true
+    },
+    {
+      "record": "172",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999991817676877,
+      "accepted": true
+    },
+    {
+      "record": "172",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999853782844994,
+      "accepted": true
+    },
+    {
+      "record": "172",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999989255271341,
+      "accepted": true
+    },
+    {
+      "record": "172",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999890441454956,
+      "accepted": true
+    },
+    {
+      "record": "172",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999984261286357,
+      "accepted": true
+    },
+    {
+      "record": "172",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.999996898858324,
+      "accepted": true
+    },
+    {
+      "record": "172",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999992926960994,
+      "accepted": true
+    },
+    {
+      "record": "172",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999519245814684,
+      "accepted": true
+    },
+    {
+      "record": "172",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999946830340267,
+      "accepted": true
+    },
+    {
+      "record": "175",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.999986852729951,
+      "accepted": true
+    },
+    {
+      "record": "175",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999975018731794,
+      "accepted": true
+    },
+    {
+      "record": "175",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999380467880123,
+      "accepted": true
+    },
+    {
+      "record": "175",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999988569813036,
+      "accepted": true
+    },
+    {
+      "record": "175",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999993180338905,
+      "accepted": true
+    },
+    {
+      "record": "175",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999995252212008,
+      "accepted": true
+    },
+    {
+      "record": "175",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999961613100754,
+      "accepted": true
+    },
+    {
+      "record": "175",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999994277535544,
+      "accepted": true
+    },
+    {
+      "record": "175",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999971909713931,
+      "accepted": true
+    },
+    {
+      "record": "175",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999938887561483,
+      "accepted": true
+    },
+    {
+      "record": "175",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999999914398757,
+      "accepted": true
+    },
+    {
+      "record": "175",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.999998936086551,
+      "accepted": true
+    },
+    {
+      "record": "180",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999847473339344,
+      "accepted": true
+    },
+    {
+      "record": "180",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999743436329853,
+      "accepted": true
+    },
+    {
+      "record": "180",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999595822567896,
+      "accepted": true
+    },
+    {
+      "record": "180",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999967855770225,
+      "accepted": true
+    },
+    {
+      "record": "180",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999751314712888,
+      "accepted": true
+    },
+    {
+      "record": "180",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999895169422695,
+      "accepted": true
+    },
+    {
+      "record": "180",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999875688936918,
+      "accepted": true
+    },
+    {
+      "record": "180",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999914965774945,
+      "accepted": true
+    },
+    {
+      "record": "180",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999805632504987,
+      "accepted": true
+    },
+    {
+      "record": "180",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999976062070741,
+      "accepted": true
+    },
+    {
+      "record": "180",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999830938104959,
+      "accepted": true
+    },
+    {
+      "record": "180",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999929142658787,
+      "accepted": true
+    },
+    {
+      "record": "201",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999371348857725,
+      "accepted": true
+    },
+    {
+      "record": "201",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999890288925984,
+      "accepted": true
+    },
+    {
+      "record": "201",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999864138878746,
+      "accepted": true
+    },
+    {
+      "record": "201",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999979844257683,
+      "accepted": true
+    },
+    {
+      "record": "201",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999955317416135,
+      "accepted": true
+    },
+    {
+      "record": "201",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999966731116683,
+      "accepted": true
+    },
+    {
+      "record": "201",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999993165520052,
+      "accepted": true
+    },
+    {
+      "record": "201",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.999999188917798,
+      "accepted": true
+    },
+    {
+      "record": "201",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999826846203471,
+      "accepted": true
+    },
+    {
+      "record": "201",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.999967640363655,
+      "accepted": true
+    },
+    {
+      "record": "201",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999988995769614,
+      "accepted": true
+    },
+    {
+      "record": "201",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.999995187015288,
+      "accepted": true
+    },
+    {
+      "record": "203",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999874555209693,
+      "accepted": true
+    },
+    {
+      "record": "203",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999667578782068,
+      "accepted": true
+    },
+    {
+      "record": "203",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999986147337764,
+      "accepted": true
+    },
+    {
+      "record": "203",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999999923376156,
+      "accepted": true
+    },
+    {
+      "record": "203",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999972880601887,
+      "accepted": true
+    },
+    {
+      "record": "203",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.999999991748414,
+      "accepted": true
+    },
+    {
+      "record": "203",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999991919316461,
+      "accepted": true
+    },
+    {
+      "record": "203",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.999997571364137,
+      "accepted": true
+    },
+    {
+      "record": "203",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999999530463868,
+      "accepted": true
+    },
+    {
+      "record": "203",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999999541376182,
+      "accepted": true
+    },
+    {
+      "record": "203",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999944551984485,
+      "accepted": true
+    },
+    {
+      "record": "203",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999984160336056,
+      "accepted": true
+    },
+    {
+      "record": "208",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999941316143178,
+      "accepted": true
+    },
+    {
+      "record": "208",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999874429987938,
+      "accepted": true
+    },
+    {
+      "record": "208",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999354040554107,
+      "accepted": true
+    },
+    {
+      "record": "208",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999971333335816,
+      "accepted": true
+    },
+    {
+      "record": "208",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999945629667475,
+      "accepted": true
+    },
+    {
+      "record": "208",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999687394296795,
+      "accepted": true
+    },
+    {
+      "record": "208",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999858180621906,
+      "accepted": true
+    },
+    {
+      "record": "208",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999742611824394,
+      "accepted": true
+    },
+    {
+      "record": "208",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999723272873525,
+      "accepted": true
+    },
+    {
+      "record": "208",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999933450026748,
+      "accepted": true
+    },
+    {
+      "record": "208",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999984424594167,
+      "accepted": true
+    },
+    {
+      "record": "208",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999935987788839,
+      "accepted": true
+    },
+    {
+      "record": "210",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999709966738168,
+      "accepted": true
+    },
+    {
+      "record": "210",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999700825132191,
+      "accepted": true
+    },
+    {
+      "record": "210",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999989679602541,
+      "accepted": true
+    },
+    {
+      "record": "210",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999975839423354,
+      "accepted": true
+    },
+    {
+      "record": "210",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999738994119799,
+      "accepted": true
+    },
+    {
+      "record": "210",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999996564466914,
+      "accepted": true
+    },
+    {
+      "record": "210",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999959320690306,
+      "accepted": true
+    },
+    {
+      "record": "210",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999993829728794,
+      "accepted": true
+    },
+    {
+      "record": "210",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999990636468071,
+      "accepted": true
+    },
+    {
+      "record": "210",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999956316157691,
+      "accepted": true
+    },
+    {
+      "record": "210",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999772516492959,
+      "accepted": true
+    },
+    {
+      "record": "210",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999936143120655,
+      "accepted": true
+    },
+    {
+      "record": "218",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999633999797229,
+      "accepted": true
+    },
+    {
+      "record": "218",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999913413480856,
+      "accepted": true
+    },
+    {
+      "record": "218",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999090553001402,
+      "accepted": true
+    },
+    {
+      "record": "218",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999876963164749,
+      "accepted": true
+    },
+    {
+      "record": "218",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.9999986711845725,
+      "accepted": true
+    },
+    {
+      "record": "218",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999994681224622,
+      "accepted": true
+    },
+    {
+      "record": "218",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.999999916271379,
+      "accepted": true
+    },
+    {
+      "record": "218",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999999912987664,
+      "accepted": true
+    },
+    {
+      "record": "218",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.999998797712881,
+      "accepted": true
+    },
+    {
+      "record": "218",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999978287742932,
+      "accepted": true
+    },
+    {
+      "record": "218",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999994223191067,
+      "accepted": true
+    },
+    {
+      "record": "218",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999936703334246,
+      "accepted": true
+    },
+    {
+      "record": "240",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999841751969667,
+      "accepted": true
+    },
+    {
+      "record": "240",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999240159261977,
+      "accepted": true
+    },
+    {
+      "record": "240",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.999986631684724,
+      "accepted": true
+    },
+    {
+      "record": "240",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999716801333243,
+      "accepted": true
+    },
+    {
+      "record": "240",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999876658166774,
+      "accepted": true
+    },
+    {
+      "record": "240",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999970958035234,
+      "accepted": true
+    },
+    {
+      "record": "240",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999915209021607,
+      "accepted": true
+    },
+    {
+      "record": "240",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999973491653028,
+      "accepted": true
+    },
+    {
+      "record": "240",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999790495463661,
+      "accepted": true
+    },
+    {
+      "record": "240",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.9999639357566169,
+      "accepted": true
+    },
+    {
+      "record": "240",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999829246139215,
+      "accepted": true
+    },
+    {
+      "record": "240",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999850986682288,
+      "accepted": true
+    },
+    {
+      "record": "241",
+      "expected": "I",
+      "predicted": "I",
+      "confidence": 0.9999362356051548,
+      "accepted": true
+    },
+    {
+      "record": "241",
+      "expected": "aVR",
+      "predicted": "aVR",
+      "confidence": 0.9999889004402688,
+      "accepted": true
+    },
+    {
+      "record": "241",
+      "expected": "V1",
+      "predicted": "V1",
+      "confidence": 0.9999876331258697,
+      "accepted": true
+    },
+    {
+      "record": "241",
+      "expected": "V4",
+      "predicted": "V4",
+      "confidence": 0.9999982551617941,
+      "accepted": true
+    },
+    {
+      "record": "241",
+      "expected": "II",
+      "predicted": "II",
+      "confidence": 0.999995885190664,
+      "accepted": true
+    },
+    {
+      "record": "241",
+      "expected": "aVL",
+      "predicted": "aVL",
+      "confidence": 0.9999963246905056,
+      "accepted": true
+    },
+    {
+      "record": "241",
+      "expected": "V2",
+      "predicted": "V2",
+      "confidence": 0.9999993047493578,
+      "accepted": true
+    },
+    {
+      "record": "241",
+      "expected": "V5",
+      "predicted": "V5",
+      "confidence": 0.99999944377616,
+      "accepted": true
+    },
+    {
+      "record": "241",
+      "expected": "III",
+      "predicted": "III",
+      "confidence": 0.9999841035881024,
+      "accepted": true
+    },
+    {
+      "record": "241",
+      "expected": "aVF",
+      "predicted": "aVF",
+      "confidence": 0.9999418211066515,
+      "accepted": true
+    },
+    {
+      "record": "241",
+      "expected": "V3",
+      "predicted": "V3",
+      "confidence": 0.9999986737558967,
+      "accepted": true
+    },
+    {
+      "record": "241",
+      "expected": "V6",
+      "predicted": "V6",
+      "confidence": 0.9999949629153464,
+      "accepted": true
+    }
+  ],
+  "training_warning": "Maximum150iterations reached before optimizer convergence; candidate only"
+}

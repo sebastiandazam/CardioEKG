@@ -1,0 +1,1319 @@
+{
+  "status": "research_candidate_not_approved",
+  "model": "six classical ExtraTrees boundary regressors; not neural",
+  "train_augmented_beats": 24,
+  "train_records": 1,
+  "datasets_available": {
+    "ludb": {
+      "fit": 1,
+      "selection": 0,
+      "test": 0,
+      "external": 0
+    },
+    "qt": {
+      "fit": 0,
+      "selection": 0,
+      "test": 0,
+      "external": 0
+    }
+  },
+  "metrics": {
+    "ludb:fit": {
+      "records": 1,
+      "reference_beats": 6,
+      "r_matched": 6,
+      "methods": {
+        "trained_extra_trees": {
+          "p_onset": {
+            "reference_boundaries": 5,
+            "estimated_boundaries": 5,
+            "coverage": 1.0,
+            "median_absolute_error_ms": 2.191145833332686,
+            "p95_absolute_error_ms": 7.563750000000446,
+            "mean_error_ms": -0.5251041666665346
+          },
+          "p_offset": {
+            "reference_boundaries": 5,
+            "estimated_boundaries": 5,
+            "coverage": 1.0,
+            "median_absolute_error_ms": 0.38541666666667973,
+            "p95_absolute_error_ms": 1.9629166666660507,
+            "mean_error_ms": -0.35958333333320214
+          },
+          "qrs_onset": {
+            "reference_boundaries": 6,
+            "estimated_boundaries": 6,
+            "coverage": 1.0,
+            "median_absolute_error_ms": 2.83255208333311,
+            "p95_absolute_error_ms": 5.269010416666499,
+            "mean_error_ms": -1.9245659722221113
+          },
+          "qrs_offset": {
+            "reference_boundaries": 6,
+            "estimated_boundaries": 6,
+            "coverage": 1.0,
+            "median_absolute_error_ms": 1.6575520833336728,
+            "p95_absolute_error_ms": 8.82539062500011,
+            "mean_error_ms": 2.666232638888998
+          },
+          "t_onset": {
+            "reference_boundaries": 5,
+            "estimated_boundaries": 5,
+            "coverage": 1.0,
+            "median_absolute_error_ms": 3.5833333333337714,
+            "p95_absolute_error_ms": 6.872395833333244,
+            "mean_error_ms": -0.3094791666666706
+          },
+          "t_offset": {
+            "reference_boundaries": 5,
+            "estimated_boundaries": 5,
+            "coverage": 1.0,
+            "median_absolute_error_ms": 2.989062500000028,
+            "p95_absolute_error_ms": 11.54208333333325,
+            "mean_error_ms": 1.0551041666666652
+          }
+        },
+        "neurokit2_dwt": {
+          "p_onset": {
+            "reference_boundaries": 5,
+            "estimated_boundaries": 5,
+            "coverage": 1.0,
+            "median_absolute_error_ms": 2.0000000000002793,
+            "p95_absolute_error_ms": 5.60000000000046,
+            "mean_error_ms": 2.800000000000147
+          },
+          "p_offset": {
+            "reference_boundaries": 5,
+            "estimated_boundaries": 5,
+            "coverage": 1.0,
+            "median_absolute_error_ms": 4.000000000000073,
+            "p95_absolute_error_ms": 11.199999999999704,
+            "mean_error_ms": 3.2000000000000552
+          },
+          "qrs_onset": {
+            "reference_boundaries": 6,
+            "estimated_boundaries": 6,
+            "coverage": 1.0,
+            "median_absolute_error_ms": 85.99999999999977,
+            "p95_absolute_error_ms": 91.00000000000011,
+            "mean_error_ms": -72.33333333333339
+          },
+          "qrs_offset": {
+            "reference_boundaries": 6,
+            "estimated_boundaries": 6,
+            "coverage": 1.0,
+            "median_absolute_error_ms": 43.00000000000009,
+            "p95_absolute_error_ms": 62.999999999999716,
+            "mean_error_ms": 45.00000000000001
+          },
+          "t_onset": {
+            "reference_boundaries": 5,
+            "estimated_boundaries": 5,
+            "coverage": 1.0,
+            "median_absolute_error_ms": 13.99999999999979,
+            "p95_absolute_error_ms": 28.800000000000043,
+            "mean_error_ms": 16.400000000000002
+          },
+          "t_offset": {
+            "reference_boundaries": 5,
+            "estimated_boundaries": 5,
+            "coverage": 1.0,
+            "median_absolute_error_ms": 7.999999999999618,
+            "p95_absolute_error_ms": 19.20000000000007,
+            "mean_error_ms": -8.799999999999974
+          }
+        }
+      }
+    }
+  },
+  "current_ts_estimator_comparison": [
+    {
+      "source": "ludb",
+      "split": "fit",
+      "record": "data/1:window0",
+      "reference_median_intervals_ms": {
+        "prMs": 142.0,
+        "qrsMs": 95.0,
+        "qtMs": 494.0
+      },
+      "estimated_intervals": {
+        "rateBpm": 45,
+        "prMs": 284,
+        "qrsMs": 72,
+        "qtMs": null,
+        "axisDeg": null
+      },
+      "errors_ms": {
+        "prMs": 142.0,
+        "qrsMs": -23.0,
+        "qtMs": null
+      },
+      "reasons": {
+        "qtMs": "tUnavailable",
+        "axisDeg": "axisNotComparable"
+      }
+    }
+  ],
+  "source_estimator_sha256": "1c8e45075c14e3cb4ad713ef0a7cc51b2821d53c48132bf8e51c947ec2b1223a",
+  "failed_records": [
+    {
+      "source": "ludb",
+      "record": "data/42",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/42.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/151",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/151.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/149",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/149.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/67",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/67.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/182",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/182.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/113",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/113.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/160",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/160.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/154",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/154.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/107",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/107.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/170",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/170.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/129",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/129.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/88",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/88.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/44",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/44.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/52",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/52.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/48",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/48.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/178",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/178.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/175",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/175.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/75",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/75.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/39",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/39.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/24",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/24.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/86",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/86.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/200",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/200.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/95",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/95.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/152",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/152.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/5",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/5.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/128",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/128.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/147",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/147.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/53",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/53.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/105",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/105.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/122",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/122.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/111",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/111.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/138",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/138.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/137",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/137.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/57",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/57.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/141",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/141.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/179",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/179.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/25",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/25.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/104",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/104.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/70",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/70.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/124",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/124.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/161",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/161.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/87",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/87.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/174",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/174.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/195",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/195.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/76",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/76.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/99",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/99.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/163",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/163.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/196",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/196.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/21",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/21.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/63",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/63.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/55",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/55.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/199",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/199.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/50",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/50.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/181",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/181.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/47",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/47.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/110",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/110.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/3",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/3.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/188",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/188.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/18",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/18.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/185",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/185.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/167",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/167.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/130",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/130.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/73",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/73.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/71",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/71.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/59",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/59.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/20",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/20.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/190",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/190.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/45",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/45.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/90",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/90.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/121",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/121.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/41",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/41.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/7",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/7.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/144",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/144.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/103",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/103.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/146",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/146.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/162",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/162.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/183",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/183.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/143",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/143.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/171",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/171.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/109",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/109.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/36",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/36.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/132",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/132.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/61",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/61.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/115",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/115.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/150",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/150.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/79",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/79.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/119",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/119.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/2",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/2.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/23",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/23.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/19",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/19.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/94",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/94.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/38",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/38.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/10",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/10.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/11",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/11.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/69",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/69.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/193",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/193.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/56",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/56.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/100",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/100.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/108",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/108.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/192",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/192.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/26",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/26.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/166",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/166.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/169",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/169.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/89",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/89.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/112",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/112.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/197",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/197.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/96",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/96.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/187",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/187.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/164",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/164.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/180",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/180.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/198",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/198.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/16",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/16.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/66",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/66.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/17",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/17.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/102",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/102.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/82",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/82.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/43",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/43.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/13",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/13.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/58",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/58.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/120",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/120.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/97",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/97.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/74",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/74.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/51",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/51.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/22",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/22.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/29",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/29.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/84",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/84.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/135",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/135.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/117",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/117.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/98",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/98.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/30",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/30.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/156",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/156.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/158",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/158.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/142",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/142.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/194",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/194.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/81",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/81.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/157",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/157.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/34",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/34.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/127",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/127.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/33",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/33.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/189",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/189.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/62",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/62.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/139",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/139.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/155",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/155.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/168",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/168.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/131",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/131.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/114",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/114.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/9",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/9.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/60",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/60.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/184",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/184.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/165",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/165.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/12",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/12.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/46",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/46.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/8",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/8.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/125",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/125.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/93",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/93.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/116",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/116.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/153",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/153.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/64",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/64.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/32",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/32.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/136",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/136.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/123",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/123.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/133",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/133.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/31",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/31.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/101",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/101.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/186",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/186.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/91",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/91.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/85",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/85.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/78",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/78.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/83",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/83.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/40",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/40.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/140",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/140.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/15",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/15.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/126",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/126.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/6",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/6.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/72",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/72.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/177",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/177.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/159",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/159.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/54",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/54.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/176",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/176.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/172",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/172.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/68",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/68.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/27",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/27.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/134",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/134.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/49",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/49.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/77",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/77.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/148",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/148.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/173",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/173.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/92",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/92.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/37",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/37.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/35",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/35.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/65",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/65.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/191",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/191.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/4",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/4.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/118",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/118.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/106",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/106.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/145",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/145.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/80",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/80.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/14",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/14.hea'"
+    },
+    {
+      "source": "ludb",
+      "record": "data/28",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/ludb/data/28.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sele0203",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sele0203.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel847",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel847.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel16265",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel16265.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sele0126",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sele0126.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sele0107",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sele0107.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel31",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel31.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel840",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel840.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel310",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel310.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel15814",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel15814.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel821",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel821.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel103",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel103.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel230",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel230.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sele0612",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sele0612.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sele0411",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sele0411.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel37",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel37.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel14172",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel14172.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel48",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel48.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel223",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel223.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel853",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel853.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel306",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel306.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sele0607",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sele0607.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sele0509",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sele0509.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel17152",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel17152.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sele0211",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sele0211.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel39",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel39.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel117",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel117.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sele0166",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sele0166.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel871",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel871.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sele0609",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sele0609.hea'"
+    },
+    {
+      "source": "qt",
+      "record": "sel33",
+      "error": "[Errno 2] No such file or directory: '/workspace/cardioscopio/data/clinical-run/qt/sel33.hea'"
+    }
+  ],
+  "comparator_failures": [],
+  "elapsed_seconds": 2.707425832748413,
+  "activation_gate_passed": false,
+  "gate_failures": [
+    "requiredindependentclinicalphotographicvalidationnotperformed",
+    "incompletefrozenannotatedcohorts"
+  ],
+  "limitations": [
+    "modeltrainingRpositionsareexpertanchorswithjitter;testRpositionsareNeuroKitmatchedwithin100ms",
+    "wavepresenceisnotclassified;missingannotatedwavesarenotscored",
+    "QTDBmanualq1cselectedbeatsnotallrecordbeats;leadrelationmaydifferfromsingleleadestimate",
+    "fitresubstitutionmetricsarenotvalidation",
+    "noaxisgroundtruthinLUDBorQTDBthereforenovalidatedaxisclaim"
+  ]
+}

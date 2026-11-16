@@ -1,0 +1,485 @@
+/* CardioEKG: a warm gradient system, with quiet surfaces for clinical reading. */
+:root {
+  --brand-gradient: linear-gradient(115deg, #8e202c 0%, #ae3329 52%, #b6492c 100%);
+  --brand-surface: linear-gradient(135deg, #fffdfaf5 0%, #fff7f0f5 58%, #fceae2f5 100%);
+  --brand-line: #e6cabe;
+}
+body {
+  background: radial-gradient(ellipse at 0% 12%, #edaa9c26 0%, transparent 40%),
+    radial-gradient(ellipse at 100% 55%, #f7b98424 0%, transparent 42%),
+    linear-gradient(155deg, #fff9f1 0%, #fbf1eb 50%, #fff8ef 100%);
+}
+.cardioekg-wordmark { display:inline-flex;align-items:center;line-height:1;flex-shrink:0; }
+.cardioekg-wordmark > img { display:block;width:210px;height:auto;max-width:100%; }
+.topbar { background: linear-gradient(110deg,#fffcf7f7 10%,#fff0e7f0 62%,#f9e2daf0); border-bottom-color: #e8cfc1; }
+.site-footer { background: linear-gradient(105deg,#fffaf2e6,#f9e8dfe6 60%,#f8e2dae6); border-top-color: #e7ccbd; }
+.site-footer .cardioekg-wordmark > img { width:170px; }
+.landing-page { background: transparent; }
+.landing-hero { border: 1px solid #c46b4a33; box-shadow: 0 16px 42px #86352112; }
+.landing-process { background: radial-gradient(ellipse at 5% 80%,#eb8c7421,transparent 47%), radial-gradient(ellipse at 96% 12%,#efb17429,transparent 48%); border-radius: 0 0 22px 22px; }
+.process-steps li { background: linear-gradient(145deg,#fffcf9d9,#fce8df99); border: 1px solid #e7cfc1; padding: 15px; border-radius: 12px; }
+.process-steps li:nth-child(2) { background: linear-gradient(155deg,#fffdf8e0,#ffeed9b3); }
+.process-steps li:nth-child(3) { background: linear-gradient(135deg,#fffaf7e6,#f8e1db99); }
+.landing-privacy { background: linear-gradient(100deg,#fffaf3c9,#fbe6dcb3); border: 1px solid #e6ccbd; border-radius: 10px; padding: 13px; }
+.content.case-content { background: transparent; }
+.case-content .card { background: linear-gradient(145deg,#fffefc 0%,#fffaf6 65%,#fcf0e8 100%); border-color: #ead4c6; }
+.case-content .case-bar { background: linear-gradient(110deg,#fffaf5,#fae7dc 65%,#f7e1d8); }
+.case-content .library-case:hover { background: linear-gradient(125deg,#fff8ef,#f9e2d7); border-color:#cb977e; }
+.case-content .anatomy-loading { background: linear-gradient(145deg,#fffaf5,#f7e6df); }
+.language-control { background: linear-gradient(110deg,#f7e8dd,#f5dcd1); }
+.intake .intake-sheet { background: var(--brand-surface); border-color: var(--brand-line); box-shadow: 0 14px 45px #7838210a; }
+.intake .intake-progress { border-image: linear-gradient(90deg,#b33c32,#e29d6c88,#e5c5b566) 1; }
+.intake .intake-option { background: linear-gradient(120deg,#fffefb,#fff5ed); }
+.intake .intake-option:has(:checked) { background: linear-gradient(115deg,#ffefe4,#f8dfd5); }
+.intake .intake-format-grid button { background: linear-gradient(145deg,#fffefb,#fff3e7); }
+.intake .intake-privacy { background: linear-gradient(105deg,#fff4e7,#fbe3d8); }
+.intake .intake-warning, .intake-safety-reminder { background: linear-gradient(105deg,#fce5db,#f9dbd4); }
+.intake .intake-next, .case-content .button--primary { background: var(--brand-gradient); color: #fffaf6; border-color: #9d3429; }
+.case-content .ecg-r-shell .ecg-r-photo,
+.case-content .ecg-r-shell .ecg-r-review { background: var(--brand-surface); border-color: var(--brand-line); box-shadow: 0 12px 34px #7838210c; }
+.case-content .ecg-r-shell .ecg-sheet-sidebar { background: linear-gradient(150deg,#fffcf6,#fceadd); border-color: #e4c8b6; }
+.case-content .ecg-r-shell .ecg-pdf-preview { background: linear-gradient(140deg,#fffcf8,#fbebe1); }
+.case-content .ecg-r-shell .ecg-r-primary { background: var(--brand-gradient); color: #fffaf6; border-color: #9d3429; }
+.case-content .ecg-r-shell .ecg-r-secondary { background: linear-gradient(120deg,#fffdf9,#fbeade); color: #653b30; }
+.case-content .ecg-r-shell .ecg-sheet-list button { background: linear-gradient(125deg,#fffefa,#fff5ec); }
+/* Photos, grid paper, trace canvases and colored lead boxes retain their own rendering. */
+@media (max-width: 700px) { .cardioekg-wordmark > img { width:175px; } .site-footer .cardioekg-wordmark > img { width:155px; } }
+@media (prefers-reduced-motion: reduce) { .landing-shader { transition: none; } }
+.case-content .ecg-r-shell .ecg-sheet-list button { color: #391d1b; }
+.measurement-method-note {font-size:.82rem;line-height:1.6;padding:12px 16px;border-left:3px solid #b34b32;background:#fff5eb;border-radius:8px}
+.measure div > .measure-reason {font-size:.75rem;font-weight:400;line-height:1.4;margin-top:6px}
+
+/* Saturated accents frame the experience; clinical signal surfaces remain neutral. */
+:root { --brand-gradient:linear-gradient(110deg,#6d123e 0%,#ad1737 38%,#cc342c 75%,#bd4029 100%);--brand-line:#e0c3c9;--brand-surface:linear-gradient(135deg,#ffffff 0%,#fff9fa 62%,#fce9e5 100%); }
+body {background:radial-gradient(ellipse at 0% 5%,#c5164b24 0%,transparent 40%),radial-gradient(ellipse at 100% 44%,#ed532924 0%,transparent 42%),linear-gradient(160deg,#fffafb 0%,#f8f4f8 48%,#fff8f4 100%);}
+.topbar {background:linear-gradient(105deg,#fff9fcf7 0%,#f7e5edf5 49%,#ffe2d8ed 100%);border-bottom:3px solid transparent;border-image:linear-gradient(90deg,#751139,#be1e3d,#f36b2d) 1;}
+.header-nav button {color:#56263d;}
+.header-nav button:hover,.header-nav button[aria-current] {color:#9a1740;text-decoration-thickness:2px;}
+.landing-hero {background:radial-gradient(ellipse at 90% 20%,#ff762d 0,transparent 54%),radial-gradient(ellipse at 65% 60%,#cf2240 0,#6b123c 52%,#281028 95%);border-color:#87143f55;box-shadow:0 18px 50px #68133f26;}
+.hero-shade {background:linear-gradient(90deg,#230d29c9 0%,#4b102970 47%,#48192a00 88%);}
+.landing-content h1 em {color:#ffba92;}
+.landing-try {background:#4c123666;border-color:#ffc8b2a8;}
+.landing-process {background:radial-gradient(ellipse at 0% 0%,#a9194820,transparent 50%),radial-gradient(ellipse at 100% 80%,#f0653028,transparent 50%);}
+.process-title>p {color:#95153d;}
+.process-steps li {background:linear-gradient(145deg,#ffffffed,#fbe8f0c9);border-color:#e2bfca;border-top:3px solid #a51d48;}
+.process-steps li:nth-child(2) {background:linear-gradient(145deg,#fffdfced,#fce8dfcb);border-top-color:#d34735;}
+.process-steps li:nth-child(3) {background:linear-gradient(145deg,#fffdfded,#f3e6f2c9);border-top-color:#792246;}
+.landing-privacy {background:linear-gradient(105deg,#faf1fae6,#fff0e6e6);border-color:#dfc6d3;}
+.case-content .case-bar {background:linear-gradient(110deg,#71133e,#a91d3b 62%,#b43c29);border-color:#8e2140;color:#fff7f8;}
+.case-content .case-bar p,.case-content .case-bar span {color:#fff0f4;}
+.case-content .case-bar strong,.case-content .case-bar a {color:white;}
+.case-content .case-bar .tag {background:#ffffff17;border-color:#ffffff61;color:white;}
+.case-content .case-bar .button--subtle {background:#fff5f6;color:#6d123e;border-color:#ffdce5;}
+.case-content .card {background:linear-gradient(150deg,#ffffff 0%,#fffafb 88%,#fceef0 100%);border-color:#e8cbd2;}
+.case-content .heart-card,.case-content .waveform-card {background:#fffdfd;}
+.case-content .library-case:hover {background:linear-gradient(130deg,#fff5fa,#ffe3d7);border-color:#c26c84;}
+.case-content .measure {border-top:3px solid #b82b48;}
+.case-content .measure:nth-child(2n) {border-top-color:#dc5c35;}
+.case-content .measure:nth-child(3n) {border-top-color:#792246;}
+.case-content .ecg-r-shell .ecg-sheet-sidebar {background:linear-gradient(155deg,#fffafd,#faeaf0 62%,#ffe9df);border-color:#dfbecb;}
+.case-content .ecg-r-shell .ecg-r-secondary {background:linear-gradient(120deg,#fffafe,#fbe8ee);color:#60233d;border-color:#d8b4c5;}
+.case-content .ecg-r-shell .ecg-sheet-list button {background:linear-gradient(125deg,#fff,#fff2f5);}
+.case-content .ecg-r-shell .ecg-r-photo,.case-content .ecg-r-shell .ecg-r-review {border-color:#e1c4d0;}
+.intake .intake-option:has(:checked) {background:linear-gradient(115deg,#fbe3ee,#ffe5da);border-color:#b24366;}
+.intake .intake-privacy {background:linear-gradient(105deg,#f9ebf5,#ffe7dc);}
+.site-footer {background:linear-gradient(105deg,#f5e4eef5,#fbe4e4f5 60%,#f9d8c8f5);border-top:3px solid transparent;border-image:linear-gradient(90deg,#74133c,#ba2c45,#ee6a30) 1;}
+.language-control {background:linear-gradient(120deg,#f2dbe9,#f8dfd5);border-color:#dcc0ca;}
+.language-control button[aria-pressed=true] {color:#8f1d46;background:white;border-color:#d2adbf;}
+:focus-visible {outline:3px solid #982a56;outline-offset:3px;}
+@media(max-width:420px){.cardioekg-wordmark>img{width:151px;}.site-footer .cardioekg-wordmark>img{width:143px;}}
+@media(prefers-reduced-motion:reduce){.landing-shader,.landing-hero::before,.landing-hero::after{animation:none!important;transition:none!important;}}
+@media print{body,.topbar,.site-footer{background:white!important}.cardioekg-wordmark>img{width:185px;}}
+.case-content .case-bar .case-icon {color:#8a1740;background:#fff4f7;}
+.case-content .case-bar .technical-term-trigger {color:inherit;}
+.case-analysis {margin:22px 0;padding:clamp(16px,3vw,28px);border:1px solid #d8c7c2;border-radius:18px;background:#fffdfb;color:#38242a}
+.case-analysis header {display:flex;flex-wrap:wrap;align-items:center;gap:12px;justify-content:space-between}
+.case-analysis h2 {margin:0;font-size:1.35rem}
+.case-analysis details {margin-top:14px;border-top:1px solid #e8d8d2;padding-top:12px}
+.case-analysis summary,.measure details summary {cursor:pointer;min-height:32px;font-weight:650}
+.analysis-confidence {display:inline-block;border:1px solid #a66b4f;background:#fff0db;padding:5px 9px;border-radius:9px;color:#713c1d;font-size:.75rem;line-height:1.4}
+.analysis-confidence.is-not-evaluable {background:#f2eeee;color:#5d4d52;border-color:#c7b5b5}
+.analysis-findings,.analysis-leads {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:14px;margin-top:14px}
+.analysis-findings article,.lead-analysis {padding:16px;border:1px solid #e5d6ce;border-radius:12px;background:#fff9f4}
+.analysis-findings h3,.lead-analysis h3 {margin:0 0 10px;font-size:1rem;line-height:1.4}
+.lead-analysis h3 small {display:block;font-size:.8rem;font-weight:400;margin-top:5px}
+.analysis-findings li,.lead-analysis li,.case-analysis>p {font-size:.9rem;line-height:1.6}
+.analysis-findings a {display:inline-block;margin:4px 10px 4px 0;font-size:.8rem;color:#8f2f27}
+.analysis-muted {font-size:.8rem;line-height:1.5;color:#6d5355}
+.report-download {display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:24px 0}
+.report-download span {font-size:.85rem;color:#654d4d}
+.official-integration,.remote-analysis,.axis-comparison {padding:16px;border:1px solid #dac8bd;border-radius:12px;background:#fff9f4;margin-top:16px;line-height:1.6;font-size:.87rem}
+.official-integration {width:100%}
+.official-integration iframe {width:100%;height:600px;border:0}
+.remote-analysis label,.teaching-scenario {display:block;margin:12px 0;font-size:.85rem;line-height:1.5}
+.remote-analysis input[type=password],.teaching-scenario select {display:block;max-width:100%;width:100%;min-height:44px;padding:8px;border:1px solid #caa68e;border-radius:8px;background:white;color:#40272a;font:inherit}
+.remote-consent {display:flex!important;gap:10px;align-items:flex-start}
+.measure details {font-size:.78rem;font-weight:400;max-width:100%;margin-top:5px}
+.measure details p {line-height:1.5}
+
+.training-status {padding:18px;margin:18px 0;border:1px solid #d7c5bc;border-radius:12px;background:#fffaf6;font-size:.88rem;line-height:1.6}
+.training-status summary {cursor:pointer;font-weight:700;min-height:32px}
+.training-status table {width:100%;max-width:640px;border-collapse:collapse;margin:12px 0}
+.training-status th,.training-status td {text-align:left;padding:7px 10px;border-bottom:1px solid #e4d3ca}
+
+.boundary-toggle {display:flex;align-items:flex-start;gap:9px;font-size:.78rem;line-height:1.5;margin:12px 0}
+.boundary-toggle input {min-width:20px;min-height:20px;accent-color:#8e2733}
+
+.experimental-release {display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;padding:10px clamp(16px,5vw,72px);background:linear-gradient(105deg,#732036,#a72c28,#bf4b21);color:#fff8ef;font-size:.8rem;line-height:1.5}
+.experimental-release strong {white-space:nowrap}
+.experimental-release span {max-width:950px}
+.clinical-context-form {margin:18px 0;padding:18px;border:1px solid #d8c1b7;border-radius:14px;background:#fffbf7;line-height:1.55}
+.clinical-context-form summary {font-weight:700;cursor:pointer;min-height:32px}
+.clinical-context-form>p {font-size:.87rem;margin:10px 0}
+.context-fields {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:14px}
+.clinical-context-form fieldset {display:flex;flex-wrap:wrap;gap:10px 18px;padding:12px;border:1px solid #e3d2ca;border-radius:10px;margin:14px 0}
+.clinical-context-form legend {font-weight:650;padding:0 5px}
+.clinical-context-form fieldset label {display:flex;gap:9px;align-items:flex-start;min-height:40px;font-size:.85rem}
+.clinical-context-form input[type=checkbox] {width:20px;height:20px;min-width:20px;accent-color:#8f2936;margin-top:2px}
+.clinical-context-form>label,.context-fields>label {display:block;font-size:.88rem;margin:10px 0}
+.clinical-context-form input[type=number],.clinical-context-form select,.clinical-context-form textarea {display:block;min-height:46px;width:100%;padding:9px;border:1px solid #c7a99e;background:#fff;border-radius:8px;font:inherit;color:#392327;margin-top:5px}
+.clinical-context-form textarea {resize:vertical}
+.header-nav .resume-case {border:1px solid #ad5a37;border-radius:8px;padding:8px 12px;background:#fff3d7;color:#692427;font-weight:700;min-height:44px}
+.prompt-sharing-note {font-size:.8rem;line-height:1.6;width:100%;color:#685354}
+.example-measures {display:flex;flex-wrap:wrap;gap:10px;margin:15px 0}
+.example-measures>div {flex:1;min-width:65px;padding:8px;background:#fff7ef;border-radius:8px}
+.example-measures dt {font-size:.75rem;color:#6a5052}
+.example-measures dd {font-size:.88rem;font-weight:700;margin:4px 0 0}
+.example-actions {display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+
+.analysis-alert {margin:12px 0;padding:14px;border-left:4px solid #a3232e;border-radius:8px;background:#fff0e6;color:#682326}
+.analysis-alert li {line-height:1.5;margin:5px 0}
+@media(max-width:480px){.header-nav{flex-wrap:wrap;gap:5px 14px}.header-nav .resume-case{padding:5px 9px}}
+
+.viewer-heading-actions {display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+
+/* Service companions retain readable clinical surfaces and local-first controls. */
+.wave-maven-library{margin-top:3rem;padding-top:2rem;border-top:2px solid #c56a5a}
+.wave-maven-library>header h2{font-size:clamp(1.7rem,4vw,2.8rem);margin-bottom:.5rem}
+.wave-maven-library input[type=search]{display:block;width:100%;padding:1rem;border:1px solid #d8b4aa;border-radius:14px;background:#fff;font:inherit;margin:.5rem 0 1.5rem}
+.wave-catalog{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:1rem;margin:1.5rem 0}
+.wave-catalog .card,.wave-case-preview,.educational-reference{padding:1.3rem}
+.wave-catalog h3{font-size:1.1rem;line-height:1.4}
+.wave-case-preview{margin:1.5rem 0;background:linear-gradient(135deg,#fff,#fff4ec);border:1px solid #c87764;scroll-margin-top:1rem}
+.wave-image-scroll{overflow:auto;max-height:75vh;background:#fff;overscroll-behavior:contain;border:1px solid #e6c8be;border-radius:12px;margin:1rem 0}
+.wave-image-scroll img{display:block;height:auto}
+.wave-case-preview details{padding:1rem 0;line-height:1.65}
+.biodigital-integration{margin:1rem;padding:1rem;border:1px solid #dfb3a8;border-radius:15px;background:linear-gradient(120deg,#fff3ef,#fff8ef)}
+.biodigital-integration summary,.pasted-evidence summary{cursor:pointer;font-weight:700}
+.biodigital-integration iframe{display:block;width:100%;height:540px;border:0;border-radius:12px;background:#fff}
+.pasted-evidence{flex-basis:100%;padding:1rem;border:1px solid #dec0b7;border-radius:12px;background:#fff}
+.pasted-evidence label{display:block;margin:.8rem 0;font-weight:600}
+.pasted-evidence textarea{display:block;width:100%;box-sizing:border-box;font:inherit;padding:.8rem;border:1px solid #d7b9b1;border-radius:10px;margin-top:.4rem;background:#fff;color:#38242a}
+.pasted-evidence a{overflow-wrap:anywhere}
+.report-download>label{flex-basis:100%;line-height:1.6}
+@media(max-width:600px){.biodigital-integration iframe{height:420px}.wave-case-preview,.wave-catalog .card{padding:1rem}.wave-case-preview .evidence-actions{gap:.5rem}}
+
+/* Systematic ECG reading */
+.analysis-conclusion {margin:12px 0;padding:14px 16px;border-left:4px solid #0f766e;border-radius:10px;background:#f0fdfa}
+.analysis-conclusion.is-partial {border-left-color:#b45309;background:#fffbeb}
+.analysis-conclusion h3 {margin:0 0 6px;font-size:.95rem}
+.analysis-systematic dl {display:grid;gap:10px;margin:12px 0 0}
+.analysis-systematic dt {font-weight:700}
+.analysis-systematic dd {margin:4px 0 0 0;line-height:1.45}
+.analysis-systematic .reading-status {display:inline-block;min-width:8.5em;padding:1px 8px;margin-right:6px;border-radius:999px;font-size:.78rem;font-weight:600;background:#e5e7eb}
+.analysis-systematic .reading-meets .reading-status {background:#fee2e2;color:#991b1b}
+.analysis-systematic .reading-suggests .reading-status {background:#fef3c7;color:#92400e}
+.analysis-systematic .reading-normal .reading-status {background:#dcfce7;color:#166534}
+.analysis-systematic .reading-context .reading-status {background:#e0f2fe;color:#075985}
+.analysis-systematic .is-urgent {font-weight:600}
+.analysis-systematic small {display:block;color:#57534e;margin-left:9.4em}
+
+/* ===== Review screen layout (v20.1) ===== */
+.review-summary {display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1.6fr);gap:16px;align-items:stretch;margin:18px 0 20px}
+.review-summary .measurements {margin:0;grid-template-columns:repeat(5,minmax(0,1fr));align-content:stretch}
+.review-summary .axis-comparison {grid-column:1/-1}
+.review-conclusion {padding:18px 20px;border-left:5px solid #0f766e;background:#f6fbfa;display:flex;flex-direction:column;gap:10px;justify-content:center}
+.review-conclusion p {margin:0;font-size:1.05rem;line-height:1.5;font-weight:650;color:#1f2a2a}
+.review-eyebrow {font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:#0f766e}
+.review-conclusion-meta {display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.review-partial {font-size:.78rem;color:#92400e;background:#fef3c7;border-radius:999px;padding:2px 10px}
+.review-summary .measure {flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:6px;padding:12px}
+.review-summary .measure strong {font-size:20px}
+.review-summary .measure .measure-reason {display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+
+.review-layout {display:grid;grid-template-columns:minmax(0,1.6fr) minmax(320px,1fr);gap:18px;align-items:start}
+.review-layout--expanded {grid-template-columns:1fr}
+.review-main,.review-side {display:flex;flex-direction:column;gap:18px;min-width:0}
+.review-side {position:sticky;top:12px}
+.review-layout--expanded .review-side {position:static}
+.review-main .case-analysis,.review-side .clinical-context-form {margin:0}
+.review-side .clinical-context-form {padding:16px;border:1px solid #e5d6ce;border-radius:16px;background:#fffdfb}
+.review-side .clinical-context-form .context-fields {grid-template-columns:1fr}
+
+/* Systematic reading as an aligned two-column table */
+.analysis-systematic dl {display:grid;gap:0;margin:14px 0 0;border:1px solid #eadcd6;border-radius:12px;overflow:hidden}
+.analysis-systematic dl > div {display:grid;grid-template-columns:minmax(150px,200px) minmax(0,1fr);border-top:1px solid #f0e4df}
+.analysis-systematic dl > div:first-child {border-top:0}
+.analysis-systematic dt {padding:12px 14px;background:#fbf5f2;font-size:.9rem}
+.analysis-systematic dd {grid-column:2;margin:0;padding:8px 14px;font-size:.92rem}
+.analysis-systematic dd + dd {border-top:1px dashed #f0e4df}
+.analysis-systematic small {margin-left:0;padding-left:calc(8.5em + 22px);font-size:.78rem}
+.analysis-systematic dt + dd {padding-top:12px}
+.analysis-systematic dd:last-child {padding-bottom:12px}
+.case-analysis > details > summary {font-size:.95rem}
+.analysis-findings {grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+
+.management {margin-top:20px}
+.review-technical {margin-top:16px;padding:14px 18px}
+.review-technical > summary {cursor:pointer;font-weight:650;min-height:32px}
+.review-technical[open] > summary {margin-bottom:12px}
+.review-source .interpretation-body > p:first-of-type {display:none}
+.report-download.card {padding:16px 18px;margin:16px 0 0}
+
+@media (max-width:1100px){
+ .review-summary {grid-template-columns:1fr}
+ .review-layout {grid-template-columns:1fr}
+ .review-side {position:static}
+}
+@media (max-width:640px){
+ .review-summary .measurements {grid-template-columns:repeat(2,minmax(0,1fr))}
+ .analysis-systematic dl > div {grid-template-columns:1fr}
+ .analysis-systematic dd {grid-column:1}
+ .analysis-systematic small {padding-left:0}
+}
+.review-side {position:static}
+.review-side .clinical-context-form .context-fields {grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.review-side .clinical-context-form fieldset {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 12px;padding:10px 12px;margin:10px 0}
+.review-side .clinical-context-form fieldset legend {grid-column:1/-1}
+.review-side .clinical-context-form fieldset label {font-size:.85rem;line-height:1.35;display:flex;gap:6px;align-items:flex-start}
+.review-side .clinical-context-form textarea {min-height:72px}
+.review-side .clinical-context-form > p {font-size:.8rem}
+.detail-grid {align-items:start}
+.review-summary .measure details summary {font-size:.75rem;min-height:24px}
+.review-summary .measure div > .measure-reason {font-size:.7rem}
+.review-context .clinical-context-form {margin:18px 0 0;padding:18px 20px;border:1px solid #e5d6ce;border-radius:16px;background:#fffdfb}
+.review-context .clinical-context-form > summary {font-weight:700;font-size:1.05rem;cursor:pointer}
+@media (min-width:1000px){
+ .review-context .context-body {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px 18px;align-items:start}
+ .review-context .context-body > * {grid-column:1/-1}
+ .review-context .context-body > fieldset {grid-column:auto;display:grid;grid-template-columns:1fr;gap:6px;margin:8px 0;padding:10px 12px;height:calc(100% - 16px)}
+ .review-context .context-body > .context-fields {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 18px;align-items:end}
+ .review-context .context-body > .context-fields > label:has(textarea) {grid-column:1/-1}
+ .review-context .context-body fieldset label {font-size:.88rem;line-height:1.35;display:flex;gap:6px;align-items:flex-start}
+}
+@media (max-width:640px){ .review-summary .measurements > :last-child:nth-child(odd) {grid-column:1/-1} }
+.analysis-copy {display:inline-flex;align-items:center;gap:8px;font-size:.8rem}
+
+/* Presumptive diagnosis (literature knowledge base) */
+.presumptive-panel {padding:20px 22px;margin:0 0 20px}
+.presumptive-head {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:16px;align-items:end}
+.presumptive-head h2 {margin:2px 0 0}
+.presumptive-note {margin:0;font-size:.8rem;color:#6b5a54}
+.presumptive-summary {margin:14px 0;font-size:1.02rem;line-height:1.5}
+.presumptive-entity {border:1px solid #eadcd6;border-radius:14px;padding:14px 16px;background:#fffdfb;display:grid;gap:8px;font-size:.9rem}
+.presumptive-entity.is-primary {border-left:5px solid #0f766e;background:#f6fbfa}
+.presumptive-entity.urgency-emergent {border-left:5px solid #b91c1c}
+.presumptive-entity.urgency-urgent {border-left-color:#c2410c}
+.presumptive-entity > header {display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;align-items:center}
+.presumptive-entity h4 {margin:0;font-size:1rem}
+.presumptive-entity ul {margin:4px 0 0;padding-left:18px}
+.presumptive-tags {display:flex;gap:6px;flex-wrap:wrap}
+.presumptive-tags .tag {font-size:.72rem;padding:2px 9px;border-radius:999px;background:#eef2f1;font-weight:600}
+.presumptive-tags .tag.urgency-emergent {background:#fee2e2;color:#991b1b}
+.presumptive-tags .tag.urgency-urgent {background:#ffedd5;color:#9a3412}
+.presumptive-missing {color:#6b5a54}
+.presumptive-performance,.presumptive-meta,.presumptive-mimics {margin:0;font-size:.78rem;color:#57534e}
+.presumptive-next {margin:0}
+.presumptive-grid {display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:12px;margin-top:10px}
+.presumptive-panel h3 {margin:18px 0 0;font-size:.95rem}
+.presumptive-section {margin-top:14px}
+.presumptive-section > summary {cursor:pointer;font-weight:650}
+.presumptive-cannot {margin:8px 0 0;padding-left:18px;font-size:.88rem;display:grid;gap:4px}
+@media (max-width:900px){.presumptive-head {grid-template-columns:1fr}}
+
+/* Motor Python de medición (v22.1) */
+.measure-engine select,.measure-engine input[type=file]{display:block;margin-top:.25rem;max-width:100%}
+.measure-compare{width:100%;border-collapse:collapse;margin:.75rem 0;font-size:.9rem}
+.measure-compare caption{text-align:left;font-weight:600;margin-bottom:.25rem}
+.measure-compare th,.measure-compare td{padding:.3rem .5rem;border-bottom:1px solid rgba(0,0,0,.12);text-align:left}
+.measure-warnings{margin:.5rem 0;padding-left:1.1rem;font-size:.85rem}
+
+.python-input-preview{display:block;max-width:100%;max-height:65vh;object-fit:contain;background:#fff;margin:1rem auto}
+.engine-calibration{display:flex;flex-wrap:wrap;gap:1rem;margin:1rem 0}.engine-calibration label{flex:1;min-width:150px}
+.measure-engine .ecg-document-picker{margin:1rem 0}
+
+.clinical-disclaimer { margin: 1rem 0; padding: .85rem 1rem; border: 1px solid #dfb7a8; border-left: 3px solid #a43723; border-radius: 10px; background: #fff6f1; color: #63372d; }
+.clinical-disclaimer p { margin: 0; font-size: .85rem; line-height: 1.55; }
+
+.preexcitation-review { margin: 1rem 0; padding: 1.2rem; }
+.preexcitation-review h2 { margin-top: 0; font-size: 1.25rem; }
+.preexcitation-review p,.preexcitation-review li { font-size: .88rem; line-height: 1.55; }
+.preexcitation-review table { width: 100%; border-collapse: collapse; font-size: .8rem; }
+.preexcitation-review th,.preexcitation-review td { padding: .5rem; text-align: left; border-bottom: 1px solid #e7d1c8; }
+.measure-table-scroll { overflow-x: auto; }
+
+.clinical-library { margin: 0 0 1.5rem; padding: clamp(1rem,3vw,2rem); }
+.clinical-library h2 { margin-top: 0; }
+.clinical-library p { font-size: .88rem; line-height: 1.6; }
+.clinical-library-filters { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1rem 0; }
+.clinical-library-filters label { flex: 1 1 230px; display: flex; flex-direction: column; gap: .4rem; }
+.clinical-library-filters input,.clinical-library-filters select { min-height: 44px; padding: .65rem; border: 1px solid #d8bdb0; border-radius: 8px; background: #fff; color: #40242b; font: inherit; }
+.clinical-reference-list { padding-left: 1.4rem; }
+.clinical-reference-list li { padding: .8rem .2rem; border-bottom: 1px solid #ead8ce; line-height: 1.5; }
+.clinical-reference-list li p { margin: .3rem 0; color: #684f49; }
+.local-ai-review{border-top:4px solid #c32f45;background:linear-gradient(145deg,#fff 65%,#ffede7);margin-block:1.25rem}
+.local-ai-heading{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.local-ai-inputs{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1.25rem;margin-block:1.25rem}
+.local-ai-inputs>div{min-width:0}.local-ai-inputs label{display:block;font-weight:600}
+.local-ai-inputs textarea{display:block;box-sizing:border-box;width:100%;margin-top:.6rem;padding:.8rem;border:1px solid #d6bcba;border-radius:12px;font:inherit;resize:vertical;background:#fff;color:#30232b}
+.local-ai-preview{display:block;max-width:100%;max-height:30rem;object-fit:contain;background:white;border:1px solid #d6bcba;border-radius:8px;margin-top:1rem}
+.local-ai-caution{padding:.8rem 1rem;background:#fff2e9;border-left:3px solid #b23537;border-radius:6px;color:#66252e}
+.local-ai-provenance{font-size:.88rem;color:#65545c}.local-ai-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin-block:.8rem}
+.local-ai-answer{border:1px solid #d6bcba;border-radius:12px;padding:1rem;background:white}.local-ai-answer pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.65;user-select:text}
+.local-ai-review details{margin-top:1rem}.local-ai-review details p{overflow-wrap:anywhere}
+.ai-access{display:flex;align-items:end;gap:.75rem;flex-wrap:wrap;margin-block:1rem}.ai-access label{display:grid;gap:.4rem;flex:1;min-width:200px}.ai-access input,.ai-access select{box-sizing:border-box;width:100%;font:inherit;padding:.7rem;border:1px solid #d6bcba;border-radius:10px;background:white;color:#30232b}.ai-consent{display:flex;align-items:start;gap:.6rem;line-height:1.5}.ai-consent input{flex:none;margin-top:.25rem}
+@media(max-width:760px){.local-ai-inputs{grid-template-columns:1fr}.local-ai-actions>.button{width:100%}}
+
+/* Clinical screening, literature comparison table & scales (v23) */
+.case-analysis,.review-layout>*,.review-main>*,.management,.management-grid>*{min-width:0;max-width:100%}
+.analysis-screening,.screening-body,.screening-section,.screening-triage,.screening-scales-grid,.screening-scale-card{min-width:0;max-width:100%}
+.analysis-screening > summary{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.screening-pill,.screening-risk,.status-chip{display:inline-block;padding:2px 9px;border-radius:999px;font-size:.74rem;font-weight:700;letter-spacing:.02em;white-space:nowrap}
+.screening-pill.is-emergent,.screening-risk.risk-high,.screening-risk.risk-positive,.status-chip.is-abnormal{background:#fee2e2;color:#991b1b;border:1px solid #fecaca}
+.screening-pill.is-urgent,.screening-risk.risk-moderate,.status-chip.is-borderline{background:#ffedd5;color:#9a3412;border:1px solid #fed7aa}
+.screening-pill.is-routine,.screening-risk.risk-indeterminate,.status-chip.is-not-evaluable{background:#f3f4f6;color:#4b5563;border:1px solid #e5e7eb}
+.screening-pill.is-normal,.screening-risk.risk-low,.screening-risk.risk-negative,.status-chip.is-normal{background:#dcfce7;color:#166534;border:1px solid #bbf7d0}
+.screening-body{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;margin-top:14px}
+.screening-triage{padding:12px 15px;border-radius:11px;border:1px solid #e5d6ce;border-left:5px solid #0f766e;background:#f7fbfa;font-size:.88rem;line-height:1.5;overflow-wrap:anywhere}
+.screening-triage.is-emergent{border-left-color:#b91c1c;background:#fef2f2;border-color:#fecaca}
+.screening-triage.is-urgent{border-left-color:#c2410c;background:#fff7ed;border-color:#fed7aa}
+.screening-triage.is-routine{border-left-color:#b45309;background:#fffbeb;border-color:#fde68a}
+.screening-triage-head p{margin:4px 0 0;color:#4a3430}
+.screening-flags{margin:8px 0 0;padding-left:18px;font-size:.84rem;color:#7f1d1d}
+.screening-section h3{margin:0 0 8px;font-size:.96rem;color:#38242a;letter-spacing:-.01em}
+.screening-table-wrap{width:100%;max-width:100%;min-width:0;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid #eadcd6;border-radius:11px;background:#fff}
+.screening-table{width:100%;min-width:580px;border-collapse:collapse;font-size:.82rem;line-height:1.45}
+.screening-table th,.screening-table td{padding:9px 11px;border-bottom:1px solid #f0e4df;text-align:left;vertical-align:top}
+.screening-table thead th{background:#fbf5f2;font-weight:700;font-size:.76rem;text-transform:uppercase;letter-spacing:.04em;color:#654a45}
+.screening-table tbody tr:last-child th,.screening-table tbody tr:last-child td{border-bottom:0}
+.screening-num{font-variant-numeric:tabular-nums;font-weight:650;color:#2e1c18}
+.screening-cite{display:block;margin-top:4px;font-size:.73rem;color:#78625e}
+.screening-scales-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:12px}
+.screening-scale-card{padding:13px 15px;border:1px solid #e5d6ce;border-radius:12px;background:#fffdfb;display:grid;gap:8px;font-size:.84rem;line-height:1.45;overflow-wrap:anywhere}
+.screening-scale-card.risk-high,.screening-scale-card.risk-positive{border-left:4px solid #b91c1c}
+.screening-scale-card.risk-moderate{border-left:4px solid #c2410c}
+.screening-scale-card header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:6px}
+.screening-scale-card h4{margin:0;font-size:.92rem;color:#2f1c19}
+.screening-scale-card .screening-risk{white-space:normal;line-height:1.35}
+.screening-criteria{margin:0;padding:0;list-style:none;display:grid;gap:3px;font-size:.8rem}
+.screening-criteria li{display:flex;gap:6px;align-items:flex-start}
+.screening-criteria li.crit-met{color:#1e293b;font-weight:600}
+.screening-criteria li.crit-not-met{color:#786864}
+.screening-criteria li.crit-unknown{color:#8a6d3b}
+.screening-rec{margin:0;color:#3f2c29}
+.screening-missing{margin:0;padding:6px 8px;border-radius:7px;background:#faf4ef;color:#6b524b;font-size:.77rem}
+.screening-conditional{margin-top:4px;min-width:0;max-width:100%}
+.screening-conditional > summary{cursor:pointer;font-size:.84rem;font-weight:650;color:#6a4c46}
+.training-status{min-width:0;max-width:100%}
+.training-status .screening-table-wrap{margin:10px 0}
+.training-status .screening-table-wrap table{margin:0;min-width:320px;max-width:none}
+.analysis-ref-list li,.management-grid li,.management-grid p{overflow-wrap:anywhere;line-height:1.5}
+.management-impression{overflow-wrap:anywhere}
+.measure,.measure>div,.evidence,.interpretation,.waveform-card,.heart-card,.detail-grid>*{min-width:0;max-width:100%}
+canvas,textarea,iframe,table{max-width:100%}
+@media(max-width:630px){
+  html,body{width:100%;max-width:100%;overflow-x:clip}
+  #root,.app-shell,.content,.case-content,.topbar,.experimental-release,.site-footer,.review-summary,.review-layout,.review-main,.review-side,.management,.management-grid,.viewer-grid,.detail-grid,.library-grid,.glossary-grid,.source-grid{width:100%;max-width:100%;min-width:0;box-sizing:border-box}
+  #root,.app-shell,.content,.case-content{overflow-x:clip}
+  .review-summary,.review-layout,.management-grid,.viewer-grid,.detail-grid,.source-grid{grid-template-columns:minmax(0,1fr)}
+  .topbar{padding-inline:10px;gap:4px 8px;grid-template-columns:minmax(0,1fr) auto}
+  .topbar .cardioekg-wordmark>img{width:136px}
+  .definition-toggle span{display:none}
+  .definition-toggle svg{display:block}
+  .header-nav{flex-wrap:wrap;gap:4px 12px;max-width:100%;min-width:0}
+  .page-heading{flex-direction:column;align-items:flex-start;gap:10px}
+  .case-bar{flex-wrap:wrap;align-items:flex-start;gap:8px;padding:10px 12px}
+  .case-actions{justify-content:flex-start;width:100%}
+  .waveform-card>.lead-controls{grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}
+  .waveform-card>.lead-controls button{min-width:0;padding:6px 3px;font-size:11px;white-space:normal}
+  .waveform-card>.lead-controls button:nth-child(13){grid-column:1/-1}
+  .heart3d-stage canvas,.heart-stage,.heart-model{width:100%!important;max-width:100%!important;overflow:hidden}
+  .review-summary .measurements{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .measure strong{font-size:16px;white-space:normal;overflow-wrap:anywhere}
+  .case-analysis{padding:14px 12px}
+  .training-status .screening-table-wrap table{min-width:0;width:100%;font-size:.76rem}
+  .training-status th,.training-status td{padding:5px 6px}
+}
+@media(max-width:375px){
+  .review-summary .measurements{grid-template-columns:1fr}
+}
+
+/* ── v23.1 · Revisión compacta: una escala tipográfica y espaciados coherentes ── */
+.case-content {font-size:14px;line-height:1.5}
+/* Controles sin estilo propio: misma letra y forma en toda la revisión (especificidad cero: lo específico manda) */
+:where(.case-content) :where(select,textarea,input:not([type=checkbox],[type=radio],[type=range],[type=file])) {font-size:13px;padding:6px 10px;min-height:34px;border:1px solid #d9c3b9;border-radius:8px;background:#fff;color:var(--ink)}
+:where(.case-content) :where(input[type=checkbox]) {width:15px;height:15px;accent-color:#8f2936;flex:none}
+:where(.case-content) :where(button:not([class])) {font-size:12.5px;font-weight:600;padding:5px 11px;border:1px solid #e3d0c7;border-radius:8px;background:#fff;color:#4a3530}
+:where(.case-content) :where(button:not([class])[aria-pressed=true]) {background:#8f2936;border-color:#8f2936;color:#fff}
+:where(.case-content) :where(summary) {cursor:pointer;font-size:13.5px;font-weight:650}
+:where(.case-content) :where(h3) {font-size:14.5px;margin:.3rem 0}
+:where(.case-content) :where(ul,ol) {margin:.3rem 0;padding-left:1.15rem}
+:where(.case-content) :where(li) {margin:.1rem 0}
+
+/* Aviso legal y estado del motor: una línea, detalle plegado */
+.clinical-disclaimer--compact {padding:9px 14px;margin:12px 0}
+.clinical-disclaimer--compact summary {font-size:12.5px;font-weight:600;color:#7a3b2e}
+.clinical-disclaimer--compact p {font-size:12.5px;margin:6px 0 0;color:#5f4a44}
+.python-engine-note {margin:0 0 12px;font-size:12.5px;color:#6b5a54}
+.python-engine-note summary {font-size:12px;font-weight:500;color:#6b5a54}
+.python-engine-note p,.python-engine-note li {font-size:12px;margin:.2rem 0}
+.python-status {padding:12px 16px}
+.python-status p {font-size:13px;margin:4px 0 8px}
+
+/* Tarjetas de medida: método en una línea */
+.measure details summary {font-size:11.5px;font-weight:600;color:#7a5c55}
+
+/* Diagnóstico presuntivo: lectura más densa */
+.presumptive-summary {font-size:14px;font-weight:500;margin:10px 0}
+.presumptive-entity {font-size:13px;gap:6px;padding:12px 14px}
+.presumptive-entity h3 {font-size:15px;margin:0}
+.presumptive-entity ul {margin:.15rem 0}
+.presumptive-section summary {font-size:14px}
+
+/* Anatomía: controles secundarios plegados */
+.heart3d-tabs button {font-size:12.5px;padding:5px 10px}
+.heart3d-picker {font-size:12.5px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.heart3d-more {margin:8px 0;padding:8px 10px;border:1px solid #ecdcd4;border-radius:10px;background:#fffdfb;font-size:12.5px}
+.heart3d-more summary {font-size:12.5px}
+.heart3d-more > * + * {margin-top:8px}
+.heart3d-more p {font-size:12px;line-height:1.45;margin:6px 0}
+.heart3d-settings {display:grid;gap:6px}
+.heart3d-settings label,.heart3d-section label {display:flex;gap:8px;align-items:center;font-size:12.5px}
+.heart3d-section {padding:8px 10px;border-radius:8px}
+.heart3d-credit {font-size:11px;line-height:1.4}
+.heart3d-teaching-toggle {display:flex;gap:8px;align-items:center;font-size:12.5px;margin:10px 0 4px}
+
+/* Contexto clínico: formulario compacto */
+.clinical-context-form {padding:14px 16px;line-height:1.45}
+.clinical-context-form .context-body > p:first-child,.clinical-context-form>p {font-size:12.5px;color:#6b5a54;margin:6px 0 10px}
+.context-fields {gap:10px}
+.clinical-context-form fieldset {gap:4px 14px;padding:8px 12px;margin:10px 0}
+.clinical-context-form legend {font-size:13px}
+.clinical-context-form fieldset label {min-height:28px;align-items:center;font-size:13px;gap:8px}
+.clinical-context-form input[type=checkbox] {width:15px;height:15px;min-width:15px;margin-top:0}
+.clinical-context-form>label,.context-fields>label {font-size:12.5px;margin:4px 0}
+.clinical-context-form input[type=number],.clinical-context-form select,.clinical-context-form textarea {min-height:34px;padding:6px 10px;font-size:13px;margin-top:4px;border-color:#d9c3b9}
+.clinical-context-form textarea {min-height:60px}
+
+/* Manejo, evidencia y fuente */
+.management-top h2 {font-size:18px}
+.detail-grid > :only-child {grid-column:1/-1}
+.review-source .interpretation-body {font-size:13px}
+.report-download>label {display:flex;gap:8px;align-items:center;font-size:13px;line-height:1.4}
+.boundary-toggle {display:flex;gap:8px;align-items:center;font-size:12.5px}
+
+@media (max-width:640px){
+  .case-content {font-size:13.5px}
+  .clinical-context-form fieldset label {min-height:32px}
+  .presumptive-head {grid-template-columns:1fr}
+}
+.review-context .context-body fieldset label {font-size:13px;line-height:1.35;align-items:center;min-height:26px}
+.review-context .clinical-context-form > summary {font-size:15px}
+.local-ai-review {padding:18px 20px;font-size:13px}
+.local-ai-review h2 {font-size:18px;margin:0 0 6px}
+.local-ai-review p {margin:4px 0}
+.presumptive-head {margin-bottom:12px}

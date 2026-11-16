@@ -1,0 +1,15 @@
+{
+  "first_observed_utc": "2026-11-12T01:44:00Z",
+  "operation": "downloadpubliclicensedwaveformsandannotations",
+  "error_exact": "HTTP503 upstream connect error or disconnect/reset before headers. reset reason: remote connection failure",
+  "tested_hosts": [
+    "physionet.org",
+    "www.physionet.org",
+    "physionet-open.s3.amazonaws.com",
+    "raw.githubusercontent.com"
+  ],
+  "successful_ptb_dat": 522,
+  "stream_stopped": "16-threadstreamstoppedafterpersistenterrors;singleboundedprobesstillfail",
+  "manifest": "cohort-manifest.json",
+  "resume": "/workspace/training-venv/bin/python training/clinical-run/download_data.py"
+}

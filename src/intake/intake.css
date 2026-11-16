@@ -1,0 +1,79 @@
+.intake {
+  --intake-ink: #26160f;
+  --intake-muted: #674b41;
+  --intake-stroke: #d9bfb2;
+  --intake-rust: #9e2e19;
+  max-width: 790px;
+  margin-inline: auto;
+  color: var(--intake-ink);
+}
+.intake-progress {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 2rem;
+  row-gap: .65rem;
+  padding: .8rem 0;
+  margin-bottom: .75rem;
+  border-bottom: 1px solid var(--intake-stroke);
+  color: var(--intake-muted);
+  font-size: .84rem;
+}
+.intake-progress > span { color: var(--intake-ink); font-weight: 720; }
+.intake-progress ol { display: flex; flex-wrap: wrap; gap: 1rem; padding: 0; margin: 0; list-style: none; }
+.intake-progress [aria-current] { color: var(--intake-rust); font-weight: 720; }
+.intake-progress [aria-current]::before { content: ""; display: inline-block; width: .4rem; height: .4rem; margin-inline-end: .35rem; border-radius: 50%; background: currentColor; vertical-align: .12em; }
+.intake-sheet {
+  padding: clamp(1.1rem, 4vw, 2.45rem);
+  border: 1px solid var(--intake-stroke);
+  background: #fff9f3;
+  border-radius: .45rem;
+}
+.intake-sheet h1 { margin: 0; max-width: 18ch; font-family: "Instrument Serif", Georgia, serif; font-size: clamp(2.35rem, 6vw, 3.85rem); line-height: .98; font-weight: 500; letter-spacing: -.04em; }
+.intake-sheet h1:focus { outline: none; }
+.intake-intro { max-width: 63ch; color: var(--intake-muted); font-size: .98rem; line-height: 1.55; margin: .85rem 0 1.65rem; }
+.intake-choices { min-width: 0; border: 0; padding: 0; margin: 0 0 1.35rem; }
+.intake-choices legend, .intake-privacy h2 { padding: 0; font-size: 1rem; font-weight: 720; margin: 0 0 .55rem; }
+.intake-hint, .intake-privacy p { color: var(--intake-muted); font-size: .88rem; line-height: 1.5; margin: 0 0 .65rem; }
+.intake-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13.5rem), 1fr)); gap: .45rem; }
+.intake-option {
+  display: flex;
+  align-items: center;
+  gap: .58rem;
+  min-height: 2.6rem;
+  padding: .58rem .68rem;
+  border: 1px solid #e0c9bc;
+  background: #fffdf9;
+  border-radius: .3rem;
+  color: var(--intake-ink);
+  font-size: .87rem;
+  line-height: 1.35;
+  cursor: pointer;
+}
+.intake-option:hover { background: #fff2e9; }
+.intake-option:has(:checked) { border-color: #a93b24; background: #ffebe1; }
+.intake-option input { margin: 0; width: 1rem; height: 1rem; flex-shrink: 0; accent-color: var(--intake-rust); }
+.intake-note, .intake-warning, .intake-privacy { padding: .9rem 1rem; background: #ffede2; border-inline-start: 3px solid #ac3d26; margin: .7rem 0 1.15rem; font-size: .88rem; line-height: 1.55; }
+.intake-warning { background: #fce4db; }
+.intake-warning strong { display: block; font-size: 1.05rem; margin-bottom: .2rem; color: #742515; }
+.intake-warning p { margin: 0 0 .35rem; }
+.intake-warning a { color: #6d2c1e; }
+.intake-actions { display: flex; gap: .65rem; justify-content: space-between; padding-top: .95rem; margin-top: 1.3rem; border-top: 1px solid var(--intake-stroke); }
+.intake-actions button { min-height: 2.65rem; padding: .6rem .85rem; border-radius: .32rem; font-size: .88rem; font-weight: 700; }
+.intake-back { color: var(--intake-ink); background: transparent; border: 1px solid var(--intake-stroke); }
+.intake-next { color: #fff; background: #932b18; border: 1px solid #932b18; }
+.intake-next span { margin-inline-start: .7rem; }
+.intake-next:disabled { opacity: .45; cursor: default; }
+.intake :focus-visible { outline: 2px solid #973321; outline-offset: 3px; }
+.intake-format-examples { margin: 0 0 1.5rem; }
+.intake-format-examples h2 { font-size: 1.2rem; margin: 0 0 .5rem; }
+.intake-format-examples p,.intake-format-examples li { font-size: .88rem; line-height: 1.5; color: var(--intake-muted); }
+.intake-format-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; margin: .8rem 0; }
+.intake-format-grid button { display: flex; flex-direction: column; gap: .4rem; padding: .7rem; border: 1px solid var(--intake-stroke); border-radius: 8px; background: white; color: var(--intake-ink); text-align: left; cursor: pointer; }
+.intake-format-grid svg { width: 100%; height: 180px; }
+.intake-format-grid button span { font-size: .8rem; line-height: 1.4; }
+.intake-partial-example { max-width: 360px; margin: .7rem 0; }
+.intake-format-examples summary { cursor: pointer; font-weight: 650; font-size: .9rem; }
+.intake-safety-reminder { max-width: 1100px; margin-inline: auto; }
+@media (max-width: 500px) { .intake-format-grid { grid-template-columns: 1fr; } }

@@ -1,0 +1,3993 @@
+{
+  "domain": "rhythm-arrhythmias",
+  "references": [
+    {
+      "id": "kusumoto-2018",
+      "citation": "Kusumoto FM, Schoenfeld MH, Barrett C, et al. 2018 ACC/AHA/HRS Guideline on the Evaluation and Management of Patients With Bradycardia and Cardiac Conduction Delay. Circulation. 2019;140:e382-e482.",
+      "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000000628",
+      "doi": "10.1161/CIR.0000000000000628",
+      "pmid": "30586772",
+      "verified": true
+    },
+    {
+      "id": "page-2015-svt",
+      "citation": "Page RL, Joglar JA, Caldwell MA, et al. 2015 ACC/AHA/HRS Guideline for the Management of Adult Patients With Supraventricular Tachycardia. Circulation. 2016;133:e506-e574.",
+      "url": "https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000000311",
+      "doi": "10.1161/CIR.0000000000000311",
+      "pmid": "26399663",
+      "verified": true
+    },
+    {
+      "id": "brugada-esc-2019-svt",
+      "citation": "Brugada J, Katritsis DG, Arbelo E, et al. 2019 ESC Guidelines for the management of patients with supraventricular tachycardia. Eur Heart J. 2020;41(5):655.",
+      "url": "https://academic.oup.com/eurheartj/article/41/5/655/5556821",
+      "verified": true
+    },
+    {
+      "id": "joglar-2023-af",
+      "citation": "Joglar JA, Chung MK, Armbruster AL, et al. 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation. J Am Coll Cardiol. 2024;83:109-279 (also Circulation, doi 10.1161/CIR.0000000000001193).",
+      "url": "https://www.jacc.org/doi/pdf/10.1016/j.jacc.2023.08.017",
+      "doi": "10.1016/j.jacc.2023.08.017",
+      "verified": true
+    },
+    {
+      "id": "zeppenfeld-esc-2022-va",
+      "citation": "Zeppenfeld K, Tfelt-Hansen J, de Riva M, et al. 2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death. Eur Heart J. 2022;43(40):3997.",
+      "url": "https://academic.oup.com/eurheartj/article/43/40/3997/6675633",
+      "verified": true
+    },
+    {
+      "id": "mason-2007-part2",
+      "citation": "Mason JW, Hancock EW, Gettes LS. Recommendations for the Standardization and Interpretation of the Electrocardiogram. Part II: Electrocardiography Diagnostic Statement List. Circulation. 2007 (published online 23 Feb 2007). Lexicon of diagnostic terms; it does not specify numeric criteria.",
+      "url": "https://www.ahajournals.org/doi/10.1161/circulationaha.106.180201",
+      "doi": "10.1161/circulationaha.106.180201",
+      "pmid": "17349897",
+      "verified": true
+    },
+    {
+      "id": "brugada-1991",
+      "citation": "Brugada P, Brugada J, Mont L, Smeets J, Andries EW. A new approach to the differential diagnosis of a regular tachycardia with a wide QRS complex. Circulation. 1991;83(5):1649-1659.",
+      "url": "https://www.ahajournals.org/doi/10.1161/01.cir.83.5.1649",
+      "doi": "10.1161/01.CIR.83.5.1649",
+      "pmid": "2022022",
+      "verified": true,
+      "note": "Abstract opened (full text is PDF-only): overall sensitivity 0.987 / specificity 0.965 in 554 wide-QRS tachycardias (384 VT, 170 SVT). Per-step figures were taken from the Vereckei 2014 review."
+    },
+    {
+      "id": "vereckei-2008",
+      "citation": "Vereckei A, Duray G, Szenasi G, Altemose GT, Miller JM. New algorithm using only lead aVR for differential diagnosis of wide QRS complex tachycardia. Heart Rhythm. 2008 Jan;5(1):89-98.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18180024/",
+      "doi": "10.1016/j.hrthm.2007.09.020",
+      "pmid": "18180024",
+      "verified": true,
+      "note": "Abstract opened: 483 wide-QRS tachycardias (351 VT, 112 SVT, 20 pre-excited), four aVR criteria. The abstract does not print sensitivity/specificity; those were taken from the Jastrzebski 2012 paper that quotes the original report."
+    },
+    {
+      "id": "vereckei-2014-review",
+      "citation": "Vereckei A. Current algorithms for the diagnosis of wide QRS complex tachycardias. Curr Cardiol Rev. 2014;10(3):262-276.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4040878/",
+      "doi": "10.2174/1573403X10666140514103309",
+      "pmid": "24827795",
+      "verified": true,
+      "note": "Open-access review, full text read. Secondary source for per-step Brugada figures and for classical criteria."
+    },
+    {
+      "id": "jastrzebski-2012",
+      "citation": "Jastrzebski M, Kukla P, Czarnecka D, Kawecka-Jaszcz K. Comparison of five electrocardiographic methods for differentiation of wide QRS-complex tachycardias. Europace. 2012;14(8):1165.",
+      "url": "https://academic.oup.com/europace/article/14/8/1165/464643",
+      "verified": true,
+      "note": "Search extract of the abstract/discussion opened; used only for the figures it quotes from the original Vereckei report."
+    },
+    {
+      "id": "sun-2023-meta",
+      "citation": "Sun X, Teng Y, Mu S, Wang Y, Chen H. Diagnostic accuracy of different ECG-based algorithms in wide QRS complex tachycardia: a systematic review and meta-analysis. BMJ Open. 2023;13:e069273.",
+      "url": "https://bmjopen.bmj.com/content/bmjopen/13/7/e069273.full.pdf",
+      "doi": "10.1136/bmjopen-2022-069273",
+      "verified": true
+    },
+    {
+      "id": "statpearls-junctional",
+      "citation": "Hafeez Y, Wollard K, Grossman SA. Junctional Rhythm. StatPearls (NCBI Bookshelf). Last update 13 Jan 2026.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507715/",
+      "verified": true,
+      "note": "Secondary (teaching) source."
+    },
+    {
+      "id": "statpearls-pvc",
+      "citation": "Sattar Y, Hashmi MF. Premature Ventricular Complex. StatPearls (NCBI Bookshelf). 2025.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547713/",
+      "verified": true,
+      "note": "Secondary (teaching) source."
+    },
+    {
+      "id": "statpearls-pac",
+      "citation": "Heaton J, Yandrapalli S. Premature Atrial Contractions. StatPearls (NCBI Bookshelf). 2023.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK559204/",
+      "verified": true,
+      "note": "Secondary (teaching) source."
+    },
+    {
+      "id": "meloy-3rd-degree-avb",
+      "citation": "Meloy P, Rutz D, Bhambri A. 3rd-Degree Atrioventricular Block. PMC10334430 (2022).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10334430/",
+      "verified": true,
+      "note": "Secondary (teaching) source; used for escape-rhythm rates."
+    },
+    {
+      "id": "ricketts-vf",
+      "citation": "Ricketts RM, Goyal A, Ahmed I. Ventricular Fibrillation. StatPearls (NCBI Bookshelf). 2025.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK537120/",
+      "verified": true,
+      "note": "Secondary (teaching) source."
+    },
+    {
+      "id": "stroobandt-vf-vfl",
+      "citation": "Stroobandt RX, Barold SS, Sinnaeve AF. Ventricular fibrillation and ventricular flutter. In: ECG from Basics to Essentials (Wiley), 2015, chapter 16.",
+      "url": "https://doi.org/10.1002/9781119066446.ch16",
+      "doi": "10.1002/9781119066446.ch16",
+      "verified": true,
+      "note": "Only the chapter abstract was opened."
+    },
+    {
+      "id": "litfl-nsr",
+      "citation": "Burns E, Buttner R. Normal Sinus Rhythm. Life in the Fast Lane ECG Library. 2018.",
+      "url": "https://litfl.com/normal-sinus-rhythm-ecg-library/",
+      "verified": true,
+      "note": "Secondary (teaching) source."
+    },
+    {
+      "id": "litfl-pac",
+      "citation": "Burns E, Buttner R. Premature Atrial Complex (PAC). Life in the Fast Lane ECG Library. 2020.",
+      "url": "https://litfl.com/premature-atrial-complex-pac/",
+      "verified": true,
+      "note": "Secondary (teaching) source."
+    },
+    {
+      "id": "ecg-core-curriculum",
+      "citation": "ECG Core Curriculum, Chapter 25: Diagnostic Criteria. McGraw Hill, AccessMedicine (authors and edition year not shown on the page that was opened).",
+      "url": "https://accessmedicine.mhmedical.com/content.aspx?bookid=3339&sectionid=277535337",
+      "verified": false,
+      "note": "Page opened (sinus rhythm, bradycardia, tachycardia and sinus arrhythmia criteria were readable; the rest of the chapter was truncated). Authors/year could not be confirmed, so it is marked unverified and used only for supporting criteria."
+    },
+    {
+      "id": "van-gelder-2024-af",
+      "citation": "Isabelle C Van Gelder, Michiel Rienstra, Karina V Bunting, et al. 2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS). European heart journal. 2024 Sep 29;45(36):3314-3414. doi:10.1093/eurheartj/ehae176. PMID:39210723.",
+      "doi": "10.1093/eurheartj/ehae176",
+      "pmid": "39210723",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39210723/",
+      "publicationDate": "2024 Sep 29",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "guideline",
+      "reviewedAt": "2026-11-13",
+      "population": "Adults with clinical or device-detected AF; ESC/EACTS guideline, not a diagnostic-accuracy cohort.",
+      "locator": "Sections 2, 3.1/Table 6 and 3.2; relevant publisher body sections read via Exa after PubMed metadata.",
+      "sourceUrl": "https://academic.oup.com/eurheartj/article/45/36/3314/7738779"
+    },
+    {
+      "id": "rienstra-2024-af-spotlight",
+      "citation": "Michiel Rienstra, Stylianos Tzeis, Karina V Bunting, et al. Spotlight on the 2024 ESC/EACTS management of atrial fibrillation guidelines: 10 novel key aspects. Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology. 2024 Dec 03;26(12):euae298. doi:10.1093/europace/euae298. PMID:39716733.",
+      "doi": "10.1093/europace/euae298",
+      "pmid": "39716733",
+      "pmcid": "PMC11666470",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39716733/",
+      "publicationDate": "2024 Dec 03",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "reviewedAt": "2026-11-13",
+      "population": "Adults with AF; narrative review of 2024 ESC/EACTS recommendations, no newly enrolled cohort.",
+      "locator": "Principles of AF-CARE; Focus on oral anticoagulation; Shorter duration threshold for cardioversion.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11666470/"
+    },
+    {
+      "id": "antiperovitch-2023-preexcitation",
+      "citation": "Pavel Antiperovitch, Allan Skanes, George Klein, et al. Approach to a patient with asymptomatic pre-excitation. Heart (British Cardiac Society). 2023 Jul 27;109(16):1254-1259. doi:10.1136/heartjnl-2022-321639. PMID:36990680.",
+      "doi": "10.1136/heartjnl-2022-321639",
+      "pmid": "36990680",
+      "pmcid": "PMC10423537",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36990680/",
+      "publicationDate": "2023 Jul 27",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "reviewedAt": "2026-11-13",
+      "population": "Clinical review of asymptomatic ventricular pre-excitation, primarily adult management; no new cohort.",
+      "locator": "Non-invasive evaluation; Figure 2; concealed versus manifest accessory pathway discussion.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10423537/"
+    },
+    {
+      "id": "cinier-2021-bradyarrhythmias",
+      "citation": "Göksel Çinier, Sohaib Haseeb, Giorgos Bazoukis, et al. Evaluation and Management of Asymptomatic Bradyarrhythmias. Current cardiology reviews. 2021;17(1):60-67. doi:10.2174/1573403X16666200721154143. PMID:32693770.",
+      "doi": "10.2174/1573403X16666200721154143",
+      "pmid": "32693770",
+      "pmcid": "PMC8142361",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32693770/",
+      "publicationDate": "2021",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "reviewedAt": "2026-11-13",
+      "population": "Adults with asymptomatic sinus-node dysfunction or AV conduction findings, including athletes; narrative review, not a new cohort.",
+      "locator": "Evaluation and diagnosis of asymptomatic bradyarrhythmias; Sinus node dysfunction; AV blocks.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8142361/"
+    },
+    {
+      "id": "glikson-2021-pacing",
+      "citation": "Michael Glikson, Jens Cosedis Nielsen, Mads Brix Kronborg, et al. 2021 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy. European heart journal. 2021 Sep 14;42(35):3427-3520. doi:10.1093/eurheartj/ehab364. PMID:34455430.",
+      "doi": "10.1093/eurheartj/ehab364",
+      "pmid": "34455430",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34455430/",
+      "publicationDate": "2021 Sep 14",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "guideline",
+      "reviewedAt": "2026-11-13",
+      "population": "Adults evaluated for bradycardia, conduction disease or pacing/CRT indications; guideline with indication-specific evidence.",
+      "locator": "Sections 4, 5.1.1, 5.2.1.1–5.2.1.4, 5.2.2.2 and 5.3; relevant publisher body sections read via Exa after PMC retrieval failure.",
+      "sourceUrl": "https://academic.oup.com/eurheartj/article/42/35/3427/6358547"
+    },
+    {
+      "id": "barold-2024-mobitz-ii",
+      "citation": "S Serge Barold, Bengt Herweg. Mobitz type II second-degree atrioventricular block: a commonly overdiagnosed and misinterpreted arrhythmia. Frontiers in cardiovascular medicine. 2024;11:1450705. doi:10.3389/fcvm.2024.1450705. PMID:39267806.",
+      "doi": "10.3389/fcvm.2024.1450705",
+      "pmid": "39267806",
+      "pmcid": "PMC11390567",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39267806/",
+      "publicationDate": "2024",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "reviewedAt": "2026-11-13",
+      "population": "Adults with apparent second-degree AV block; expert ECG review with illustrative tracings, no prospective diagnostic cohort.",
+      "locator": "Contemporary definition/Table 1; Vagally mediated AV block; Concealed extrasystoles; Diagnostic pitfalls.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11390567/"
+    },
+    {
+      "id": "whitaker-2023-vt",
+      "citation": "John Whitaker, Matthew J Wright, Usha Tedrow. Diagnosis and management of ventricular tachycardia. Clinical medicine (London, England). 2023 Sep;23(5):442-448. doi:10.7861/clinmed.2023-23.5.Cardio3. PMID:37775174.",
+      "doi": "10.7861/clinmed.2023-23.5.Cardio3",
+      "pmid": "37775174",
+      "pmcid": "PMC10541285",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37775174/",
+      "publicationDate": "2023 Sep",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "reviewedAt": "2026-11-13",
+      "population": "Clinical review of adults with wide-complex tachycardia and VT, with or without structural heart disease; no new accuracy cohort.",
+      "locator": "Introduction; Diagnosis; Diagnosis of ventricular tachycardia; Acute management; official PMC body read via Exa after PMC OAI failure.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10541285/"
+    }
+  ],
+  "entities": [
+    {
+      "id": "normal-sinus-rhythm",
+      "name": {
+        "es": "Ritmo sinusal normal",
+        "en": "Normal sinus rhythm"
+      },
+      "category": "rhythm",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "nsr-rate-min",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia ≥ 60 lpm",
+            "en": "Heart rate ≥ 60 bpm"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": ">=",
+            "value": 60
+          },
+          "ref": "kusumoto-2018",
+          "note": "Sec. 2.2: el NIH define bradicardia como FC < 60 lpm en adultos (salvo atletas entrenados); la propia guía usa < 50 lpm. El límite de 60 lpm para «normal» es convencional."
+        },
+        {
+          "id": "nsr-rate-max",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia ≤ 100 lpm",
+            "en": "Heart rate ≤ 100 bpm"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": "<=",
+            "value": 100
+          },
+          "ref": "page-2015-svt",
+          "note": "Tabla 3: taquicardia sinusal = ritmo sinusal con frecuencia > 100 lpm."
+        },
+        {
+          "id": "nsr-p-sinus",
+          "role": "required",
+          "text": {
+            "es": "Onda P de origen sinusal: reproducible antes del QRS, positiva en II y negativa en aVR",
+            "en": "Sinus P wave: reproducible before each QRS, positive in lead II and negative in aVR"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "lead.II.pMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "feature": "lead.aVR.pMv",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "litfl-nsr",
+          "note": "Teaching source: P erguida en I y II, invertida en aVR, antes de cada QRS."
+        },
+        {
+          "id": "nsr-pr",
+          "role": "required",
+          "text": {
+            "es": "Intervalo PR ≤ 200 ms (1:1)",
+            "en": "PR interval ≤ 200 ms (1:1 conduction)"
+          },
+          "predicate": {
+            "feature": "prMs",
+            "op": "<=",
+            "value": 200
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3: bloqueo AV de primer grado = PR > 200 ms con conducción 1:1."
+        },
+        {
+          "id": "nsr-regular",
+          "role": "required",
+          "text": {
+            "es": "Ritmo regular",
+            "en": "Regular rhythm"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": true
+          },
+          "ref": "litfl-nsr",
+          "note": "«Regular» según la definición del motor (rrCv ≤ 0,10, ≥ 4 latidos); la definición publicada (variación PP ≤ 0,12 s o ≤ 10 %) es más estricta y no es medible con rrCv."
+        },
+        {
+          "id": "nsr-pr-min",
+          "role": "supporting",
+          "text": {
+            "es": "PR ≥ 120 ms",
+            "en": "PR interval ≥ 120 ms"
+          },
+          "predicate": {
+            "feature": "prMs",
+            "op": ">=",
+            "value": 120
+          },
+          "ref": "ecg-core-curriculum",
+          "note": "PR normal 0,12–0,20 s (fuente no verificada, solo apoyo)."
+        },
+        {
+          "id": "nsr-paxis",
+          "role": "supporting",
+          "text": {
+            "es": "Eje de P entre 0° y +75°",
+            "en": "P-wave axis between 0° and +75°"
+          },
+          "predicate": {
+            "feature": "pAxisDeg",
+            "op": "between",
+            "value": [
+              0,
+              75
+            ]
+          },
+          "ref": "ecg-core-curriculum",
+          "note": "Eje medio de P normal 0 a +75° (fuente no verificada, solo apoyo)."
+        },
+        {
+          "id": "nsr-pqrs",
+          "role": "supporting",
+          "text": {
+            "es": "Una P por cada QRS",
+            "en": "One P wave per QRS"
+          },
+          "predicate": {
+            "feature": "pQrsRatio",
+            "op": "==",
+            "value": 1
+          },
+          "ref": "litfl-nsr",
+          "note": "Teaching source."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "sinus-bradycardia",
+        "sinus-tachycardia",
+        "sinus-arrhythmia",
+        "ectopic-atrial-rhythm",
+        "junctional-rhythm"
+      ],
+      "nextSteps": {
+        "es": "Ninguno específico: correlacionar con el cuadro clínico.",
+        "en": "None specific: correlate with the clinical picture."
+      },
+      "limitations": {
+        "es": "«Normal» se refiere solo al ritmo; no descarta otras anomalías. Una FC de 50–59 lpm con P sinusal no cumple ni bradicardia (< 50, Kusumoto 2018) ni la convención de ritmo sinusal normal 60–100. La regularidad se mide con rrCv sobre un registro corto.",
+        "en": "'Normal' refers to rhythm only and does not exclude other abnormalities. A rate of 50-59 bpm with sinus P waves meets neither bradycardia (< 50, Kusumoto 2018) nor the conventional 60-100 definition. Regularity is estimated with rrCv from a short recording."
+      },
+      "references": [
+        "kusumoto-2018",
+        "page-2015-svt",
+        "litfl-nsr",
+        "ecg-core-curriculum",
+        "mason-2007-part2"
+      ]
+    },
+    {
+      "id": "sinus-bradycardia",
+      "name": {
+        "es": "Bradicardia sinusal",
+        "en": "Sinus bradycardia"
+      },
+      "category": "rhythm",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "sb-rate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia sinusal < 50 lpm",
+            "en": "Sinus rate < 50 bpm"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": "<",
+            "value": 50
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3 de la guía 2018: bradicardia sinusal = frecuencia sinusal < 50 lpm. El texto (sec. 2.2) recuerda que el NIH usa < 60 lpm, pero la guía adopta < 50; 50–59 lpm no se considera anomalía."
+        },
+        {
+          "id": "sb-p",
+          "role": "required",
+          "text": {
+            "es": "Onda P de origen sinusal: reproducible antes del QRS, positiva en II y negativa en aVR",
+            "en": "Sinus P wave: reproducible before each QRS, positive in lead II and negative in aVR"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "lead.II.pMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "feature": "lead.aVR.pMv",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "litfl-nsr",
+          "note": "Teaching source."
+        },
+        {
+          "id": "sb-pr",
+          "role": "supporting",
+          "text": {
+            "es": "PR ≤ 200 ms con conducción 1:1",
+            "en": "PR ≤ 200 ms with 1:1 conduction"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "prMs",
+                "op": "<=",
+                "value": 200
+              },
+              {
+                "feature": "pQrsRatio",
+                "op": "==",
+                "value": 1
+              }
+            ]
+          },
+          "ref": "kusumoto-2018",
+          "note": "Distingue de bloqueo AV de primer grado (PR > 200 ms) y de bloqueos con P no conducidas."
+        },
+        {
+          "id": "sb-regular",
+          "role": "supporting",
+          "text": {
+            "es": "Ritmo regular",
+            "en": "Regular rhythm"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": true
+          },
+          "ref": "litfl-nsr",
+          "note": "Operativo: la bradicardia sinusal con arritmia respiratoria puede ser irregular."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "syncope"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Con síncope, la guía subraya la correlación temporal síntoma-bradicardia; el hallazgo aislado no establece disfunción sinusal.",
+            "en": "With syncope, the guideline stresses temporal correlation between symptoms and bradycardia; the isolated finding does not establish sinus node dysfunction."
+          },
+          "ref": "kusumoto-2018"
+        },
+        {
+          "when": {
+            "context": "medications",
+            "op": "contains",
+            "value": "av-nodal"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Fármacos con efecto nodal: causa reversible de bradicardia (guía 2018, secciones de causas transitorias/reversibles).",
+            "en": "Nodal-acting drugs: a reversible cause of bradycardia (2018 guideline, transient/reversible causes sections)."
+          },
+          "ref": "kusumoto-2018"
+        }
+      ],
+      "mimics": [
+        "sinus-pause-sa-block",
+        "junctional-rhythm",
+        "ectopic-atrial-rhythm",
+        "2-to-1-av-block",
+        "third-degree-av-block",
+        "atrial-fibrillation-slow-response"
+      ],
+      "nextSteps": {
+        "es": "Revisar si hay síntomas atribuibles y fármacos con efecto cronotrópico negativo; el siguiente paso diagnóstico dictado por la guía es correlacionar síntomas con el ritmo (monitorización ambulatoria si es intermitente). Preguntar por fatiga o intolerancia al esfuerzo inadvertidas y revisar electrolitos y función tiroidea; considerar prueba de ejercicio si se sospecha incompetencia cronotrópica (Çinier 2021; ESC 2021).",
+        "en": "Check for attributable symptoms and negative chronotropic drugs; the guideline's diagnostic next step is to correlate symptoms with rhythm (ambulatory monitoring if intermittent). Ask about unrecognized fatigue or exercise intolerance and review electrolytes and thyroid function; consider exercise testing if chronotropic incompetence is suspected (Çinier 2021; ESC 2021)."
+      },
+      "limitations": {
+        "es": "La guía advierte que la bradicardia sinusal o una pausa > 3 s por sí solas no bastan para diagnosticar disfunción sinusal. No distingue bradicardia fisiológica (atletas, sueño) de patológica. Una bradicardia de 2:1 con P no conducidas puede simular bradicardia sinusal si la P oculta en la T no se detecta.",
+        "en": "The guideline warns that sinus bradycardia or a pause > 3 s alone should not be used to diagnose sinus node dysfunction. A physiologic (athlete, sleep) rate cannot be separated from a pathologic one. 2:1 block with P waves hidden in the T wave may mimic sinus bradycardia if those P waves are not detected."
+      },
+      "references": [
+        "kusumoto-2018",
+        "litfl-nsr",
+        "cinier-2021-bradyarrhythmias",
+        "glikson-2021-pacing"
+      ]
+    },
+    {
+      "id": "sinus-tachycardia",
+      "name": {
+        "es": "Taquicardia sinusal",
+        "en": "Sinus tachycardia"
+      },
+      "category": "rhythm",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "st-rate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia sinusal > 100 lpm",
+            "en": "Sinus rate > 100 bpm"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": ">",
+            "value": 100
+          },
+          "ref": "page-2015-svt",
+          "note": "Tabla 3: taquicardia sinusal = ritmo originado en el nodo sinusal con frecuencia > 100 lpm; la taquicardia sinusal inapropiada se define además por FC en reposo > 100 y media de 24 h > 90 lpm (no medible)."
+        },
+        {
+          "id": "st-p",
+          "role": "required",
+          "text": {
+            "es": "Onda P de origen sinusal: reproducible antes del QRS, positiva en II y negativa en aVR",
+            "en": "Sinus P wave: reproducible before each QRS, positive in lead II and negative in aVR"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "lead.II.pMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "feature": "lead.aVR.pMv",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "litfl-nsr",
+          "note": "Teaching source. En taquicardia la P puede quedar sobre la T y no detectarse."
+        },
+        {
+          "id": "st-regular",
+          "role": "supporting",
+          "text": {
+            "es": "Ritmo regular",
+            "en": "Regular rhythm"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": true
+          },
+          "ref": "page-2015-svt",
+          "note": "Operativo."
+        },
+        {
+          "id": "st-pqrs",
+          "role": "supporting",
+          "text": {
+            "es": "Una P por cada QRS",
+            "en": "One P wave per QRS"
+          },
+          "predicate": {
+            "feature": "pQrsRatio",
+            "op": "==",
+            "value": 1
+          },
+          "ref": "litfl-nsr",
+          "note": "Teaching source."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "avnrt-avrt",
+        "focal-atrial-tachycardia",
+        "atrial-flutter-2to1-suspected",
+        "multifocal-atrial-tachycardia"
+      ],
+      "nextSteps": {
+        "es": "Buscar causa fisiológica o secundaria (fiebre, dolor, anemia, hipovolemia, hipertiroidismo, fármacos) y confirmar P sinusal; si la FC es ~150 lpm y fija, descartar flutter 2:1.",
+        "en": "Look for physiologic or secondary causes (fever, pain, anemia, hypovolemia, hyperthyroidism, drugs) and confirm sinus P waves; if the rate is ~150 bpm and fixed, rule out 2:1 flutter."
+      },
+      "limitations": {
+        "es": "Si no se ven P antes de cada QRS, la taquicardia sinusal no puede distinguirse de la TSV por reentrada ni del flutter 2:1 (ESC 2019: considerar flutter con conducción 2:1 cuando la frecuencia ventricular es ~150 lpm). El inicio/final abruptos no son medibles en un ECG único.",
+        "en": "If P waves before each QRS are not seen, sinus tachycardia cannot be separated from reentrant SVT or 2:1 flutter (ESC 2019: consider flutter with 2:1 conduction when the ventricular rate is ~150 bpm). Abrupt onset/offset cannot be assessed on a single ECG."
+      },
+      "references": [
+        "page-2015-svt",
+        "litfl-nsr",
+        "brugada-esc-2019-svt"
+      ]
+    },
+    {
+      "id": "sinus-arrhythmia",
+      "name": {
+        "es": "Arritmia sinusal",
+        "en": "Sinus arrhythmia"
+      },
+      "category": "rhythm",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "sa-p",
+          "role": "required",
+          "text": {
+            "es": "Onda P de origen sinusal: reproducible antes del QRS, positiva en II y negativa en aVR",
+            "en": "Sinus P wave: reproducible before each QRS, positive in lead II and negative in aVR"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "lead.II.pMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "feature": "lead.aVR.pMv",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "litfl-nsr",
+          "note": "Teaching source."
+        },
+        {
+          "id": "sa-pp-published",
+          "role": "required",
+          "text": {
+            "es": "Variación entre el intervalo PP más corto y el más largo > 0,12 s o > 10 % (diferencia dividida por la media)",
+            "en": "Variation between shortest and longest P-P interval > 0.12 s or > 10% (difference divided by the mean)"
+          },
+          "predicate": null,
+          "ref": "ecg-core-curriculum",
+          "note": "Criterio publicado (fuente no verificada). No es evaluable: el motor solo dispone de rrCv, no de los intervalos PP individuales; haría falta la serie de intervalos PP o RR latido a latido."
+        },
+        {
+          "id": "sa-1to1",
+          "role": "supporting",
+          "text": {
+            "es": "Una P por cada QRS",
+            "en": "One P wave per QRS"
+          },
+          "predicate": {
+            "feature": "pQrsRatio",
+            "op": "==",
+            "value": 1
+          },
+          "ref": "litfl-nsr",
+          "note": "Teaching source."
+        },
+        {
+          "id": "sa-irregular",
+          "role": "supporting",
+          "text": {
+            "es": "Irregularidad RR por encima del umbral del motor (rrCv > 0,10)",
+            "en": "RR irregularity above the engine threshold (rrCv > 0.10)"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": false
+          },
+          "ref": "ecg-core-curriculum",
+          "note": "Umbral operativo, no publicado: la definición publicada (> 10 % entre el PP más corto y el más largo) corresponde a una dispersión menor que rrCv > 0,10, de modo que una arritmia sinusal leve se clasificará como ritmo regular."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "normal-sinus-rhythm",
+        "premature-ventricular-complexes",
+        "atrial-fibrillation",
+        "multifocal-atrial-tachycardia",
+        "sinus-pause-sa-block"
+      ],
+      "nextSteps": {
+        "es": "Ninguno específico; confirmar que todas las P tienen la misma morfología (si no, considerar extrasístoles auriculares o taquicardia auricular multifocal).",
+        "en": "None specific; confirm all P waves share one morphology (otherwise consider atrial premature complexes or multifocal atrial tachycardia)."
+      },
+      "limitations": {
+        "es": "Variante frecuente en jóvenes y con la respiración; la forma ventriculofásica ocurre en bloqueo AV. Con rrCv no se alcanza la sensibilidad de la definición publicada.",
+        "en": "Common variant in the young and with respiration; the ventriculophasic form occurs in AV block. rrCv does not reach the sensitivity of the published definition."
+      },
+      "references": [
+        "litfl-nsr",
+        "ecg-core-curriculum",
+        "mason-2007-part2"
+      ]
+    },
+    {
+      "id": "sinus-pause-sa-block",
+      "name": {
+        "es": "Pausa o paro sinusal y bloqueo sinoauricular",
+        "en": "Sinus pause/arrest and sinoatrial block"
+      },
+      "category": "rhythm",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "sp-pause",
+          "role": "required",
+          "text": {
+            "es": "Pausa sinusal: el nodo sinusal se despolariza > 3 s después de la última despolarización auricular",
+            "en": "Sinus pause: sinus node depolarizes > 3 s after the last atrial depolarization"
+          },
+          "predicate": null,
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3, guía 2018. No evaluable: se necesita el intervalo RR/PP máximo de la tira de ritmo; el motor solo tiene rateBpm y rrCv sobre el latido mediano y un ECG de 10 s suele no contener la pausa."
+        },
+        {
+          "id": "sp-arrest",
+          "role": "supporting",
+          "text": {
+            "es": "Paro sinusal: ausencia de evidencia de despolarización sinusal",
+            "en": "Sinus arrest: no evidence of sinus node depolarization"
+          },
+          "predicate": null,
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3. No evaluable (requiere análisis latido a latido de la actividad auricular)."
+        },
+        {
+          "id": "sp-sa-block",
+          "role": "supporting",
+          "text": {
+            "es": "Bloqueo sinoauricular de salida: «latidos agrupados» de la actividad auricular y pausas sinusales; solo el de segundo grado (tipos I y II) es identificable",
+            "en": "Sinoatrial exit block: 'group beating' of atrial depolarization and sinus pauses; only second-degree (types I and II) is identifiable on the surface ECG"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "groupedBeating",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": true
+              }
+            ]
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3 define el bloqueo sinoauricular con «group beating»; el tipo I/II lo recoge el léxico AHA (Mason 2007, códigos 24–26). El rasgo groupedBeating es un indicador indirecto y no distingue de bloqueo AV tipo I."
+        },
+        {
+          "id": "sp-irregular",
+          "role": "supporting",
+          "text": {
+            "es": "Ritmo irregular con P sinusal",
+            "en": "Irregular rhythm with sinus P waves"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "regular",
+                "op": "==",
+                "value": false
+              },
+              {
+                "feature": "lead.II.pMv",
+                "op": ">",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "mason-2007-part2",
+          "note": "Operativo, sin cifras publicadas."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "syncope"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Síncope: la guía exige correlación temporal síntoma-bradicardia; no hay duración mínima de pausa para indicar marcapasos.",
+            "en": "Syncope: the guideline requires temporal correlation between symptoms and bradycardia; there is no established minimum pause duration for pacing."
+          },
+          "ref": "kusumoto-2018"
+        }
+      ],
+      "mimics": [
+        "sinus-bradycardia",
+        "premature-ventricular-complexes",
+        "second-degree-mobitz-i",
+        "sinus-arrhythmia"
+      ],
+      "nextSteps": {
+        "es": "Revisar la tira de ritmo completa y los ECG previos; correlacionar con síntomas y considerar monitorización ambulatoria (guía 2018).",
+        "en": "Review the full rhythm strip and prior ECGs; correlate with symptoms and consider ambulatory monitoring (2018 guideline)."
+      },
+      "limitations": {
+        "es": "La pausa > 3 s no es evaluable con los rasgos disponibles; el bloqueo sinoauricular tipo I frente a tipo II y el bloqueo de primer grado no se ven en superficie. Una extrasístole auricular bloqueada es la causa más común de una pausa aparente y debe descartarse buscando una P prematura sobre la T. Una pausa aislada >3 s no diagnostica disfunción sinusal ni indica por sí sola marcapasos; importa el contexto (sueño, atleta, síntomas y causas reversibles).",
+        "en": "A pause > 3 s is not assessable with the available features; type I vs II SA block and first-degree SA block are not visible on the surface ECG. A blocked atrial premature complex is a common cause of an apparent pause and must be excluded by looking for a premature P wave on the T wave. An isolated pause >3 s neither diagnoses sinus-node dysfunction nor by itself indicates pacing; sleep, athletic conditioning, symptoms and reversible causes matter."
+      },
+      "references": [
+        "kusumoto-2018",
+        "mason-2007-part2",
+        "cinier-2021-bradyarrhythmias",
+        "glikson-2021-pacing"
+      ]
+    },
+    {
+      "id": "ectopic-atrial-rhythm",
+      "name": {
+        "es": "Ritmo auricular ectópico",
+        "en": "Ectopic atrial rhythm"
+      },
+      "category": "rhythm",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "ear-p",
+          "role": "required",
+          "text": {
+            "es": "Onda P reproducible antes de cada QRS con morfología/eje distinto del sinusal (negativa en II o eje de P fuera de 0° a +75°)",
+            "en": "Reproducible P wave before each QRS with non-sinus morphology/axis (negative in II or P axis outside 0° to +75°)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": true
+              },
+              {
+                "any": [
+                  {
+                    "feature": "lead.II.pMv",
+                    "op": "<",
+                    "value": 0
+                  },
+                  {
+                    "feature": "pAxisDeg",
+                    "op": "<",
+                    "value": 0
+                  },
+                  {
+                    "feature": "pAxisDeg",
+                    "op": ">",
+                    "value": 75
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "ecg-core-curriculum",
+          "note": "Eje de P sinusal 0 a +75° (fuente no verificada); el léxico AHA reconoce «ectopic atrial rhythm» (código 34) sin criterios numéricos; la guía 2018 define «ectopic atrial bradycardia» con ritmo auricular no sinusal < 50 lpm."
+        },
+        {
+          "id": "ear-rate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia ≤ 100 lpm (por encima de 100 lpm se trata de taquicardia auricular)",
+            "en": "Rate ≤ 100 bpm (above 100 bpm it is an atrial tachycardia)"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": "<=",
+            "value": 100
+          },
+          "ref": "joglar-2023-af",
+          "note": "Sec. 2.2.2: taquicardia auricular = ritmo auricular regular > 100 lpm con ondas P discretas originadas fuera del nodo sinusal."
+        },
+        {
+          "id": "ear-regular",
+          "role": "required",
+          "text": {
+            "es": "Ritmo regular con una P por QRS",
+            "en": "Regular rhythm with one P per QRS"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "regular",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "pQrsRatio",
+                "op": "==",
+                "value": 1
+              }
+            ]
+          },
+          "ref": "mason-2007-part2",
+          "note": "Operativo; el ritmo auricular multifocal (código 35) se trata en taquicardia auricular multifocal."
+        },
+        {
+          "id": "ear-pr",
+          "role": "supporting",
+          "text": {
+            "es": "PR ≥ 120 ms (un PR < 120 ms con P negativa sugiere más bien ritmo de la unión)",
+            "en": "PR ≥ 120 ms (PR < 120 ms with negative P suggests a junctional rhythm)"
+          },
+          "predicate": {
+            "feature": "prMs",
+            "op": ">=",
+            "value": 120
+          },
+          "ref": "litfl-pac",
+          "note": "Teaching source (criterio de PAC aplicado al ritmo)."
+        },
+        {
+          "id": "ear-low-atrial",
+          "role": "supporting",
+          "text": {
+            "es": "P negativa en derivaciones inferiores (foco auricular bajo)",
+            "en": "Negative P wave in inferior leads (low atrial focus)"
+          },
+          "predicate": {
+            "countLeads": [
+              "II",
+              "III",
+              "aVF"
+            ],
+            "where": {
+              "field": "pMv",
+              "op": "<",
+              "value": 0
+            },
+            "op": ">=",
+            "value": 2
+          },
+          "ref": "statpearls-pac",
+          "note": "Una P negativa en derivaciones inferiores sugiere foco auricular bajo; negativa en I/aVL sugiere origen auricular izquierdo."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "normal-sinus-rhythm",
+        "junctional-rhythm",
+        "limb-lead-reversal-la-ra",
+        "dextrocardia",
+        "multifocal-atrial-tachycardia",
+        "focal-atrial-tachycardia"
+      ],
+      "nextSteps": {
+        "es": "Comparar con ECG previos y confirmar la polaridad de P en I, II, III, aVR, aVL y aVF; descartar inversión de electrodos de brazo y dextrocardia.",
+        "en": "Compare with prior ECGs and confirm P polarity in I, II, III, aVR, aVL and aVF; exclude limb-lead reversal and dextrocardia."
+      },
+      "limitations": {
+        "es": "La inversión de electrodos de brazo y la dextrocardia invierten la P en I y aVL sin ser un ritmo ectópico. Un foco auricular alto o cercano al nodo sinusal puede tener P casi idéntica a la sinusal. El criterio de eje de P depende de la medición en un latido mediano.",
+        "en": "Arm-lead reversal and dextrocardia invert P in I and aVL without an ectopic rhythm. A high atrial focus near the sinus node can produce a P wave nearly identical to the sinus P. The P-axis criterion depends on measurement from a median beat."
+      },
+      "references": [
+        "mason-2007-part2",
+        "kusumoto-2018",
+        "joglar-2023-af",
+        "litfl-pac",
+        "statpearls-pac",
+        "ecg-core-curriculum"
+      ]
+    },
+    {
+      "id": "junctional-rhythm",
+      "name": {
+        "es": "Ritmo de la unión AV (incluye ritmo de escape y acelerado)",
+        "en": "AV junctional rhythm (including escape and accelerated rhythm)"
+      },
+      "category": "rhythm",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "jr-nop",
+          "role": "required",
+          "text": {
+            "es": "Sin P sinusal antes del QRS (ausente o P retrógrada, negativa en II)",
+            "en": "No sinus P wave before the QRS (absent or retrograde, negative in II)"
+          },
+          "predicate": {
+            "any": [
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": false
+              },
+              {
+                "feature": "lead.II.pMv",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "statpearls-junctional",
+          "note": "StatPearls: ondas P ausentes, invertidas o retrógradas con QRS estrecho y ritmo regular."
+        },
+        {
+          "id": "jr-regular",
+          "role": "required",
+          "text": {
+            "es": "Ritmo regular",
+            "en": "Regular rhythm"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": true
+          },
+          "ref": "statpearls-junctional",
+          "note": "Operativo."
+        },
+        {
+          "id": "jr-rate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia ≤ 100 lpm (> 100 lpm se denomina taquicardia de la unión)",
+            "en": "Rate ≤ 100 bpm (> 100 bpm is junctional tachycardia)"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": "<=",
+            "value": 100
+          },
+          "ref": "statpearls-junctional",
+          "note": "Clasificación por frecuencia ventricular: bradicardia de la unión < 40; ritmo de escape 40–60; ritmo acelerado 60–100; taquicardia > 100 lpm."
+        },
+        {
+          "id": "jr-escape",
+          "role": "supporting",
+          "text": {
+            "es": "Rango de ritmo de escape de la unión: 40–60 lpm",
+            "en": "Junctional escape rate range: 40-60 bpm"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": "between",
+            "value": [
+              40,
+              60
+            ]
+          },
+          "ref": "statpearls-junctional",
+          "note": "Teaching source."
+        },
+        {
+          "id": "jr-accelerated",
+          "role": "supporting",
+          "text": {
+            "es": "Rango de ritmo de la unión acelerado: > 60 y ≤ 100 lpm",
+            "en": "Accelerated junctional rhythm range: > 60 and ≤ 100 bpm"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "rateBpm",
+                "op": ">",
+                "value": 60
+              },
+              {
+                "feature": "rateBpm",
+                "op": "<=",
+                "value": 100
+              }
+            ]
+          },
+          "ref": "statpearls-junctional",
+          "note": "Teaching source."
+        },
+        {
+          "id": "jr-narrow",
+          "role": "supporting",
+          "text": {
+            "es": "QRS estrecho (≤ 120 ms)",
+            "en": "Narrow QRS (≤ 120 ms)"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": "<=",
+            "value": 120
+          },
+          "ref": "statpearls-junctional",
+          "note": "El QRS puede ser ancho con bloqueo de rama previo o aberrancia."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "medications",
+            "op": "contains",
+            "value": "av-nodal"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Fármacos con efecto nodal o antiarrítmicos se citan como causa de ritmo de la unión.",
+            "en": "Nodal-acting or antiarrhythmic drugs are listed as causes of junctional rhythm."
+          },
+          "ref": "statpearls-junctional"
+        }
+      ],
+      "mimics": [
+        "sinus-bradycardia",
+        "ectopic-atrial-rhythm",
+        "third-degree-av-block",
+        "atrial-fibrillation-slow-response",
+        "avnrt-avrt"
+      ],
+      "nextSteps": {
+        "es": "Buscar P retrógrada (negativa en II, III, aVF) antes o después del QRS y causas reversibles (isquemia inferior, fármacos, trastornos electrolíticos); si hay P independientes más rápidas que el QRS, evaluar bloqueo AV completo.",
+        "en": "Look for a retrograde P (negative in II, III, aVF) before or after the QRS and for reversible causes (inferior ischemia, drugs, electrolyte disturbances); if independent P waves are faster than the QRS, assess complete AV block."
+      },
+      "limitations": {
+        "es": "La P retrógrada oculta en el QRS o en la T no es detectable; la disociación isorrítmica (P más lenta que el QRS, Kusumoto 2018) y el bloqueo AV completo con escape de la unión comparten el mismo QRS. Una FA con respuesta lenta y regular se parece a un ritmo de la unión.",
+        "en": "A retrograde P hidden in the QRS or T wave is not detectable; isorhythmic dissociation (P slower than QRS, Kusumoto 2018) and complete AV block with junctional escape share the same QRS appearance. AF with a slow regular response resembles a junctional rhythm."
+      },
+      "references": [
+        "statpearls-junctional",
+        "kusumoto-2018",
+        "mason-2007-part2"
+      ]
+    },
+    {
+      "id": "ventricular-escape-rhythm",
+      "name": {
+        "es": "Ritmo de escape ventricular (idioventricular)",
+        "en": "Ventricular escape (idioventricular) rhythm"
+      },
+      "category": "rhythm",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "ve-wide",
+          "role": "required",
+          "text": {
+            "es": "QRS ancho (> 120 ms)",
+            "en": "Wide QRS (> 120 ms)"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">",
+            "value": 120
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019: QRS ancho = duración > 120 ms. La StatPearls consultada lo asocia a escape ventricular."
+        },
+        {
+          "id": "ve-rate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia ≤ 40 lpm (escape ventricular típico 20–40 lpm)",
+            "en": "Rate ≤ 40 bpm (typical ventricular escape 20-40 bpm)"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": "<=",
+            "value": 40
+          },
+          "ref": "meloy-3rd-degree-avb",
+          "note": "Escapes ventriculares: QRS ancho con 20–40 lpm (escapes de la unión: QRS estrecho, 40–60 lpm). Fuente secundaria."
+        },
+        {
+          "id": "ve-regular",
+          "role": "required",
+          "text": {
+            "es": "Ritmo regular",
+            "en": "Regular rhythm"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": true
+          },
+          "ref": "meloy-3rd-degree-avb",
+          "note": "Operativo."
+        },
+        {
+          "id": "ve-dissoc",
+          "role": "supporting",
+          "text": {
+            "es": "Más P que QRS (disociación AV)",
+            "en": "More P waves than QRS complexes (AV dissociation)"
+          },
+          "predicate": {
+            "feature": "pQrsRatio",
+            "op": ">",
+            "value": 1
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3: bloqueo AV completo sin conducción AV; el escape es de la unión o ventricular (texto de clasificación del bloqueo AV)."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "potassium",
+            "op": "==",
+            "value": "high"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "La hiperpotasemia ensancha el QRS y puede causar bradicardia con QRS ancho; considerarla antes de atribuirlo a un escape.",
+            "en": "Hyperkalemia widens the QRS and can cause bradycardia with a wide QRS; consider it before attributing the finding to an escape rhythm."
+          },
+          "ref": "meloy-3rd-degree-avb"
+        }
+      ],
+      "mimics": [
+        "third-degree-av-block",
+        "hyperkalemia",
+        "sodium-channel-blocker-toxicity",
+        "sinus-bradycardia"
+      ],
+      "nextSteps": {
+        "es": "Evaluar de inmediato la causa del bloqueo o de la bradicardia (fármacos, potasio, isquemia) y si hay disociación AV.",
+        "en": "Promptly assess the cause of the block or bradycardia (drugs, potassium, ischemia) and whether AV dissociation is present."
+      },
+      "limitations": {
+        "es": "Un ritmo de escape ventricular es una consecuencia de un fallo de marcapasos superiores, no una entidad primaria; sin la tira completa no se puede ver la disociación AV. Bradicardia sinusal con bloqueo de rama o ritmo estimulado se parecen. No se detectan espigas de marcapasos en un ECG digitalizado.",
+        "en": "A ventricular escape rhythm is a consequence of failure of higher pacemakers, not a primary entity; without the full strip AV dissociation cannot be seen. Sinus bradycardia with bundle branch block or a paced rhythm look similar. Pacemaker spikes are not detectable in a digitized ECG."
+      },
+      "references": [
+        "meloy-3rd-degree-avb",
+        "kusumoto-2018",
+        "brugada-esc-2019-svt",
+        "mason-2007-part2"
+      ]
+    },
+    {
+      "id": "premature-atrial-complexes",
+      "name": {
+        "es": "Extrasístoles auriculares",
+        "en": "Premature atrial complexes"
+      },
+      "category": "rhythm",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "pac-premature-p",
+          "role": "required",
+          "text": {
+            "es": "Latido prematuro con onda P de morfología/eje distinto del sinusal, con QRS habitualmente estrecho; puede conducirse con aberrancia o bloquearse",
+            "en": "Premature beat with a P wave of different morphology/axis from the sinus P, usually narrow QRS; may be aberrantly conducted or blocked"
+          },
+          "predicate": null,
+          "ref": "statpearls-pac",
+          "note": "No evaluable: requiere análisis latido a latido (el rasgo del motor es el latido mediano). Fuente secundaria. El léxico AHA recoge «atrial premature complex(es)» y «nonconducted» (códigos 30–31)."
+        },
+        {
+          "id": "pac-irregular",
+          "role": "supporting",
+          "text": {
+            "es": "Irregularidad del RR",
+            "en": "RR irregularity"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": false
+          },
+          "ref": "statpearls-pac",
+          "note": "Operativo; no hay umbral publicado."
+        },
+        {
+          "id": "pac-narrow",
+          "role": "supporting",
+          "text": {
+            "es": "QRS estrecho (≤ 120 ms) en el latido mediano",
+            "en": "Narrow QRS (≤ 120 ms) on the median beat"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": "<=",
+            "value": 120
+          },
+          "ref": "litfl-pac",
+          "note": "Teaching source: QRS habitualmente < 120 ms."
+        },
+        {
+          "id": "pac-p-sinus",
+          "role": "supporting",
+          "text": {
+            "es": "P sinusal en el latido de base",
+            "en": "Sinus P in the underlying beats"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "lead.II.pMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "feature": "lead.aVR.pMv",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "litfl-pac",
+          "note": "Teaching source."
+        },
+        {
+          "id": "pac-pause",
+          "role": "supporting",
+          "text": {
+            "es": "Pausa posextrasistólica menor del doble del RR previo (no compensadora)",
+            "en": "Post-extrasystolic pause shorter than twice the preceding RR (non-compensatory)"
+          },
+          "predicate": null,
+          "ref": "litfl-pac",
+          "note": "Teaching source: tras una PAC la pausa suele ser incompleta; tras una PVC, el doble del RR. No evaluable con rrCv."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "premature-ventricular-complexes",
+        "sinus-pause-sa-block",
+        "2-to-1-av-block",
+        "sinus-arrhythmia"
+      ],
+      "nextSteps": {
+        "es": "Revisar la tira completa para identificar la P prematura (a menudo sobre la T) y descartar pausas por PAC bloqueadas; correlacionar con síntomas.",
+        "en": "Review the full strip to find the premature P wave (often on the T wave) and exclude pauses caused by blocked PACs; correlate with symptoms."
+      },
+      "limitations": {
+        "es": "Las PAC no se detectan sobre el latido mediano: este criterio queda «no evaluable» sin la serie de latidos. Una PAC bloqueada puede parecer una pausa sinusal o un bloqueo AV tipo II. Una PAC con aberrancia se confunde con una extrasístole ventricular salvo que se vea la P previa.",
+        "en": "PACs are not detectable on the median beat: this criterion remains 'not evaluable' without beat-by-beat data. A blocked PAC can mimic a sinus pause or Mobitz II block. An aberrantly conducted PAC is confused with a PVC unless the preceding P wave is seen."
+      },
+      "references": [
+        "statpearls-pac",
+        "litfl-pac",
+        "mason-2007-part2"
+      ]
+    },
+    {
+      "id": "premature-ventricular-complexes",
+      "name": {
+        "es": "Extrasístoles ventriculares (incluye bigeminismo)",
+        "en": "Premature ventricular complexes (including bigeminy)"
+      },
+      "category": "rhythm",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "pvc-def",
+          "role": "required",
+          "text": {
+            "es": "Latido prematuro con QRS anormal (duración típicamente ≥ 120 ms), onda T amplia y de dirección opuesta, sin onda P previa",
+            "en": "Premature beat with abnormal QRS (duration typically ≥ 120 ms), broad T wave opposite to the major QRS deflection, no preceding P wave"
+          },
+          "predicate": null,
+          "ref": "zeppenfeld-esc-2022-va",
+          "note": "ESC 2022, sec. 3.1 (definición de PVC). No evaluable: se necesita el análisis latido a latido; el latido mediano refleja el ritmo de base."
+        },
+        {
+          "id": "pvc-bigeminy",
+          "role": "supporting",
+          "text": {
+            "es": "Bigeminismo: una extrasístole tras cada latido normal (trigeminismo: tras cada dos); patrón alternante visible como latidos agrupados",
+            "en": "Bigeminy: a PVC after every normal beat (trigeminy: after every two); alternating pattern seen as grouped beating"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "groupedBeating",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "regular",
+                "op": "==",
+                "value": false
+              }
+            ]
+          },
+          "ref": "statpearls-pvc",
+          "note": "Definición de bigeminismo y trigeminismo de StatPearls (fuente secundaria). El rasgo groupedBeating es indirecto y no lo distingue de bloqueo AV o bloqueo sinoauricular con latidos agrupados."
+        },
+        {
+          "id": "pvc-irregular",
+          "role": "supporting",
+          "text": {
+            "es": "Irregularidad del RR",
+            "en": "RR irregularity"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": false
+          },
+          "ref": "zeppenfeld-esc-2022-va",
+          "note": "Operativo."
+        },
+        {
+          "id": "pvc-couplet",
+          "role": "supporting",
+          "text": {
+            "es": "Tres o más latidos ventriculares consecutivos > 100 lpm = TV (no ESV)",
+            "en": "Three or more consecutive ventricular beats > 100 bpm = VT (not PVCs)"
+          },
+          "predicate": null,
+          "ref": "zeppenfeld-esc-2022-va",
+          "note": "ESC 2022: TV = ≥ 3 latidos consecutivos con frecuencia > 100 lpm; TVNS 3 latidos a 30 s. Solo como límite con la entidad de taquicardia ventricular; no evaluable."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "history",
+            "op": "contains",
+            "value": "cardiac"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "ESC 2022: ante arritmia ventricular recién documentada se recomienda ECG de 12 derivaciones, ecocardiograma y, si hay sospecha de cardiopatía estructural, RMC.",
+            "en": "ESC 2022: for newly documented ventricular arrhythmia, 12-lead ECG and echocardiography are recommended and CMR if structural heart disease is suspected."
+          },
+          "ref": "zeppenfeld-esc-2022-va"
+        }
+      ],
+      "mimics": [
+        "premature-atrial-complexes",
+        "ventricular-tachycardia-wct",
+        "ventricular-escape-rhythm",
+        "ventricular-paced-rhythm"
+      ],
+      "nextSteps": {
+        "es": "Documentar el ECG de 12 derivaciones con la extrasístole y evaluar cardiopatía estructural (ecocardiograma); la carga de EV requiere monitorización ambulatoria de 24 h.",
+        "en": "Document the 12-lead ECG with the PVC and evaluate for structural heart disease (echocardiogram); PVC burden requires 24-h ambulatory monitoring."
+      },
+      "limitations": {
+        "es": "Un ECG de 10 s no permite cuantificar la carga de EV (la guía recomienda Holter de 24 h) ni ver la morfología latido a latido: el criterio definitorio queda no evaluable. Extrasístole supraventricular con aberrancia y latido estimulado se confunden con una EV. Los QRS de EV pueden ser < 120 ms si nacen en el sistema fascicular.",
+        "en": "A 10-s ECG cannot quantify PVC burden (the guideline recommends 24-h Holter) or show beat-by-beat morphology: the defining criterion is not evaluable. Supraventricular beats with aberrancy and paced beats are confused with PVCs. PVC QRS may be < 120 ms when arising from the fascicular system."
+      },
+      "references": [
+        "zeppenfeld-esc-2022-va",
+        "statpearls-pvc",
+        "mason-2007-part2"
+      ]
+    },
+    {
+      "id": "atrial-fibrillation",
+      "name": {
+        "es": "Fibrilación auricular",
+        "en": "Atrial fibrillation"
+      },
+      "category": "rhythm",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "af-irregular",
+          "role": "required",
+          "text": {
+            "es": "Intervalos R-R irregulares (ausencia de patrón repetitivo)",
+            "en": "Irregular R-R intervals"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": false
+          },
+          "ref": "joglar-2023-af",
+          "note": "Tabla 4 (definiciones): características ECG de la FA = (1) intervalos R-R irregulares cuando hay conducción AV, (2) ausencia de ondas P distintas, (3) actividad auricular irregular (ondas fibrilatorias). «Irregular» se opera como regular = falso (rrCv > 0,10)."
+        },
+        {
+          "id": "af-nop",
+          "role": "required",
+          "text": {
+            "es": "Ausencia de ondas P distintas y reproducibles",
+            "en": "Absence of distinct, reproducible P waves"
+          },
+          "predicate": {
+            "feature": "pPresent",
+            "op": "==",
+            "value": false
+          },
+          "ref": "joglar-2023-af",
+          "note": "Tabla 4 de la guía 2023."
+        },
+        {
+          "id": "af-fibr",
+          "role": "supporting",
+          "text": {
+            "es": "Ondas fibrilatorias irregulares en V1 (actividad auricular irregular)",
+            "en": "Irregular fibrillatory waves in V1 (irregular atrial activity)"
+          },
+          "predicate": null,
+          "ref": "joglar-2023-af",
+          "note": "Tabla 4 (ondas fibrilatorias). No evaluable: requiere ver la línea de base entre QRS; no hay rasgo para ello."
+        },
+        {
+          "id": "af-excl-regular-p",
+          "role": "exclusion",
+          "text": {
+            "es": "Ritmo regular con onda P reproducible antes del QRS (descarta FA)",
+            "en": "Regular rhythm with reproducible P before each QRS (excludes AF)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "regular",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": true
+              }
+            ]
+          },
+          "ref": "joglar-2023-af",
+          "note": "Deriva de la definición (R-R irregulares y sin P distintas)."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "palpitations"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Palpitaciones: compatible con arritmia; la guía exige confirmación visual del diagnóstico en ECG.",
+            "en": "Palpitations: compatible with arrhythmia; the guideline requires visual confirmation of the diagnosis on ECG."
+          },
+          "ref": "joglar-2023-af"
+        }
+      ],
+      "mimics": [
+        "multifocal-atrial-tachycardia",
+        "atrial-flutter-typical",
+        "atrial-flutter-2to1-suspected",
+        "premature-ventricular-complexes",
+        "focal-atrial-tachycardia"
+      ],
+      "nextSteps": {
+        "es": "Confirmar visualmente en el ECG de 12 derivaciones (la guía 2023 exige confirmación visual del diagnóstico) y revisar si hay preexcitación o QRS ancho. Tras confirmar el ECG, completar valoración clínica AF-CARE (ESC 2024): comorbilidades, riesgo tromboembólico individual, síntomas y reevaluación; no se deriva una pauta de anticoagulación del trazado.",
+        "en": "Confirm visually on the 12-lead ECG (the 2023 guideline requires visual confirmation) and check for pre-excitation or wide QRS. After ECG confirmation, complete the ESC 2024 AF-CARE clinical assessment: comorbidities, individual thromboembolic risk, symptoms and reassessment; the tracing does not generate an anticoagulation regimen."
+      },
+      "limitations": {
+        "es": "Un ECG de corta duración documenta el ritmo pero no su duración ni el patrón (paroxística/persistente). La TAM tiene ≥ 3 morfologías de P con isoelectricidad entre ellas y se confunde con FA; el flutter con conducción variable también. ESC 2024 no establece una duración mínima universal en monitorización ambulatoria: 30 s es una convención con evidencia limitada. El ECG breve no determina carga de FA, hora de inicio fiable ni elegibilidad para cardioversión.",
+        "en": "A short ECG documents the rhythm but not its duration or pattern (paroxysmal/persistent). MAT has ≥ 3 P morphologies with an isoelectric baseline between them and is confused with AF; flutter with variable conduction too. ESC 2024 does not set a universal minimum ambulatory duration: 30 seconds is a convention with limited evidence. A brief ECG cannot establish AF burden, reliable onset time or eligibility for cardioversion."
+      },
+      "references": [
+        "joglar-2023-af",
+        "page-2015-svt",
+        "mason-2007-part2",
+        "van-gelder-2024-af",
+        "rienstra-2024-af-spotlight"
+      ],
+      "group": "atrial-fibrillation"
+    },
+    {
+      "id": "atrial-fibrillation-rvr",
+      "name": {
+        "es": "Fibrilación auricular con respuesta ventricular rápida",
+        "en": "Atrial fibrillation with rapid ventricular response"
+      },
+      "category": "rhythm",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "af-irregular",
+          "role": "required",
+          "text": {
+            "es": "Intervalos R-R irregulares (ausencia de patrón repetitivo)",
+            "en": "Irregular R-R intervals"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": false
+          },
+          "ref": "joglar-2023-af",
+          "note": "Tabla 4 (definiciones): características ECG de la FA = (1) intervalos R-R irregulares cuando hay conducción AV, (2) ausencia de ondas P distintas, (3) actividad auricular irregular (ondas fibrilatorias). «Irregular» se opera como regular = falso (rrCv > 0,10)."
+        },
+        {
+          "id": "af-nop",
+          "role": "required",
+          "text": {
+            "es": "Ausencia de ondas P distintas y reproducibles",
+            "en": "Absence of distinct, reproducible P waves"
+          },
+          "predicate": {
+            "feature": "pPresent",
+            "op": "==",
+            "value": false
+          },
+          "ref": "joglar-2023-af",
+          "note": "Tabla 4 de la guía 2023."
+        },
+        {
+          "id": "af-fibr",
+          "role": "supporting",
+          "text": {
+            "es": "Ondas fibrilatorias irregulares en V1 (actividad auricular irregular)",
+            "en": "Irregular fibrillatory waves in V1 (irregular atrial activity)"
+          },
+          "predicate": null,
+          "ref": "joglar-2023-af",
+          "note": "Tabla 4 (ondas fibrilatorias). No evaluable: requiere ver la línea de base entre QRS; no hay rasgo para ello."
+        },
+        {
+          "id": "af-excl-regular-p",
+          "role": "exclusion",
+          "text": {
+            "es": "Ritmo regular con onda P reproducible antes del QRS (descarta FA)",
+            "en": "Regular rhythm with reproducible P before each QRS (excludes AF)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "regular",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": true
+              }
+            ]
+          },
+          "ref": "joglar-2023-af",
+          "note": "Deriva de la definición (R-R irregulares y sin P distintas)."
+        },
+        {
+          "id": "afr-rate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia ventricular > 100 lpm",
+            "en": "Ventricular rate > 100 bpm"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": ">",
+            "value": 100
+          },
+          "ref": "page-2015-svt",
+          "note": "No existe definición formal de «respuesta ventricular rápida» en las guías abiertas. Se usa > 100 lpm (definición de taquicardia, Page 2015, tabla 3). La guía de FA 2023 fija objetivos de control en reposo < 100–110 lpm (RACE II: indulgente < 110; estricto < 80), por lo que el umbral es convencional."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "dyspnea"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Disnea con FA rápida: valorar repercusión hemodinámica.",
+            "en": "Dyspnea with rapid AF: assess hemodynamic impact."
+          },
+          "ref": "joglar-2023-af"
+        }
+      ],
+      "mimics": [
+        "atrial-flutter-2to1-suspected",
+        "multifocal-atrial-tachycardia",
+        "avnrt-avrt",
+        "wpw-pattern",
+        "ventricular-tachycardia-wct"
+      ],
+      "nextSteps": {
+        "es": "Confirmar el diagnóstico y buscar QRS ancho/irregular muy rápido (preexcitación) antes de interpretarla como FA habitual; valorar repercusión clínica. Tras confirmar el ECG, completar valoración clínica AF-CARE (ESC 2024): comorbilidades, riesgo tromboembólico individual, síntomas y reevaluación; no se deriva una pauta de anticoagulación del trazado.",
+        "en": "Confirm the diagnosis and look for a very rapid wide/irregular QRS (pre-excitation) before treating it as ordinary AF; assess clinical impact. After ECG confirmation, complete the ESC 2024 AF-CARE clinical assessment: comorbidities, individual thromboembolic risk, symptoms and reassessment; the tracing does not generate an anticoagulation regimen."
+      },
+      "limitations": {
+        "es": "El umbral de 100 lpm es convencional. Con FA y QRS ancho muy irregular y rápido debe considerarse preexcitación (FA preexcitada) o aberrancia. Una FA rápida con QRS ancho puede confundirse con TV polimorfa. ESC 2024 no establece una duración mínima universal en monitorización ambulatoria: 30 s es una convención con evidencia limitada. El ECG breve no determina carga de FA, hora de inicio fiable ni elegibilidad para cardioversión.",
+        "en": "The 100 bpm threshold is conventional. AF with a very irregular, rapid wide QRS should raise pre-excited AF or aberrancy. Rapid AF with wide QRS can be confused with polymorphic VT. ESC 2024 does not set a universal minimum ambulatory duration: 30 seconds is a convention with limited evidence. A brief ECG cannot establish AF burden, reliable onset time or eligibility for cardioversion."
+      },
+      "references": [
+        "joglar-2023-af",
+        "page-2015-svt",
+        "van-gelder-2024-af",
+        "rienstra-2024-af-spotlight"
+      ],
+      "group": "atrial-fibrillation"
+    },
+    {
+      "id": "atrial-fibrillation-slow-response",
+      "name": {
+        "es": "Fibrilación auricular con respuesta ventricular lenta",
+        "en": "Atrial fibrillation with slow ventricular response"
+      },
+      "category": "rhythm",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "af-irregular",
+          "role": "required",
+          "text": {
+            "es": "Intervalos R-R irregulares (ausencia de patrón repetitivo)",
+            "en": "Irregular R-R intervals"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": false
+          },
+          "ref": "joglar-2023-af",
+          "note": "Tabla 4 (definiciones): características ECG de la FA = (1) intervalos R-R irregulares cuando hay conducción AV, (2) ausencia de ondas P distintas, (3) actividad auricular irregular (ondas fibrilatorias). «Irregular» se opera como regular = falso (rrCv > 0,10)."
+        },
+        {
+          "id": "af-nop",
+          "role": "required",
+          "text": {
+            "es": "Ausencia de ondas P distintas y reproducibles",
+            "en": "Absence of distinct, reproducible P waves"
+          },
+          "predicate": {
+            "feature": "pPresent",
+            "op": "==",
+            "value": false
+          },
+          "ref": "joglar-2023-af",
+          "note": "Tabla 4 de la guía 2023."
+        },
+        {
+          "id": "af-fibr",
+          "role": "supporting",
+          "text": {
+            "es": "Ondas fibrilatorias irregulares en V1 (actividad auricular irregular)",
+            "en": "Irregular fibrillatory waves in V1 (irregular atrial activity)"
+          },
+          "predicate": null,
+          "ref": "joglar-2023-af",
+          "note": "Tabla 4 (ondas fibrilatorias). No evaluable: requiere ver la línea de base entre QRS; no hay rasgo para ello."
+        },
+        {
+          "id": "af-excl-regular-p",
+          "role": "exclusion",
+          "text": {
+            "es": "Ritmo regular con onda P reproducible antes del QRS (descarta FA)",
+            "en": "Regular rhythm with reproducible P before each QRS (excludes AF)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "regular",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": true
+              }
+            ]
+          },
+          "ref": "joglar-2023-af",
+          "note": "Deriva de la definición (R-R irregulares y sin P distintas)."
+        },
+        {
+          "id": "afs-rate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia ventricular < 50 lpm",
+            "en": "Ventricular rate < 50 bpm"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": "<",
+            "value": 50
+          },
+          "ref": "kusumoto-2018",
+          "note": "La guía 2018 usa < 50 lpm como umbral de bradicardia y señala que, en FA, una respuesta ventricular lenta (< 50 lpm) y regular puede atribuirse a bloqueo AV completo (aunque un ritmo de la unión con alteración de la conducción AV puede dar el mismo hallazgo). Para el ritmo irregular no hay definición formal de «respuesta lenta»; se adopta el mismo umbral de forma operativa."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "medications",
+            "op": "contains",
+            "value": "av-nodal"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Fármacos con efecto nodal: causa reversible de conducción AV lenta (guía 2018, causas transitorias/reversibles).",
+            "en": "Nodal-acting drugs: reversible cause of slow AV conduction (2018 guideline, transient/reversible causes)."
+          },
+          "ref": "kusumoto-2018"
+        }
+      ],
+      "mimics": [
+        "third-degree-av-block",
+        "junctional-rhythm",
+        "sinus-bradycardia",
+        "digoxin-toxicity",
+        "beta-blocker-ccb-effect"
+      ],
+      "nextSteps": {
+        "es": "Revisar fármacos y electrolitos y valorar bloqueo AV avanzado o completo si la respuesta es regular (guía 2018). Tras confirmar el ECG, completar valoración clínica AF-CARE (ESC 2024): comorbilidades, riesgo tromboembólico individual, síntomas y reevaluación; no se deriva una pauta de anticoagulación del trazado.",
+        "en": "Review drugs and electrolytes and assess for advanced or complete AV block if the response is regular (2018 guideline). After ECG confirmation, complete the ESC 2024 AF-CARE clinical assessment: comorbidities, individual thromboembolic risk, symptoms and reassessment; the tracing does not generate an anticoagulation regimen."
+      },
+      "limitations": {
+        "es": "El umbral < 50 lpm es operativo para FA irregular. Una FA con QRS regular y lento puede ser un bloqueo AV completo con ritmo de escape; con rrCv ≤ 0,10 el motor no la clasificará como FA. ESC 2024 no establece una duración mínima universal en monitorización ambulatoria: 30 s es una convención con evidencia limitada. El ECG breve no determina carga de FA, hora de inicio fiable ni elegibilidad para cardioversión.",
+        "en": "The < 50 bpm threshold is operational for irregular AF. AF with a slow regular QRS may be complete AV block with an escape rhythm; with rrCv ≤ 0.10 the engine will not classify it as AF. ESC 2024 does not set a universal minimum ambulatory duration: 30 seconds is a convention with limited evidence. A brief ECG cannot establish AF burden, reliable onset time or eligibility for cardioversion."
+      },
+      "references": [
+        "joglar-2023-af",
+        "kusumoto-2018",
+        "van-gelder-2024-af",
+        "rienstra-2024-af-spotlight",
+        "glikson-2021-pacing"
+      ],
+      "group": "atrial-fibrillation"
+    },
+    {
+      "id": "atrial-flutter-typical",
+      "name": {
+        "es": "Flutter auricular típico (istmo cavotricuspídeo, antihorario)",
+        "en": "Typical atrial flutter (cavotricuspid isthmus-dependent, counter-clockwise)"
+      },
+      "category": "rhythm",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "fl-rate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia auricular 230–350 lpm (ciclo ≈ 170–260 ms; ≈ 300 lpm)",
+            "en": "Atrial rate 230-350 bpm (cycle length ≈ 170–260 ms; ≈ 300 bpm)"
+          },
+          "predicate": {
+            "feature": "pRate",
+            "op": "between",
+            "value": [
+              230,
+              350
+            ]
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019: actividad auricular regular 250–330 lpm en el flutter antihorario; Page 2015: puede ser más lenta que 300 lpm con fármacos o cicatrices. Rango 230-350 lpm para tolerar variación espectral."
+        },
+        {
+          "id": "fl-ratio",
+          "role": "required",
+          "text": {
+            "es": "Relación auricular:ventricular ≥ 1,8 (ondas F con bloqueo AV fisiológico)",
+            "en": "Atrial-to-ventricular ratio ≥ 1.8 (flutter waves with AV conduction ratio)"
+          },
+          "predicate": {
+            "feature": "pQrsRatio",
+            "op": ">=",
+            "value": 1.8
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "Exige actividad auricular más rápida que ventricular (≥ 1,8 ondas F por QRS) al evaluar mediante tasa auricular espectral."
+        },
+        {
+          "id": "fl-inferior",
+          "role": "supporting",
+          "text": {
+            "es": "Ondas de flutter «en dientes de sierra» predominantemente negativas en II, III y aVF",
+            "en": "Predominantly negative 'sawtooth' flutter waves in II, III and aVF"
+          },
+          "predicate": {
+            "countLeads": [
+              "II",
+              "III",
+              "aVF"
+            ],
+            "where": {
+              "field": "pMv",
+              "op": "<",
+              "value": 0
+            },
+            "op": ">=",
+            "value": 3
+          },
+          "ref": "page-2015-svt",
+          "note": "Tabla 3: patrón de dientes de sierra negativo en II, III, aVF y deflexión positiva tardía en V1. pMv se usa como amplitud de la onda auricular dominante."
+        },
+        {
+          "id": "fl-v1",
+          "role": "supporting",
+          "text": {
+            "es": "Onda auricular positiva en V1",
+            "en": "Positive atrial wave in V1"
+          },
+          "predicate": {
+            "feature": "lead.V1.pMv",
+            "op": ">",
+            "value": 0
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019: negativas en derivaciones inferiores y positivas en V1."
+        },
+        {
+          "id": "fl-reverse",
+          "role": "supporting",
+          "text": {
+            "es": "Variante inversa (horaria): ondas positivas anchas en derivaciones inferiores y negativas/bimodales en V1",
+            "en": "Reverse (clockwise) variant: broad positive waves in inferior leads, negative/bimodal in V1"
+          },
+          "predicate": {
+            "all": [
+              {
+                "countLeads": [
+                  "II",
+                  "III",
+                  "aVF"
+                ],
+                "where": {
+                  "field": "pMv",
+                  "op": ">",
+                  "value": 0
+                },
+                "op": ">=",
+                "value": 3
+              },
+              {
+                "feature": "lead.V1.pMv",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019. Si esta variante se cumple en lugar del patrón antihorario, el flutter típico inverso es la lectura apropiada."
+        },
+        {
+          "id": "fl-regular",
+          "role": "supporting",
+          "text": {
+            "es": "Respuesta ventricular regular (conducción AV fija)",
+            "en": "Regular ventricular response (fixed AV conduction)"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": true
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019: el flutter puede tener conducción fija y presentarse como taquicardia regular; con conducción variable es irregular."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "atrial-fibrillation",
+        "atrial-flutter-2to1-suspected",
+        "focal-atrial-tachycardia",
+        "avnrt-avrt",
+        "sinus-tachycardia"
+      ],
+      "nextSteps": {
+        "es": "Buscar ondas de flutter en II, III, aVF y V1; si hay duda con conducción 2:1, la ESC señala que la adenosina intravenosa puede revelar el patrón (uso solo diagnóstico, con medios de reanimación).",
+        "en": "Look for flutter waves in II, III, aVF and V1; if 2:1 conduction leaves doubt, ESC notes that intravenous adenosine can unmask the pattern (diagnostic use only, with resuscitation equipment available)."
+      },
+      "limitations": {
+        "es": "La frecuencia auricular requiere contar ondas de flutter, poco fiable con conducción 2:1 (onda sobre el QRS/T). El patrón típico se altera tras cirugía, ablación extensa o con antiarrítmicos; un patrón atípico no excluye el circuito típico (ESC 2019). Con QRS ancho, ver también TV.",
+        "en": "Counting atrial rate requires visible flutter waves, unreliable with 2:1 conduction (wave hidden in QRS/T). The typical pattern is altered by cardiac surgery, extensive ablation or antiarrhythmic drugs; an atypical pattern does not exclude the typical circuit (ESC 2019). With a wide QRS, also consider VT."
+      },
+      "references": [
+        "brugada-esc-2019-svt",
+        "page-2015-svt",
+        "mason-2007-part2"
+      ]
+    },
+    {
+      "id": "atrial-flutter-2to1-suspected",
+      "name": {
+        "es": "Sospecha de flutter auricular con conducción 2:1 (~150 lpm)",
+        "en": "Suspected atrial flutter with 2:1 conduction (~150 bpm)"
+      },
+      "category": "rhythm",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "f21-rate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia ventricular regular alrededor de 150 lpm",
+            "en": "Regular ventricular rate around 150 bpm"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "regular",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "rateBpm",
+                "op": "between",
+                "value": [
+                  140,
+                  160
+                ]
+              }
+            ]
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019: «considerar flutter con conducción 2:1 si la frecuencia ventricular durante la TSV es ∼150 lpm, ya que la actividad auricular suele ser 250–330 lpm». La ventana 140–160 lpm es una tolerancia operativa del motor, no publicada."
+        },
+        {
+          "id": "f21-atrial",
+          "role": "supporting",
+          "text": {
+            "es": "Frecuencia auricular 250–330 lpm contable",
+            "en": "Countable atrial rate 250-330 bpm"
+          },
+          "predicate": {
+            "feature": "pRate",
+            "op": "between",
+            "value": [
+              250,
+              330
+            ]
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019."
+        },
+        {
+          "id": "f21-ratio",
+          "role": "supporting",
+          "text": {
+            "es": "Dos ondas auriculares por QRS",
+            "en": "Two atrial waves per QRS"
+          },
+          "predicate": {
+            "feature": "pQrsRatio",
+            "op": "between",
+            "value": [
+              1.9,
+              2.1
+            ]
+          },
+          "ref": "page-2015-svt",
+          "note": "Page 2015: si la frecuencia auricular supera a la ventricular, es probable flutter o taquicardia auricular (casos raros de TRNAV con 2:1). La tolerancia 1,9–2,1 es de medición."
+        },
+        {
+          "id": "f21-inferior",
+          "role": "supporting",
+          "text": {
+            "es": "Ondas negativas de dientes de sierra en II, III, aVF",
+            "en": "Negative sawtooth waves in II, III, aVF"
+          },
+          "predicate": {
+            "countLeads": [
+              "II",
+              "III",
+              "aVF"
+            ],
+            "where": {
+              "field": "pMv",
+              "op": "<",
+              "value": 0
+            },
+            "op": ">=",
+            "value": 3
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019 (flutter típico antihorario)."
+        },
+        {
+          "id": "f21-atrial-confirmation",
+          "role": "required",
+          "text": {
+            "es": "Actividad auricular rápida medida (250–350 lpm) o dos ondas auriculares por QRS",
+            "en": "Measured rapid atrial activity (250–350 bpm) or two atrial waves per QRS"
+          },
+          "predicate": {
+            "any": [
+              {
+                "feature": "pRate",
+                "op": "between",
+                "value": [
+                  250,
+                  350
+                ]
+              },
+              {
+                "feature": "pQrsRatio",
+                "op": "between",
+                "value": [
+                  1.9,
+                  2.1
+                ]
+              }
+            ]
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "A regular ventricular rate near 150 bpm is a clue, not confirmation of flutter. Missing independent atrial activity leaves this as a differential."
+        },
+        {
+          "id": "f21-excl-sinus",
+          "role": "exclusion",
+          "text": {
+            "es": "Ondas P de morfología sinusal con conducción 1:1 y PR estable",
+            "en": "Sinus P-wave morphology with 1:1 conduction and stable PR"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "lead.II.pMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "feature": "lead.aVR.pMv",
+                "op": "<",
+                "value": 0
+              },
+              {
+                "feature": "pQrsRatio",
+                "op": "==",
+                "value": 1
+              },
+              {
+                "feature": "prVariable",
+                "op": "==",
+                "value": false
+              }
+            ]
+          },
+          "ref": "page-2015-svt"
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "sinus-tachycardia",
+        "avnrt-avrt",
+        "focal-atrial-tachycardia",
+        "atrial-flutter-typical"
+      ],
+      "nextSteps": {
+        "es": "Buscar ondas de flutter ocultas en el QRS/T (II, III, aVF, V1); la ESC indica que la adenosina intravenosa puede aumentar el bloqueo AV y revelar el patrón (uso diagnóstico con medios de reanimación).",
+        "en": "Look for flutter waves hidden in the QRS/T (II, III, aVF, V1); ESC notes intravenous adenosine can increase AV block and reveal the pattern (diagnostic use with resuscitation equipment)."
+      },
+      "limitations": {
+        "es": "La frecuencia de ~150 lpm no es específica: la taquicardia sinusal, la TSV por reentrada y la taquicardia auricular también se sitúan allí. Con antiarrítmicos que enlentecen el flutter puede haber conducción 1:1 con frecuencia más alta (ESC 2019). La ventana de frecuencia es operativa.",
+        "en": "A rate of ~150 bpm is not specific: sinus tachycardia, reentrant SVT and atrial tachycardia also fall there. With antiarrhythmics that slow the flutter, 1:1 conduction with a higher rate can occur (ESC 2019). The rate window is operational."
+      },
+      "references": [
+        "brugada-esc-2019-svt",
+        "page-2015-svt"
+      ]
+    },
+    {
+      "id": "multifocal-atrial-tachycardia",
+      "name": {
+        "es": "Taquicardia auricular multifocal",
+        "en": "Multifocal atrial tachycardia"
+      },
+      "category": "rhythm",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "mat-rate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia auricular > 100 lpm",
+            "en": "Atrial rate > 100 bpm"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": ">",
+            "value": 100
+          },
+          "ref": "page-2015-svt",
+          "note": "Sec. 4.2: frecuencia auricular > 100 lpm (> 90 lpm en al menos un informe). Se usa la frecuencia ventricular como aproximación."
+        },
+        {
+          "id": "mat-irregular",
+          "role": "required",
+          "text": {
+            "es": "Ritmo siempre irregular (PP, PR y RR variables)",
+            "en": "Always irregular (variable P-P, P-R and R-R)"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": false
+          },
+          "ref": "page-2015-svt",
+          "note": "Tabla 3: «el ritmo es siempre irregular»; sec. 4.2: PP, PR y RR variables."
+        },
+        {
+          "id": "mat-morph",
+          "role": "required",
+          "text": {
+            "es": "≥ 3 morfologías distintas de onda P y/o patrones de activación auricular a distintas frecuencias",
+            "en": "≥ 3 distinct P-wave morphologies and/or atrial activation patterns at different rates"
+          },
+          "predicate": null,
+          "ref": "page-2015-svt",
+          "note": "Tabla 3. No evaluable: el motor trabaja con el latido mediano y no cuenta morfologías de P distintas; haría falta clasificar las P latido a latido."
+        },
+        {
+          "id": "mat-isoelectric",
+          "role": "supporting",
+          "text": {
+            "es": "Línea isoeléctrica entre las P (a diferencia de la FA)",
+            "en": "Isoelectric baseline between P waves (unlike AF)"
+          },
+          "predicate": null,
+          "ref": "page-2015-svt",
+          "note": "Sec. 4.2. No evaluable con los rasgos disponibles."
+        },
+        {
+          "id": "mat-pr-var",
+          "role": "supporting",
+          "text": {
+            "es": "PR variable latido a latido",
+            "en": "P-R interval varying beat to beat"
+          },
+          "predicate": {
+            "feature": "prVariable",
+            "op": "==",
+            "value": true
+          },
+          "ref": "page-2015-svt",
+          "note": "Sec. 4.2."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "history",
+            "op": "contains",
+            "value": "pulmonary"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Asociada a enfermedad pulmonar, hipertensión pulmonar, cardiopatía coronaria o valvular, hipomagnesemia y teofilina.",
+            "en": "Associated with pulmonary disease, pulmonary hypertension, coronary or valvular disease, hypomagnesemia and theophylline."
+          },
+          "ref": "page-2015-svt"
+        }
+      ],
+      "mimics": [
+        "atrial-fibrillation",
+        "atrial-fibrillation-rvr",
+        "premature-ventricular-complexes",
+        "atrial-flutter-typical",
+        "sinus-tachycardia"
+      ],
+      "nextSteps": {
+        "es": "Un ECG de 12 derivaciones está indicado para confirmar el diagnóstico (Page 2015, sec. 4.2); buscar enfermedad pulmonar subyacente e hipomagnesemia.",
+        "en": "A 12-lead ECG is indicated to confirm the diagnosis (Page 2015, sec. 4.2); look for underlying pulmonary disease and hypomagnesemia."
+      },
+      "limitations": {
+        "es": "La TAM puede ser difícil de distinguir de la FA en una sola tira. El criterio definitorio (≥ 3 morfologías de P) no es evaluable con el latido mediano; la entidad solo se sugiere por frecuencia > 100 e irregularidad.",
+        "en": "MAT may be hard to distinguish from AF on a single tracing. The defining criterion (≥ 3 P morphologies) is not evaluable with the median beat; the entity is only suggested by rate > 100 and irregularity."
+      },
+      "references": [
+        "page-2015-svt",
+        "mason-2007-part2"
+      ]
+    },
+    {
+      "id": "avnrt-avrt",
+      "name": {
+        "es": "Taquicardia regular de QRS estrecho (mecanismo por confirmar: AVNRT/AVRT u otra TSV)",
+        "en": "Regular narrow-QRS tachycardia (mechanism unconfirmed: AVNRT/AVRT or another SVT)"
+      },
+      "category": "rhythm",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "svt-rate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia > 100 lpm",
+            "en": "Rate > 100 bpm"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": ">",
+            "value": 100
+          },
+          "ref": "page-2015-svt",
+          "note": "Tabla 3: TSV = frecuencias auriculares y/o ventriculares > 100 lpm en reposo. En la TRNAV la frecuencia suele ser 180–200 lpm (rango 110 a > 250, rara vez < 100)."
+        },
+        {
+          "id": "svt-narrow",
+          "role": "required",
+          "text": {
+            "es": "QRS estrecho (≤ 120 ms)",
+            "en": "Narrow QRS (≤ 120 ms)"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": "<=",
+            "value": 120
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019, tabla 6: taquicardia de QRS estrecho = QRS ≤ 120 ms."
+        },
+        {
+          "id": "svt-regular",
+          "role": "required",
+          "text": {
+            "es": "Ritmo regular",
+            "en": "Regular rhythm"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": true
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019, 9.1.1.2: las taquicardias por reentrada, micro o macro, suelen ser regulares; la variación de ciclo en la TRNAV es < 15 % de la longitud del ciclo."
+        },
+        {
+          "id": "svt-nop",
+          "role": "supporting",
+          "text": {
+            "es": "P no visible antes del QRS (RP corto: P dentro o justo después del QRS)",
+            "en": "No P visible before the QRS (short RP: P within or just after the QRS)"
+          },
+          "predicate": {
+            "feature": "pPresent",
+            "op": "==",
+            "value": false
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019: las TSV con RP corto (RP < la mitad del RR) incluyen TRNAV típica y TRAV ortodrómica; la distinción RP corto/largo no es medible con los rasgos disponibles."
+        },
+        {
+          "id": "svt-pseudo-r",
+          "role": "supporting",
+          "text": {
+            "es": "Pseudo r′ en V1 (r′ nueva respecto al ritmo sinusal) con QRS estrecho",
+            "en": "Pseudo r′ in V1 (new r′ compared with sinus rhythm) with narrow QRS"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "lead.V1.rPrime",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "qrsMs",
+                "op": "<=",
+                "value": 120
+              }
+            ]
+          },
+          "sensitivity": 0.58,
+          "specificity": 0.91,
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019: pseudo r′ en V1 y pseudo S en derivaciones inferiores son más comunes en TRNAV típica que en TRAV o TA; especificidad 91–100 % pero sensibilidad moderada (58 % y 14 %, respectivamente) según el estudio que la ESC cita (no abierto). Requiere compararlo con un ECG en ritmo sinusal; aquí solo se detecta rsR′ presente."
+        },
+        {
+          "id": "svt-pseudo-s",
+          "role": "supporting",
+          "text": {
+            "es": "Pseudo S en derivaciones inferiores",
+            "en": "Pseudo S wave in inferior leads"
+          },
+          "predicate": null,
+          "sensitivity": 0.14,
+          "specificity": 0.91,
+          "ref": "brugada-esc-2019-svt",
+          "note": "Misma cita ESC 2019: sensibilidad 14 %, especificidad 91–100 %. No evaluable (requiere identificar la P retrógrada). Se registra sensibilidad 0,14 y especificidad 0,91 (límite inferior del rango)."
+        },
+        {
+          "id": "svt-excl-atrial-faster",
+          "role": "exclusion",
+          "text": {
+            "es": "Más ondas auriculares que QRS (P por QRS > 1)",
+            "en": "More atrial waves than QRS complexes (P per QRS > 1)"
+          },
+          "predicate": {
+            "feature": "pQrsRatio",
+            "op": ">",
+            "value": 1
+          },
+          "ref": "page-2015-svt",
+          "note": "Texto sobre el diagnóstico diferencial de la taquicardia regular: si la frecuencia auricular supera a la ventricular, suele haber flutter o taquicardia auricular (casos raros de TRNAV con 2:1)."
+        },
+        {
+          "id": "svt-excl-sinus",
+          "role": "exclusion",
+          "text": {
+            "es": "P sinusales positivas en II y negativas en aVR, conducción 1:1 y PR estable: favorece taquicardia sinusal",
+            "en": "Sinus P waves positive in II and negative in aVR, 1:1 conduction and stable PR: favors sinus tachycardia"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "lead.II.pMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "feature": "lead.aVR.pMv",
+                "op": "<",
+                "value": 0
+              },
+              {
+                "feature": "pQrsRatio",
+                "op": "==",
+                "value": 1
+              },
+              {
+                "feature": "prVariable",
+                "op": "==",
+                "value": false
+              }
+            ]
+          },
+          "ref": "page-2015-svt",
+          "note": "Sinus morphology distinguishes a visible sinus mechanism. Regularity and a narrow QRS alone do not establish reentry; occult P waves do not identify AVNRT versus AVRT."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "palpitations"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Palpitaciones de inicio y final bruscos son típicas de PSVT (TRNAV/TRAV).",
+            "en": "Abrupt-onset/offset palpitations are typical of PSVT (AVNRT/AVRT)."
+          },
+          "ref": "page-2015-svt"
+        }
+      ],
+      "mimics": [
+        "sinus-tachycardia",
+        "atrial-flutter-2to1-suspected",
+        "focal-atrial-tachycardia",
+        "atrial-fibrillation-rvr",
+        "wpw-pattern",
+        "ventricular-tachycardia-wct"
+      ],
+      "nextSteps": {
+        "es": "Comparar con un ECG en ritmo sinusal (pseudo r′/pseudo S, preexcitación) y registrar 12 derivaciones durante la taquicardia; las maniobras vagales o adenosina pueden desenmascarar el mecanismo (ESC 2019).",
+        "en": "Compare with a sinus-rhythm ECG (pseudo r′/pseudo S, pre-excitation) and record 12 leads during tachycardia; vagal maneuvers or adenosine can unmask the mechanism (ESC 2019)."
+      },
+      "limitations": {
+        "es": "La distinción TRNAV/TRAV/taquicardia auricular necesita la P retrógrada (RP) y no es medible aquí. Los datos de pseudo r′/pseudo S proceden de estudios con pocos casos de TA o TRNAV atípica (ESC 2019). Con QRS ancho se trata como taquicardia de QRS ancho; el inicio y el final bruscos no son medibles.",
+        "en": "Separating AVNRT/AVRT/atrial tachycardia requires the retrograde P (RP) and is not measurable here. The pseudo r′/pseudo S data come from studies with few AT or atypical AVNRT cases (ESC 2019). With a wide QRS, treat as a wide-QRS tachycardia; abrupt onset/offset is not measurable."
+      },
+      "references": [
+        "page-2015-svt",
+        "brugada-esc-2019-svt",
+        "mason-2007-part2"
+      ]
+    },
+    {
+      "id": "ventricular-tachycardia-wct",
+      "name": {
+        "es": "Taquicardia regular de QRS ancho (TV frente a TSV con aberrancia)",
+        "en": "Regular wide-QRS tachycardia (VT vs SVT with aberrancy)"
+      },
+      "category": "rhythm",
+      "urgency": "emergent",
+      "criteria": [
+        {
+          "id": "wct-rate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia ≥ 115 lpm (rango inequívoco de taquicardia ventricular sostenida)",
+            "en": "Rate ≥ 115 bpm (unequivocal ventricular tachycardia rate)"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": ">=",
+            "value": 115
+          },
+          "ref": "zeppenfeld-esc-2022-va",
+          "note": "ESC 2022 define TV desde > 100 lpm; umbral operativo ≥ 115 lpm para evitar falsos positivos en taquicardias sinusales leves con aberrancia o hiperpotasemia."
+        },
+        {
+          "id": "wct-wide",
+          "role": "required",
+          "text": {
+            "es": "QRS ancho (> 120 ms)",
+            "en": "Wide QRS (> 120 ms)"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">",
+            "value": 120
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019, tabla 6: taquicardia de QRS ancho = QRS > 120 ms. Reparto citado por la ESC: TV 80 %, TSV con BRB 15 %, TSV con vía accesoria 5 %; por defecto se asume TV hasta demostrar lo contrario."
+        },
+        {
+          "id": "wct-regular",
+          "role": "required",
+          "text": {
+            "es": "Ritmo ventricular regular (ámbito de los algoritmos Brugada/Vereckei)",
+            "en": "Regular ventricular rhythm (scope of the Brugada/Vereckei algorithms)"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": true
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "Irregular wide-complex rhythms require a different mechanism differential; regular-tachycardia algorithms cannot identify preexcited AF or polymorphic VT."
+        },
+        {
+          "id": "wct-avdiss",
+          "role": "supporting",
+          "text": {
+            "es": "Disociación AV: más QRS que ondas P (criterio de Brugada, paso 3)",
+            "en": "AV dissociation: more QRS complexes than P waves (Brugada step 3)"
+          },
+          "predicate": {
+            "feature": "pQrsRatio",
+            "op": "<",
+            "value": 1
+          },
+          "sensitivity": 0.21,
+          "ref": "vereckei-2014-review",
+          "note": "Brugada 1991 paso 3; sens 21 % y esp 100 % tal como las resume Vereckei 2014 (la sensibilidad en TV es 20–50 %; ESC 2019: disociación AV o latidos de captura/fusión son rasgos clave de TV). Las P suelen ocultarse en el QRS/T de una taquicardia ancha, por lo que puede quedar no evaluable."
+        },
+        {
+          "id": "wct-brugada1",
+          "role": "supporting",
+          "text": {
+            "es": "Brugada paso 1: ausencia de complejo RS en todas las derivaciones precordiales",
+            "en": "Brugada step 1: absence of an RS complex in all precordial leads"
+          },
+          "predicate": {
+            "not": {
+              "any": [
+                {
+                  "all": [
+                    {
+                      "feature": "lead.V1.rMv",
+                      "op": ">",
+                      "value": 0
+                    },
+                    {
+                      "feature": "lead.V1.sMv",
+                      "op": "<",
+                      "value": 0
+                    },
+                    {
+                      "feature": "lead.V1.rPrime",
+                      "op": "!=",
+                      "value": true
+                    }
+                  ]
+                },
+                {
+                  "all": [
+                    {
+                      "feature": "lead.V2.rMv",
+                      "op": ">",
+                      "value": 0
+                    },
+                    {
+                      "feature": "lead.V2.sMv",
+                      "op": "<",
+                      "value": 0
+                    },
+                    {
+                      "feature": "lead.V2.rPrime",
+                      "op": "!=",
+                      "value": true
+                    }
+                  ]
+                },
+                {
+                  "all": [
+                    {
+                      "feature": "lead.V3.rMv",
+                      "op": ">",
+                      "value": 0
+                    },
+                    {
+                      "feature": "lead.V3.sMv",
+                      "op": "<",
+                      "value": 0
+                    },
+                    {
+                      "feature": "lead.V3.rPrime",
+                      "op": "!=",
+                      "value": true
+                    }
+                  ]
+                },
+                {
+                  "all": [
+                    {
+                      "feature": "lead.V4.rMv",
+                      "op": ">",
+                      "value": 0
+                    },
+                    {
+                      "feature": "lead.V4.sMv",
+                      "op": "<",
+                      "value": 0
+                    },
+                    {
+                      "feature": "lead.V4.rPrime",
+                      "op": "!=",
+                      "value": true
+                    }
+                  ]
+                },
+                {
+                  "all": [
+                    {
+                      "feature": "lead.V5.rMv",
+                      "op": ">",
+                      "value": 0
+                    },
+                    {
+                      "feature": "lead.V5.sMv",
+                      "op": "<",
+                      "value": 0
+                    },
+                    {
+                      "feature": "lead.V5.rPrime",
+                      "op": "!=",
+                      "value": true
+                    }
+                  ]
+                },
+                {
+                  "all": [
+                    {
+                      "feature": "lead.V6.rMv",
+                      "op": ">",
+                      "value": 0
+                    },
+                    {
+                      "feature": "lead.V6.sMv",
+                      "op": "<",
+                      "value": 0
+                    },
+                    {
+                      "feature": "lead.V6.rPrime",
+                      "op": "!=",
+                      "value": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "sensitivity": 0.21,
+          "ref": "vereckei-2014-review",
+          "note": "Sens 21 %, esp 100 % (resumen de Vereckei 2014 sobre Brugada 1991; el resumen de Brugada solo la llama «altamente específica»). Aproximación operativa de «complejo RS»: r > 0, s < 0 y sin rsR′ (Brugada no cuenta QR, QRS, QS, R monofásica ni rSR′); umbral de presencia no publicado."
+        },
+        {
+          "id": "wct-brugada2",
+          "role": "supporting",
+          "text": {
+            "es": "Brugada paso 2: intervalo RS > 100 ms en alguna derivación precordial (del inicio de R al nadir de S)",
+            "en": "Brugada step 2: RS interval > 100 ms in any precordial lead (from R onset to S nadir)"
+          },
+          "predicate": null,
+          "sensitivity": 0.66,
+          "specificity": 0.98,
+          "ref": "vereckei-2014-review",
+          "note": "Sens 66 %, esp 98 % según la revisión de Vereckei. No evaluable: el rasgo rPeakMs mide el tiempo hasta el pico de R, no hasta el nadir de S. Con bloqueo de rama previo y antiarrítmicos de clase I o amiodarona la especificidad baja (63 %, Alberca, citado en la revisión)."
+        },
+        {
+          "id": "wct-brugada4",
+          "role": "supporting",
+          "text": {
+            "es": "Brugada paso 4: criterios morfológicos de TV en V1-V2 y V6",
+            "en": "Brugada step 4: VT morphology criteria in V1-V2 and V6"
+          },
+          "predicate": null,
+          "ref": "brugada-1991",
+          "note": "No evaluable con los rasgos disponibles y no detallado en las fuentes abiertas; la sensibilidad y especificidad del paso 4 no se publicaron por separado (Vereckei 2014)."
+        },
+        {
+          "id": "wct-brugada-orig",
+          "role": "supporting",
+          "text": {
+            "es": "Algoritmo de Brugada completo (4 pasos), cohorte de derivación",
+            "en": "Complete Brugada algorithm (4 steps), derivation cohort"
+          },
+          "predicate": null,
+          "sensitivity": 0.987,
+          "specificity": 0.965,
+          "ref": "brugada-1991",
+          "note": "554 taquicardias de QRS ancho regulares (384 TV, 170 TSV): sensibilidad 0,987 y especificidad 0,965 de los cuatro pasos consecutivos (resumen de Brugada 1991). Cohorte de derivación sin antiarrítmicos; no replicado por autores independientes con esas cifras."
+        },
+        {
+          "id": "wct-brugada-meta",
+          "role": "supporting",
+          "text": {
+            "es": "Algoritmo de Brugada, estimación agrupada de validaciones independientes",
+            "en": "Brugada algorithm, pooled estimate from independent validations"
+          },
+          "predicate": null,
+          "sensitivity": 0.9025,
+          "specificity": 0.6402,
+          "lrPositive": 2.51,
+          "lrNegative": 0.15,
+          "ref": "sun-2023-meta",
+          "note": "Metanálisis (11 estudios, 3422 pacientes; EEF como referencia): sensibilidad agrupada 90,25 %, especificidad 64,02 %, LR+ 2,51, LR− 0,15."
+        },
+        {
+          "id": "wct-vereckei1",
+          "role": "supporting",
+          "text": {
+            "es": "Vereckei aVR criterio 1: onda R inicial en aVR",
+            "en": "Vereckei aVR criterion 1: initial R wave in aVR"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "lead.aVR.rMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "feature": "lead.aVR.qMv",
+                "op": ">=",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "vereckei-2008",
+          "note": "Algoritmo aVR: cualquiera de los criterios 1-3 = TV. Aproximación operativa: R en aVR sin onda q inicial medible (el criterio original exige R o Rs inicial). Sin cifra publicada por criterio en las fuentes abiertas."
+        },
+        {
+          "id": "wct-vereckei2",
+          "role": "supporting",
+          "text": {
+            "es": "Vereckei aVR criterio 2: onda r o q inicial > 40 ms en aVR",
+            "en": "Vereckei aVR criterion 2: initial r or q wave > 40 ms in aVR"
+          },
+          "predicate": {
+            "feature": "lead.aVR.qMs",
+            "op": ">",
+            "value": 40
+          },
+          "ref": "vereckei-2008",
+          "note": "Aproximación con la duración de q; no se mide la duración de una r inicial. Sin cifra publicada por criterio."
+        },
+        {
+          "id": "wct-vereckei3",
+          "role": "supporting",
+          "text": {
+            "es": "Vereckei aVR criterio 3: muesca en la rama descendente inicial de un QRS predominantemente negativo en aVR",
+            "en": "Vereckei aVR criterion 3: notch on the initial downstroke of a predominantly negative QRS in aVR"
+          },
+          "predicate": null,
+          "ref": "vereckei-2008",
+          "note": "No evaluable: el rasgo notched (R mellada sin cruzar la línea de base) no equivale a una muesca en la rama descendente."
+        },
+        {
+          "id": "wct-vereckei4",
+          "role": "supporting",
+          "text": {
+            "es": "Vereckei aVR criterio 4: vi/vt ≤ 1 en aVR (excursión vertical en los primeros 40 ms / los últimos 40 ms del QRS)",
+            "en": "Vereckei aVR criterion 4: vi/vt ≤ 1 in aVR (vertical excursion in the first 40 ms / last 40 ms of the QRS)"
+          },
+          "predicate": null,
+          "ref": "vereckei-2008",
+          "note": "No evaluable: no hay rasgo que mida la velocidad de activación inicial y terminal. vi/vt > 1 sugiere TSV."
+        },
+        {
+          "id": "wct-vereckei-orig",
+          "role": "supporting",
+          "text": {
+            "es": "Algoritmo aVR de Vereckei completo, cohorte de derivación",
+            "en": "Complete Vereckei aVR algorithm, derivation cohort"
+          },
+          "predicate": null,
+          "sensitivity": 0.965,
+          "specificity": 0.75,
+          "ref": "jastrzebski-2012",
+          "note": "483 taquicardias de QRS ancho (351 TV, 112 TSV, 20 preexcitadas): sensibilidad 96,5 %, especificidad 75 %, frente a 89,2 % y 73,2 % del algoritmo de Brugada en la misma cohorte (cifras citadas por Jastrzebski 2012). Exactitud 91,5 % frente a 85,5 % (revisión de Vereckei 2014). El resumen del artículo original solo declara superioridad sobre Brugada."
+        },
+        {
+          "id": "wct-vereckei-meta",
+          "role": "supporting",
+          "text": {
+            "es": "Algoritmo aVR de Vereckei, estimación agrupada de validaciones independientes",
+            "en": "Vereckei aVR algorithm, pooled estimate from independent validations"
+          },
+          "predicate": null,
+          "sensitivity": 0.9035,
+          "specificity": 0.6088,
+          "lrPositive": 2.31,
+          "lrNegative": 0.16,
+          "ref": "sun-2023-meta",
+          "note": "Metanálisis (9 estudios, 2473 pacientes): sensibilidad agrupada 90,35 %, especificidad 60,88 %, LR+ 2,31, LR− 0,16."
+        },
+        {
+          "id": "wct-rwpt",
+          "role": "supporting",
+          "text": {
+            "es": "Tiempo hasta el pico de R en II > 50 ms",
+            "en": "R-wave peak time in lead II > 50 ms"
+          },
+          "predicate": {
+            "feature": "lead.II.rPeakMs",
+            "op": ">",
+            "value": 50
+          },
+          "sensitivity": 0.7815,
+          "specificity": 0.883,
+          "lrPositive": 6.68,
+          "lrNegative": 0.25,
+          "ref": "sun-2023-meta",
+          "note": "Criterio de Pava (2010; el artículo original no se abrió; el umbral de 50 ms figura en la revisión de Vereckei 2014). Metanálisis (5 estudios, 1656 pacientes): sensibilidad agrupada 78,15 %, especificidad 88,30 %, LR+ 6,68, LR− 0,25. rPeakMs se mide desde el inicio del QRS al pico de la primera onda, como en el criterio."
+        },
+        {
+          "id": "wct-concord",
+          "role": "supporting",
+          "text": {
+            "es": "Concordancia negativa: complejos QS en todas las derivaciones V1-V6",
+            "en": "Negative precordial concordance: QS complexes in all of V1-V6"
+          },
+          "predicate": {
+            "countLeads": [
+              "V1",
+              "V2",
+              "V3",
+              "V4",
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "qs",
+              "op": "==",
+              "value": true
+            },
+            "op": ">=",
+            "value": 6
+          },
+          "sensitivity": 0.2,
+          "specificity": 0.9,
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019: «casi diagnóstica de TV, con especificidad > 90 %, pero presente solo en el 20 % de las TV»; la concordancia positiva puede ser TV o TRAV antidrómica con vía posterior/lateral izquierda. Se registra especificidad 0,90 (límite inferior del «> 90 %») y sensibilidad 0,20 (≈ 20 %)."
+        },
+        {
+          "id": "wct-nw-axis",
+          "role": "supporting",
+          "text": {
+            "es": "Eje en el cuadrante noroeste (−180° a −90°)",
+            "en": "Northwest axis (−180° to −90°)"
+          },
+          "predicate": {
+            "feature": "axisDeg",
+            "op": "<=",
+            "value": -90
+          },
+          "ref": "vereckei-2014-review",
+          "note": "Criterio clásico: eje entre ±180° y −90° sugiere TV. Sin cifras de sensibilidad/especificidad en la fuente abierta."
+        },
+        {
+          "id": "wct-qrs-dur",
+          "role": "supporting",
+          "text": {
+            "es": "QRS > 140 ms con patrón de BRD o > 160 ms con patrón de BRI",
+            "en": "QRS > 140 ms with RBBB-like pattern or > 160 ms with LBBB-like pattern"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "feature": "qrsMs",
+                    "op": ">",
+                    "value": 140
+                  },
+                  {
+                    "expr": "lead.V1.rMv-abs(lead.V1.sMv)",
+                    "op": ">",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "feature": "qrsMs",
+                    "op": ">",
+                    "value": 160
+                  },
+                  {
+                    "expr": "lead.V1.rMv-abs(lead.V1.sMv)",
+                    "op": "<=",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "ESC 2019, 9.2.1.2. Sin sensibilidad/especificidad en el texto. No útil en TSV preexcitada ni con antiarrítmicos de clase IC/IA. Patrón tipo BRD/BRI inferido de la polaridad dominante en V1 (aproximación)."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "history",
+            "op": "contains",
+            "value": "cardiac"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Antecedente de cardiopatía estructural (infarto previo, angina, insuficiencia cardiaca): VPP para TV > 95 % (revisión de Vereckei 2014).",
+            "en": "History of structural heart disease (prior MI, angina, heart failure): PPV for VT > 95% (Vereckei 2014 review)."
+          },
+          "ref": "vereckei-2014-review"
+        },
+        {
+          "when": {
+            "context": "ageYears",
+            "op": ">",
+            "value": 35
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Edad > 35 años: VPP 85 % y sensibilidad 92 % para TV; edad < 35 años: VPP 70 % para TSV (revisión de Vereckei 2014).",
+            "en": "Age > 35 years: PPV 85% and sensitivity 92% for VT; age < 35 years: PPV 70% for SVT (Vereckei 2014 review)."
+          },
+          "ref": "vereckei-2014-review"
+        },
+        {
+          "when": {
+            "context": "medications",
+            "op": "contains",
+            "value": "sodium-channel-blocker"
+          },
+          "effect": "lower",
+          "text": {
+            "es": "Fármacos de clase I o amiodarona ensanchan el QRS y reducen la especificidad de los criterios de duración y de Brugada (revisión de Vereckei 2014; la ESC 2019 añade las clases IA, IC y III).",
+            "en": "Class I drugs or amiodarone widen the QRS and reduce the specificity of duration and Brugada criteria (Vereckei 2014 review; ESC 2019 adds classes IA, IC and III)."
+          },
+          "ref": "vereckei-2014-review"
+        },
+        {
+          "when": {
+            "context": "potassium",
+            "op": "==",
+            "value": "high"
+          },
+          "effect": "lower",
+          "text": {
+            "es": "La hiperpotasemia puede producir taquicardia de QRS ancho y simular TV (revisión de Vereckei 2014).",
+            "en": "Hyperkalemia can produce a wide-QRS tachycardia and mimic VT (Vereckei 2014 review)."
+          },
+          "ref": "vereckei-2014-review"
+        },
+        {
+          "when": {
+            "context": "paced",
+            "op": "==",
+            "value": "yes"
+          },
+          "effect": "lower",
+          "text": {
+            "es": "Ritmo estimulado ventricular: causa de QRS ancho que se debe incluir en el diferencial (las espigas actuales son casi imperceptibles).",
+            "en": "Ventricular paced rhythm: a cause of wide QRS to include in the differential (modern pacing spikes are almost imperceptible)."
+          },
+          "ref": "vereckei-2014-review"
+        }
+      ],
+      "mimics": [
+        "wpw-pattern",
+        "atrial-fibrillation-rvr",
+        "hyperkalemia",
+        "sodium-channel-blocker-toxicity",
+        "ventricular-escape-rhythm",
+        "ventricular-paced-rhythm",
+        "lbbb-complete-aha",
+        "rbbb-complete",
+        "avnrt-avrt",
+        "irregular-wide-complex-tachycardia"
+      ],
+      "nextSteps": {
+        "es": "Registrar el ECG de 12 derivaciones durante la taquicardia y en ritmo sinusal para comparar (QRS idéntico sugiere TSV); buscar disociación AV, latidos de captura/fusión y concordancia. La guía ESC 2019 establece como diagnóstico por defecto TV hasta demostrar lo contrario.",
+        "en": "Record a 12-lead ECG during tachycardia and in sinus rhythm for comparison (identical QRS suggests SVT); look for AV dissociation, capture/fusion beats and concordance. The ESC 2019 guideline sets VT as the default diagnosis until proven otherwise."
+      },
+      "limitations": {
+        "es": "Ningún algoritmo es definitivo: las validaciones independientes no reproducen las cifras de derivación (agrupado Brugada: sens 90,25 %, esp 64,02 %). Los criterios no distinguen TV de taquicardia preexcitada (salvo la disociación AV), de TSV con antiarrítmicos ni de hiperpotasemia. El tiempo RS, la muesca en aVR y vi/vt no son medibles; las P se ocultan en el QRS ancho. Un ECG digitalizado no muestra espigas de marcapasos ni latidos de captura/fusión de manera fiable. Hasta 2–5 % de las TV tienen QRS ≤ 120 ms (revisión de Vereckei 2014). La estabilidad hemodinámica y la ausencia de cardiopatía conocida no separan TV de TSV; fármacos de clase I/III y alteraciones sistémicas también ensanchan el QRS (Whitaker 2023).",
+        "en": "No algorithm is definitive: independent validations do not reproduce derivation figures (pooled Brugada: sens 90.25%, spec 64.02%). The criteria do not separate VT from pre-excited tachycardia (except AV dissociation), SVT on antiarrhythmics or hyperkalemia. RS time, aVR notch and vi/vt are not measurable; P waves hide in the wide QRS. A digitized ECG does not reliably show pacing spikes or capture/fusion beats. Up to 2-5% of VTs have QRS ≤ 120 ms (Vereckei 2014 review). Haemodynamic stability and absence of known heart disease do not separate VT from SVT; class I/III drugs and systemic disturbances can also widen QRS (Whitaker 2023)."
+      },
+      "references": [
+        "brugada-1991",
+        "vereckei-2008",
+        "vereckei-2014-review",
+        "jastrzebski-2012",
+        "sun-2023-meta",
+        "brugada-esc-2019-svt",
+        "zeppenfeld-esc-2022-va",
+        "mason-2007-part2",
+        "whitaker-2023-vt"
+      ],
+      "confounders": [
+        {
+          "when": {
+            "countLeads": [
+              "I",
+              "II",
+              "III",
+              "aVR",
+              "aVL",
+              "aVF",
+              "V1",
+              "V2",
+              "V3",
+              "V4",
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "tMv",
+              "op": ">=",
+              "value": 0.7
+            },
+            "op": ">=",
+            "value": 4
+          },
+          "text": {
+            "es": "Ondas T picudas muy altas (≥ 0,7 mV en ≥ 4 derivaciones): la hiperpotasemia grave o la toxicidad metabólica pueden ensanchar el QRS y simular taquicardia ventricular.",
+            "en": "Very tall peaked T waves (≥ 0.7 mV in ≥ 4 leads): severe hyperkalemia or metabolic toxicity can widen QRS and mimic VT."
+          },
+          "ref": "vereckei-2014-review",
+          "criteria": [
+            "wct-rate",
+            "wct-wide"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "ventricular-fibrillation-flutter",
+      "name": {
+        "es": "Fibrilación o flutter ventricular",
+        "en": "Ventricular fibrillation / flutter"
+      },
+      "category": "rhythm",
+      "urgency": "emergent",
+      "criteria": [
+        {
+          "id": "vf-vf",
+          "role": "required",
+          "text": {
+            "es": "FV: actividad eléctrica caótica, ondas de amplitud y morfología variables, sin P, QRS ni T identificables",
+            "en": "VF: chaotic electrical activity with waves of varying amplitude and morphology, without identifiable P, QRS or T waves"
+          },
+          "predicate": null,
+          "ref": "ricketts-vf",
+          "note": "NO APLICABLE a un ECG de 12 derivaciones digitalizado: no existe latido mediano ni QRS identificable, por lo que ninguno de los rasgos del motor (rateBpm, qrsMs, rrCv...) está definido. Fuente secundaria."
+        },
+        {
+          "id": "vf-vfl",
+          "role": "supporting",
+          "text": {
+            "es": "Flutter ventricular: onda sinusoidal monomorfa regular, ritmo tradicionalmente cercano a 300 lpm, sin separar QRS, ST y T",
+            "en": "Ventricular flutter: regular monomorphic sine wave, rate traditionally close to 300 bpm, QRS/ST/T not separable"
+          },
+          "predicate": null,
+          "ref": "stroobandt-vf-vfl",
+          "note": "NO APLICABLE: sin segmentación de ondas. Solo se dispone del resumen del capítulo."
+        },
+        {
+          "id": "vf-lexicon",
+          "role": "supporting",
+          "text": {
+            "es": "Término estandarizado «ventricular fibrillation» (código 74)",
+            "en": "Standardized term 'ventricular fibrillation' (code 74)"
+          },
+          "predicate": null,
+          "ref": "mason-2007-part2",
+          "note": "Solo léxico, sin criterios numéricos."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "ventricular-tachycardia-wct",
+        "limb-lead-reversal-la-ra",
+        "atrial-fibrillation-rvr"
+      ],
+      "nextSteps": {
+        "es": "Si hay sospecha clínica, trátese como paro cardiaco; este motor no puede reconocerla (reconocer el ritmo con un monitor/desfibrilador).",
+        "en": "If clinically suspected, treat as cardiac arrest; this engine cannot recognize it (recognize the rhythm with a monitor/defibrillator)."
+      },
+      "limitations": {
+        "es": "No aplicable: sin QRS identificables, el motor no puede formar un latido mediano ni calcular ningún rasgo; marcar como no evaluable. El artefacto de movimiento o la desconexión de electrodos pueden simular una actividad caótica.",
+        "en": "Not applicable: with no identifiable QRS the engine cannot form a median beat or compute any feature; mark as not evaluable. Motion artifact or lead disconnection can simulate chaotic activity."
+      },
+      "references": [
+        "ricketts-vf",
+        "stroobandt-vf-vfl",
+        "mason-2007-part2"
+      ]
+    },
+    {
+      "id": "first-degree-av-block",
+      "name": {
+        "es": "Bloqueo AV de primer grado",
+        "en": "First-degree AV block"
+      },
+      "category": "rhythm",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "av1-pr",
+          "role": "required",
+          "text": {
+            "es": "PR > 200 ms",
+            "en": "PR interval > 200 ms"
+          },
+          "predicate": {
+            "feature": "prMs",
+            "op": ">",
+            "value": 200
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3: ondas P con conducción AV 1:1 e intervalo PR > 200 ms (más exactamente «retraso AV», porque ninguna P se bloquea)."
+        },
+        {
+          "id": "av1-1to1",
+          "role": "required",
+          "text": {
+            "es": "Conducción 1:1: una P por cada QRS",
+            "en": "1:1 conduction: one P per QRS"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "pPresent",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "pQrsRatio",
+                "op": "==",
+                "value": 1
+              }
+            ]
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3."
+        },
+        {
+          "id": "av1-constant",
+          "role": "supporting",
+          "text": {
+            "es": "PR constante (sin variación latido a latido)",
+            "en": "Constant PR (no beat-to-beat variation)"
+          },
+          "predicate": {
+            "feature": "prVariable",
+            "op": "==",
+            "value": false
+          },
+          "ref": "kusumoto-2018",
+          "note": "La variación progresiva del PR con P bloqueadas indica Mobitz I (tabla 3)."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "medications",
+            "op": "contains",
+            "value": "av-nodal"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Fármacos con efecto nodal: causa transitoria/reversible de prolongación del PR (guía 2018).",
+            "en": "Nodal-acting drugs: transient/reversible cause of PR prolongation (2018 guideline)."
+          },
+          "ref": "kusumoto-2018"
+        }
+      ],
+      "mimics": [
+        "second-degree-mobitz-i",
+        "sinus-bradycardia",
+        "short-pr-no-preexcitation",
+        "bifascicular-rbbb-lafb"
+      ],
+      "nextSteps": {
+        "es": "Medir el PR en varias derivaciones y revisar fármacos con efecto nodal; vigilar progresión a otros bloqueos si hay síntomas.",
+        "en": "Measure PR in several leads and review nodal-acting drugs; monitor for progression to other blocks if symptomatic."
+      },
+      "limitations": {
+        "es": "Con taquicardia la P puede fusionarse con la T previa y el PR no medirse. El nivel del retraso (nodal o infranodal) no se ve en superficie. Si hay bloqueo de rama asociado, ver bifascicular/trifascicular.",
+        "en": "With tachycardia the P may merge with the preceding T wave and PR cannot be measured; the level of delay (nodal vs infranodal) is not visible on the surface ECG. If bundle branch block coexists, see bifascicular/trifascicular entries."
+      },
+      "references": [
+        "kusumoto-2018",
+        "mason-2007-part2",
+        "cinier-2021-bradyarrhythmias",
+        "glikson-2021-pacing"
+      ]
+    },
+    {
+      "id": "second-degree-mobitz-i",
+      "name": {
+        "es": "Bloqueo AV de segundo grado Mobitz I (Wenckebach)",
+        "en": "Second-degree AV block, Mobitz type I (Wenckebach)"
+      },
+      "category": "rhythm",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "m1-more-p",
+          "role": "required",
+          "text": {
+            "es": "Más ondas P que QRS (una P no conducida periódica) o latidos agrupados característicos",
+            "en": "More P waves than QRS complexes (periodic single non-conducted P) or characteristic group beating"
+          },
+          "predicate": {
+            "any": [
+              {
+                "feature": "pQrsRatio",
+                "op": ">",
+                "value": 1
+              },
+              {
+                "feature": "groupedBeating",
+                "op": "==",
+                "value": true
+              }
+            ]
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3: Mobitz I = ondas P con frecuencia constante (< 100 lpm) y una P periódica no conducida con P antes y después, con PR inconstante."
+        },
+        {
+          "id": "m1-pr-var",
+          "role": "required",
+          "text": {
+            "es": "PR variable (inconstante) en los latidos conducidos",
+            "en": "Variable (inconstant) PR in conducted beats"
+          },
+          "predicate": {
+            "feature": "prVariable",
+            "op": "==",
+            "value": true
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3; texto de clasificación del bloqueo AV: Mobitz I aparece tras prolongación progresiva del PR."
+        },
+        {
+          "id": "m1-p-rate",
+          "role": "supporting",
+          "text": {
+            "es": "Frecuencia auricular constante < 100 lpm",
+            "en": "Constant atrial rate < 100 bpm"
+          },
+          "predicate": {
+            "feature": "pRate",
+            "op": "<",
+            "value": 100
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3."
+        },
+        {
+          "id": "m1-group",
+          "role": "supporting",
+          "text": {
+            "es": "Latidos agrupados (por QRS omitidos)",
+            "en": "Group beating (dropped QRS complexes)"
+          },
+          "predicate": {
+            "feature": "groupedBeating",
+            "op": "==",
+            "value": true
+          },
+          "ref": "kusumoto-2018",
+          "note": "Texto de clasificación del bloqueo AV (guía 2018): «el ECG mostrará latidos agrupados como resultado de los QRS omitidos»."
+        },
+        {
+          "id": "m1-excl-21",
+          "role": "exclusion",
+          "text": {
+            "es": "Relación 2:1 fija (no se puede clasificar como Mobitz I ni II)",
+            "en": "Fixed 2:1 relationship (cannot be classified as Mobitz I or II)"
+          },
+          "predicate": {
+            "feature": "pQrsRatio",
+            "op": "between",
+            "value": [
+              1.95,
+              2.05
+            ]
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3 y texto de clasificación del bloqueo AV: el bloqueo 2:1 aislado no se puede clasificar como Mobitz I o II (tolerancia de medición operativa)."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "syncope"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Con síncope, la guía pide correlación temporal síntoma-bloqueo; en ausencia de síntomas el tipo I no suele requerir marcapasos.",
+            "en": "With syncope, the guideline asks for temporal correlation of symptoms with the block; without symptoms type I generally does not require pacing."
+          },
+          "ref": "kusumoto-2018"
+        }
+      ],
+      "mimics": [
+        "second-degree-mobitz-ii",
+        "2-to-1-av-block",
+        "premature-ventricular-complexes",
+        "sinus-pause-sa-block",
+        "third-degree-av-block"
+      ],
+      "nextSteps": {
+        "es": "Medir el PR de los latidos antes y después de la P bloqueada (acorta tras el bloqueo en tipo I) en la tira completa; la guía indica que el nivel de bloqueo se determine cuando es incierto.",
+        "en": "Measure PR before and after the blocked P (shorter after the block in type I) on the full strip; the guideline asks that the level of block be established when uncertain."
+      },
+      "limitations": {
+        "es": "La clasificación depende de ver PR consecutivos latido a latido; el latido mediano y rrCv son indicadores indirectos. Una PAC bloqueada puede imitarla; el vagal nocturno es benigno. Se debe revisar la tira completa. El PR aparentemente constante antes del bloqueo no basta para tipo II: si se acorta después o se enlentece el PP puede tratarse de Wenckebach atípico o bloqueo vagal (Barold/Herweg 2024).",
+        "en": "Classification depends on seeing consecutive PR intervals beat by beat; the median beat and rrCv are indirect indicators. A blocked PAC can mimic it; nocturnal vagal block is benign. The full strip should be reviewed. Apparently constant PR before the block is insufficient for type II: post-block PR shortening or PP slowing may indicate atypical Wenckebach or vagal block (Barold/Herweg 2024)."
+      },
+      "references": [
+        "kusumoto-2018",
+        "mason-2007-part2",
+        "cinier-2021-bradyarrhythmias",
+        "glikson-2021-pacing",
+        "barold-2024-mobitz-ii"
+      ]
+    },
+    {
+      "id": "second-degree-mobitz-ii",
+      "name": {
+        "es": "Bloqueo AV de segundo grado Mobitz II",
+        "en": "Second-degree AV block, Mobitz type II"
+      },
+      "category": "rhythm",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "m2-more-p",
+          "role": "required",
+          "text": {
+            "es": "Más ondas P que QRS (una P periódica no conducida)",
+            "en": "More P waves than QRS complexes (periodic single non-conducted P)"
+          },
+          "predicate": {
+            "feature": "pQrsRatio",
+            "op": ">",
+            "value": 1
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3: Mobitz II = P con frecuencia constante (< 100 lpm) y P periódica no conducida con PR constante en los latidos conducidos."
+        },
+        {
+          "id": "m2-pr-const",
+          "role": "required",
+          "text": {
+            "es": "PR constante en los latidos conducidos",
+            "en": "Constant PR in conducted beats"
+          },
+          "predicate": {
+            "feature": "prVariable",
+            "op": "==",
+            "value": false
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3 (excluye el bloqueo 2:1). Barold/Herweg 2024: equal PR must be demonstrated before AND after the single blocked P, with at least two consecutive conducted P waves; aggregate prVariable=false cannot independently establish this sequence."
+        },
+        {
+          "id": "m2-stable-pp",
+          "role": "required",
+          "text": {
+            "es": "PP estable sin enlentecimiento sinusal antes o después de la P bloqueada, confirmado en tira larga",
+            "en": "Stable PP without sinus slowing before or after the blocked P, confirmed on a long strip"
+          },
+          "predicate": null,
+          "ref": "barold-2024-mobitz-ii",
+          "note": "Barold/Herweg 2024, contemporary definition and vagal-block pitfalls: stable sinus rate is required; sinus slowing can produce vagal pseudo-Mobitz II despite constant PR. The aggregate pRate and regular ventricular RR do not measure beat-level PP stability. This required criterion is unavailable to the detector and must remain unknown pending manual review, not automatically met."
+        },
+        {
+          "id": "m2-excl-21",
+          "role": "exclusion",
+          "text": {
+            "es": "Relación 2:1 fija (no se clasifica como Mobitz II)",
+            "en": "Fixed 2:1 relationship (not classified as Mobitz II)"
+          },
+          "predicate": {
+            "feature": "pQrsRatio",
+            "op": "between",
+            "value": [
+              1.95,
+              2.05
+            ]
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3: «excluyendo el bloqueo AV 2:1» (tolerancia de medición operativa)."
+        },
+        {
+          "id": "m2-group",
+          "role": "supporting",
+          "text": {
+            "es": "Latidos agrupados por QRS omitidos",
+            "en": "Group beating from dropped QRS complexes"
+          },
+          "predicate": {
+            "feature": "groupedBeating",
+            "op": "==",
+            "value": true
+          },
+          "ref": "kusumoto-2018",
+          "note": "Texto de clasificación del bloqueo AV (guía 2018)."
+        },
+        {
+          "id": "m2-prate",
+          "role": "supporting",
+          "text": {
+            "es": "Frecuencia auricular constante < 100 lpm",
+            "en": "Constant atrial rate < 100 bpm"
+          },
+          "predicate": {
+            "feature": "pRate",
+            "op": "<",
+            "value": 100
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3. A rate below 100 bpm does not verify PP constancy; see mandatory manual PP criterion."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "syncope"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Síncope con bloqueo de alto grado: la guía recomienda marcapasos en Mobitz II adquirido no reversible, independientemente de los síntomas.",
+            "en": "Syncope with high-grade block: the guideline recommends pacing for acquired Mobitz II not caused by reversible causes, regardless of symptoms."
+          },
+          "ref": "kusumoto-2018"
+        }
+      ],
+      "mimics": [
+        "second-degree-mobitz-i",
+        "2-to-1-av-block",
+        "third-degree-av-block",
+        "premature-ventricular-complexes",
+        "lbbb-complete-aha",
+        "bifascicular-rbbb-lafb"
+      ],
+      "nextSteps": {
+        "es": "Confirmar en la tira completa que el PR es constante antes y después de la P bloqueada; buscar causas reversibles y valorar el nivel del bloqueo. La guía 2018 recomienda marcapasos en Mobitz II adquirido no causado por factores reversibles o fisiológicos, sin importar los síntomas (valoración clínica). Comprobar PP estable, al menos dos P conducidas consecutivas y PR igual antes y después del bloqueo; excluir enlentecimiento vagal y extrasístoles ocultas (Barold/Herweg 2024).",
+        "en": "Confirm on the full strip that PR is constant before and after the blocked P; look for reversible causes and assess the level of block. The 2018 guideline recommends pacing for acquired Mobitz II not caused by reversible or physiologic factors, regardless of symptoms (clinical assessment). Verify stable PP, at least two consecutive conducted P waves and equal PR before and after the block; exclude vagal slowing and concealed extrasystoles (Barold/Herweg 2024)."
+      },
+      "limitations": {
+        "es": "Distinguirlo de Mobitz I exige ver ≥ 2 PR consecutivos antes del bloqueo; el bloqueo AV avanzado (≥ 2 P consecutivas no conducidas con alguna conducción AV) no se diferencia con estos rasgos. Una PAC bloqueada puede imitarlo. El bloqueo 2:1 no se clasifica como tipo II. La frecuencia auricular media y la variabilidad global del PR no verifican PP estable ni la secuencia antes/después; el requisito de PP queda pendiente de revisión manual.",
+        "en": "Distinguishing it from Mobitz I requires seeing ≥ 2 consecutive PR intervals before the block; advanced AV block (≥ 2 consecutive non-conducted P waves with some AV conduction) cannot be separated with these features. A blocked PAC can mimic it. 2:1 block is not classified as type II. Mean atrial rate and global PR variability cannot verify stable PP or the before/after sequence; the PP requirement remains pending manual review."
+      },
+      "references": [
+        "kusumoto-2018",
+        "mason-2007-part2",
+        "glikson-2021-pacing",
+        "barold-2024-mobitz-ii"
+      ]
+    },
+    {
+      "id": "2-to-1-av-block",
+      "name": {
+        "es": "Bloqueo AV 2:1",
+        "en": "2:1 AV block"
+      },
+      "category": "rhythm",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "b21-ratio",
+          "role": "required",
+          "text": {
+            "es": "Dos ondas P por QRS (una de cada dos P conduce)",
+            "en": "Two P waves per QRS (every other P conducts)"
+          },
+          "predicate": {
+            "feature": "pQrsRatio",
+            "op": "between",
+            "value": [
+              1.75,
+              2.45
+            ]
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3: 2:1 = P con frecuencia constante (o casi constante por arritmia sinusal ventriculofásica), < 100 lpm, en que una de cada dos P conduce. La tolerancia 1,75–2,45 es de medición."
+        },
+        {
+          "id": "b21-prate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia auricular < 100 lpm",
+            "en": "Atrial rate < 100 bpm"
+          },
+          "predicate": {
+            "feature": "pRate",
+            "op": "<",
+            "value": 100
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3. Con frecuencia auricular > 100 lpm ver flutter/taquicardia auricular con conducción 2:1."
+        },
+        {
+          "id": "b21-regular",
+          "role": "supporting",
+          "text": {
+            "es": "Respuesta ventricular regular",
+            "en": "Regular ventricular response"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": true
+          },
+          "ref": "kusumoto-2018",
+          "note": "Operativo."
+        },
+        {
+          "id": "b21-pr",
+          "role": "supporting",
+          "text": {
+            "es": "PR constante en los latidos conducidos",
+            "en": "Constant PR in conducted beats"
+          },
+          "predicate": {
+            "feature": "prVariable",
+            "op": "==",
+            "value": false
+          },
+          "ref": "kusumoto-2018",
+          "note": "No se distingue Mobitz I/II con 2:1; texto de clasificación del bloqueo AV: es importante dilucidar el nivel de bloqueo."
+        },
+        {
+          "id": "b21-excl-dissociation",
+          "role": "exclusion",
+          "text": {
+            "es": "PR variable o disociación AV: sugiere bloqueo AV de tercer grado u otro mecanismo distinto de bloqueo 2:1 fijo",
+            "en": "Variable PR / AV dissociation suggests complete AV block rather than fixed 2:1 block"
+          },
+          "predicate": {
+            "feature": "prVariable",
+            "op": "==",
+            "value": true
+          },
+          "ref": "kusumoto-2018"
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "syncope"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Con síncope, valorar bloqueo infranodal; el nivel de bloqueo no puede deducirse del ECG con 2:1.",
+            "en": "With syncope, consider infranodal block; the level of block cannot be deduced from the ECG with 2:1."
+          },
+          "ref": "kusumoto-2018"
+        }
+      ],
+      "mimics": [
+        "second-degree-mobitz-i",
+        "second-degree-mobitz-ii",
+        "premature-ventricular-complexes",
+        "sinus-bradycardia",
+        "atrial-flutter-2to1-suspected",
+        "third-degree-av-block"
+      ],
+      "nextSteps": {
+        "es": "Revisar tira larga y ECG previos por si aparecen otras proporciones de conducción. La guía ESC 2021 pide distinguir bloqueo nodal de infranodal en un 2:1 incidental, considerando conducta del PR/PP, respuesta al ejercicio y estudio electrofisiológico según el contexto; la decisión clínica no se deduce de la relación 2:1.",
+        "en": "Review a long strip and prior ECGs for other conduction ratios. ESC 2021 calls for distinguishing nodal from infranodal block in incidental 2:1 AV block, considering PR/PP behavior, exercise response and electrophysiology study as appropriate; the 2:1 ratio alone does not determine the clinical decision."
+      },
+      "limitations": {
+        "es": "No se puede clasificar como Mobitz I o II sin otras proporciones de conducción. Una PAC bloqueada en bigeminismo auricular produce una bradicardia regular a la mitad de la frecuencia sinusal y la imita. La segunda P se oculta en el QRS o la T y no se cuenta, de modo que pQrsRatio puede subestimarse.",
+        "en": "It cannot be classified as Mobitz I or II without other conduction ratios. Blocked atrial bigeminy produces a regular bradycardia at half the sinus rate and mimics it. The second P may hide in the QRS or T and not be counted, so pQrsRatio may be underestimated."
+      },
+      "references": [
+        "kusumoto-2018",
+        "mason-2007-part2",
+        "cinier-2021-bradyarrhythmias",
+        "glikson-2021-pacing",
+        "barold-2024-mobitz-ii"
+      ]
+    },
+    {
+      "id": "third-degree-av-block",
+      "name": {
+        "es": "Bloqueo AV de tercer grado (completo) y disociación AV",
+        "en": "Third-degree (complete) AV block and AV dissociation"
+      },
+      "category": "rhythm",
+      "urgency": "emergent",
+      "criteria": [
+        {
+          "id": "b3-more-p",
+          "role": "required",
+          "text": {
+            "es": "Más ondas P que QRS (la frecuencia auricular supera a la ventricular)",
+            "en": "More P waves than QRS (atrial rate exceeds ventricular rate)"
+          },
+          "predicate": {
+            "feature": "pQrsRatio",
+            "op": ">",
+            "value": 1
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3: bloqueo AV completo = ninguna evidencia de conducción AV. Las P marchan independientes del QRS (disociación AV)."
+        },
+        {
+          "id": "b3-pr-var",
+          "role": "required",
+          "text": {
+            "es": "PR variable: las P no guardan relación fija con el QRS",
+            "en": "Variable PR: P waves bear no fixed relation to the QRS"
+          },
+          "predicate": {
+            "feature": "prVariable",
+            "op": "==",
+            "value": true
+          },
+          "ref": "kusumoto-2018",
+          "note": "Tabla 3; la disociación isorrítmica (P más lentas que el QRS) obliga a ver más de unos pocos ciclos."
+        },
+        {
+          "id": "b3-regular",
+          "role": "required",
+          "text": {
+            "es": "Ritmo ventricular regular (escape)",
+            "en": "Regular ventricular rhythm (escape)"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": true
+          },
+          "ref": "kusumoto-2018",
+          "note": "Texto de clasificación del bloqueo AV (guía 2018): el bloqueo completo suele asociarse a escape de la unión o ventricular."
+        },
+        {
+          "id": "b3-rate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia ventricular ≤ 60 lpm",
+            "en": "Ventricular rate ≤ 60 bpm"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": "<=",
+            "value": 60
+          },
+          "ref": "meloy-3rd-degree-avb",
+          "note": "Escape de la unión: QRS estrecho, 40–60 lpm; escape ventricular: QRS ancho, 20–40 lpm. Fuente secundaria; un escape de la unión puede ser más rápido."
+        },
+        {
+          "id": "b3-wide",
+          "role": "supporting",
+          "text": {
+            "es": "QRS ancho (≥ 120 ms) y ≤ 40 lpm sugiere escape ventricular",
+            "en": "Wide QRS (≥ 120 ms) and ≤ 40 bpm suggests ventricular escape"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "qrsMs",
+                "op": ">=",
+                "value": 120
+              },
+              {
+                "feature": "rateBpm",
+                "op": "<=",
+                "value": 40
+              }
+            ]
+          },
+          "ref": "meloy-3rd-degree-avb",
+          "note": "Fuente secundaria; orienta el nivel del bloqueo."
+        },
+        {
+          "id": "b3-pr-expr",
+          "role": "supporting",
+          "text": {
+            "es": "Frecuencia auricular mayor que la ventricular",
+            "en": "Atrial rate greater than ventricular rate"
+          },
+          "predicate": {
+            "expr": "pRate-rateBpm",
+            "op": ">",
+            "value": 0
+          },
+          "ref": "kusumoto-2018",
+          "note": "Indicador derivado de la disociación; solo evaluable si pRate puede contarse."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "potassium",
+            "op": "==",
+            "value": "high"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Las alteraciones electrolíticas, en particular la hiperpotasemia, son causa de bloqueo completo.",
+            "en": "Electrolyte derangements, particularly hyperkalemia, are a cause of complete heart block."
+          },
+          "ref": "meloy-3rd-degree-avb"
+        },
+        {
+          "when": {
+            "context": "medications",
+            "op": "contains",
+            "value": "av-nodal"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Los efectos de fármacos son causa de bloqueo AV completo; valorar causas reversibles.",
+            "en": "Drug effects are a cause of complete AV block; consider reversible causes."
+          },
+          "ref": "meloy-3rd-degree-avb"
+        },
+        {
+          "when": {
+            "context": "history",
+            "op": "contains",
+            "value": "cardiac"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Cardiopatía isquémica o miocardiopatía: causas frecuentes de bloqueo completo (hasta 1 de cada 5 con trastorno de la conducción tras un IM).",
+            "en": "Ischemic heart disease or cardiomyopathy: common causes of complete block (up to 1 in 5 develop a conduction disturbance after MI)."
+          },
+          "ref": "meloy-3rd-degree-avb"
+        }
+      ],
+      "mimics": [
+        "second-degree-mobitz-ii",
+        "2-to-1-av-block",
+        "junctional-rhythm",
+        "ventricular-escape-rhythm",
+        "ventricular-tachycardia-wct",
+        "atrial-fibrillation-slow-response",
+        "inferior-stemi"
+      ],
+      "nextSteps": {
+        "es": "Documentar la disociación AV en tira larga y buscar causa (infarto inferior, fármacos, potasio); la guía 2018 recomienda marcapasos en bloqueo AV de tercer grado no causado por factores reversibles o fisiológicos, sin importar los síntomas (decisión clínica).",
+        "en": "Document AV dissociation on a long strip and look for causes (inferior MI, drugs, potassium); the 2018 guideline recommends pacing for third-degree AV block not caused by reversible or physiologic factors regardless of symptoms (clinical decision)."
+      },
+      "limitations": {
+        "es": "Disociación AV no es sinónimo de bloqueo completo: también ocurre por interferencia (TV, RIVA, ritmo de la unión acelerado) y en disociación isorrítmica (Kusumoto 2018). El bloqueo AV avanzado (≥ 2 P consecutivas no conducidas con alguna conducción) y la FA con respuesta lenta y regular (< 50 lpm) pueden parecerse. Las espigas de marcapasos no se detectan en un ECG digitalizado.",
+        "en": "AV dissociation is not synonymous with complete block: it also occurs by interference (VT, AIVR, accelerated junctional rhythm) and in isorhythmic dissociation (Kusumoto 2018). Advanced AV block (≥ 2 consecutive non-conducted P waves with some conduction) and AF with a slow regular response (< 50 bpm) can look alike. Pacemaker spikes are not detectable in a digitized ECG."
+      },
+      "references": [
+        "kusumoto-2018",
+        "meloy-3rd-degree-avb",
+        "mason-2007-part2",
+        "glikson-2021-pacing"
+      ]
+    },
+    {
+      "id": "irregular-wide-complex-tachycardia",
+      "name": {
+        "es": "Taquicardia irregular de QRS ancho (FA con aberrancia/preexcitación o TV polimórfica)",
+        "en": "Irregular wide-QRS tachycardia (AF with aberrancy/preexcitation or polymorphic VT)"
+      },
+      "category": "rhythm",
+      "urgency": "emergent",
+      "requiredLogic": "all",
+      "criteria": [
+        {
+          "id": "iwct-rate",
+          "role": "required",
+          "text": {
+            "es": "Frecuencia ventricular >100 lpm",
+            "en": "Ventricular rate >100 bpm"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": ">",
+            "value": 100
+          },
+          "ref": "brugada-esc-2019-svt"
+        },
+        {
+          "id": "iwct-wide",
+          "role": "required",
+          "text": {
+            "es": "QRS ancho >120 ms",
+            "en": "Wide QRS >120 ms"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">",
+            "value": 120
+          },
+          "ref": "brugada-esc-2019-svt"
+        },
+        {
+          "id": "iwct-irregular",
+          "role": "required",
+          "text": {
+            "es": "Intervalos RR irregulares medidos",
+            "en": "Measured irregular RR intervals"
+          },
+          "predicate": {
+            "feature": "regular",
+            "op": "==",
+            "value": false
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "The app regularity threshold is operational, not a diagnostic criterion for AF. Ectopy and measurement artifact must be checked on the original tracing."
+        },
+        {
+          "id": "iwct-very-fast",
+          "role": "supporting",
+          "text": {
+            "es": "Respuesta ventricular muy rápida (>200 lpm): revisar preexcitación",
+            "en": "Very rapid ventricular response (>200 bpm): inspect for preexcitation"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": ">",
+            "value": 200
+          },
+          "ref": "brugada-esc-2019-svt",
+          "note": "A rate clue only; this operational threshold does not diagnose an accessory pathway."
+        }
+      ],
+      "mimics": [
+        "atrial-fibrillation-rvr",
+        "wpw-pattern",
+        "ventricular-tachycardia-wct",
+        "rbbb-complete",
+        "lbbb-complete-aha",
+        "hyperkalemia",
+        "sodium-channel-blocker-toxicity"
+      ],
+      "nextSteps": {
+        "es": "Valorar urgentemente estabilidad clínica y revisar el trazado completo. Buscar variación de morfología QRS, intervalos RR preexcitados muy cortos y ECG basal; la FA preexcitada requiere manejo específico.",
+        "en": "Urgently assess clinical stability and inspect the full tracing. Look for changing QRS morphology, very short preexcited RR intervals and a baseline ECG; preexcited AF requires specific management."
+      },
+      "limitations": {
+        "es": "Este síndrome no identifica el mecanismo: FA con bloqueo de rama, FA preexcitada y TV polimórfica pueden solaparse. El latido mediano no demuestra polimorfismo ni permite medir el RR preexcitado mínimo; la falta de P o PR no confirma FA o WPW. La irregularidad no excluye TV (Whitaker 2023); los algoritmos para taquicardia regular no resuelven este diferencial.",
+        "en": "This syndrome does not identify the mechanism: AF with bundle branch block, preexcited AF and polymorphic VT can overlap. A median beat does not establish polymorphism or the shortest preexcited RR; missing P or PR does not confirm AF or WPW. Irregularity does not exclude VT (Whitaker 2023); regular-tachycardia algorithms do not resolve this differential."
+      },
+      "references": [
+        "brugada-esc-2019-svt",
+        "joglar-2023-af",
+        "zeppenfeld-esc-2022-va",
+        "antiperovitch-2023-preexcitation",
+        "whitaker-2023-vt"
+      ]
+    }
+  ]
+}

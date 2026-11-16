@@ -1,0 +1,17 @@
+{
+  "features": [
+    "1-max(rgb)/255",
+    "max(0,(r-max(g,b))/255)",
+    "darkness-minus-5x5-edge-padded-mean"
+  ],
+  "weights": [
+    29.027391360661635,
+    -4.34333467619529,
+    -20.290421714003315
+  ],
+  "bias": -5.822865942212833,
+  "threshold": 0.7,
+  "scope": "experimental rendered real waveforms, not clinically validated",
+  "source": "PTB-XL 1.0.3, CC BY 4.0",
+  "seed": 20261111
+}

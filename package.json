@@ -1,0 +1,31 @@
+{
+  "name": "cardioekg",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "verify:source": "node scripts/verify-source.mjs",
+    "build:offline": "node scripts/offline.mjs",
+    "build:research": "tsc --noEmit && vite build --mode research",
+    "preview": "vite preview",
+    "test": "node --experimental-strip-types --test scripts/*.test.mjs src/research/*.test.mjs src/terms/*.test.mjs src/anatomy/*.test.mjs src/ecg/*.test.mjs src/ecg/knowledge/*.test.mjs src/report/*.test.mjs src/navigation/*.test.mjs src/integrations/*.test.mjs"
+  },
+  "dependencies": {
+    "jspdf": "^4.2.1",
+    "pdfjs-dist": "^6.5.438",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "tesseract.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.69.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2",
+    "vite": "7.3.7"
+  }
+}

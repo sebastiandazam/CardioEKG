@@ -1,0 +1,16 @@
+import {readFileSync,readdirSync} from 'node:fs';
+export function referenceIdentity(ref){
+ const doi=(ref.doi??ref.url?.match(/doi\.org\/(10\.[^?#\s]+)/i)?.[1]??'').toLowerCase().replace(/^https?:\/\/(?:dx\.)?doi\.org\//,'').replace(/[.,;]+$/,'');
+ const pmid=ref.pmid??ref.url?.match(/pubmed\.ncbi\.nlm\.nih\.gov\/(\d+)/)?.[1];
+ return doi?`doi:${doi}`:pmid?`pmid:${pmid}`:ref.url?`url:${ref.url.replace(/\/$/,'')}`:`id:${ref.id}`;
+}
+export function buildLiteratureIndex(root=new URL('../',import.meta.url)){
+ const base=new URL('src/ecg/knowledge/kb/',root),files=readdirSync(base).filter(n=>n.endsWith('.json')).sort();
+ const entities=[],byId=new Map(),groups=new Map();
+ const rank=level=>({'full-text':3,abstract:2,'metadata-only':1}[level]??0);
+ for(const file of files){const data=JSON.parse(readFileSync(new URL(file,base),'utf8'));for(const r of data.references){const prior=byId.get(r.id);if(prior&&referenceIdentity(prior)!==referenceIdentity(r))throw new Error(`Conflicting reference id ${r.id}`);if(!prior||rank(r.verificationLevel)>rank(prior.verificationLevel))byId.set(r.id,r);}for(const entity of data.entities)entities.push({...entity,domain:data.domain});}
+ for(const ref of byId.values()){const key=referenceIdentity(ref);let group=groups.get(key);if(!group){group={...ref,key,ids:[],entityIds:[],domains:[]};groups.set(key,group)}else if(rank(ref.verificationLevel)>rank(group.verificationLevel)){const {ids,entityIds,domains}=group;Object.assign(group,ref,{ids,entityIds,domains});}group.ids.push(ref.id);}
+ for(const entity of entities){const ids=new Set([...(entity.references??[]),...entity.criteria.map(c=>c.ref).filter(Boolean),...(entity.contextModifiers??[]).map(c=>c.ref).filter(Boolean),...(entity.confounders??[]).map(c=>c.ref).filter(Boolean)]);for(const id of ids){const ref=byId.get(id);if(!ref)throw new Error(`Missing source ${id} in ${entity.id}`);const group=groups.get(referenceIdentity(ref));group.entityIds.push(entity.id);group.domains.push(entity.domain);}}
+ const references=[...groups.values()].map(g=>({...g,ids:[...new Set(g.ids)],entityIds:[...new Set(g.entityIds)],domains:[...new Set(g.domains)]})).sort((a,b)=>rank(b.verificationLevel)-rank(a.verificationLevel)||(b.reviewedAt??'').localeCompare(a.reviewedAt??'')||a.citation.localeCompare(b.citation));
+ return {schemaVersion:1,knowledgeVersion:readFileSync(new URL('src/ecg/knowledge/index.ts',root),'utf8').match(/KNOWLEDGE_VERSION = '([^']+)'/)[1],scope:{es:'Biblioteca de criterios y referencias; ampliar la literatura no equivale a entrenar ni validar un modelo diagnóstico.',en:'Criteria and reference library; adding literature is not equivalent to training or validating a diagnostic model.'},counts:{entities:entities.length,criteria:entities.reduce((n,e)=>n+e.criteria.length,0),referenceIds:byId.size,publications:references.length,fullTextConsulted:references.filter(r=>r.verificationLevel==='full-text').length,abstractConsulted:references.filter(r=>r.verificationLevel==='abstract').length,metadataOnly:references.filter(r=>r.verificationLevel==='metadata-only').length,previousRecords:references.filter(r=>!r.verificationLevel).length},entities:entities.map(e=>({id:e.id,name:e.name,domain:e.domain,urgency:e.urgency,criterionCount:e.criteria.length,manualCriteria:e.criteria.filter(c=>c.predicate===null).length})),references};
+}

@@ -1,0 +1,34 @@
+{
+  "status": "prepared_not_sent",
+  "requested_sender": "jsebastian.daza@javeriana.edu.co",
+  "sender_name": "Sebastián Daza",
+  "role": "student_personal_initiative",
+  "institutional_endorsement_claimed": false,
+  "institutional_sender_access_verified": false,
+  "contains_patient_data": false,
+  "budget": 0,
+  "requests": [
+    {
+      "provider": "ECG Wave-Maven",
+      "file": "wave-maven.md",
+      "recipient_email": null,
+      "official_contact_route": "https://ecg.bidmc.harvard.edu/maven/welcome.asp?ref=feedback.asp",
+      "recipient_verification_required": true
+    },
+    {
+      "provider": "BioDigital",
+      "file": "biodigital.eml",
+      "recipient_email": "support@biodigital.com",
+      "recipient_verification_required": false
+    },
+    {
+      "provider": "OpenEvidence",
+      "file": "openevidence.eml",
+      "recipient_email": "contact@openevidence.com",
+      "recipient_verification_required": false
+    }
+  ],
+  "authorization_status": "reported_by_project_owner",
+  "provider_activation_credentials_received": false,
+  "authorization_reported_on": "2026-11-12"
+}

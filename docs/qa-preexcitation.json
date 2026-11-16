@@ -1,0 +1,188 @@
+{
+  "runtime": "Pyodide0.27.7",
+  "cases": [
+    {
+      "case": "sinus",
+      "engine": "ecg_analisis-signals-v3.2",
+      "values": {
+        "rateBpm": 75,
+        "prMs": 150,
+        "qrsMs": 96,
+        "qtMs": 348.4826682978087,
+        "axisDeg": 46.37492619583332
+      },
+      "impression": "Ritmo sinusal (FC 75 lpm, PR 150 ms, QRS 96 ms, QTc 375 ms, eje 46.37492619583332°). Impresión orientativa: Ritmo regular con P de polaridad compatible con origen sinusal. Datos disponibles: FC 75 bpm; PR 150 ms; QRS 96 ms; QT 348.4826682978087 ms; eje 46.37492619583332 °. Las hipótesis requieren confirmación clínica.",
+      "diagnosis": "Ritmo sinusal normal",
+      "warnings": [
+        "Las marcas proyectan límites del latido mediano sobre los picos R; el inicio de T no está delimitado.",
+        "Las derivaciones se analizan independientemente; el eje requiere ajuste coherente de las derivaciones de miembros.",
+        "P medible en solo 1 derivación(es): PR y duración de P poco fiables.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.8 mm.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.4 mm.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.2 mm.",
+        "P medible en solo 0 derivación(es): PR y duración de P poco fiables.",
+        "aVL: min() iterable argument is empty"
+      ],
+      "pdfBytes": 472504
+    },
+    {
+      "case": "af",
+      "engine": "ecg_analisis-signals-v3.2",
+      "values": {
+        "rateBpm": 83.42245989304813,
+        "prMs": null,
+        "qrsMs": 97,
+        "qtMs": 347.9107514374597,
+        "axisDeg": null
+      },
+      "impression": "Probable fibrilación auricular (FC 83.42245989304813 lpm, QRS 97 ms). No evaluable: eje. Impresión orientativa: Ritmo irregular sin P reproducible: considerar fibrilación auricular; QT sin corrección fiable por frecuencia: revisar RR, QRS y origen de las medidas. Datos disponibles: FC 83.42245989304813 bpm; QRS 97 ms; QT 347.9107514374597 ms. Las hipótesis requieren confirmación clínica.",
+      "diagnosis": null,
+      "warnings": [
+        "Las marcas proyectan límites del latido mediano sobre los picos R; el inicio de T no está delimitado.",
+        "Las derivaciones se analizan independientemente; el eje requiere ajuste coherente de las derivaciones de miembros.",
+        "Ritmo irregular: PR y eje no evaluables con el latido mediano.",
+        "P/PR no evaluable: apoyo insuficiente en tres derivaciones.",
+        "Frecuencia alta (RR < 750 ms): la ventana de base (TP) puede incluir la P del latido siguiente; las mediciones de P, PR y ST son menos fiables.",
+        "P medible en solo 0 derivación(es): PR y duración de P poco fiables.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.8 mm.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.4 mm.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.2 mm.",
+        "aVL: min() iterable argument is empty"
+      ],
+      "pdfBytes": 477679
+    },
+    {
+      "case": "rbbb",
+      "engine": "ecg_analisis-signals-v3.2",
+      "values": {
+        "rateBpm": 75,
+        "prMs": 150,
+        "qrsMs": 165,
+        "qtMs": 393.4837481918647,
+        "axisDeg": 89.12289742163237
+      },
+      "impression": "Ritmo sinusal; trastorno inespecífico de la conducción intraventricular (FC 75 lpm, PR 150 ms, QRS 165 ms, eje 89.12289742163237°). Impresión orientativa: Ritmo regular con P de polaridad compatible con origen sinusal; QRS ancho: despolarización ventricular prolongada por caracterizar; QT sin corrección fiable por frecuencia: revisar RR, QRS y origen de las medidas. Datos disponibles: FC 75 bpm; PR 150 ms; QRS 165 ms; QT 393.4837481918647 ms; eje 89.12289742163237 °. Las hipótesis requieren confirmación clínica.",
+      "diagnosis": "Trastorno inespecífico de la conducción intraventricular",
+      "warnings": [
+        "Las marcas proyectan límites del latido mediano sobre los picos R; el inicio de T no está delimitado.",
+        "Las derivaciones se analizan independientemente; el eje requiere ajuste coherente de las derivaciones de miembros.",
+        "P medible en solo 1 derivación(es): PR y duración de P poco fiables.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.8 mm.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.4 mm.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.2 mm."
+      ],
+      "pdfBytes": 486631
+    },
+    {
+      "case": "lbbb",
+      "engine": "ecg_analisis-signals-v3.2",
+      "values": {
+        "rateBpm": 75,
+        "prMs": null,
+        "qrsMs": 170,
+        "qtMs": 397.3328509964872,
+        "axisDeg": -43.2688553186365
+      },
+      "impression": "Desviación izquierda del eje (-43.2688553186365°); trastorno inespecífico de la conducción intraventricular (FC 75 lpm, QRS 170 ms, eje -43.2688553186365°). No evaluable: mecanismo del ritmo. Impresión orientativa: QRS ancho: despolarización ventricular prolongada por caracterizar; Inversión de T en varias derivaciones; Desviación izquierda del eje QRS. Datos disponibles: FC 75 bpm; QRS 170 ms; QT 397.3328509964872 ms; eje -43.2688553186365 °. Las hipótesis requieren confirmación clínica.",
+      "diagnosis": "Trastorno inespecífico de la conducción intraventricular",
+      "warnings": [
+        "Las marcas proyectan límites del latido mediano sobre los picos R; el inicio de T no está delimitado.",
+        "Las derivaciones se analizan independientemente; el eje requiere ajuste coherente de las derivaciones de miembros.",
+        "P/PR no evaluable: apoyo insuficiente en tres derivaciones.",
+        "P medible en solo 1 derivación(es): PR y duración de P poco fiables.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.8 mm.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.4 mm.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.2 mm.",
+        "P medible en solo 0 derivación(es): PR y duración de P poco fiables.",
+        "II: min() iterable argument is empty",
+        "aVR: min() iterable argument is empty"
+      ],
+      "pdfBytes": 470485
+    },
+    {
+      "case": "record-afib",
+      "engine": "ecg_analisis-signals-v3.2",
+      "values": {
+        "rateBpm": 157.77363865454146,
+        "prMs": null,
+        "qrsMs": 80,
+        "qtMs": 244.88506393247997,
+        "axisDeg": null
+      },
+      "impression": "Inversión de T en varias derivaciones (FC 157.77363865454146 lpm, QRS 80 ms). Probable: fibrilación auricular con respuesta ventricular rápida. No evaluable: eje. Impresión orientativa: Ritmo irregular sin P reproducible: considerar fibrilación auricular; Inversión de T en varias derivaciones; Frecuencia ventricular rápida. Datos disponibles: FC 157.77363865454146 bpm; QRS 80 ms; QT 244.88506393247997 ms. Las hipótesis requieren confirmación clínica.",
+      "diagnosis": "Inversión de T en derivaciones con R dominante (isquemia en el diferencial)",
+      "warnings": [
+        "Las marcas proyectan límites del latido mediano sobre los picos R; el inicio de T no está delimitado.",
+        "Las derivaciones se analizan independientemente; el eje requiere ajuste coherente de las derivaciones de miembros.",
+        "Ritmo irregular: PR y eje no evaluables con el latido mediano.",
+        "P/PR no evaluable: apoyo insuficiente en tres derivaciones.",
+        "RR medio inferior a 500 ms: P y PR automáticos no evaluables por posible superposición con la onda T precedente.",
+        "Frecuencia alta (RR < 750 ms): la ventana de base (TP) puede incluir la P del latido siguiente; las mediciones de P, PR y ST son menos fiables.",
+        "P medible en solo 1 derivación(es): PR y duración de P poco fiables.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.8 mm.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.4 mm.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.2 mm.",
+        "P medible en solo 0 derivación(es): PR y duración de P poco fiables.",
+        "III: min() iterable argument is empty"
+      ],
+      "pdfBytes": 539471
+    },
+    {
+      "case": "record-normal",
+      "engine": "ecg_analisis-signals-v3.2",
+      "values": {
+        "rateBpm": 77.46219107340465,
+        "prMs": 137,
+        "qrsMs": 76,
+        "qtMs": 330.3233122998199,
+        "axisDeg": 68.90456815410332
+      },
+      "impression": "Ritmo sinusal (FC 77.46219107340465 lpm, PR 137 ms, QRS 76 ms, QTc 360 ms, eje 68.90456815410332°). Impresión orientativa: Ritmo regular con P de polaridad compatible con origen sinusal. Datos disponibles: FC 77.46219107340465 bpm; PR 137 ms; QRS 76 ms; QT 330.3233122998199 ms; eje 68.90456815410332 °. Las hipótesis requieren confirmación clínica.",
+      "diagnosis": "Ritmo sinusal normal",
+      "warnings": [
+        "Las marcas proyectan límites del latido mediano sobre los picos R; el inicio de T no está delimitado.",
+        "Las derivaciones se analizan independientemente; el eje requiere ajuste coherente de las derivaciones de miembros.",
+        "P medible en solo 1 derivación(es): PR y duración de P poco fiables.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.8 mm.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.4 mm.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.2 mm.",
+        "P medible en solo 0 derivación(es): PR y duración de P poco fiables.",
+        "aVL: min() iterable argument is empty"
+      ],
+      "pdfBytes": 694608
+    },
+    {
+      "case": "development-wpw218",
+      "engine": "ecg_analisis-signals-v3.2",
+      "values": {
+        "rateBpm": 78.86089813800656,
+        "prMs": 88.5,
+        "qrsMs": 140,
+        "qtMs": 368.48832398285316,
+        "axisDeg": -21.514123495970807
+      },
+      "impression": "Ritmo sinusal; patrón de preexcitación ventricular (WPW) (FC 78.86089813800656 lpm, PR 88.5 ms, QRS 140 ms, eje -21.514123495970807°). Probable: PR corto. Impresión orientativa: Ritmo regular con P de polaridad compatible con origen sinusal; Patrón compatible con preexcitación ventricular (WPW); PR corto; revisar origen auricular, unión AV y preexcitación. Datos disponibles: FC 78.86089813800656 bpm; PR 88.5 ms; QRS 140 ms; QT 368.48832398285316 ms; eje -21.514123495970807 °. Las hipótesis requieren confirmación clínica.",
+      "diagnosis": "Preexcitación ventricular / patrón de Wolff-Parkinson-White",
+      "warnings": [
+        "Las marcas proyectan límites del latido mediano sobre los picos R; el inicio de T no está delimitado.",
+        "Las derivaciones se analizan independientemente; el eje requiere ajuste coherente de las derivaciones de miembros.",
+        "Frecuencia alta (RR < 750 ms): la ventana de base (TP) puede incluir la P del latido siguiente; las mediciones de P, PR y ST son menos fiables.",
+        "Pocos intervalos RR (<4): la variabilidad del RR no es interpretable.",
+        "P medible en solo 1 derivación(es): PR y duración de P poco fiables.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.8 mm.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.4 mm.",
+        "T de baja amplitud: se bajó el umbral de medición a 0.2 mm.",
+        "P medible en solo 0 derivación(es): PR y duración de P poco fiables.",
+        "QRS local discordante sin otra derivación cercana (20 ms): V1, V2; revisar sus límites."
+      ],
+      "pdfBytes": 232507
+    }
+  ],
+  "clinical_validation": false,
+  "software_checks": {
+    "javascript": 213,
+    "python_and_server": 46,
+    "types_and_build": "passed"
+  },
+  "browser_qa": "Actual compiled WebAssembly worker in Node; raster capture numerical pipeline checked separately. Interactive Safari/mobile unverified."
+}

@@ -1,0 +1,138 @@
+[
+  {
+    "name": "public-real-header",
+    "method": "current",
+    "paper": {
+      "left": 0,
+      "right": 100,
+      "top": 0,
+      "bottom": 100
+    },
+    "rows": true,
+    "rhythm": true,
+    "centers": [
+      {
+        "lead": "I",
+        "center": 0.41935483870967744,
+        "expected": 0.42
+      },
+      {
+        "lead": "II",
+        "center": 0.5849462365591398,
+        "expected": 0.58
+      },
+      {
+        "lead": "III",
+        "center": 0.7483870967741936,
+        "expected": 0.75
+      },
+      {
+        "lead": "II-long",
+        "center": 0.8978494623655914,
+        "expected": 0.9
+      }
+    ]
+  },
+  {
+    "name": "public-real-header",
+    "method": "guard035",
+    "paper": {
+      "left": 0,
+      "right": 100,
+      "top": 0,
+      "bottom": 100
+    },
+    "rows": true,
+    "rhythm": true,
+    "centers": [
+      {
+        "lead": "I",
+        "center": 0.41935483870967744,
+        "expected": 0.42
+      },
+      {
+        "lead": "II",
+        "center": 0.5849462365591398,
+        "expected": 0.58
+      },
+      {
+        "lead": "III",
+        "center": 0.7483870967741936,
+        "expected": 0.75
+      },
+      {
+        "lead": "II-long",
+        "center": 0.8978494623655914,
+        "expected": 0.9
+      }
+    ]
+  },
+  {
+    "name": "tight-no-header",
+    "method": "current",
+    "paper": {
+      "left": 0,
+      "right": 100,
+      "top": 0,
+      "bottom": 100
+    },
+    "rows": true,
+    "rhythm": false,
+    "centers": [
+      {
+        "lead": "I",
+        "center": 0.3273657289002557,
+        "expected": 0.10230179028132992
+      },
+      {
+        "lead": "II",
+        "center": 0.557544757033248,
+        "expected": 0.33248081841432225
+      },
+      {
+        "lead": "III",
+        "center": 0.7877237851662403,
+        "expected": 0.5626598465473146
+      },
+      {
+        "lead": "II-long",
+        "center": 0.9458503836317135,
+        "expected": 0.7928388746803069
+      }
+    ]
+  },
+  {
+    "name": "tight-no-header",
+    "method": "guard035",
+    "paper": {
+      "left": 0,
+      "right": 100,
+      "top": 0,
+      "bottom": 100
+    },
+    "rows": true,
+    "rhythm": true,
+    "centers": [
+      {
+        "lead": "I",
+        "center": 0.09808184143222506,
+        "expected": 0.10230179028132992
+      },
+      {
+        "lead": "II",
+        "center": 0.3273657289002557,
+        "expected": 0.33248081841432225
+      },
+      {
+        "lead": "III",
+        "center": 0.557544757033248,
+        "expected": 0.5626598465473146
+      },
+      {
+        "lead": "II-long",
+        "center": 0.7877237851662403,
+        "expected": 0.7928388746803069
+      }
+    ]
+  }
+]

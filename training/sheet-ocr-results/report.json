@@ -1,0 +1,5240 @@
+{
+  "source": "PTB-XL1.0.3 CC BY4.0",
+  "source_url": "https://physionet.org/content/ptb-xl/1.0.3/",
+  "seed": 20261111,
+  "records": [
+    {
+      "ecg_id": "1",
+      "patient_id": "15709.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "2",
+      "patient_id": "13243.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "3",
+      "patient_id": "20372.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "4",
+      "patient_id": "17014.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "5",
+      "patient_id": "17448.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "6",
+      "patient_id": "19005.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "7",
+      "patient_id": "16193.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "11",
+      "patient_id": "11243.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "13",
+      "patient_id": "19953.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "14",
+      "patient_id": "12925.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "15",
+      "patient_id": "13375.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "16",
+      "patient_id": "10999.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "19",
+      "patient_id": "11116.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "21",
+      "patient_id": "17102.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "22",
+      "patient_id": "20978.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "24",
+      "patient_id": "9012.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "25",
+      "patient_id": "10962.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "27",
+      "patient_id": "10316.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "29",
+      "patient_id": "14340.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "31",
+      "patient_id": "15348.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "32",
+      "patient_id": "11154.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "33",
+      "patient_id": "20527.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "35",
+      "patient_id": "15539.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "36",
+      "patient_id": "8787.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "37",
+      "patient_id": "9123.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "42",
+      "patient_id": "8039.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "44",
+      "patient_id": "19571.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "45",
+      "patient_id": "18794.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "46",
+      "patient_id": "13180.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "50",
+      "patient_id": "16961.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "52",
+      "patient_id": "18153.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "54",
+      "patient_id": "16751.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "55",
+      "patient_id": "20191.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "58",
+      "patient_id": "19424.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "60",
+      "patient_id": "15065.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "61",
+      "patient_id": "14660.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "64",
+      "patient_id": "12864.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "66",
+      "patient_id": "11352.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "67",
+      "patient_id": "8520.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "68",
+      "patient_id": "14101.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "70",
+      "patient_id": "19173.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "73",
+      "patient_id": "19987.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "77",
+      "patient_id": "8555.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "78",
+      "patient_id": "14356.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "80",
+      "patient_id": "9339.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "81",
+      "patient_id": "20961.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "82",
+      "patient_id": "19645.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "83",
+      "patient_id": "11314.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "84",
+      "patient_id": "19197.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "85",
+      "patient_id": "15904.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "86",
+      "patient_id": "10366.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "87",
+      "patient_id": "17293.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "88",
+      "patient_id": "15275.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "89",
+      "patient_id": "12531.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "90",
+      "patient_id": "8418.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "95",
+      "patient_id": "9243.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "96",
+      "patient_id": "21698.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "97",
+      "patient_id": "12761.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "99",
+      "patient_id": "18012.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "101",
+      "patient_id": "9086.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "102",
+      "patient_id": "9887.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "103",
+      "patient_id": "13722.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "104",
+      "patient_id": "19738.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "105",
+      "patient_id": "18974.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "106",
+      "patient_id": "16066.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "107",
+      "patient_id": "13453.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "109",
+      "patient_id": "21312.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "110",
+      "patient_id": "12715.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "111",
+      "patient_id": "13266.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "114",
+      "patient_id": "14097.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "118",
+      "patient_id": "21192.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "120",
+      "patient_id": "11860.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "123",
+      "patient_id": "12603.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "124",
+      "patient_id": "9730.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "125",
+      "patient_id": "18987.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "126",
+      "patient_id": "17462.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "130",
+      "patient_id": "11656.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "133",
+      "patient_id": "13083.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "135",
+      "patient_id": "19453.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "136",
+      "patient_id": "13445.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "146",
+      "patient_id": "13447.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "147",
+      "patient_id": "19638.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "148",
+      "patient_id": "16944.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "149",
+      "patient_id": "21700.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "150",
+      "patient_id": "8125.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "154",
+      "patient_id": "13617.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "156",
+      "patient_id": "19547.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "158",
+      "patient_id": "8909.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "159",
+      "patient_id": "10669.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "161",
+      "patient_id": "10634.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "163",
+      "patient_id": "14851.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "164",
+      "patient_id": "15095.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "166",
+      "patient_id": "14033.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "168",
+      "patient_id": "16704.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "169",
+      "patient_id": "13688.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "174",
+      "patient_id": "8595.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "176",
+      "patient_id": "8172.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "177",
+      "patient_id": "21551.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "179",
+      "patient_id": "14032.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "182",
+      "patient_id": "12000.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "183",
+      "patient_id": "13660.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "185",
+      "patient_id": "17272.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "187",
+      "patient_id": "15678.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "188",
+      "patient_id": "13483.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "191",
+      "patient_id": "10630.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "192",
+      "patient_id": "8340.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "196",
+      "patient_id": "9374.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "197",
+      "patient_id": "14891.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "202",
+      "patient_id": "16322.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "206",
+      "patient_id": "12453.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "209",
+      "patient_id": "14751.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "211",
+      "patient_id": "18690.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "212",
+      "patient_id": "17791.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "213",
+      "patient_id": "10157.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "214",
+      "patient_id": "12141.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "215",
+      "patient_id": "7949.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "220",
+      "patient_id": "21580.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "221",
+      "patient_id": "18264.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "222",
+      "patient_id": "10783.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "224",
+      "patient_id": "15572.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "225",
+      "patient_id": "13163.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "226",
+      "patient_id": "20431.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "230",
+      "patient_id": "15432.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "231",
+      "patient_id": "18301.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "232",
+      "patient_id": "12190.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "235",
+      "patient_id": "15405.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "236",
+      "patient_id": "19277.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "237",
+      "patient_id": "11651.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "239",
+      "patient_id": "17862.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "242",
+      "patient_id": "16654.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "244",
+      "patient_id": "16481.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "247",
+      "patient_id": "15351.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "248",
+      "patient_id": "19067.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "249",
+      "patient_id": "14355.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "250",
+      "patient_id": "17940.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "251",
+      "patient_id": "10359.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "253",
+      "patient_id": "2096.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "254",
+      "patient_id": "7415.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "255",
+      "patient_id": "4867.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "256",
+      "patient_id": "565.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "257",
+      "patient_id": "6078.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "258",
+      "patient_id": "5750.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "260",
+      "patient_id": "5471.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "263",
+      "patient_id": "1595.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "264",
+      "patient_id": "4441.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "267",
+      "patient_id": "7662.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "268",
+      "patient_id": "2533.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "270",
+      "patient_id": "1480.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "272",
+      "patient_id": "1027.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "273",
+      "patient_id": "340.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "275",
+      "patient_id": "1389.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "276",
+      "patient_id": "5087.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "277",
+      "patient_id": "6211.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "278",
+      "patient_id": "1202.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "279",
+      "patient_id": "437.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "280",
+      "patient_id": "2493.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "283",
+      "patient_id": "4715.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "284",
+      "patient_id": "3192.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "285",
+      "patient_id": "7744.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "286",
+      "patient_id": "6410.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "288",
+      "patient_id": "6335.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "289",
+      "patient_id": "5489.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "291",
+      "patient_id": "4830.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "294",
+      "patient_id": "5818.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "296",
+      "patient_id": "7614.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "297",
+      "patient_id": "4845.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "300",
+      "patient_id": "3974.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "301",
+      "patient_id": "3830.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "302",
+      "patient_id": "2632.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "304",
+      "patient_id": "2367.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "306",
+      "patient_id": "3242.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "307",
+      "patient_id": "6348.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "308",
+      "patient_id": "640.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "309",
+      "patient_id": "6590.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "310",
+      "patient_id": "1316.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "311",
+      "patient_id": "4302.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "313",
+      "patient_id": "1110.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "314",
+      "patient_id": "4113.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "315",
+      "patient_id": "1671.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "316",
+      "patient_id": "380.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "319",
+      "patient_id": "1318.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "321",
+      "patient_id": "4188.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "322",
+      "patient_id": "5115.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "323",
+      "patient_id": "3825.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "324",
+      "patient_id": "6044.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "325",
+      "patient_id": "636.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "329",
+      "patient_id": "3746.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "330",
+      "patient_id": "4807.0",
+      "strat_fold": "1",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "331",
+      "patient_id": "3023.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "332",
+      "patient_id": "2275.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "333",
+      "patient_id": "4417.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "335",
+      "patient_id": "3268.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "12",
+      "patient_id": "11031.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "43",
+      "patient_id": "11315.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "53",
+      "patient_id": "21409.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "71",
+      "patient_id": "15551.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "74",
+      "patient_id": "11671.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "92",
+      "patient_id": "10239.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "98",
+      "patient_id": "10804.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "108",
+      "patient_id": "11810.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "113",
+      "patient_id": "13285.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "131",
+      "patient_id": "13698.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "138",
+      "patient_id": "8727.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "194",
+      "patient_id": "20434.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "199",
+      "patient_id": "10746.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "207",
+      "patient_id": "17633.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "259",
+      "patient_id": "4776.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "261",
+      "patient_id": "3810.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "265",
+      "patient_id": "706.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "269",
+      "patient_id": "2282.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "290",
+      "patient_id": "2261.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "292",
+      "patient_id": "6581.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "305",
+      "patient_id": "3713.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "312",
+      "patient_id": "3516.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "317",
+      "patient_id": "2046.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "327",
+      "patient_id": "5017.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "328",
+      "patient_id": "6519.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "337",
+      "patient_id": "3498.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "338",
+      "patient_id": "7479.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "353",
+      "patient_id": "13022.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "357",
+      "patient_id": "17283.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "367",
+      "patient_id": "17549.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "376",
+      "patient_id": "11674.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "394",
+      "patient_id": "9198.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "9",
+      "patient_id": "18792.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "38",
+      "patient_id": "17076.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "40",
+      "patient_id": "19501.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "57",
+      "patient_id": "16063.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "59",
+      "patient_id": "19475.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "63",
+      "patient_id": "15265.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "65",
+      "patient_id": "19170.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "75",
+      "patient_id": "18502.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "76",
+      "patient_id": "21214.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "79",
+      "patient_id": "17529.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "93",
+      "patient_id": "10029.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "100",
+      "patient_id": "21404.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "112",
+      "patient_id": "19832.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "115",
+      "patient_id": "11591.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "116",
+      "patient_id": "19695.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "117",
+      "patient_id": "16747.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "128",
+      "patient_id": "17735.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "129",
+      "patient_id": "16463.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "157",
+      "patient_id": "8131.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "160",
+      "patient_id": "13470.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "162",
+      "patient_id": "9780.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "167",
+      "patient_id": "16774.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "172",
+      "patient_id": "20766.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "175",
+      "patient_id": "21114.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "180",
+      "patient_id": "15592.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "201",
+      "patient_id": "19208.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "203",
+      "patient_id": "11070.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "208",
+      "patient_id": "8309.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "210",
+      "patient_id": "16062.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "218",
+      "patient_id": "13925.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "240",
+      "patient_id": "9601.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "241",
+      "patient_id": "14702.0",
+      "strat_fold": "10",
+      "split": "test"
+    }
+  ],
+  "sheets_generated": 256,
+  "configuration_evaluation": [
+    {
+      "config": [
+        11,
+        "raw"
+      ],
+      "fit": {
+        "sheets": 16,
+        "tp": 64,
+        "fp": 25,
+        "fn": 128,
+        "precision": 0.7191011235955056,
+        "recall": 0.3333333333333333,
+        "complete_sheets": 0
+      },
+      "selection": {
+        "sheets": 8,
+        "tp": 26,
+        "fp": 20,
+        "fn": 70,
+        "precision": 0.5652173913043478,
+        "recall": 0.2708333333333333,
+        "complete_sheets": 0
+      }
+    },
+    {
+      "config": [
+        11,
+        "max-rgb"
+      ],
+      "fit": {
+        "sheets": 16,
+        "tp": 119,
+        "fp": 40,
+        "fn": 73,
+        "precision": 0.7484276729559748,
+        "recall": 0.6197916666666666,
+        "complete_sheets": 0
+      },
+      "selection": {
+        "sheets": 8,
+        "tp": 59,
+        "fp": 21,
+        "fn": 37,
+        "precision": 0.7375,
+        "recall": 0.6145833333333334,
+        "complete_sheets": 0
+      }
+    },
+    {
+      "config": [
+        6,
+        "max-rgb"
+      ],
+      "fit": {
+        "sheets": 16,
+        "tp": 128,
+        "fp": 62,
+        "fn": 64,
+        "precision": 0.6736842105263158,
+        "recall": 0.6666666666666666,
+        "complete_sheets": 0
+      },
+      "selection": {
+        "sheets": 8,
+        "tp": 57,
+        "fp": 33,
+        "fn": 39,
+        "precision": 0.6333333333333333,
+        "recall": 0.59375,
+        "complete_sheets": 0
+      }
+    }
+  ],
+  "selected_config": [
+    11,
+    "max-rgb"
+  ],
+  "test": {
+    "sheets": 32,
+    "tp": 233,
+    "fp": 73,
+    "fn": 151,
+    "precision": 0.761437908496732,
+    "recall": 0.6067708333333334,
+    "complete_sheets": 0
+  },
+  "test_rows": [
+    {
+      "true_positive": 11,
+      "false_positive": 2,
+      "false_negative": 1,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            398,
+            36,
+            410,
+            71
+          ],
+          "confidence": 95.600899
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            547,
+            40,
+            549,
+            66
+          ],
+          "confidence": 95.874512
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            758,
+            245,
+            790,
+            264
+          ],
+          "confidence": 69.840706
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            69,
+            478,
+            87,
+            497
+          ],
+          "confidence": 77.756134
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            758,
+            478,
+            791,
+            497
+          ],
+          "confidence": 83.686615
+        },
+        {
+          "lead": "III",
+          "bbox": [
+            69,
+            711,
+            98,
+            730
+          ],
+          "confidence": 65.129166
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            758,
+            711,
+            792,
+            730
+          ],
+          "confidence": 90.22953
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            69,
+            944,
+            122,
+            963
+          ],
+          "confidence": 91.908875
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            758,
+            944,
+            792,
+            963
+          ],
+          "confidence": 74.457123
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            69,
+            1177,
+            119,
+            1196
+          ],
+          "confidence": 92.295341
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            758,
+            1177,
+            792,
+            1196
+          ],
+          "confidence": 91.88784
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            69,
+            1410,
+            119,
+            1429
+          ],
+          "confidence": 91.069077
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            758,
+            1410,
+            792,
+            1429
+          ],
+          "confidence": 94.520592
+        }
+      ],
+      "ecg_id": "9",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 12,
+      "detections": [],
+      "ecg_id": "38",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 10,
+      "false_positive": 2,
+      "false_negative": 2,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            375,
+            40,
+            378,
+            66
+          ],
+          "confidence": 96.21711
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            515,
+            40,
+            518,
+            66
+          ],
+          "confidence": 96.638466
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            758,
+            302,
+            790,
+            321
+          ],
+          "confidence": 91.256493
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            525,
+            81,
+            544
+          ],
+          "confidence": 55.285179
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            758,
+            525,
+            790,
+            544
+          ],
+          "confidence": 91.463646
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            758,
+            749,
+            791,
+            768
+          ],
+          "confidence": 81.425888
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            69,
+            973,
+            119,
+            992
+          ],
+          "confidence": 90.839371
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            758,
+            973,
+            791,
+            992
+          ],
+          "confidence": 76.978989
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            69,
+            1196,
+            116,
+            1215
+          ],
+          "confidence": 92.737442
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            758,
+            1196,
+            790,
+            1215
+          ],
+          "confidence": 70.586655
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            69,
+            1420,
+            116,
+            1439
+          ],
+          "confidence": 90.666069
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            758,
+            1420,
+            791,
+            1439
+          ],
+          "confidence": 86.171997
+        }
+      ],
+      "ecg_id": "40",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 11,
+      "false_positive": 2,
+      "false_negative": 1,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            450,
+            40,
+            452,
+            69
+          ],
+          "confidence": 96.968582
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            604,
+            40,
+            606,
+            69
+          ],
+          "confidence": 96.58889
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            489,
+            205,
+            549,
+            226
+          ],
+          "confidence": 92.763496
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            908,
+            205,
+            943,
+            226
+          ],
+          "confidence": 81.594711
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            1328,
+            205,
+            1366,
+            226
+          ],
+          "confidence": 79.056587
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            551,
+            89,
+            572
+          ],
+          "confidence": 92.97435
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            489,
+            551,
+            545,
+            572
+          ],
+          "confidence": 91.647972
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            908,
+            551,
+            945,
+            572
+          ],
+          "confidence": 88.310669
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            1328,
+            551,
+            1365,
+            572
+          ],
+          "confidence": 87.611847
+        },
+        {
+          "lead": "III",
+          "bbox": [
+            70,
+            897,
+            101,
+            918
+          ],
+          "confidence": 65.629578
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            489,
+            897,
+            545,
+            918
+          ],
+          "confidence": 90.472984
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            908,
+            897,
+            945,
+            918
+          ],
+          "confidence": 92.686371
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            1328,
+            897,
+            1366,
+            918
+          ],
+          "confidence": 82.162094
+        }
+      ],
+      "ecg_id": "57",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 9,
+      "false_positive": 5,
+      "false_negative": 3,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            331,
+            35,
+            343,
+            66
+          ],
+          "confidence": 94.99205
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            449,
+            39,
+            451,
+            61
+          ],
+          "confidence": 94.800308
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            758,
+            275,
+            785,
+            291
+          ],
+          "confidence": 75.170944
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            758,
+            503,
+            785,
+            519
+          ],
+          "confidence": 74.396141
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            731,
+            85,
+            747
+          ],
+          "confidence": 49.948696
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            758,
+            731,
+            785,
+            747
+          ],
+          "confidence": 53.576603
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            69,
+            959,
+            111,
+            975
+          ],
+          "confidence": 92.89489
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            758,
+            959,
+            785,
+            975
+          ],
+          "confidence": 92.192917
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            69,
+            1187,
+            108,
+            1203
+          ],
+          "confidence": 82.200592
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            758,
+            1187,
+            785,
+            1203
+          ],
+          "confidence": 79.397766
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            1123,
+            1257,
+            1179,
+            1317
+          ],
+          "confidence": 34.905075
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            1359,
+            1254,
+            1422,
+            1317
+          ],
+          "confidence": 16.057823
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            69,
+            1415,
+            109,
+            1431
+          ],
+          "confidence": 90.457985
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            758,
+            1415,
+            785,
+            1431
+          ],
+          "confidence": 93.719498
+        }
+      ],
+      "ecg_id": "59",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 2,
+      "false_positive": 0,
+      "false_negative": 10,
+      "detections": [
+        {
+          "lead": "V4",
+          "bbox": [
+            1328,
+            204,
+            1364,
+            224
+          ],
+          "confidence": 85.356583
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            1328,
+            897,
+            1363,
+            917
+          ],
+          "confidence": 94.849915
+        }
+      ],
+      "ecg_id": "63",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 10,
+      "false_positive": 3,
+      "false_negative": 2,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            422,
+            40,
+            425,
+            67
+          ],
+          "confidence": 96.923843
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            566,
+            40,
+            569,
+            67
+          ],
+          "confidence": 96.55349
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            758,
+            269,
+            791,
+            289
+          ],
+          "confidence": 78.87571
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            69,
+            498,
+            88,
+            518
+          ],
+          "confidence": 64.971817
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            758,
+            498,
+            793,
+            518
+          ],
+          "confidence": 88.75927
+        },
+        {
+          "lead": "III",
+          "bbox": [
+            69,
+            727,
+            98,
+            747
+          ],
+          "confidence": 53.075447
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            758,
+            727,
+            793,
+            747
+          ],
+          "confidence": 94.541344
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            69,
+            956,
+            125,
+            976
+          ],
+          "confidence": 90.934875
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            758,
+            956,
+            794,
+            976
+          ],
+          "confidence": 85.233215
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            69,
+            1185,
+            121,
+            1205
+          ],
+          "confidence": 91.844894
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            758,
+            1185,
+            793,
+            1205
+          ],
+          "confidence": 94.423965
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            69,
+            1414,
+            122,
+            1434
+          ],
+          "confidence": 90.885574
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            758,
+            1414,
+            794,
+            1434
+          ],
+          "confidence": 93.679428
+        }
+      ],
+      "ecg_id": "65",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 10,
+      "false_positive": 6,
+      "false_negative": 2,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            378,
+            36,
+            391,
+            71
+          ],
+          "confidence": 94.958252
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            516,
+            40,
+            519,
+            66
+          ],
+          "confidence": 96.007507
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            489,
+            306,
+            539,
+            325
+          ],
+          "confidence": 90.882378
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            908,
+            306,
+            940,
+            325
+          ],
+          "confidence": 84.241821
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            1328,
+            306,
+            1360,
+            325
+          ],
+          "confidence": 76.581635
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            618,
+            81,
+            637
+          ],
+          "confidence": 39.026585
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            489,
+            618,
+            535,
+            637
+          ],
+          "confidence": 89.154976
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            908,
+            618,
+            940,
+            637
+          ],
+          "confidence": 84.928253
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            1328,
+            618,
+            1360,
+            637
+          ],
+          "confidence": 89.77063
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            1418,
+            718,
+            1488,
+            785
+          ],
+          "confidence": 23.263412
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            1580,
+            720,
+            1598,
+            786
+          ],
+          "confidence": 95.397499
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            931,
+            88,
+            950
+          ],
+          "confidence": 31.750168
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            489,
+            931,
+            536,
+            950
+          ],
+          "confidence": 91.036148
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            908,
+            931,
+            940,
+            950
+          ],
+          "confidence": 70.442642
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            1328,
+            931,
+            1360,
+            950
+          ],
+          "confidence": 89.542572
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            1412,
+            1040,
+            1445,
+            1119
+          ],
+          "confidence": 26.707558
+        }
+      ],
+      "ecg_id": "75",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 11,
+      "false_positive": 3,
+      "false_negative": 1,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            412,
+            40,
+            414,
+            69
+          ],
+          "confidence": 95.317863
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            568,
+            40,
+            570,
+            69
+          ],
+          "confidence": 95.430237
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            758,
+            252,
+            794,
+            273
+          ],
+          "confidence": 83.978806
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            71,
+            484,
+            83,
+            505
+          ],
+          "confidence": 47.588188
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            758,
+            484,
+            794,
+            505
+          ],
+          "confidence": 82.903992
+        },
+        {
+          "lead": "III",
+          "bbox": [
+            71,
+            716,
+            91,
+            737
+          ],
+          "confidence": 50.021774
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            758,
+            716,
+            794,
+            737
+          ],
+          "confidence": 69.033722
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            70,
+            948,
+            125,
+            969
+          ],
+          "confidence": 92.630302
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            758,
+            948,
+            795,
+            969
+          ],
+          "confidence": 85.258003
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            1143,
+            1024,
+            1182,
+            1080
+          ],
+          "confidence": 54.895435
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            70,
+            1180,
+            122,
+            1201
+          ],
+          "confidence": 92.833992
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            758,
+            1180,
+            794,
+            1201
+          ],
+          "confidence": 81.653366
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            70,
+            1412,
+            121,
+            1433
+          ],
+          "confidence": 92.688438
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            758,
+            1412,
+            795,
+            1433
+          ],
+          "confidence": 89.941689
+        }
+      ],
+      "ecg_id": "76",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 3,
+      "false_positive": 1,
+      "false_negative": 9,
+      "detections": [
+        {
+          "lead": "V4",
+          "bbox": [
+            1327,
+            175,
+            1361,
+            193
+          ],
+          "confidence": 87.808418
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            1338,
+            320,
+            1386,
+            372
+          ],
+          "confidence": 66.844749
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            1327,
+            531,
+            1360,
+            549
+          ],
+          "confidence": 95.653854
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            1327,
+            887,
+            1361,
+            905
+          ],
+          "confidence": 94.527466
+        }
+      ],
+      "ecg_id": "79",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 8,
+      "false_positive": 3,
+      "false_negative": 4,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            378,
+            36,
+            391,
+            71
+          ],
+          "confidence": 94.958252
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            516,
+            40,
+            519,
+            66
+          ],
+          "confidence": 96.007507
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            758,
+            168,
+            790,
+            187
+          ],
+          "confidence": 76.264771
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            414,
+            81,
+            433
+          ],
+          "confidence": 28.733643
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            758,
+            414,
+            790,
+            433
+          ],
+          "confidence": 83.688126
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            660,
+            88,
+            679
+          ],
+          "confidence": 28.985916
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            69,
+            906,
+            119,
+            925
+          ],
+          "confidence": 90.721672
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            69,
+            1152,
+            115,
+            1171
+          ],
+          "confidence": 89.934296
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            758,
+            1152,
+            790,
+            1171
+          ],
+          "confidence": 86.829056
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            69,
+            1398,
+            116,
+            1417
+          ],
+          "confidence": 89.296524
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            758,
+            1398,
+            790,
+            1417
+          ],
+          "confidence": 88.205544
+        }
+      ],
+      "ecg_id": "93",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 10,
+      "false_positive": 3,
+      "false_negative": 2,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            375,
+            40,
+            378,
+            66
+          ],
+          "confidence": 96.21711
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            515,
+            40,
+            518,
+            66
+          ],
+          "confidence": 96.638466
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            489,
+            234,
+            539,
+            253
+          ],
+          "confidence": 91.572632
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            908,
+            234,
+            940,
+            253
+          ],
+          "confidence": 92.092857
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            1328,
+            234,
+            1361,
+            253
+          ],
+          "confidence": 77.562874
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            570,
+            81,
+            589
+          ],
+          "confidence": 58.258701
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            489,
+            570,
+            536,
+            589
+          ],
+          "confidence": 92.913925
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            908,
+            570,
+            940,
+            589
+          ],
+          "confidence": 93.823219
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            1328,
+            570,
+            1360,
+            589
+          ],
+          "confidence": 67.43634
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            907,
+            88,
+            926
+          ],
+          "confidence": 34.781898
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            489,
+            907,
+            536,
+            926
+          ],
+          "confidence": 91.135468
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            908,
+            907,
+            941,
+            926
+          ],
+          "confidence": 81.936607
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            1328,
+            907,
+            1361,
+            926
+          ],
+          "confidence": 75.322067
+        }
+      ],
+      "ecg_id": "100",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 10,
+      "false_positive": 3,
+      "false_negative": 2,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            437,
+            40,
+            439,
+            68
+          ],
+          "confidence": 96.4589
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            586,
+            40,
+            588,
+            68
+          ],
+          "confidence": 94.983276
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            758,
+            224,
+            792,
+            244
+          ],
+          "confidence": 59.267651
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            69,
+            460,
+            89,
+            480
+          ],
+          "confidence": 61.533566
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            758,
+            460,
+            793,
+            480
+          ],
+          "confidence": 93.290031
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            69,
+            697,
+            100,
+            717
+          ],
+          "confidence": 67.099823
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            758,
+            697,
+            794,
+            717
+          ],
+          "confidence": 90.232674
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            69,
+            934,
+            127,
+            954
+          ],
+          "confidence": 92.350151
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            758,
+            934,
+            794,
+            954
+          ],
+          "confidence": 87.859566
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            69,
+            1170,
+            123,
+            1190
+          ],
+          "confidence": 91.918419
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            758,
+            1170,
+            794,
+            1190
+          ],
+          "confidence": 91.833092
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            69,
+            1407,
+            123,
+            1427
+          ],
+          "confidence": 91.506958
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            758,
+            1407,
+            794,
+            1427
+          ],
+          "confidence": 94.740089
+        }
+      ],
+      "ecg_id": "112",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 12,
+      "detections": [],
+      "ecg_id": "115",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 10,
+      "false_positive": 2,
+      "false_negative": 2,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            351,
+            40,
+            353,
+            64
+          ],
+          "confidence": 95.898018
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            480,
+            40,
+            482,
+            64
+          ],
+          "confidence": 95.634033
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            758,
+            270,
+            787,
+            288
+          ],
+          "confidence": 80.384918
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            498,
+            80,
+            516
+          ],
+          "confidence": 47.417427
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            758,
+            498,
+            787,
+            516
+          ],
+          "confidence": 78.298035
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            758,
+            727,
+            787,
+            745
+          ],
+          "confidence": 72.549416
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            69,
+            956,
+            115,
+            974
+          ],
+          "confidence": 92.719894
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            758,
+            956,
+            788,
+            974
+          ],
+          "confidence": 80.70697
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            69,
+            1185,
+            112,
+            1203
+          ],
+          "confidence": 92.774513
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            758,
+            1185,
+            787,
+            1203
+          ],
+          "confidence": 88.349197
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            69,
+            1414,
+            111,
+            1432
+          ],
+          "confidence": 92.365135
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            758,
+            1414,
+            788,
+            1432
+          ],
+          "confidence": 92.746979
+        }
+      ],
+      "ecg_id": "116",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 11,
+      "false_positive": 3,
+      "false_negative": 1,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            398,
+            36,
+            410,
+            71
+          ],
+          "confidence": 95.600899
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            547,
+            40,
+            549,
+            66
+          ],
+          "confidence": 95.874512
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            489,
+            190,
+            542,
+            209
+          ],
+          "confidence": 91.167625
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            908,
+            190,
+            940,
+            209
+          ],
+          "confidence": 72.553253
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            1328,
+            190,
+            1362,
+            209
+          ],
+          "confidence": 84.152954
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            69,
+            541,
+            87,
+            560
+          ],
+          "confidence": 83.3974
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            489,
+            541,
+            539,
+            560
+          ],
+          "confidence": 92.23568
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            908,
+            541,
+            941,
+            560
+          ],
+          "confidence": 86.040321
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            1328,
+            541,
+            1362,
+            560
+          ],
+          "confidence": 89.27346
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            711,
+            694,
+            715,
+            732
+          ],
+          "confidence": 74.142441
+        },
+        {
+          "lead": "III",
+          "bbox": [
+            69,
+            892,
+            98,
+            911
+          ],
+          "confidence": 66.321976
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            489,
+            892,
+            539,
+            911
+          ],
+          "confidence": 90.941727
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            908,
+            892,
+            942,
+            911
+          ],
+          "confidence": 91.103577
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            1328,
+            892,
+            1362,
+            911
+          ],
+          "confidence": 95.198227
+        }
+      ],
+      "ecg_id": "117",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 8,
+      "false_positive": 7,
+      "false_negative": 4,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            366,
+            40,
+            368,
+            63
+          ],
+          "confidence": 96.944946
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            482,
+            40,
+            484,
+            63
+          ],
+          "confidence": 95.484802
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            595,
+            397,
+            598,
+            421
+          ],
+          "confidence": 85.717102
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            70,
+            529,
+            80,
+            546
+          ],
+          "confidence": 73.943359
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            758,
+            529,
+            788,
+            546
+          ],
+          "confidence": 80.394814
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            752,
+            87,
+            769
+          ],
+          "confidence": 62.351887
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            758,
+            752,
+            788,
+            769
+          ],
+          "confidence": 90.674004
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            69,
+            975,
+            116,
+            992
+          ],
+          "confidence": 91.657104
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            758,
+            975,
+            788,
+            992
+          ],
+          "confidence": 70.935188
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            1099,
+            1040,
+            1125,
+            1092
+          ],
+          "confidence": 49.815247
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            69,
+            1198,
+            112,
+            1215
+          ],
+          "confidence": 75.837311
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            758,
+            1198,
+            788,
+            1215
+          ],
+          "confidence": 91.242043
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            921,
+            1273,
+            940,
+            1312
+          ],
+          "confidence": 53.417076
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            69,
+            1421,
+            113,
+            1438
+          ],
+          "confidence": 88.728363
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            758,
+            1421,
+            788,
+            1438
+          ],
+          "confidence": 95.019638
+        }
+      ],
+      "ecg_id": "128",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 3,
+      "false_positive": 1,
+      "false_negative": 9,
+      "detections": [
+        {
+          "lead": "V4",
+          "bbox": [
+            1328,
+            244,
+            1364,
+            265
+          ],
+          "confidence": 74.494194
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            1328,
+            578,
+            1363,
+            598
+          ],
+          "confidence": 72.401291
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            1645,
+            688,
+            1702,
+            773
+          ],
+          "confidence": 31.939796
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            1328,
+            911,
+            1364,
+            931
+          ],
+          "confidence": 86.492661
+        }
+      ],
+      "ecg_id": "129",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 6,
+      "false_positive": 2,
+      "false_negative": 6,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            346,
+            35,
+            357,
+            66
+          ],
+          "confidence": 95.499496
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            473,
+            39,
+            475,
+            61
+          ],
+          "confidence": 94.595093
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            69,
+            441,
+            85,
+            457
+          ],
+          "confidence": 69.681534
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            758,
+            441,
+            786,
+            457
+          ],
+          "confidence": 72.55397
+        },
+        {
+          "lead": "III",
+          "bbox": [
+            69,
+            681,
+            93,
+            697
+          ],
+          "confidence": 60.657822
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            758,
+            681,
+            786,
+            697
+          ],
+          "confidence": 95.166695
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            758,
+            922,
+            787,
+            938
+          ],
+          "confidence": 90.497833
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            758,
+            1402,
+            787,
+            1418
+          ],
+          "confidence": 92.965218
+        }
+      ],
+      "ecg_id": "157",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 9,
+      "false_positive": 4,
+      "false_negative": 3,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            354,
+            40,
+            356,
+            62
+          ],
+          "confidence": 96.883423
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            466,
+            40,
+            468,
+            62
+          ],
+          "confidence": 96.443291
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            489,
+            270,
+            533,
+            287
+          ],
+          "confidence": 92.97435
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            1328,
+            270,
+            1357,
+            287
+          ],
+          "confidence": 87.312241
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            594,
+            80,
+            611
+          ],
+          "confidence": 67.12532
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            489,
+            594,
+            530,
+            611
+          ],
+          "confidence": 90.707825
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            908,
+            594,
+            936,
+            611
+          ],
+          "confidence": 80.57428
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            1328,
+            594,
+            1356,
+            611
+          ],
+          "confidence": 87.51651
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            1463,
+            721,
+            1498,
+            764
+          ],
+          "confidence": 41.514168
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            918,
+            86,
+            935
+          ],
+          "confidence": 72.122047
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            489,
+            918,
+            531,
+            935
+          ],
+          "confidence": 92.461212
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            908,
+            918,
+            936,
+            935
+          ],
+          "confidence": 73.935974
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            1328,
+            918,
+            1356,
+            935
+          ],
+          "confidence": 89.529594
+        }
+      ],
+      "ecg_id": "160",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 12,
+      "detections": [],
+      "ecg_id": "162",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 0,
+      "false_positive": 1,
+      "false_negative": 12,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            1590,
+            1026,
+            1608,
+            1086
+          ],
+          "confidence": 28.523346
+        }
+      ],
+      "ecg_id": "167",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 11,
+      "false_positive": 2,
+      "false_negative": 1,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            354,
+            40,
+            356,
+            62
+          ],
+          "confidence": 96.883423
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            466,
+            40,
+            468,
+            62
+          ],
+          "confidence": 96.443291
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            758,
+            294,
+            786,
+            311
+          ],
+          "confidence": 78.259583
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            518,
+            80,
+            535
+          ],
+          "confidence": 70.394508
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            758,
+            518,
+            786,
+            535
+          ],
+          "confidence": 75.206268
+        },
+        {
+          "lead": "III",
+          "bbox": [
+            70,
+            743,
+            86,
+            760
+          ],
+          "confidence": 74.454788
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            758,
+            743,
+            786,
+            760
+          ],
+          "confidence": 78.672958
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            69,
+            968,
+            113,
+            985
+          ],
+          "confidence": 92.976212
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            758,
+            968,
+            787,
+            985
+          ],
+          "confidence": 86.556847
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            69,
+            1193,
+            110,
+            1210
+          ],
+          "confidence": 91.26165
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            758,
+            1193,
+            786,
+            1210
+          ],
+          "confidence": 87.202667
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            69,
+            1418,
+            111,
+            1435
+          ],
+          "confidence": 91.779678
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            758,
+            1418,
+            786,
+            1435
+          ],
+          "confidence": 84.714607
+        }
+      ],
+      "ecg_id": "172",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 10,
+      "false_positive": 3,
+      "false_negative": 2,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            375,
+            40,
+            378,
+            66
+          ],
+          "confidence": 96.21711
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            515,
+            40,
+            518,
+            66
+          ],
+          "confidence": 96.638466
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            489,
+            240,
+            539,
+            259
+          ],
+          "confidence": 91.084816
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            908,
+            240,
+            940,
+            259
+          ],
+          "confidence": 91.560783
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            1328,
+            240,
+            1361,
+            259
+          ],
+          "confidence": 76.680298
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            574,
+            81,
+            593
+          ],
+          "confidence": 62.958855
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            489,
+            574,
+            536,
+            593
+          ],
+          "confidence": 92.984261
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            908,
+            574,
+            940,
+            593
+          ],
+          "confidence": 92.561905
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            1328,
+            574,
+            1360,
+            593
+          ],
+          "confidence": 79.620705
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            489,
+            909,
+            536,
+            928
+          ],
+          "confidence": 91.516998
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            908,
+            909,
+            941,
+            928
+          ],
+          "confidence": 83.322823
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            1328,
+            909,
+            1361,
+            928
+          ],
+          "confidence": 86.626442
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            408,
+            1069,
+            426,
+            1105
+          ],
+          "confidence": 21.632187
+        }
+      ],
+      "ecg_id": "175",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 0,
+      "false_positive": 1,
+      "false_negative": 12,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            529,
+            40,
+            531,
+            65
+          ],
+          "confidence": 95.38929
+        }
+      ],
+      "ecg_id": "180",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 4,
+      "false_positive": 0,
+      "false_negative": 8,
+      "detections": [
+        {
+          "lead": "V1",
+          "bbox": [
+            908,
+            241,
+            940,
+            258
+          ],
+          "confidence": 85.90847
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            1328,
+            241,
+            1357,
+            258
+          ],
+          "confidence": 84.646767
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            1328,
+            575,
+            1357,
+            592
+          ],
+          "confidence": 84.542145
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            1328,
+            909,
+            1357,
+            926
+          ],
+          "confidence": 94.420334
+        }
+      ],
+      "ecg_id": "201",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 10,
+      "false_positive": 3,
+      "false_negative": 2,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            412,
+            40,
+            414,
+            69
+          ],
+          "confidence": 95.317863
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            568,
+            40,
+            570,
+            69
+          ],
+          "confidence": 95.430237
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            758,
+            179,
+            794,
+            200
+          ],
+          "confidence": 82.873734
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            71,
+            423,
+            83,
+            444
+          ],
+          "confidence": 79.049454
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            758,
+            423,
+            794,
+            444
+          ],
+          "confidence": 78.272247
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            71,
+            667,
+            91,
+            688
+          ],
+          "confidence": 55.504616
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            758,
+            667,
+            794,
+            688
+          ],
+          "confidence": 76.291397
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            70,
+            911,
+            125,
+            932
+          ],
+          "confidence": 92.314468
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            758,
+            911,
+            795,
+            932
+          ],
+          "confidence": 89.584671
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            70,
+            1155,
+            122,
+            1176
+          ],
+          "confidence": 92.877419
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            758,
+            1155,
+            794,
+            1176
+          ],
+          "confidence": 81.935959
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            70,
+            1399,
+            121,
+            1420
+          ],
+          "confidence": 92.631706
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            758,
+            1399,
+            795,
+            1420
+          ],
+          "confidence": 92.2257
+        }
+      ],
+      "ecg_id": "203",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 11,
+      "false_positive": 3,
+      "false_negative": 1,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            398,
+            36,
+            410,
+            71
+          ],
+          "confidence": 95.600899
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            547,
+            40,
+            549,
+            66
+          ],
+          "confidence": 95.874512
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            489,
+            249,
+            542,
+            268
+          ],
+          "confidence": 90.916855
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            908,
+            249,
+            940,
+            268
+          ],
+          "confidence": 66.720627
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            1328,
+            249,
+            1362,
+            268
+          ],
+          "confidence": 73.010193
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            69,
+            580,
+            87,
+            599
+          ],
+          "confidence": 75.693741
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            489,
+            580,
+            539,
+            599
+          ],
+          "confidence": 92.218994
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            908,
+            580,
+            941,
+            599
+          ],
+          "confidence": 86.438721
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            1328,
+            580,
+            1362,
+            599
+          ],
+          "confidence": 92.536316
+        },
+        {
+          "lead": "III",
+          "bbox": [
+            69,
+            912,
+            98,
+            931
+          ],
+          "confidence": 55.107121
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            489,
+            912,
+            539,
+            931
+          ],
+          "confidence": 91.622101
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            908,
+            912,
+            942,
+            931
+          ],
+          "confidence": 92.333878
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            1328,
+            912,
+            1362,
+            931
+          ],
+          "confidence": 94.420364
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            1053,
+            1054,
+            1275,
+            1103
+          ],
+          "confidence": 44.997437
+        }
+      ],
+      "ecg_id": "208",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 9,
+      "false_positive": 3,
+      "false_negative": 3,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            403,
+            41,
+            406,
+            67
+          ],
+          "confidence": 96.469139
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            533,
+            41,
+            536,
+            67
+          ],
+          "confidence": 95.768135
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            460,
+            81,
+            479
+          ],
+          "confidence": 50.863571
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            758,
+            460,
+            791,
+            479
+          ],
+          "confidence": 80.622147
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            697,
+            89,
+            716
+          ],
+          "confidence": 46.51635
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            758,
+            697,
+            791,
+            716
+          ],
+          "confidence": 85.584793
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            69,
+            934,
+            121,
+            953
+          ],
+          "confidence": 92.270889
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            758,
+            934,
+            792,
+            953
+          ],
+          "confidence": 79.867668
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            69,
+            1171,
+            117,
+            1190
+          ],
+          "confidence": 89.418365
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            758,
+            1171,
+            791,
+            1190
+          ],
+          "confidence": 90.778343
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            69,
+            1408,
+            118,
+            1427
+          ],
+          "confidence": 88.720184
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            758,
+            1408,
+            791,
+            1427
+          ],
+          "confidence": 94.62545
+        }
+      ],
+      "ecg_id": "210",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 3,
+      "false_positive": 1,
+      "false_negative": 9,
+      "detections": [
+        {
+          "lead": "V4",
+          "bbox": [
+            1328,
+            270,
+            1358,
+            288
+          ],
+          "confidence": 71.164566
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            1328,
+            594,
+            1358,
+            613
+          ],
+          "confidence": 88.580238
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            1328,
+            918,
+            1358,
+            936
+          ],
+          "confidence": 94.772675
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            1366,
+            1049,
+            1422,
+            1091
+          ],
+          "confidence": 52.312401
+        }
+      ],
+      "ecg_id": "218",
+      "layout": "4x3"
+    },
+    {
+      "true_positive": 12,
+      "false_positive": 2,
+      "false_negative": 0,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            369,
+            39,
+            371,
+            62
+          ],
+          "confidence": 96.686935
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            491,
+            39,
+            493,
+            62
+          ],
+          "confidence": 96.696793
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            69,
+            164,
+            76,
+            181
+          ],
+          "confidence": 95.907776
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            758,
+            164,
+            786,
+            181
+          ],
+          "confidence": 57.540569
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            69,
+            410,
+            85,
+            427
+          ],
+          "confidence": 75.179558
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            758,
+            410,
+            787,
+            427
+          ],
+          "confidence": 72.046005
+        },
+        {
+          "lead": "III",
+          "bbox": [
+            69,
+            657,
+            94,
+            674
+          ],
+          "confidence": 60.707275
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            758,
+            657,
+            788,
+            674
+          ],
+          "confidence": 92.134537
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            69,
+            903,
+            116,
+            920
+          ],
+          "confidence": 92.386902
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            758,
+            903,
+            789,
+            920
+          ],
+          "confidence": 78.750046
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            69,
+            1150,
+            113,
+            1167
+          ],
+          "confidence": 90.058075
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            758,
+            1150,
+            788,
+            1167
+          ],
+          "confidence": 69.351044
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            69,
+            1396,
+            113,
+            1413
+          ],
+          "confidence": 92.347397
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            758,
+            1396,
+            788,
+            1413
+          ],
+          "confidence": 93.542084
+        }
+      ],
+      "ecg_id": "240",
+      "layout": "2x6"
+    },
+    {
+      "true_positive": 11,
+      "false_positive": 2,
+      "false_negative": 1,
+      "detections": [
+        {
+          "lead": "I",
+          "bbox": [
+            354,
+            40,
+            356,
+            62
+          ],
+          "confidence": 96.883423
+        },
+        {
+          "lead": "I",
+          "bbox": [
+            466,
+            40,
+            468,
+            62
+          ],
+          "confidence": 96.443291
+        },
+        {
+          "lead": "aVR",
+          "bbox": [
+            489,
+            178,
+            533,
+            195
+          ],
+          "confidence": 92.77713
+        },
+        {
+          "lead": "V1",
+          "bbox": [
+            908,
+            178,
+            936,
+            195
+          ],
+          "confidence": 76.231743
+        },
+        {
+          "lead": "V4",
+          "bbox": [
+            1328,
+            178,
+            1357,
+            195
+          ],
+          "confidence": 85.207428
+        },
+        {
+          "lead": "II",
+          "bbox": [
+            70,
+            533,
+            80,
+            550
+          ],
+          "confidence": 67.929855
+        },
+        {
+          "lead": "aVL",
+          "bbox": [
+            489,
+            533,
+            530,
+            550
+          ],
+          "confidence": 90.968498
+        },
+        {
+          "lead": "V2",
+          "bbox": [
+            908,
+            533,
+            936,
+            550
+          ],
+          "confidence": 83.053131
+        },
+        {
+          "lead": "V5",
+          "bbox": [
+            1328,
+            533,
+            1356,
+            550
+          ],
+          "confidence": 87.976234
+        },
+        {
+          "lead": "III",
+          "bbox": [
+            70,
+            888,
+            86,
+            905
+          ],
+          "confidence": 75.914467
+        },
+        {
+          "lead": "aVF",
+          "bbox": [
+            489,
+            888,
+            531,
+            905
+          ],
+          "confidence": 92.390137
+        },
+        {
+          "lead": "V3",
+          "bbox": [
+            908,
+            888,
+            936,
+            905
+          ],
+          "confidence": 79.589111
+        },
+        {
+          "lead": "V6",
+          "bbox": [
+            1328,
+            888,
+            1356,
+            905
+          ],
+          "confidence": 87.877625
+        }
+      ],
+      "ecg_id": "241",
+      "layout": "4x3"
+    }
+  ],
+  "ocr_version": "tesseract 5.5.0",
+  "scope": "Configuration calibration of pretrained OCR; no new neural weights trained. Generated full sheets from clinical waveform records, not clinical photographs.",
+  "waveform_sha256": {
+    "records100/00000/00001_lr": "308012fb657e1eea29a86902a8576e2e173594bd16f11ec1f45c7445cec97572",
+    "records100/00000/00002_lr": "b4c507d5e9b3350743b06ed3d91a33f35474b3ef873f09e1d7183fee44837346",
+    "records100/00000/00003_lr": "8c6225e80417c1948dbab7ed263d45cf72dca02e60b55605f1664b63da313225",
+    "records100/00000/00004_lr": "2f712ca06ccccfc8078ea42d2ed14666f1735cf5114574c0e6dbcf293c72b667",
+    "records100/00000/00005_lr": "b98bea6dae737218f8dce57ad474ac0e302c492839f76500888abfc6bbb9f35f",
+    "records100/00000/00006_lr": "e7dd672327ab62a8b4ddd18f1d64206971dd2f6e241b3e1db8090f37196dba24",
+    "records100/00000/00007_lr": "b0c676a5ff8446c2e551991caa02475fd07660aee5af5c017525b124f8d17cfc",
+    "records100/00000/00011_lr": "309d05ea9bf37f6e2813f43444b52f7a240ac97fc4e4fca28ca6d6aa92b2a3e7",
+    "records100/00000/00013_lr": "dd740d47eb87b1a8c5b59e1d75829a1515d9169b79a32884ccda7a6cdfc9f959",
+    "records100/00000/00014_lr": "a57a263ab3b39a1763b857c78c1db58f82c966e69e005591ee0cd61e285be17b",
+    "records100/00000/00015_lr": "c36af7b061481e43458cc1a0f3e91d6f2fbf16b41fe1263e437f39751427e09f",
+    "records100/00000/00016_lr": "2a2c976e1f7cced72acfdba8e279f0259c3fc0a9a0e20a123d741757914958dd",
+    "records100/00000/00019_lr": "5a9e8969cb3ac3d8710abd06fcc2e378e901a1729abc671c7a0b5a65d6a85641",
+    "records100/00000/00021_lr": "d0487841bc593058b2acef95eb09c8fda09bf16c5f7761bbb036e563fa38eabb",
+    "records100/00000/00022_lr": "648d95c9aa2a9c03756aa69b69fb823f18807a66f42fa5d9ade60ebc069185a2",
+    "records100/00000/00024_lr": "176befab432b8cd9167d0e8ebb9896f7ef1317c699fcc6ba5cf330c888fc4772",
+    "records100/00000/00025_lr": "cb766c0e80fa5f08f5fb038d351d1e95aedc0c5827e978817e8d315f2d577e98",
+    "records100/00000/00027_lr": "cf8e091ae0d032fab23cdc8ca1bf983ff9b2b24fe60f60a2b3f878fac74660d3",
+    "records100/00000/00029_lr": "396de5a4201aa6fe504e0843235ae32f3402cb67e22960a7124d07e52d2d349e",
+    "records100/00000/00031_lr": "a35c1ab0885e2d40b30be16a670f8b0d32302c3c3a9389f89b484b180f779554",
+    "records100/00000/00032_lr": "7ae5cd84f8fa0e87763902f12480bcce81ab9a5429826f8baa26a0b9e9bf97bb",
+    "records100/00000/00033_lr": "8707010f73118a8691484bd9ff81e306d02538ccbf743d28d70d66f22abc1d69",
+    "records100/00000/00035_lr": "9e2b67bf3936471f2f66e7766a79c94559992e4241ae3ac441d2903ca3cbedc8",
+    "records100/00000/00036_lr": "6de1af4da1d80505b2d2efb569f23f025916cc4786d6d8c18390df191e5a0f07",
+    "records100/00000/00037_lr": "981e35464f475b2db3f09f1291d2225761f406932ab077fdd604d940b292c0b5",
+    "records100/00000/00042_lr": "bb2efbac6a9d295e3755c232b3bae177066afdc621f640f0f43fece8ab9e0884",
+    "records100/00000/00044_lr": "d3d47b55f7492f32d79629b7f6f71d7b5605f0eb8ba1a7eed36f99b6a782e875",
+    "records100/00000/00045_lr": "674fb8837e6e465fc0ec6481f0d92dcbd10fac79406029f840009c558c07eca3",
+    "records100/00000/00046_lr": "9b4b6a2d22bc00e7505a7685b821a02f1e814c8eb4437f297c04a073f8c03ec4",
+    "records100/00000/00050_lr": "b1666e9c9b7d5af2b4e9778d42cc4b7005e45903768637113d5da6229e7c66ee",
+    "records100/00000/00052_lr": "e4db80db0639272db52ce6222aa5fa3a491eb0a9855c7719711302e1ab229f24",
+    "records100/00000/00054_lr": "adb6babde51f80ced4f1b426341bd30744df084eba7af19210dffc656cb86810",
+    "records100/00000/00055_lr": "eb2edbec60018ac792535f33d66627965c39858731c5b3e2da594e488634b384",
+    "records100/00000/00058_lr": "b78534b6027f113c5e44fcf4d68f97f6f7b5a6a220aad3877e9c9985536732a0",
+    "records100/00000/00060_lr": "87bf1101b7703551500a316725716711075f2090b6b7186ec908e6a0d854f78f",
+    "records100/00000/00061_lr": "50804c3f4568095f803c93d2b4243a74a414e9dd374299eaadb14f703b79e0cc",
+    "records100/00000/00064_lr": "1a1debcd94d1135305ce476c3f5d7bf9017f9abcc07d3e47987b55b3bf5d5524",
+    "records100/00000/00066_lr": "3624659fbc4ceeb8a931ab814944832832451d966caed8695972f36e6612eb62",
+    "records100/00000/00067_lr": "c4ebd82d51d811a1cb7eb75d516c1f23ca46623fc142e5deffdb57671ca7f759",
+    "records100/00000/00068_lr": "2ada0c3c727301343150003fe6e63397de2e0f7862f44f13963fce21f83590b2",
+    "records100/00000/00070_lr": "cf6e5e83f4730b8669e1b70977a51f781251642b82666f47222db817134cfbde",
+    "records100/00000/00073_lr": "75c3373432fb5e7f51d23dacaaa36b0ed73da235bae2e50f289970d5bbe90ed3",
+    "records100/00000/00077_lr": "ca9001aabec55ef26176bd81a76d94392b3e023f93d5881ae122380fb25d5da9",
+    "records100/00000/00078_lr": "9a2eb8b84cbeb146b503a765f58c9569487ed51fe25fa78a8075cc23bf58985d",
+    "records100/00000/00080_lr": "2659d11053d219339c07440bbf396ccb66d3b92599a2c8ddcf38e9abd1988fbd",
+    "records100/00000/00081_lr": "e2b25471eaaf4410bb6a52a2918b332916d0ec0b9a1d7519384285c3814a1093",
+    "records100/00000/00082_lr": "39819432a95f5f9bee8fc2b54a1335127b4b31b3e821e9d1c68930659231b207",
+    "records100/00000/00083_lr": "43dc5018cc5f030b17f08d8b909ffda78fe947c7fca70a2d84c7a003022a987b",
+    "records100/00000/00084_lr": "283a243a3b8bcfbd33a0893bd6b755c5607d627de54b1ebc53d9b3c83faf04cc",
+    "records100/00000/00085_lr": "cebf0d01deaff996d4401e53ac389263a92b71cda5d5015ba83c10436570ff46",
+    "records100/00000/00086_lr": "6dc19d333206cd106bf93d2bcba2871b880ae079f2e9c0f8b6fe1b7751ccc05e",
+    "records100/00000/00087_lr": "3a22c92e022962a2a38b4cf15b861f6e7b91ec165bed88af79273f6d732d5b0e",
+    "records100/00000/00088_lr": "be9f91ab9060a1c90f6773f436e6a2384a25c3cbaa8a970b8470037159145817",
+    "records100/00000/00089_lr": "e4f4fdd69147561cd83a1d67c963028e3ec02c712d48e8808f2a250c9a6e0a4f",
+    "records100/00000/00090_lr": "5a99055479d28a877d5c80e6ca0771760e2fb8d683ca3560010ad43984576ea0",
+    "records100/00000/00095_lr": "b5e4c81c54830811fec3025fd441e065a95610689cea8497d00e809cd05b5cf4",
+    "records100/00000/00096_lr": "f9beda042cf016801a866980c9f367fe1f9a10395e71857fd982a2580d439cda",
+    "records100/00000/00097_lr": "686b087041d74ae91fcd9bdceefb347aea901c4fc0dc9150f492928a7e212b8a",
+    "records100/00000/00099_lr": "eccf43d3f891ce8a719fbdfb0d7c5904705e8e36e85f4b538af18abdfb0641df",
+    "records100/00000/00101_lr": "b62369b7dbeb507d00cfc893ae911101440a8338c51006f3762a24dbf30320bc",
+    "records100/00000/00102_lr": "364ac5a2ea1d24b53e6ad4c6bd853011367493278c4b3573f5b0b5a350b1e1ac",
+    "records100/00000/00103_lr": "cd2de2aa8b40ff6a5d5f23d00cb4a836ba76d694e0f2b25b5439baac32523147",
+    "records100/00000/00104_lr": "23ba73258bab77a8ec9d3d50b79b443d166ce3c9f50b340c86923e3b96a1c0ac",
+    "records100/00000/00105_lr": "2041252b7c1b550e96757467283debb2dcc34a9ee391581339f7bf1cb99e4d41",
+    "records100/00000/00106_lr": "18cf35eb94c4f3060a8e19b515b1c326bde47b9ee85c08bd715f3b8cdf49c787",
+    "records100/00000/00107_lr": "9ef39a2239940345061c51a25d123f51e8f996baf81813af3d46cbc77e02ba03",
+    "records100/00000/00109_lr": "9287be1f03fe484f70b5d88fb39c6df752d8aa73c13aacea0f42db6889efa182",
+    "records100/00000/00110_lr": "7cff67b8a805682d152bd3aeea48ab18a7640940ec81b5a128d3cbbc9d0fbff6",
+    "records100/00000/00111_lr": "c3cf19e94593d4123b2354847d5213ad5819089827a1046eb7a0ab26ece448d0",
+    "records100/00000/00114_lr": "527417f625cbe38e6285c86be95de0c118d052807afffc10d7a2caed7104c9dd",
+    "records100/00000/00118_lr": "6c085b1e21568b7c4355d0c5033a5f9c26ddbf14d4b3d7ae9142d5b0af6a5ae1",
+    "records100/00000/00120_lr": "6cb66325388b42259a1515c8fb6cae38987c7952d485ac543b9bd00c457395d0",
+    "records100/00000/00123_lr": "9eac7339fd5e69c36f0a7df60e1da0fc3473b1f5312e867b5cb81efb0d5543ff",
+    "records100/00000/00124_lr": "fb56f801d31e78fd8e8a81bdb883f0db521ad4235a5c70adc3d23e7d1aa75751",
+    "records100/00000/00125_lr": "eaa78c0641338c3410632d8fc4b3f98e990a112b52dfcd47b51885a0f227c6b4",
+    "records100/00000/00126_lr": "fae4e8af39eeabb36859a0f921fe878ec411496eedfeda7a5c5298cb6dd648b8",
+    "records100/00000/00130_lr": "43cf7cbd6faf7ec024eeba5641e3e5daccbd7c847030a931bea70babeafd8e5a",
+    "records100/00000/00133_lr": "6579c88f51780388d819b2e92546d570a0ed5dae7eb89cbd7ea80352150ca005",
+    "records100/00000/00135_lr": "b46b1db01ca979097c2f13c1f4955f8c253a11e33b284346dfdaaa1edbf33369",
+    "records100/00000/00136_lr": "0c09e4b9724ddc193d1c4e830299b39f0302eb757f7b3a87e0e4fce41fe94f72",
+    "records100/00000/00146_lr": "f530b872bb7cefd1248da637bcf18f07c190ea01b36756b1b7afc953d223966d",
+    "records100/00000/00147_lr": "95ae1518c0b2c1f50dd557be580b125936d0354dd34e48834d23a322edc3d453",
+    "records100/00000/00148_lr": "96eca94143b56cd23643cdf15a5337d0434c3453010253adf21e15bc4bd2a75b",
+    "records100/00000/00149_lr": "2f759b6d5647bf1a9f54e0de4424aa70779fa34186a2ae9d1835e864812d1332",
+    "records100/00000/00150_lr": "57b97157a38147a5cc6e27d05dc235fac1010e99f8b3859ef5047c55c3a26877",
+    "records100/00000/00154_lr": "9b970d9b5bac042b86e07a5bc8e96a3ce1bb24136d9357a05792dca8bb0a6c9a",
+    "records100/00000/00156_lr": "2031ef14c722f70124fd46bde0153a6d15338c8f9fe6f66a827becc5c8e72820",
+    "records100/00000/00158_lr": "bd5c87a96e26b472165eb93000bbb0564d165005dad1e589fddc12514d35c892",
+    "records100/00000/00159_lr": "9904344e673b8ec9ea59c42dd3eb22b57c384b4ee805d4fe8d332d2df50f5d91",
+    "records100/00000/00161_lr": "c4688e4db9e37c9a7cadaaf7553b0c65cf0405edde3fa0fe5f167225051205d7",
+    "records100/00000/00163_lr": "4b21bcdb989cca20b0b049bc965637d02cf5ab49a8a152c808916ad738bb269c",
+    "records100/00000/00164_lr": "a968630dc3e7ca61840da1784ca757acb9b6bf20bdc3ec6562e2373efe601e7b",
+    "records100/00000/00166_lr": "8ef58a2b127623b138ff24bdabe5ec3012bbf320f4d83f695fef6085d5c0e4d4",
+    "records100/00000/00168_lr": "c2834a29391a7d586482f98088add9a1ff794dd1f94417a97fa337f7612cd757",
+    "records100/00000/00169_lr": "1d962bb60d5d9016d09fe2e20901b848d86626e4d6e47ceb26d317611686cf76",
+    "records100/00000/00174_lr": "ed1fb474aaaf0b97ea8eaf25b6e05db87acb5168d956b82940af17f786bb9d9e",
+    "records100/00000/00176_lr": "38817b10b35f05ac26b78a56096601793acea1f3e1855ffcfa46f37f310026a6",
+    "records100/00000/00177_lr": "8bc06367c97f41385dc84b04c9e219b9af1f8a298cc7bd3cee981e57d3c4f67e",
+    "records100/00000/00179_lr": "9bdf9e841012bd78888ae99c44b4af662b7c7b55502bae7630728c62abf2a4b0",
+    "records100/00000/00182_lr": "bce614cdc865778fc83387878bda57806ec1df24678eb6eb3c2d4be26c850f22",
+    "records100/00000/00183_lr": "fbd3cc3449494732de6b0735147661364e51b082dcdc3112d25f4818958373e3",
+    "records100/00000/00185_lr": "bb52eb6ae6c243dafb38c19378b04ee04af2286a5663fad3491b36b148031711",
+    "records100/00000/00187_lr": "5d626d0220160cb1fed918e4ea0a4a62ed1285018b4548e44af4569bec24341d",
+    "records100/00000/00188_lr": "af7efa2dc92ce5bdb79a93eca45eac81a15256efe5ff6f96db62dab8b9231ff7",
+    "records100/00000/00191_lr": "e618f796bb6e31bfdaba6cce65821f241b883b4db3822192d47917d11a5dcd59",
+    "records100/00000/00192_lr": "1f4425c8fdd991828eb4ee67dfa295422222e9a643a7e07d73cbccf2725e0d19",
+    "records100/00000/00196_lr": "61ea5a15a6ffc31eca13c687b45ec866481b8d1fd18bf12274d5f5b4b3b3cce0",
+    "records100/00000/00197_lr": "2a4c9cebc6d64818ed81f7076fb93e52239d6212cc6bd3a1c2fbeca5c890e3b8",
+    "records100/00000/00202_lr": "74105615647d4883c83f233232966bf2ba683f59c6f5a28265ffe32a4f4ab6ad",
+    "records100/00000/00206_lr": "32abda3bc5b5db397ccfcceaa99075be95f30de7bf997b97e0ee9b383b01693d",
+    "records100/00000/00209_lr": "b33211758382a095f8599605eb1ac4afccbdbe49dae54d87d17bf275153536ec",
+    "records100/00000/00211_lr": "68b5762c3aebd794c74f2097af563a270867ec1540ea62913c4ce263cda1f273",
+    "records100/00000/00212_lr": "d91edba04aa41ae3b115292a519e982f58d07f8371afd9f2f1af2e7129d32719",
+    "records100/00000/00213_lr": "6845c4a60cada6d46e8465cbfac91f6e412fbcb59a2c88560d82bb746e35769b",
+    "records100/00000/00214_lr": "14b31998e6ee4c7c04bbefef27c8b13db6f6157b077c0c18f791bcc5faa6b3b5",
+    "records100/00000/00215_lr": "4a4d8b65a9441c4ce14723189f4c40918c26d2a47e15e8c55b9d3ea739f78e69",
+    "records100/00000/00220_lr": "770d9166bea1904e3631e477296d5ee4b0fdee3d782b02a6f97ab077152a5190",
+    "records100/00000/00221_lr": "70e467365df87f0b617957753466d5b4f88ed9ea5c98050cd6c5eb8ce1aadad7",
+    "records100/00000/00222_lr": "24aa220e331d287fe32f6431df340809b97aff08203774e4e4cc0e432d35a98e",
+    "records100/00000/00224_lr": "5e72b36583347ac8555b5198f8f5c932882c46ae229cbb63ea0834feea1d26ea",
+    "records100/00000/00225_lr": "16a2527f68cce69665728e9b90381f5541fd0e480fff99fd431dfd8abe0ec727",
+    "records100/00000/00226_lr": "5ff3e86771487b57555bce2276924e8b1e85a2cbe906db2c6ca2490f3864cf74",
+    "records100/00000/00230_lr": "5e05b5c15a4c6196250c285674828680d5ed782d768f544e3847c6181da55a07",
+    "records100/00000/00231_lr": "09c00ee0718995fa40ce1585afefa87ffcfe1ee7b86c4b47f5e4888526705cbf",
+    "records100/00000/00232_lr": "d2da6ff8ceac3596b8f8ed4a98d983d9867b33a8e206fcd99a118e52106426ca",
+    "records100/00000/00235_lr": "19f2bcfca26a44139731e57c6672cdc181a5c859a23437fc6ad1ef5fcd49dcdf",
+    "records100/00000/00236_lr": "322fc5f238129ea068c8848ef3061c648fa11a93f81123c8f275857299e46a8e",
+    "records100/00000/00237_lr": "5a9cd9a1c5cfffd45dd6db21236d0d945a0a30d2730803398f3bc79a4dbc80d4",
+    "records100/00000/00239_lr": "7757829451b46bbbcbfcb1ab0a61949cba3c4aee80a6af2d4ce4683236f43193",
+    "records100/00000/00242_lr": "d197c6a6e781bcabf89146cf4f1b073de2bfa5eb5af94ee6f4fd838da56c2acb",
+    "records100/00000/00244_lr": "7f0f439a6a68b49e3da64f004ba05201e09a5639c38d31b6e5b3dc094b9298f3",
+    "records100/00000/00247_lr": "b785a0272d7ba798085576fb5352f3ca7bffabd1bf1fc7f2185638626366ceb9",
+    "records100/00000/00248_lr": "b107f4100e087e122cc82c0eb7d676d791b4c4fcf0c1f0f6ec524abfe2662c1a",
+    "records100/00000/00249_lr": "d8a72f51cf64cccfcf103b658bd67fe4002f5361ce871dda2684293eb7767270",
+    "records100/00000/00250_lr": "a8b51b01bef3e74b936a18974cdd393ae038240d3432e4d570bbf00d97de6049",
+    "records100/00000/00251_lr": "a982bf503704ef851d496debc4e011a5cbf0199642c0be59aa287adb37bd875f",
+    "records100/00000/00253_lr": "def80ab05601461ded6576da585a190d5c8cee61f42ca4f8f5d1ea6b62013494",
+    "records100/00000/00254_lr": "253e788c5ed8ce21094f9f0d5c502be00a4b679362c897963ab5002ba491e6ca",
+    "records100/00000/00255_lr": "bc188287e97de68846a3131a64e0261b60bbcf748ec0fe03005f8c08db33bbe4",
+    "records100/00000/00256_lr": "c2bc6f7401e23136b06be1db2b5b53ef0cf369044bd70ce2163e576fec24a4d1",
+    "records100/00000/00257_lr": "017ed5c34aa7ec59d4b7fdc88ab860462129fd363fec410c1a5535195d5d4fda",
+    "records100/00000/00258_lr": "a1e9b02f80023c0744d5b003f7bc00d49afe6e017a1940fba45d0d90f5a0b7cb",
+    "records100/00000/00260_lr": "3f27a344e522fc8cedc90f184d986216c042d02477bb9f17cb00056f24bb8c05",
+    "records100/00000/00263_lr": "04a2c41c53c592cad5d0b283e4c3262d38334cb5a327f45d579973a62db709ac",
+    "records100/00000/00264_lr": "d3bf8f2d4a285e801b6f16e0a776dfc59100562825739b6ea6688623a83e84a1",
+    "records100/00000/00267_lr": "00de09f5ed907d66d37b57fe4fcc2d941d2d47f181b3c41af79c5239210aff54",
+    "records100/00000/00268_lr": "fc8003ba9070e792e45800c754f8821fc45f6da3037c4cd87a3799a4ec84af25",
+    "records100/00000/00270_lr": "22fbeab8d12b299a652440bca3cda086479b0f5fb19f4c1422bc72cfa8b75227",
+    "records100/00000/00272_lr": "0255d9cff86abb4834671fc3f4930b004384a3407f8024f4734b632728d054ae",
+    "records100/00000/00273_lr": "8421c74ee460b77cbb7552253a49acb652a1e28a98a5fab16aff840848ec43be",
+    "records100/00000/00275_lr": "d5d0fbd486c491a819e910cdecb840734303e25acef2b2278e6c508dde824f54",
+    "records100/00000/00276_lr": "b52a618fdb325063469af0722e2626a390d2b8fbbe8b1261ed6c4e275429cc02",
+    "records100/00000/00277_lr": "fd0bbcc2995d64ad8783f12185b0d6094bbd73a8c0537992240176403511a53a",
+    "records100/00000/00278_lr": "bc517d234419a1bb5e93b192be880bea491f720cc91ad592e068d5569255a0b4",
+    "records100/00000/00279_lr": "ee52fd9aa186aa8dbb24391d91bbe7131fe122eb540ff26c8ba385a05a5c35cb",
+    "records100/00000/00280_lr": "5be50c8b132263868de5f464e55584060886c6847a74547a90634dcf3fdfd4e2",
+    "records100/00000/00283_lr": "d1275057b7819ed65e3f2815320fa3b9b56fd9554a4e6b3a93d2adec86dcf6ef",
+    "records100/00000/00284_lr": "d3bbd1bf347636e8285812a487f0604b26e95388f290164fd2b3f6c531c0a84a",
+    "records100/00000/00285_lr": "7d18bd49963ef4652959756617f3aa5ddf44f06b8037be6a89bc86303cc5c63a",
+    "records100/00000/00286_lr": "2dc0c67af07225fa44f38d8a46a3bfd74f05c8f3fa390cd6bcdf916bb9c5fb17",
+    "records100/00000/00288_lr": "9562477771fbb7a7a3ed3ee5c5645bd0704bccaf2137b0bffd2c4c3c0bb38f6e",
+    "records100/00000/00289_lr": "1c269f53da6e6d1aa9ce0be750b7a9bf7b003e3ce857e2435ec3e7a5ad8ccbb4",
+    "records100/00000/00291_lr": "462373c7e5cf439dbf402426e32640442722113bb17f81a3d9e2f79fe7d2c926",
+    "records100/00000/00294_lr": "dcd02bc1f95009e70de9d9e746af9f2beb4251a42a87cb1e5fb0118818924508",
+    "records100/00000/00296_lr": "3a0c36ac12c25fed2d9701a2b05e6aecfda7213f81dee4cf436e73fc001e83c5",
+    "records100/00000/00297_lr": "74544ab5084aca388068ffc8710d9b02ecc5efc0c06fc8e975d9c2970ba56750",
+    "records100/00000/00300_lr": "5663821039aca74e2f5e1759d25e57e99fc525cbe347c8be51269ebddd0ecccb",
+    "records100/00000/00301_lr": "44137846d1b8c8377624dc8159ccd3cf673351c05e90f7986f5ec8899e4d1d52",
+    "records100/00000/00302_lr": "25b82563e8f446d5338bfca07e90ad0f9653faaa61183ce60a52a1927e8cd475",
+    "records100/00000/00304_lr": "a09142a9bbeba6c09a27b3e9f560941ebf638cf4ba66be75933424289f4b5a2d",
+    "records100/00000/00306_lr": "95acd34c2f16ec586e095e832e273ba8654562ab9676c8c7e0dbf61115e0ba3b",
+    "records100/00000/00307_lr": "531a88eb4c4b712c0ea936c929fde02ed22628bedaa84ea8d69c7ebd73f8c922",
+    "records100/00000/00308_lr": "7b40eeae8ae1633ad6651a59d5914dab62086787d52eb85872fbd7759b8c9587",
+    "records100/00000/00309_lr": "d85273f463e9155bc1b4ea95ea4c6842bfc550e1804620b7e34541ef4cadcb3f",
+    "records100/00000/00310_lr": "b51fdba52f97f76ca0b8527e945530664e0f6e1eceeebc935f59c47558b8896e",
+    "records100/00000/00311_lr": "0c3a0ab53c952f55f9e8fbf762c3f485a9679651b8854e5421cf2db420bef408",
+    "records100/00000/00313_lr": "9b7d2541795d971783e91278f3808ab404d9090cfd610e6ec2e73da34e1e2893",
+    "records100/00000/00314_lr": "924aec8a5b9af73868a5e0bab84102eb1f1f028a3c4bd6943e94c1c19aaf5506",
+    "records100/00000/00315_lr": "83ad9c87debb94f82dcd32b8833883e765c49644e1999e9ecd294104ed443bdc",
+    "records100/00000/00316_lr": "af7db7256ff00e2fdab6fe1a00ec22044df684ab2be6f351d7b6b7fc27f12db1",
+    "records100/00000/00319_lr": "a6d7b2ca0b37ca1ca18ab45bda5991bd547cf4f243a8db73856ac34c6ebc5a28",
+    "records100/00000/00321_lr": "3a57fc6f922eb26cd1c0110586f83c0b783acd4c0922d54192658a821c985de2",
+    "records100/00000/00322_lr": "b9ff8694513b717082ca35898f4ed8d9943718fa41c3659042b8dd0d510b821e",
+    "records100/00000/00323_lr": "11b7127b6ee6b0d42eb403c0ef76225a5282fa025cf6eab321a5f12631a0ecca",
+    "records100/00000/00324_lr": "6b9ba487281ade89fc2664687f37828ed68998a692196abdbccf131335a4d59c",
+    "records100/00000/00325_lr": "f2f8fd6537b041d263d741a275b492a7521e4c68b4458209eb154ffc95542b99",
+    "records100/00000/00329_lr": "0de4f11e85b713d36236948046d48025d803c46aab11bf477f591383a198d021",
+    "records100/00000/00330_lr": "0d8ded94bb94b22ee938ec20c693faf6c36595363136cf124ff20a5876fa1c28",
+    "records100/00000/00331_lr": "c43cbb9728b3a94737d7473a29ffd7131d02b70128e2a72accc755302be1aa03",
+    "records100/00000/00332_lr": "038f1b74867f36b85d3dbedd4000404bac5f759a437de64cee0bbe9d89137e0f",
+    "records100/00000/00333_lr": "c085f5ce05dcf46e1995e3c928630be835860c27faae31e059a8edae3ca5fbb5",
+    "records100/00000/00335_lr": "34d89588ee76ebb541afbad326b4ed2e36e2844136858628741cc22bd61b675e",
+    "records100/00000/00012_lr": "b9481d97343019a75a165e7469a403af4a1874973a9b1e36f3f493080d7553ba",
+    "records100/00000/00043_lr": "596d9bd02a11a258a335e492701e49ad6d9099632ada19ed25d1bf37ebd2eb7e",
+    "records100/00000/00053_lr": "671ac0230fa6d1cfa2ea771ffe633aa8c65f695ba4ad66ca1928dab2e4739478",
+    "records100/00000/00071_lr": "36ae1aafbc6b4e5e7958d743159d069ca1a130d5b668210bd9dcd0323442d6b2",
+    "records100/00000/00074_lr": "cc8e2ca5b6104c442c445929c069e5115193cdb8ed8f24608a28633c332047c1",
+    "records100/00000/00092_lr": "f99a0b5bf279dbf32fdc575cd9ef93d396c7fa274e3a4d20102b784e3d38ab8e",
+    "records100/00000/00098_lr": "7aefdcf3b3c65468b925e98504cbe63baec429f8b7699a4cda98d48fb9afce49",
+    "records100/00000/00108_lr": "d0fa45efa5ddf91960bb9652ecf1a4f2b326cc68c49ec90e465189a6a3ed6cbf",
+    "records100/00000/00113_lr": "756d112e3a79d2b58ca1ed6999370317f95ba5091520d21cd200a7b90b1bada9",
+    "records100/00000/00131_lr": "15adb897adda71bf559f63b49c03965036f251f5d572f667030d815c9e77994a",
+    "records100/00000/00138_lr": "5be5bfa33ec81be868c54b836a36c0ed4d9897b7f5e8d5929ca13edd6d5d3492",
+    "records100/00000/00194_lr": "4fcf148a43a7f908f0fa1bebef4fb8281f37f6eb7ac007ed7efcf7ced1d4a6ca",
+    "records100/00000/00199_lr": "75c6304a0284a8398928e7e0c101c7b73d57cd2bad180d7b8850f7b5dfaccd1e",
+    "records100/00000/00207_lr": "50eca85d910b330a4f2f8e69351f3622e1bc5dd02407e0328d2e442e0fcfd787",
+    "records100/00000/00259_lr": "f770c550bada4388009bd480bdcc45ed990344c9f06d08dacc92b3bf4251733a",
+    "records100/00000/00261_lr": "69dbfd30805b173171a0fe7ff16b9355512d7460ca2fc72efd146fb359a9bbca",
+    "records100/00000/00265_lr": "519a7f10e2f112f557874b736b5ca219a4d83962e55a14121e3655bda1c101b5",
+    "records100/00000/00269_lr": "f82703adcf888a616269eacc98544fea83e1ac0b70be7e8d905a4e6c7dcc0504",
+    "records100/00000/00290_lr": "8eaeb208299052aec2ee9b8727a370d70eb7a88eb8afe89941771dcba0e9009d",
+    "records100/00000/00292_lr": "e0c67f10e2752fe23147fb8755cdfd2c2db3d17f3a1dfd77dfa8425b0be67a18",
+    "records100/00000/00305_lr": "6dccd49cfebbabea89315413c3ed4a74d3ee72316ee267064f27636ba0d43c5c",
+    "records100/00000/00312_lr": "c025298d50052d769180c0db735f030a8a90ca62d8be25d9d650b15dd3dcd647",
+    "records100/00000/00317_lr": "7e82f5c606f1a8db533374331b6026b8835c5d4dbc19d8f3389b0cf1c5b637fa",
+    "records100/00000/00327_lr": "792e822ca2053f3818144170aa466f62cf8a4117b1be3905024ebbe61f50799c",
+    "records100/00000/00328_lr": "cf04f2a9c0beeb64cb7037d6da38cf1f3bfdfcc12a20b526ae75bf597bfe0b6d",
+    "records100/00000/00337_lr": "a74446ec6ad1e9415ef67ea6ee4e46c0cf6b3d5c5f14be97487ce2b950785c91",
+    "records100/00000/00338_lr": "6c3e03b946afb4e36b49130f1960666d407ea40306d317c22ff6c3ece474e1f0",
+    "records100/00000/00353_lr": "9a7a3f54c5b100b34112bcf44a69907cd9355e6c528cc63fbc1c909d00e5d34b",
+    "records100/00000/00357_lr": "a8f5fc5c89393d064f7173784d82718a3acb5d35d54a7a9fd7a14f39376ec188",
+    "records100/00000/00367_lr": "cb4cf589c2375c741be5ffa35464fc7a50e565e71e8f34fde64f43276adc15a9",
+    "records100/00000/00376_lr": "8b495f130ba5a56df0a8a35f68f6c44549696ae1c2f7b46f2306b847d9b9dde0",
+    "records100/00000/00394_lr": "30e3cf36b3a73c1c6a43cd883c4eeab286b1e5ec72dfa69a7c8cebc1b5239879",
+    "records100/00000/00009_lr": "025d88dbe60416c6658a514a5f7250f718c99da4c8acc2b989ed81c8cee865e8",
+    "records100/00000/00038_lr": "d64485a78a31d5fd78f8827f37f6cad86e1cf2a100846419155b854d9f6995d1",
+    "records100/00000/00040_lr": "d0aee7c8e117c8c7ebd522630d3394f26216aa7990cff426424823bdf72b1b05",
+    "records100/00000/00057_lr": "5385b62d6425b520426a229d6824d6822b2735bc3c6e8cfa068696eca332e9a7",
+    "records100/00000/00059_lr": "27d455341c7e6e245534e40dcd4846aca9415815b57e245c318c97753cb9b667",
+    "records100/00000/00063_lr": "e0c8d66321e98237a32a093fcfb576bcf0ec4da945d999554018c51c4a14773c",
+    "records100/00000/00065_lr": "cc27be752c3f702364dcf4089070077e79285ddfb76c8d42aea632d74ef23935",
+    "records100/00000/00075_lr": "27d565d832ae120b01542dc885b0d29a650f5c5901723994289749c86e098748",
+    "records100/00000/00076_lr": "280211105a509ca51258d380560eeeb92e70c30371b58c1bf58d9ba4df0e4f92",
+    "records100/00000/00079_lr": "e33a080cf1aa74d2e4b41cc8415d37577b0e54f94c5a69e2d8c443143816e369",
+    "records100/00000/00093_lr": "05d43f4d4eab51fbe4fba42ecd018932168b922a3f276177c381362dc8e99e6f",
+    "records100/00000/00100_lr": "a6b44892bd325d06a2cdb39335fce3939997b05d664d1b26692af48f81c64911",
+    "records100/00000/00112_lr": "70c8d85e37e26c25f837186512b095b12ae4a383fbe2e9c8f149fc3be3f87a7d",
+    "records100/00000/00115_lr": "4b2ad097914c48544742f9c328d299b77cb46478579aa466f12d8947e815aee1",
+    "records100/00000/00116_lr": "31f5c6de8d5933fd01adf4bafe0ba3c2ea26da6a6644d9125bbddc2991fdad7e",
+    "records100/00000/00117_lr": "0caa8a19848f5c556d18d5fcd97fdde64331cadeecff79b8394fcbf70efa171e",
+    "records100/00000/00128_lr": "c987d6c32b442da7243c0d848492a81146ea8a15b1a06572890bb919d46a960c",
+    "records100/00000/00129_lr": "2badbdbdd47d6f99cea165f083b168152e07f931d56d6949a3666d4c9442a009",
+    "records100/00000/00157_lr": "9df3b0e0c18ae0ca709a2d56d6c2414ca4fb5b94431e2a0fad79d50adff222c7",
+    "records100/00000/00160_lr": "592c6f42f1c023b017e76631d28aa4e71f9ff07a833a9962162645699daabed8",
+    "records100/00000/00162_lr": "1ea9403048556713fc80a59625b94737fba092e77f957fc2b02f3b3135891476",
+    "records100/00000/00167_lr": "f39a063f9e06883ef6e6036d859f69942741a89972b20625ccecbd58f0a23fbd",
+    "records100/00000/00172_lr": "1b2271b34a0fd9879c2a89152b48c16d43a1cd7568d0654e0805b21dbba29c1a",
+    "records100/00000/00175_lr": "502ee9bd01898ff4421c18bfc1ae0818e489ab0fa577ed34b7e3534e63f0dd17",
+    "records100/00000/00180_lr": "4e408bd1a6f7756d036745df228bc7f0913918fae62a1b01c4c31196d48005b8",
+    "records100/00000/00201_lr": "841b663d23e094fcb7f9a4aacf69da2a8d84d8c62ed948b6af0840b2af1e557a",
+    "records100/00000/00203_lr": "7b2a4f70727a48966b467e740ced345c94a1bd5e3adc806158952572ac98ce58",
+    "records100/00000/00208_lr": "fc732d64b044bb988d0a2aef3a42a5279f30d0342148758311df5ccd2a8af7cd",
+    "records100/00000/00210_lr": "9ea4b1031e09635cb1bcf27710af139fa9fda070706759c33b754e0f789c0a37",
+    "records100/00000/00218_lr": "62efa0d5163f71a72d14c04edf200fbf876368b71fed1f127bedff06272f7761",
+    "records100/00000/00240_lr": "e0180b71930a3da1d1ec1b80ea807151edbebad379b2625f66fdae40b5b2fb1b",
+    "records100/00000/00241_lr": "9d890b9b507f6db0953a699554aeedef6f0e17b9152b25c1ded1ec9ee8a9ecf5"
+  },
+  "metadata_sha256": "7600de9c1b27d181d850b3c6038a35d7c3ddb6bb33b702e3a20252a6859d216b",
+  "license_sha256": "9a78e7f22742dde9f66ae235ec793ba2212019dc4d0ced75c4da09ced0b35fb2"
+}

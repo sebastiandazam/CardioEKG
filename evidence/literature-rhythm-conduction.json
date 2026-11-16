@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "consultedDate": "2026-11-13",
+  "scope": "Focused narrative evidence update; not a systematic review. No copied abstracts or paper bodies.",
+  "references": [
+    {
+      "id": "van-gelder-2024-af",
+      "citation": "Isabelle C Van Gelder, Michiel Rienstra, Karina V Bunting, et al. 2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS). European heart journal. 2024 Sep 29;45(36):3314-3414. doi:10.1093/eurheartj/ehae176. PMID:39210723.",
+      "doi": "10.1093/eurheartj/ehae176",
+      "pmid": "39210723",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39210723/",
+      "publicationDate": "2024 Sep 29",
+      "consultedDate": "2026-11-13",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "guideline",
+      "studyPopulation": "Adults with clinical or device-detected AF; ESC/EACTS guideline, not a diagnostic-accuracy cohort.",
+      "sourceLocator": {
+        "url": "https://academic.oup.com/eurheartj/article/45/36/3314/7738779",
+        "sections": "Sections 2, 3.1/Table 6 and 3.2; relevant publisher body sections read via Exa after PubMed metadata.",
+        "retrieval": "Exa official source body after PubMed first"
+      },
+      "mappedEntityIDs": [
+        "atrial-fibrillation",
+        "atrial-fibrillation-rvr",
+        "atrial-fibrillation-slow-response"
+      ],
+      "claimSummary": {
+        "es": "La FA clínica precisa documentación ECG; la duración mínima en monitorización ambulatoria no es un umbral universal de 30 s. La evaluación incluye comorbilidades y riesgo tromboembólico individual.",
+        "en": "Clinical AF requires ECG documentation; minimum ambulatory duration is not a universal 30-second threshold. Evaluation includes comorbidities and individual thromboembolic risk."
+      },
+      "limitations": "No ECG-only anticoagulation, cardioversion or temporal-pattern decision. Publisher retrieval was bounded to relevant body sections.",
+      "reviewedAt": "2026-11-13",
+      "population": "Adults with clinical or device-detected AF; ESC/EACTS guideline, not a diagnostic-accuracy cohort.",
+      "locator": "Sections 2, 3.1/Table 6 and 3.2; relevant publisher body sections read via Exa after PubMed metadata.",
+      "sourceUrl": "https://academic.oup.com/eurheartj/article/45/36/3314/7738779"
+    },
+    {
+      "id": "rienstra-2024-af-spotlight",
+      "citation": "Michiel Rienstra, Stylianos Tzeis, Karina V Bunting, et al. Spotlight on the 2024 ESC/EACTS management of atrial fibrillation guidelines: 10 novel key aspects. Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology. 2024 Dec 03;26(12):euae298. doi:10.1093/europace/euae298. PMID:39716733.",
+      "doi": "10.1093/europace/euae298",
+      "pmid": "39716733",
+      "pmcid": "PMC11666470",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39716733/",
+      "publicationDate": "2024 Dec 03",
+      "consultedDate": "2026-11-13",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "studyPopulation": "Adults with AF; narrative review of 2024 ESC/EACTS recommendations, no newly enrolled cohort.",
+      "sourceLocator": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11666470/",
+        "sections": "Principles of AF-CARE; Focus on oral anticoagulation; Shorter duration threshold for cardioversion.",
+        "retrieval": "Healthcare Public Data / PubMed PMC full text"
+      },
+      "mappedEntityIDs": [
+        "atrial-fibrillation",
+        "atrial-fibrillation-rvr",
+        "atrial-fibrillation-slow-response"
+      ],
+      "claimSummary": {
+        "es": "AF-CARE organiza comorbilidades, prevención tromboembólica, control de síntomas y reevaluación; el ECG breve no aporta por sí solo los datos para elegir tratamiento.",
+        "en": "AF-CARE organizes comorbidities, thromboembolism prevention, symptom control and reassessment; a brief ECG alone does not provide treatment-selection data."
+      },
+      "limitations": "Secondary guideline interpretation; treatment details are deliberately not converted to automatic ECG rules.",
+      "reviewedAt": "2026-11-13",
+      "population": "Adults with AF; narrative review of 2024 ESC/EACTS recommendations, no newly enrolled cohort.",
+      "locator": "Principles of AF-CARE; Focus on oral anticoagulation; Shorter duration threshold for cardioversion.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11666470/"
+    },
+    {
+      "id": "ungaro-2024-preexcitation",
+      "citation": "Simone Ungaro, Francesca Graziano, Sergei Bondarev, et al. Electrocardiographic Clues for Early Diagnosis of Ventricular Pre-Excitation and Non-Invasive Risk Stratification in Athletes: A Practical Guide for Sports Cardiologists. Journal of cardiovascular development and disease. 2024 Oct 14;11(10):324. doi:10.3390/jcdd11100324. PMID:39452294.",
+      "doi": "10.3390/jcdd11100324",
+      "pmid": "39452294",
+      "pmcid": "PMC11508300",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39452294/",
+      "publicationDate": "2024 Oct 14",
+      "consultedDate": "2026-11-13",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "studyPopulation": "Sports-cardiology review focused on young competitive and recreational athletes; not a general-population validation study.",
+      "sourceLocator": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11508300/",
+        "sections": "Sections 2, 4, 5 and 6: ECG features, subtle/latent pre-excitation, intermittent patterns and exercise pitfalls.",
+        "retrieval": "Healthcare Public Data / PubMed PMC full text"
+      },
+      "mappedEntityIDs": [
+        "wpw-pattern",
+        "short-pr-no-preexcitation"
+      ],
+      "claimSummary": {
+        "es": "La preexcitación puede ser sutil, con PR aparentemente normal; la fusión variable puede ocultar delta. Un registro aislado no establece el riesgo de la vía.",
+        "en": "Pre-excitation may be subtle with an apparently normal PR; variable fusion can obscure delta. One recording cannot establish pathway risk."
+      },
+      "limitations": "Athlete-specific narrative review. Its reassuring language about exercise loss is qualified by the prospective 2024 EPS-comparison study; no sport clearance is automated.",
+      "reviewedAt": "2026-11-13",
+      "population": "Sports-cardiology review focused on young competitive and recreational athletes; not a general-population validation study.",
+      "locator": "Sections 2, 4, 5 and 6: ECG features, subtle/latent pre-excitation, intermittent patterns and exercise pitfalls.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11508300/"
+    },
+    {
+      "id": "antiperovitch-2023-preexcitation",
+      "citation": "Pavel Antiperovitch, Allan Skanes, George Klein, et al. Approach to a patient with asymptomatic pre-excitation. Heart (British Cardiac Society). 2023 Jul 27;109(16):1254-1259. doi:10.1136/heartjnl-2022-321639. PMID:36990680.",
+      "doi": "10.1136/heartjnl-2022-321639",
+      "pmid": "36990680",
+      "pmcid": "PMC10423537",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36990680/",
+      "publicationDate": "2023 Jul 27",
+      "consultedDate": "2026-11-13",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "studyPopulation": "Clinical review of asymptomatic ventricular pre-excitation, primarily adult management; no new cohort.",
+      "sourceLocator": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10423537/",
+        "sections": "Non-invasive evaluation; Figure 2; concealed versus manifest accessory pathway discussion.",
+        "retrieval": "Healthcare Public Data / PubMed PMC full text"
+      },
+      "mappedEntityIDs": [
+        "wpw-pattern",
+        "short-pr-no-preexcitation",
+        "irregular-wide-complex-tachycardia"
+      ],
+      "claimSummary": {
+        "es": "La pérdida gradual de delta puede representar más conducción por el nodo AV y no prueba bloqueo de la vía; una vía oculta solo retrógrada no produce preexcitación anterógrada en el ECG.",
+        "en": "Gradual delta loss may represent greater AV-node contribution and does not prove pathway block; a retrograde-only concealed pathway does not cause antegrade ECG pre-excitation."
+      },
+      "limitations": "The review treats unequivocal abrupt loss as reassuring; the 2024 prospective referral cohort limits categorical claims that it excludes dangerous conduction.",
+      "reviewedAt": "2026-11-13",
+      "population": "Clinical review of asymptomatic ventricular pre-excitation, primarily adult management; no new cohort.",
+      "locator": "Non-invasive evaluation; Figure 2; concealed versus manifest accessory pathway discussion.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10423537/"
+    },
+    {
+      "id": "jemtren-2024-preexcitation-risk",
+      "citation": "Anette Jemtrén, Serkan Saygi, Finn Åkerström, et al. Risk assessment in patients with symptomatic and asymptomatic pre-excitation. Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology. 2024 Feb 01;26(2):euae036. doi:10.1093/europace/euae036. PMID:38363996.",
+      "doi": "10.1093/europace/euae036",
+      "pmid": "38363996",
+      "pmcid": "PMC10873488",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38363996/",
+      "publicationDate": "2024 Feb 01",
+      "consultedDate": "2026-11-13",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "prospective-cohort",
+      "studyPopulation": "164 consecutively referred patients with pre-excitation (59 asymptomatic, 105 symptomatic), exercise test followed by EPS, with isoproterenol when needed.",
+      "sourceLocator": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10873488/",
+        "sections": "Methods: Exercise stress test/Electrophysiology study; Results: EPS findings; Table 3; Limitations.",
+        "retrieval": "Healthcare Public Data / PubMed PMC full text"
+      },
+      "mappedEntityIDs": [
+        "wpw-pattern"
+      ],
+      "claimSummary": {
+        "es": "Seis de 45 pacientes con hallazgos de bajo riesgo en ejercicio tuvieron APERP/SPERRI ≤250 ms en el estudio electrofisiológico; la desaparición en ejercicio no excluye de forma absoluta conducción rápida.",
+        "en": "Six of 45 patients with low-risk exercise findings had APERP/SPERRI ≤250 ms at EPS; exercise disappearance does not categorically exclude rapid conduction."
+      },
+      "limitations": "Referral cohort and EPS surrogate, not observed sudden-death outcomes. Low-risk exercise included absent delta before exercise or abrupt loss; isoproterenol changes classification. No individual probability derived.",
+      "reviewedAt": "2026-11-13",
+      "population": "164 consecutively referred patients with pre-excitation (59 asymptomatic, 105 symptomatic), exercise test followed by EPS, with isoproterenol when needed.",
+      "locator": "Methods: Exercise stress test/Electrophysiology study; Results: EPS findings; Table 3; Limitations.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10873488/"
+    },
+    {
+      "id": "cinier-2021-bradyarrhythmias",
+      "citation": "Göksel Çinier, Sohaib Haseeb, Giorgos Bazoukis, et al. Evaluation and Management of Asymptomatic Bradyarrhythmias. Current cardiology reviews. 2021;17(1):60-67. doi:10.2174/1573403X16666200721154143. PMID:32693770.",
+      "doi": "10.2174/1573403X16666200721154143",
+      "pmid": "32693770",
+      "pmcid": "PMC8142361",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32693770/",
+      "publicationDate": "2021",
+      "consultedDate": "2026-11-13",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "studyPopulation": "Adults with asymptomatic sinus-node dysfunction or AV conduction findings, including athletes; narrative review, not a new cohort.",
+      "sourceLocator": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8142361/",
+        "sections": "Evaluation and diagnosis of asymptomatic bradyarrhythmias; Sinus node dysfunction; AV blocks.",
+        "retrieval": "Healthcare Public Data / PubMed PMC full text"
+      },
+      "mappedEntityIDs": [
+        "sinus-bradycardia",
+        "sinus-pause-sa-block",
+        "first-degree-av-block",
+        "second-degree-mobitz-i",
+        "2-to-1-av-block"
+      ],
+      "claimSummary": {
+        "es": "Frecuencia sinusal <50 lpm o pausa >3 s aisladas no bastan para disfunción sinusal. Revisar síntomas sutiles, fármacos, electrolitos, función tiroidea y respuesta al ejercicio según el caso.",
+        "en": "An isolated sinus rate <50 bpm or pause >3 s does not establish sinus-node dysfunction. Review subtle symptoms, medications, electrolytes, thyroid function and exercise response as appropriate."
+      },
+      "limitations": "Narrative synthesis. Numeric rate/pause thresholds describe findings, not pacing indications or a detector validation.",
+      "reviewedAt": "2026-11-13",
+      "population": "Adults with asymptomatic sinus-node dysfunction or AV conduction findings, including athletes; narrative review, not a new cohort.",
+      "locator": "Evaluation and diagnosis of asymptomatic bradyarrhythmias; Sinus node dysfunction; AV blocks.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8142361/"
+    },
+    {
+      "id": "glikson-2021-pacing",
+      "citation": "Michael Glikson, Jens Cosedis Nielsen, Mads Brix Kronborg, et al. 2021 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy. European heart journal. 2021 Sep 14;42(35):3427-3520. doi:10.1093/eurheartj/ehab364. PMID:34455430.",
+      "doi": "10.1093/eurheartj/ehab364",
+      "pmid": "34455430",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34455430/",
+      "publicationDate": "2021 Sep 14",
+      "consultedDate": "2026-11-13",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "guideline",
+      "studyPopulation": "Adults evaluated for bradycardia, conduction disease or pacing/CRT indications; guideline with indication-specific evidence.",
+      "sourceLocator": {
+        "url": "https://academic.oup.com/eurheartj/article/42/35/3427/6358547",
+        "sections": "Sections 4, 5.1.1, 5.2.1.1–5.2.1.4, 5.2.2.2 and 5.3; relevant publisher body sections read via Exa after PMC retrieval failure.",
+        "retrieval": "Exa official source body after PubMed first"
+      },
+      "mappedEntityIDs": [
+        "sinus-bradycardia",
+        "sinus-pause-sa-block",
+        "first-degree-av-block",
+        "second-degree-mobitz-i",
+        "second-degree-mobitz-ii",
+        "2-to-1-av-block",
+        "third-degree-av-block",
+        "atrial-fibrillation-slow-response",
+        "bifascicular-rbbb-lafb",
+        "bifascicular-rbbb-lpfb"
+      ],
+      "claimSummary": {
+        "es": "Correlacionar síntomas con bradicardia, excluir causas reversibles y distinguir bloqueo nodal/infranodal en 2:1. FA con respuesta lenta regular obliga a considerar bloqueo AV.",
+        "en": "Correlate symptoms with bradycardia, exclude reversible causes and distinguish nodal from infranodal 2:1 block. AF with a slow regular ventricular rhythm warrants evaluation for AV block."
+      },
+      "limitations": "Pacing decisions require clinician evaluation; no automatic implantation recommendation. Bounded publisher retrieval was sufficient for these sections, not the entire guideline.",
+      "reviewedAt": "2026-11-13",
+      "population": "Adults evaluated for bradycardia, conduction disease or pacing/CRT indications; guideline with indication-specific evidence.",
+      "locator": "Sections 4, 5.1.1, 5.2.1.1–5.2.1.4, 5.2.2.2 and 5.3; relevant publisher body sections read via Exa after PMC retrieval failure.",
+      "sourceUrl": "https://academic.oup.com/eurheartj/article/42/35/3427/6358547"
+    },
+    {
+      "id": "barold-2024-mobitz-ii",
+      "citation": "S Serge Barold, Bengt Herweg. Mobitz type II second-degree atrioventricular block: a commonly overdiagnosed and misinterpreted arrhythmia. Frontiers in cardiovascular medicine. 2024;11:1450705. doi:10.3389/fcvm.2024.1450705. PMID:39267806.",
+      "doi": "10.3389/fcvm.2024.1450705",
+      "pmid": "39267806",
+      "pmcid": "PMC11390567",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39267806/",
+      "publicationDate": "2024",
+      "consultedDate": "2026-11-13",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "studyPopulation": "Adults with apparent second-degree AV block; expert ECG review with illustrative tracings, no prospective diagnostic cohort.",
+      "sourceLocator": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11390567/",
+        "sections": "Contemporary definition/Table 1; Vagally mediated AV block; Concealed extrasystoles; Diagnostic pitfalls.",
+        "retrieval": "Healthcare Public Data / PubMed PMC full text"
+      },
+      "mappedEntityIDs": [
+        "second-degree-mobitz-ii",
+        "2-to-1-av-block",
+        "second-degree-mobitz-i"
+      ],
+      "claimSummary": {
+        "es": "Mobitz II exige PP estable, PR igual antes y después de una sola P bloqueada y al menos dos P conducidas consecutivas. El enlentecimiento sinusal y extrasístoles ocultas pueden simularlo; 2:1 no se subtipifica.",
+        "en": "Mobitz II requires stable PP, equal PR before and after a single blocked P, and at least two consecutive conducted P waves. Sinus slowing and concealed ectopy can mimic it; 2:1 block cannot be subtyped."
+      },
+      "limitations": "Expert definitions and examples, no validated aggregate-feature classifier. Global P/QRS ratio and PR variability cannot verify these beat-level requirements.",
+      "reviewedAt": "2026-11-13",
+      "population": "Adults with apparent second-degree AV block; expert ECG review with illustrative tracings, no prospective diagnostic cohort.",
+      "locator": "Contemporary definition/Table 1; Vagally mediated AV block; Concealed extrasystoles; Diagnostic pitfalls.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11390567/"
+    },
+    {
+      "id": "wilde-2023-brugada-challenge",
+      "citation": "Arthur A M Wilde, Ahmad S Amin, Hiroshi Morita, et al. Use, misuse, and pitfalls of the drug challenge test in the diagnosis of the Brugada syndrome. European heart journal. 2023 Jul 14;44(27):2427-2439. doi:10.1093/eurheartj/ehad295. PMID:37345279.",
+      "doi": "10.1093/eurheartj/ehad295",
+      "pmid": "37345279",
+      "pmcid": "PMC10702857",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37345279/",
+      "publicationDate": "2023 Jul 14",
+      "consultedDate": "2026-11-13",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "studyPopulation": "Patients evaluated for suspected Brugada syndrome, symptomatic and asymptomatic; expert review of sodium-channel-blocker challenge studies.",
+      "sourceLocator": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10702857/",
+        "sections": "Sensitivity and specificity; Determinants; Prognosis; Conclusions/Figure 4.",
+        "retrieval": "Healthcare Public Data / PubMed PMC full text"
+      },
+      "mappedEntityIDs": [
+        "brugada-type1",
+        "brugada-type2"
+      ],
+      "claimSummary": {
+        "es": "Un tipo 1 inducido por fármaco debe interpretarse con clínica y familia: la especificidad de la provocación es imperfecta. Un tipo 2 incidental asintomático no justifica automáticamente provocación farmacológica.",
+        "en": "Drug-induced type 1 must be interpreted with clinical and family findings: challenge specificity is imperfect. An incidental asymptomatic type 2 does not automatically justify drug provocation."
+      },
+      "limitations": "No diagnostic gold standard; challenge drugs and populations differ. Appropriateness discussion is explicitly authors' expert opinion. Testing needs a monitored specialist setting.",
+      "reviewedAt": "2026-11-13",
+      "population": "Patients evaluated for suspected Brugada syndrome, symptomatic and asymptomatic; expert review of sodium-channel-blocker challenge studies.",
+      "locator": "Sensitivity and specificity; Determinants; Prognosis; Conclusions/Figure 4.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10702857/"
+    },
+    {
+      "id": "whitaker-2023-vt",
+      "citation": "John Whitaker, Matthew J Wright, Usha Tedrow. Diagnosis and management of ventricular tachycardia. Clinical medicine (London, England). 2023 Sep;23(5):442-448. doi:10.7861/clinmed.2023-23.5.Cardio3. PMID:37775174.",
+      "doi": "10.7861/clinmed.2023-23.5.Cardio3",
+      "pmid": "37775174",
+      "pmcid": "PMC10541285",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37775174/",
+      "publicationDate": "2023 Sep",
+      "consultedDate": "2026-11-13",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "studyPopulation": "Clinical review of adults with wide-complex tachycardia and VT, with or without structural heart disease; no new accuracy cohort.",
+      "sourceLocator": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10541285/",
+        "sections": "Introduction; Diagnosis; Diagnosis of ventricular tachycardia; Acute management; official PMC body read via Exa after PMC OAI failure.",
+        "retrieval": "Exa official source body after PubMed first"
+      },
+      "mappedEntityIDs": [
+        "ventricular-tachycardia-wct",
+        "irregular-wide-complex-tachycardia"
+      ],
+      "claimSummary": {
+        "es": "La estabilidad hemodinámica no distingue TV de TSV; la irregularidad no excluye TV. Comparar ECG basal, revisar fármacos y causas metabólicas; los algoritmos pueden clasificar mal.",
+        "en": "Haemodynamic stability does not distinguish VT from SVT; irregularity does not exclude VT. Compare baseline ECG, review medications and metabolic causes; algorithms can misclassify."
+      },
+      "limitations": "Narrative review; referral/EP-derived diagnostic algorithms do not supply individual confidence. No drug choice is generated.",
+      "reviewedAt": "2026-11-13",
+      "population": "Clinical review of adults with wide-complex tachycardia and VT, with or without structural heart disease; no new accuracy cohort.",
+      "locator": "Introduction; Diagnosis; Diagnosis of ventricular tachycardia; Acute management; official PMC body read via Exa after PMC OAI failure.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10541285/"
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+[
+  {
+    "detection_metadata": {
+      "rhythmDetected": true
+    },
+    "name": "synthetic-black-padding",
+    "input_dimensions": [
+      600,
+      1050
+    ],
+    "expected_paper_percent": {
+      "left": 5,
+      "right": 95,
+      "top": 44.761904761904766,
+      "bottom": 86.66666666666667
+    },
+    "expected_trace_rows_pixels": [
+      560,
+      650,
+      740,
+      830
+    ],
+    "rhythm_detected": true,
+    "detected_paper": null,
+    "trace_evidence": null,
+    "row_alignment": [
+      {
+        "lead": "I",
+        "center_error_pixels": 413,
+        "expected_baseline_inside": false
+      },
+      {
+        "lead": "II",
+        "center_error_pixels": 418,
+        "expected_baseline_inside": false
+      },
+      {
+        "lead": "III",
+        "center_error_pixels": 422.99999999999994,
+        "expected_baseline_inside": false
+      },
+      {
+        "lead": "II-long",
+        "center_error_pixels": 428,
+        "expected_baseline_inside": false
+      }
+    ],
+    "lead_boxes_wholly_on_paper": 0,
+    "lead_centers_on_paper": 0,
+    "crops": {
+      "I": {
+        "left": 5.5,
+        "right": 26.45,
+        "top": 10.519047619047619,
+        "bottom": 17.480952380952385
+      },
+      "aVR": {
+        "left": 28.75,
+        "right": 49.7,
+        "top": 10.519047619047619,
+        "bottom": 17.480952380952385
+      },
+      "V1": {
+        "left": 52,
+        "right": 72.95,
+        "top": 10.519047619047619,
+        "bottom": 17.480952380952385
+      },
+      "V4": {
+        "left": 75.25,
+        "right": 96.2,
+        "top": 10.519047619047619,
+        "bottom": 17.480952380952385
+      },
+      "II": {
+        "left": 5.5,
+        "right": 26.45,
+        "top": 18.614285714285714,
+        "bottom": 25.576190476190476
+      },
+      "aVL": {
+        "left": 28.75,
+        "right": 49.7,
+        "top": 18.614285714285714,
+        "bottom": 25.576190476190476
+      },
+      "V2": {
+        "left": 52,
+        "right": 72.95,
+        "top": 18.614285714285714,
+        "bottom": 25.576190476190476
+      },
+      "V5": {
+        "left": 75.25,
+        "right": 96.2,
+        "top": 18.614285714285714,
+        "bottom": 25.576190476190476
+      },
+      "III": {
+        "left": 5.5,
+        "right": 26.45,
+        "top": 26.709523809523812,
+        "bottom": 33.67142857142858
+      },
+      "aVF": {
+        "left": 28.75,
+        "right": 49.7,
+        "top": 26.709523809523812,
+        "bottom": 33.67142857142858
+      },
+      "V3": {
+        "left": 52,
+        "right": 72.95,
+        "top": 26.709523809523812,
+        "bottom": 33.67142857142858
+      },
+      "V6": {
+        "left": 75.25,
+        "right": 96.2,
+        "top": 26.709523809523812,
+        "bottom": 33.67142857142858
+      },
+      "II-long": {
+        "left": 5.5,
+        "right": 96,
+        "top": 34.804761904761904,
+        "bottom": 41.766666666666666
+      }
+    }
+  },
+  {
+    "detection_metadata": {
+      "rhythmDetected": true
+    },
+    "name": "blank-paper-black-padding",
+    "input_dimensions": [
+      600,
+      1050
+    ],
+    "expected_paper_percent": {
+      "left": 5,
+      "right": 95,
+      "top": 44.761904761904766,
+      "bottom": 86.66666666666667
+    },
+    "expected_trace_rows_pixels": [],
+    "rhythm_detected": true,
+    "detected_paper": null,
+    "trace_evidence": null,
+    "row_alignment": [],
+    "lead_boxes_wholly_on_paper": 0,
+    "lead_centers_on_paper": 0,
+    "crops": {
+      "I": {
+        "left": 5.5,
+        "right": 26.45,
+        "top": 10.519047619047619,
+        "bottom": 17.480952380952385
+      },
+      "aVR": {
+        "left": 28.75,
+        "right": 49.7,
+        "top": 10.519047619047619,
+        "bottom": 17.480952380952385
+      },
+      "V1": {
+        "left": 52,
+        "right": 72.95,
+        "top": 10.519047619047619,
+        "bottom": 17.480952380952385
+      },
+      "V4": {
+        "left": 75.25,
+        "right": 96.2,
+        "top": 10.519047619047619,
+        "bottom": 17.480952380952385
+      },
+      "II": {
+        "left": 5.5,
+        "right": 26.45,
+        "top": 18.614285714285714,
+        "bottom": 25.576190476190476
+      },
+      "aVL": {
+        "left": 28.75,
+        "right": 49.7,
+        "top": 18.614285714285714,
+        "bottom": 25.576190476190476
+      },
+      "V2": {
+        "left": 52,
+        "right": 72.95,
+        "top": 18.614285714285714,
+        "bottom": 25.576190476190476
+      },
+      "V5": {
+        "left": 75.25,
+        "right": 96.2,
+        "top": 18.614285714285714,
+        "bottom": 25.576190476190476
+      },
+      "III": {
+        "left": 5.5,
+        "right": 26.45,
+        "top": 26.709523809523812,
+        "bottom": 33.67142857142858
+      },
+      "aVF": {
+        "left": 28.75,
+        "right": 49.7,
+        "top": 26.709523809523812,
+        "bottom": 33.67142857142858
+      },
+      "V3": {
+        "left": 52,
+        "right": 72.95,
+        "top": 26.709523809523812,
+        "bottom": 33.67142857142858
+      },
+      "V6": {
+        "left": 75.25,
+        "right": 96.2,
+        "top": 26.709523809523812,
+        "bottom": 33.67142857142858
+      },
+      "II-long": {
+        "left": 5.5,
+        "right": 96,
+        "top": 34.804761904761904,
+        "bottom": 41.766666666666666
+      }
+    }
+  },
+  {
+    "detection_metadata": {
+      "rhythmDetected": false
+    },
+    "name": "user-screenshot-roi",
+    "input_dimensions": [
+      520,
+      924
+    ],
+    "expected_paper_percent": {
+      "left": 0,
+      "right": 100,
+      "top": 42.532467532467535,
+      "bottom": 80.08658008658008
+    },
+    "expected_trace_rows_pixels": [
+      437,
+      523,
+      609,
+      694
+    ],
+    "rhythm_detected": false,
+    "detected_paper": null,
+    "trace_evidence": null,
+    "row_alignment": [
+      {
+        "lead": "I",
+        "center_error_pixels": 208.40947610873297,
+        "expected_baseline_inside": false
+      },
+      {
+        "lead": "II",
+        "center_error_pixels": 120.24062078058284,
+        "expected_baseline_inside": false
+      },
+      {
+        "lead": "III",
+        "center_error_pixels": 120.35001705123784,
+        "expected_baseline_inside": false
+      },
+      {
+        "lead": "II-long",
+        "center_error_pixels": 166.70600000000013,
+        "expected_baseline_inside": false
+      }
+    ],
+    "lead_boxes_wholly_on_paper": 0,
+    "lead_centers_on_paper": 8,
+    "crops": {
+      "I": {
+        "left": 5.5,
+        "right": 26.45,
+        "top": 14.132567520699896,
+        "bottom": 35.345900854033225
+      },
+      "aVR": {
+        "left": 28.75,
+        "right": 49.7,
+        "top": 14.132567520699896,
+        "bottom": 35.345900854033225
+      },
+      "V1": {
+        "left": 52,
+        "right": 72.95,
+        "top": 14.132567520699896,
+        "bottom": 35.345900854033225
+      },
+      "V4": {
+        "left": 75.25,
+        "right": 96.2,
+        "top": 14.132567520699896,
+        "bottom": 35.345900854033225
+      },
+      "II": {
+        "left": 5.5,
+        "right": 26.45,
+        "top": 36.86666666666667,
+        "bottom": 50.310688142730996
+      },
+      "aVL": {
+        "left": 28.75,
+        "right": 49.7,
+        "top": 36.86666666666667,
+        "bottom": 50.310688142730996
+      },
+      "V2": {
+        "left": 52,
+        "right": 72.95,
+        "top": 36.86666666666667,
+        "bottom": 50.310688142730996
+      },
+      "V5": {
+        "left": 75.25,
+        "right": 96.2,
+        "top": 36.86666666666667,
+        "bottom": 50.310688142730996
+      },
+      "III": {
+        "left": 5.5,
+        "right": 26.45,
+        "top": 72.06796905870951,
+        "bottom": 85.8
+      },
+      "aVF": {
+        "left": 28.75,
+        "right": 49.7,
+        "top": 72.06796905870951,
+        "bottom": 85.8
+      },
+      "V3": {
+        "left": 52,
+        "right": 72.95,
+        "top": 72.06796905870951,
+        "bottom": 85.8
+      },
+      "V6": {
+        "left": 75.25,
+        "right": 96.2,
+        "top": 72.06796905870951,
+        "bottom": 85.8
+      },
+      "II-long": {
+        "left": 5.5,
+        "right": 96,
+        "top": 86.3,
+        "bottom": 100
+      }
+    }
+  }
+]

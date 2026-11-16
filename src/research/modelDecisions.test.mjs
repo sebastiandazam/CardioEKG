@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {decodeModel} from './modelDecisions.ts';
+const bands=Object.fromEntries(['sinus','af','rbbb','lbbb'].map(k=>[k,{lower:.2,upper:.8}]));
+test('sinus rhythm and bundle block remain independent positive findings',()=>{for(const p of [[.95,.02,.93,.01],[.95,.02,.01,.93]]){const result=decodeModel(p,bands);assert.equal(result.pattern,'sinus');assert.equal(result.findings.length,2);assert.equal(result.decisions.af,'negative');}});
+test('conflicting rhythm labels do not erase supported conduction or invent normal conduction',()=>{const r=decodeModel([.95,.95,.93,.5],bands);assert.equal(r.pattern,'indeterminate');assert.equal(r.decisions.rbbb,'positive');assert.equal(r.decisions.lbbb,'indeterminate');assert.equal(decodeModel([.9,.1,.1,.1],{...bands,rbbb:{lower:-1,upper:2}}).decisions.rbbb,'unsupported');});

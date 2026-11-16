@@ -1,0 +1,113 @@
+{
+  "renderer": "Node canvas adapters; shared browser-worker source functions",
+  "regions": true,
+  "gridVerified": true,
+  "results": [
+    {
+      "lead": "I",
+      "status": "ready",
+      "code": null,
+      "seconds": 2.372925174203671,
+      "unitEvidence": "major-minor",
+      "draft": false
+    },
+    {
+      "lead": "aVR",
+      "status": "ready",
+      "code": null,
+      "seconds": 2.3781854025605584,
+      "unitEvidence": "major-minor",
+      "draft": false
+    },
+    {
+      "lead": "V1",
+      "status": "ready",
+      "code": null,
+      "seconds": 2.379160904098269,
+      "unitEvidence": "major-minor",
+      "draft": false
+    },
+    {
+      "lead": "V4",
+      "status": "failed",
+      "code": "interruptedTrace",
+      "seconds": null,
+      "unitEvidence": null,
+      "draft": false
+    },
+    {
+      "lead": "II",
+      "status": "ready",
+      "code": null,
+      "seconds": 2.370333749179195,
+      "unitEvidence": "major-minor",
+      "draft": false
+    },
+    {
+      "lead": "aVL",
+      "status": "ready",
+      "code": null,
+      "seconds": 2.3748847997372646,
+      "unitEvidence": "major-minor",
+      "draft": false
+    },
+    {
+      "lead": "V2",
+      "status": "ready",
+      "code": null,
+      "seconds": 2.3777100916429568,
+      "unitEvidence": "major-minor",
+      "draft": false
+    },
+    {
+      "lead": "V5",
+      "status": "failed",
+      "code": "interruptedTrace",
+      "seconds": null,
+      "unitEvidence": null,
+      "draft": false
+    },
+    {
+      "lead": "III",
+      "status": "ready",
+      "code": null,
+      "seconds": 2.3723330826222027,
+      "unitEvidence": "major-minor",
+      "draft": false
+    },
+    {
+      "lead": "aVF",
+      "status": "ready",
+      "code": null,
+      "seconds": 2.368977274230854,
+      "unitEvidence": "major-minor",
+      "draft": false
+    },
+    {
+      "lead": "V3",
+      "status": "ready",
+      "code": null,
+      "seconds": 2.3763294256826843,
+      "unitEvidence": "major-minor",
+      "draft": false
+    },
+    {
+      "lead": "V6",
+      "status": "failed",
+      "code": "interruptedTrace",
+      "seconds": null,
+      "unitEvidence": null,
+      "draft": false
+    },
+    {
+      "lead": "II-long",
+      "status": "ready",
+      "code": null,
+      "seconds": 10.31133433128059,
+      "unitEvidence": "major-minor",
+      "draft": false
+    }
+  ],
+  "calibrationFailures": 0,
+  "traceWarnings": 3
+}

@@ -1,0 +1,42 @@
+From: Sebastián Daza <jsebastian.daza@javeriana.edu.co>
+To: contact@openevidence.com
+Subject: Educational integration inquiry: official embedded access for CardioEKG
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Dear OpenEvidence Partnerships Team,
+
+My name is Sebastián Daza. I am a student developing CardioEKG, a personal, noncommercial educational initiative for students learning a structured review of the 12-lead ECG in Spanish and English. I am contacting you from my student email address in a personal capacity, without claiming formal endorsement by, or authority to represent, my university.
+
+The free public prototype is available at:
+https://cardioscopio-ecg.dorydaza.chatgpt.site
+
+CardioEKG is being developed as an open-source web application. It guides users through clinical context, reconstruction of authorized ECG images, signal measurements, observations for each lead, and reference cardiac anatomy with schematic conduction. We are adding a downloadable educational report that distinguishes measurement uncertainty, interpretive confidence, clinical references and the software/model version used.
+
+The project remains experimental. Our current measurement and diagnostic methods are not independently clinically validated, and we do not present it as an approved clinical device or as a substitute for professional assessment. The public edition supports simulated ECGs or authorized public teaching cases. Use of patient records in a private installation would require separate institutional authorization and validation. Images are processed locally by default; any future remote inference would require explicit consent and a separately authorized service.
+
+We would like students to consult reliable supporting evidence within the application. At present, we have not established any official OpenEvidence API, SDK or embedded integration that this project is authorized to use. We do not want to simulate OpenEvidence responses, use an unofficial wrapper or proxy, reuse third-party session credentials, or describe an ordinary hyperlink as an integrated service.
+
+Could you advise whether an official no-cost educational integration or partnership is available, and whether a small student-led project could be considered? We would appreciate clarification on:
+
+1. Whether OpenEvidence can be embedded within a third-party educational website, or accessed through an official API/SDK under an appropriate agreement.
+2. Eligibility for student users in Colombia and other countries, including any professional-verification, account or institutional requirements.
+3. Whether educational ECG questions can be submitted without ECG images, patient identifiers, clinical records or case-specific data. Our initial request is limited to generic questions about findings, interpretation methods and evidence.
+4. How citations, publication dates, clinical limitations, attribution and provider identity must be displayed, and what rights apply to including any permitted answer or citation in an educational report.
+5. Applicable authentication, privacy, retention, rate-limit, content-license and security requirements, including whether an integration may coexist with an open-source application without exposing credentials or redistributing licensed content.
+6. Whether you offer a limited educational pilot, academic access grant or another route that does not require a paid subscription or commercial contract.
+
+Our current budget is zero, and we would not initiate paid services or transmit patient material as part of this inquiry. If official access cannot be granted, we will leave the OpenEvidence integration pending rather than substituting another provider or claiming a functional integration.
+
+If a different team handles education or API partnerships, could you please forward this inquiry or direct me to the appropriate contact? I can provide a short technical overview and project evaluation plan if useful. No ECG files or patient data are attached.
+
+Thank you for considering this educational request.
+
+Kind regards,
+
+Sebastián Daza
+Student — CardioEKG educational project
+Personal, noncommercial initiative
+jsebastian.daza@javeriana.edu.co
+https://cardioscopio-ecg.dorydaza.chatgpt.site

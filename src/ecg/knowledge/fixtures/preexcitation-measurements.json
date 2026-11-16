@@ -1,0 +1,2312 @@
+{
+  "provenance": {
+    "description": "Development regressions from Python per-beat preexcitation measurements: public case218 and synthetic sinus/AF/BBB controls. Labels are separate from inference inputs. Not independent clinical validation.",
+    "engine": "ecg_analisis-v4"
+  },
+  "measurements": {
+    "218": {
+      "values": {
+        "rateBpm": 83.21775312066575,
+        "prMs": 88.5,
+        "qrsMs": 140,
+        "qtMs": 368.48832398285316,
+        "axisDeg": -21.514123495970804
+      },
+      "global": {
+        "pAxisDeg": null,
+        "tAxisDeg": null,
+        "prVariable": null,
+        "pConductedFraction": null,
+        "qrsAlternans": null,
+        "pPresent": true,
+        "preexcitation": {
+          "status": "supported",
+          "supportingLeads": [
+            "V1",
+            "II",
+            "aVL",
+            "V5",
+            "III"
+          ],
+          "limitations": [
+            "Candidatos por derivaci\u00f3n y latido, sin suponer simultaneidad; t\u00e9cnica no validada cl\u00ednicamente.",
+            "La falta de evidencia no excluye preexcitaci\u00f3n; confirmar l\u00edmites en el ECG original."
+          ]
+        }
+      },
+      "details": {
+        "I": {
+          "qrsMs": 140,
+          "jMv": -0.15278916228489267,
+          "stMv": -0.14486844284701525,
+          "rMv": 1.1756011569223872,
+          "sMv": -0.15278916228489267,
+          "tMv": -0.1584383279830815,
+          "pMv": 0.11831342462575864,
+          "noiseMv": 0.0025237481717375063,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.13477217766428376,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 80.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 3,
+              "windows": []
+            }
+          }
+        },
+        "aVR": {
+          "qrsMs": 126,
+          "jMv": 0.0923692718279238,
+          "stMv": 0.11056286123962386,
+          "rMv": 0.0923692718279238,
+          "sMv": -0.6491144173872896,
+          "tMv": -0.19707815761677192,
+          "pMv": -0.10062741305989453,
+          "noiseMv": 0.0015505440261120867,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 2.133590031800965,
+            "deltaSlurMs": null,
+            "qMv": -0.6492189060085374,
+            "qMs": null,
+            "qsComplex": true,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 105.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 3,
+              "windows": []
+            }
+          }
+        },
+        "V1": {
+          "qrsMs": 193,
+          "jMv": 0.10575254216995109,
+          "stMv": 0.2546432913698137,
+          "rMv": 0.10575254216995109,
+          "sMv": -2.7937678143349585,
+          "tMv": 0.3434094028352602,
+          "pMv": null,
+          "noiseMv": 0.002378653031676094,
+          "morphology": {
+            "stSlope": "up",
+            "prSegMv": null,
+            "tQrsRatio": 3.2472921765169427,
+            "deltaSlurMs": 53.0,
+            "qMv": -2.801529142122668,
+            "qMs": 175,
+            "qsComplex": true,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "supported",
+              "polarity": "negative",
+              "durationMs": 53.0,
+              "initialSlopeMvPerMs": -0.004621339766692671,
+              "terminalSlopeMvPerMs": -0.03947666289853834,
+              "repeatableBeats": 2,
+              "analyzedBeats": 3,
+              "windows": [
+                {
+                  "start": 0.507,
+                  "end": 0.56,
+                  "peak": 0.619,
+                  "polarity": "negative"
+                },
+                {
+                  "start": 1.307,
+                  "end": 1.36,
+                  "peak": 1.419,
+                  "polarity": "negative"
+                }
+              ]
+            }
+          }
+        },
+        "V4": {
+          "qrsMs": 125,
+          "jMv": -0.03741454289555832,
+          "stMv": 0.008819174894187952,
+          "rMv": 1.0855375395355102,
+          "sMv": -0.1988655570426694,
+          "tMv": 0.4348285690597278,
+          "pMv": 0.0954738575502682,
+          "noiseMv": 0.0030091257143315766,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.40056520684285707,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 73.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 3,
+              "windows": []
+            }
+          }
+        },
+        "II": {
+          "qrsMs": 109,
+          "jMv": -0.10893127552914308,
+          "stMv": -0.105282322155788,
+          "rMv": 0.4970668023728292,
+          "sMv": -0.10893127552914308,
+          "tMv": 0.28239634520373635,
+          "pMv": 0.09522379532181548,
+          "noiseMv": 0.002340996849598472,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.5681255393755357,
+            "deltaSlurMs": 41.0,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 60.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "supported",
+              "polarity": "positive",
+              "durationMs": 41.0,
+              "initialSlopeMvPerMs": 0.003999628642094292,
+              "terminalSlopeMvPerMs": 0.020577020054729115,
+              "repeatableBeats": 3,
+              "analyzedBeats": 3,
+              "windows": [
+                {
+                  "start": 0.301,
+                  "end": 0.335,
+                  "peak": 0.354,
+                  "polarity": "positive"
+                },
+                {
+                  "start": 1.01,
+                  "end": 1.051,
+                  "peak": 1.063,
+                  "polarity": "positive"
+                },
+                {
+                  "start": 1.743,
+                  "end": 1.785,
+                  "peak": 1.796,
+                  "polarity": "positive"
+                }
+              ]
+            }
+          }
+        },
+        "aVL": {
+          "qrsMs": 129,
+          "jMv": -0.08654381187311172,
+          "stMv": -0.10893725297647286,
+          "rMv": 1.2498482746802793,
+          "sMv": -0.08654381187311172,
+          "tMv": -0.15783116278301929,
+          "pMv": 0.09421245806143105,
+          "noiseMv": 0.002095025315112705,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.12628025815645,
+            "deltaSlurMs": 42.0,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 84.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "supported",
+              "polarity": "positive",
+              "durationMs": 42.0,
+              "initialSlopeMvPerMs": 0.011277652072679825,
+              "terminalSlopeMvPerMs": 0.031909979385887986,
+              "repeatableBeats": 3,
+              "analyzedBeats": 3,
+              "windows": [
+                {
+                  "start": 0.697,
+                  "end": 0.737,
+                  "peak": 0.768,
+                  "polarity": "positive"
+                },
+                {
+                  "start": 1.5,
+                  "end": 1.542,
+                  "peak": 1.571,
+                  "polarity": "positive"
+                },
+                {
+                  "start": 2.308,
+                  "end": 2.351,
+                  "peak": 2.379,
+                  "polarity": "positive"
+                }
+              ]
+            }
+          }
+        },
+        "V2": {
+          "qrsMs": 227,
+          "jMv": 0.5201747886487443,
+          "stMv": 0.9254360543101606,
+          "rMv": 0.5440514982093053,
+          "sMv": -4.012810478930997,
+          "tMv": 0.9289000552632795,
+          "pMv": 0.1767417808349586,
+          "noiseMv": 0.0020198338624778144,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 1.7073752362058872,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 44.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 3,
+              "windows": []
+            }
+          }
+        },
+        "V5": {
+          "qrsMs": 132,
+          "jMv": -0.05684591300713189,
+          "stMv": -0.05652244330287019,
+          "rMv": 1.9820708053598934,
+          "sMv": -0.05684591300713189,
+          "tMv": 0.3988674772962715,
+          "pMv": 0.1005782652829315,
+          "noiseMv": 0.002806588203447014,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.2012377540790463,
+            "deltaSlurMs": 65.0,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 74.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "supported",
+              "polarity": "positive",
+              "durationMs": 65.0,
+              "initialSlopeMvPerMs": 0.023099530735444372,
+              "terminalSlopeMvPerMs": 0.04901999687712154,
+              "repeatableBeats": 2,
+              "analyzedBeats": 3,
+              "windows": [
+                {
+                  "start": 0.384,
+                  "end": 0.45,
+                  "peak": 0.469,
+                  "polarity": "positive"
+                },
+                {
+                  "start": 1.145,
+                  "end": 1.209,
+                  "peak": 1.23,
+                  "polarity": "positive"
+                }
+              ]
+            }
+          }
+        },
+        "III": {
+          "qrsMs": 131,
+          "jMv": 0.03948919101208665,
+          "stMv": 0.051137696669059554,
+          "rMv": 0.03948919101208665,
+          "sMv": -1.1948887556397005,
+          "tMv": 0.24606643284551918,
+          "pMv": -0.05326687406317966,
+          "noiseMv": 0.004021275374540317,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": null,
+            "deltaSlurMs": 43.0,
+            "qMv": -1.1957821096773968,
+            "qMs": null,
+            "qsComplex": true,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 46.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "supported",
+              "polarity": "negative",
+              "durationMs": 43.0,
+              "initialSlopeMvPerMs": -0.005723365683296604,
+              "terminalSlopeMvPerMs": -0.043221621636001975,
+              "repeatableBeats": 3,
+              "analyzedBeats": 3,
+              "windows": [
+                {
+                  "start": 0.307,
+                  "end": 0.35,
+                  "peak": 0.377,
+                  "polarity": "negative"
+                },
+                {
+                  "start": 1.018,
+                  "end": 1.058,
+                  "peak": 1.088,
+                  "polarity": "negative"
+                },
+                {
+                  "start": 1.749,
+                  "end": 1.792,
+                  "peak": 1.819,
+                  "polarity": "negative"
+                }
+              ]
+            }
+          }
+        },
+        "aVF": {
+          "qrsMs": 118,
+          "jMv": -0.0344793019101366,
+          "stMv": -0.005629940309623965,
+          "rMv": 0.08547215163957476,
+          "sMv": -0.6827031101049238,
+          "tMv": 0.2738581049963888,
+          "pMv": null,
+          "noiseMv": 0.0015813675970169864,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 3.2040623728675244,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 3,
+              "windows": []
+            }
+          }
+        },
+        "V3": {
+          "qrsMs": 132,
+          "jMv": 0.023850764911526573,
+          "stMv": 0.12856969842982688,
+          "rMv": 0.8742451080603232,
+          "sMv": -1.569176711839407,
+          "tMv": 0.4676740560407134,
+          "pMv": 0.1127133039293298,
+          "noiseMv": 0.0032051206931718265,
+          "morphology": {
+            "stSlope": "up",
+            "prSegMv": null,
+            "tQrsRatio": 0.5349461515184638,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 81.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 3,
+              "windows": []
+            }
+          }
+        },
+        "V6": {
+          "qrsMs": 127,
+          "jMv": -0.06232222913028214,
+          "stMv": -0.06206078026435195,
+          "rMv": 2.0004709592983367,
+          "sMv": -0.06232222913028214,
+          "tMv": 0.3499942784293876,
+          "pMv": 0.10240096972188198,
+          "noiseMv": 0.0027559932095925525,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.17495594065116932,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 74.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 3,
+              "windows": []
+            }
+          }
+        }
+      },
+      "rhythm": {
+        "rrCv": 0.04608518707452132,
+        "beatCount": 13
+      },
+      "qtcMs": null
+    },
+    "sinus": {
+      "values": {
+        "rateBpm": 75.0,
+        "prMs": 150.0,
+        "qrsMs": 97,
+        "qtMs": 348.4826682978087,
+        "axisDeg": 46.374926195833304
+      },
+      "global": {
+        "pAxisDeg": null,
+        "tAxisDeg": null,
+        "prVariable": null,
+        "pConductedFraction": null,
+        "qrsAlternans": null,
+        "pPresent": true,
+        "preexcitation": {
+          "status": "not-supported",
+          "supportingLeads": [],
+          "limitations": [
+            "Candidatos por derivaci\u00f3n y latido, sin suponer simultaneidad; t\u00e9cnica no validada cl\u00ednicamente.",
+            "La falta de evidencia no excluye preexcitaci\u00f3n; confirmar l\u00edmites en el ECG original."
+          ]
+        }
+      },
+      "details": {
+        "I": {
+          "qrsMs": 94,
+          "jMv": -0.006897078324204042,
+          "stMv": 0.0005327215945683549,
+          "rMv": 0.7919349904417512,
+          "sMv": -0.14383396201289514,
+          "tMv": 0.2075471163000661,
+          "pMv": 0.10109670911273631,
+          "noiseMv": 5.659742029653096e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.26207595169433506,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 87.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "II": {
+          "qrsMs": 97,
+          "jMv": -0.008046128114263197,
+          "stMv": 0.0001552178099482868,
+          "rMv": 1.0990522848573159,
+          "sMv": -0.2007871939108342,
+          "tMv": 0.2903552759466944,
+          "pMv": 0.13992839325599263,
+          "noiseMv": 7.95271853870789e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.2641869544763193,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 86.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V1": {
+          "qrsMs": 90,
+          "jMv": 0.0071441199799885365,
+          "stMv": -0.0017891473234376842,
+          "rMv": 0.09507128730594565,
+          "sMv": -0.5287371456439992,
+          "tMv": -0.14137405078787033,
+          "pMv": null,
+          "noiseMv": 2.3535490459835676e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 1.4870320450476213,
+            "deltaSlurMs": null,
+            "qMv": -0.5289195252740027,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V2": {
+          "qrsMs": 65,
+          "jMv": 0.009509049426523818,
+          "stMv": -0.0019346241101664487,
+          "rMv": 0.048613820478081236,
+          "sMv": -0.27621156230651367,
+          "tMv": -0.07482461950949713,
+          "pMv": null,
+          "noiseMv": 2.7208391981006072e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": null,
+            "deltaSlurMs": null,
+            "qMv": -0.2763081441972139,
+            "qMs": null,
+            "qsComplex": true,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V3": {
+          "qrsMs": 87,
+          "jMv": -0.010968476857440925,
+          "stMv": -0.000843558186904149,
+          "rMv": 0.3953697905510047,
+          "sMv": -0.07273003844415701,
+          "tMv": 0.1028426254932843,
+          "pMv": 0.049898913619609346,
+          "noiseMv": 3.617378263224111e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.26011756070173775,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 85.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V4": {
+          "qrsMs": 95,
+          "jMv": -0.00959919799758348,
+          "stMv": 0.0005211691226305025,
+          "rMv": 0.9890141940042989,
+          "sMv": -0.1808935763653799,
+          "tMv": 0.2624885164887926,
+          "pMv": 0.12542668105074137,
+          "noiseMv": 7.315733023046369e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.2654041954909008,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 86.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V5": {
+          "qrsMs": 97,
+          "jMv": -0.008070789885447337,
+          "stMv": 0.0010006230684202245,
+          "rMv": 1.1874683470809537,
+          "sMv": -0.21631878764216167,
+          "tMv": 0.3126868007883597,
+          "pMv": 0.15104547211205527,
+          "noiseMv": 8.387866242131914e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.26332221954126983,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 86.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V6": {
+          "qrsMs": 95,
+          "jMv": -0.008748338801071925,
+          "stMv": -9.29471811375569e-05,
+          "rMv": 0.8901238568112062,
+          "sMv": -0.1628153882860263,
+          "tMv": 0.23486950022058525,
+          "pMv": 0.11338325198629376,
+          "noiseMv": 6.90350258857593e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.26386159456728353,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 86.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "III": {
+          "qrsMs": 66,
+          "jMv": -0.009340616939818547,
+          "stMv": 0.0007480841092306872,
+          "rMv": 0.3086369638969681,
+          "sMv": -0.05534195939199761,
+          "tMv": 0.0816367408058867,
+          "pMv": null,
+          "noiseMv": 3.132906656721013e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.26450733500974755,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "aVR": {
+          "qrsMs": 95,
+          "jMv": 0.00940891616888708,
+          "stMv": 0.000689924547760349,
+          "rMv": 0.17286407323459105,
+          "sMv": -0.945194004346949,
+          "tMv": -0.2480681437979531,
+          "pMv": -0.12066515707589923,
+          "noiseMv": 6.900166515645541e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 1.4350474286308401,
+            "deltaSlurMs": null,
+            "qMv": -0.9455259715967195,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 87.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "aVF": {
+          "qrsMs": 93,
+          "jMv": -0.008357185242548417,
+          "stMv": 0.0007073436527816701,
+          "rMv": 0.7038511957716431,
+          "sMv": -0.12804551646282752,
+          "tMv": 0.18595553542163828,
+          "pMv": 0.0894686867939826,
+          "noiseMv": 5.4240769916022445e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.264197228815918,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 86.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        }
+      },
+      "rhythm": null,
+      "qtcMs": 375.3915747278366
+    },
+    "af": {
+      "values": {
+        "rateBpm": 83.42245989304813,
+        "prMs": null,
+        "qrsMs": 99,
+        "qtMs": 347.9107514374597,
+        "axisDeg": null
+      },
+      "global": {
+        "pAxisDeg": null,
+        "tAxisDeg": null,
+        "prVariable": null,
+        "pConductedFraction": null,
+        "qrsAlternans": null,
+        "pPresent": null,
+        "preexcitation": {
+          "status": "not-evaluable",
+          "supportingLeads": [],
+          "limitations": [
+            "Candidatos por derivaci\u00f3n y latido, sin suponer simultaneidad; t\u00e9cnica no validada cl\u00ednicamente.",
+            "La falta de evidencia no excluye preexcitaci\u00f3n; confirmar l\u00edmites en el ECG original."
+          ]
+        }
+      },
+      "details": {
+        "I": {
+          "qrsMs": 96,
+          "jMv": -0.016329565196806454,
+          "stMv": -0.003128133414695893,
+          "rMv": 0.78503771343772,
+          "sMv": -0.14485209255759662,
+          "tMv": 0.20289757936995406,
+          "pMv": null,
+          "noiseMv": 2.003847802078487e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.25845583708514497,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-evaluable",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 0,
+              "windows": []
+            }
+          }
+        },
+        "II": {
+          "qrsMs": 99,
+          "jMv": -0.012349104868310312,
+          "stMv": -0.0022974602028130375,
+          "rMv": 1.0925643071232156,
+          "sMv": -0.20214727074002262,
+          "tMv": 0.2834856529436244,
+          "pMv": null,
+          "noiseMv": 2.479865827750756e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.259468162281503,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-evaluable",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 0,
+              "windows": []
+            }
+          }
+        },
+        "V1": {
+          "qrsMs": 88,
+          "jMv": 0.0027439928384925313,
+          "stMv": -0.0013123561932703101,
+          "rMv": 0.09799204477607679,
+          "sMv": -0.5336897370256697,
+          "tMv": -0.15390675952831942,
+          "pMv": null,
+          "noiseMv": 2.3380887690408037e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 1.5706046330599004,
+            "deltaSlurMs": null,
+            "qMv": -0.5338768481309324,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-evaluable",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 0,
+              "windows": []
+            }
+          }
+        },
+        "V2": {
+          "qrsMs": 65,
+          "jMv": 0.00904846712597846,
+          "stMv": 0.0005149527393601468,
+          "rMv": 0.05101623527966957,
+          "sMv": -0.2771096964697289,
+          "tMv": -0.08429603081436449,
+          "pMv": null,
+          "noiseMv": 2.17783457813007e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 1.6523373461851116,
+            "deltaSlurMs": null,
+            "qMv": -0.2771289913988539,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-evaluable",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 0,
+              "windows": []
+            }
+          }
+        },
+        "V3": {
+          "qrsMs": 89,
+          "jMv": -0.010299329482732161,
+          "stMv": 0.0011754112613785415,
+          "rMv": 0.39418325692400613,
+          "sMv": -0.07046853149452603,
+          "tMv": 0.09618566573547853,
+          "pMv": null,
+          "noiseMv": 2.5074226928293428e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.24401256026463344,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-evaluable",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 0,
+              "windows": []
+            }
+          }
+        },
+        "V4": {
+          "qrsMs": 98,
+          "jMv": -0.012104450725771435,
+          "stMv": -0.006220703831827669,
+          "rMv": 0.9865231847023301,
+          "sMv": -0.18259504648478248,
+          "tMv": 0.251354109555805,
+          "pMv": null,
+          "noiseMv": 2.384679190416403e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.25478783819120043,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-evaluable",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 0,
+              "windows": []
+            }
+          }
+        },
+        "V5": {
+          "qrsMs": 99,
+          "jMv": -0.013074501047378579,
+          "stMv": -0.006240057343491595,
+          "rMv": 1.1855744638536596,
+          "sMv": -0.21860063604157318,
+          "tMv": 0.3028544919243332,
+          "pMv": null,
+          "noiseMv": 2.0002333240865284e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.25544957415826713,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-evaluable",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 0,
+              "windows": []
+            }
+          }
+        },
+        "V6": {
+          "qrsMs": 97,
+          "jMv": -0.011510276276211429,
+          "stMv": -0.005538236506040275,
+          "rMv": 0.8905395305550241,
+          "sMv": -0.1630748810974844,
+          "tMv": 0.22694526942216336,
+          "pMv": null,
+          "noiseMv": 2.202506049736956e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.2548401970215976,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-evaluable",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 0,
+              "windows": []
+            }
+          }
+        },
+        "III": {
+          "qrsMs": 66,
+          "jMv": -0.00958740513421162,
+          "stMv": 0.00032816266662874906,
+          "rMv": 0.30850295168887387,
+          "sMv": -0.05559238454514291,
+          "tMv": 0.0807255023447568,
+          "pMv": null,
+          "noiseMv": 2.1646917402605952e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.26166849264433845,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-evaluable",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 0,
+              "windows": []
+            }
+          }
+        },
+        "aVR": {
+          "qrsMs": 99,
+          "jMv": 0.01219550183400784,
+          "stMv": 0.002420665327416703,
+          "rMv": 0.17376724706824126,
+          "sMv": -0.9388009635765652,
+          "tMv": -0.24490575987710725,
+          "pMv": null,
+          "noiseMv": 1.9369697458734847e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 1.4093896520149665,
+            "deltaSlurMs": null,
+            "qMv": -0.9391298453716403,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-evaluable",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 0,
+              "windows": []
+            }
+          }
+        },
+        "aVF": {
+          "qrsMs": 94,
+          "jMv": -0.009699512155535021,
+          "stMv": -0.00021162449035803336,
+          "rMv": 0.7005186504101646,
+          "sMv": -0.12886068836655445,
+          "tMv": 0.18067964906286665,
+          "pMv": null,
+          "noiseMv": 2.097807391342983e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.25792268194012524,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-evaluable",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 0,
+              "windows": []
+            }
+          }
+        }
+      },
+      "rhythm": null,
+      "qtcMs": null
+    },
+    "rbbb": {
+      "values": {
+        "rateBpm": 75.0,
+        "prMs": 150.0,
+        "qrsMs": 168,
+        "qtMs": 393.48374819186466,
+        "axisDeg": 89.12289742163237
+      },
+      "global": {
+        "pAxisDeg": null,
+        "tAxisDeg": null,
+        "prVariable": null,
+        "pConductedFraction": null,
+        "qrsAlternans": null,
+        "pPresent": true,
+        "preexcitation": {
+          "status": "not-evaluable",
+          "supportingLeads": [
+            "III"
+          ],
+          "limitations": [
+            "Candidatos por derivaci\u00f3n y latido, sin suponer simultaneidad; t\u00e9cnica no validada cl\u00ednicamente.",
+            "La falta de evidencia no excluye preexcitaci\u00f3n; confirmar l\u00edmites en el ECG original."
+          ]
+        }
+      },
+      "details": {
+        "I": {
+          "qrsMs": 161,
+          "jMv": -0.023034384436282997,
+          "stMv": 0.0026489313259862118,
+          "rMv": 0.786515164512263,
+          "sMv": -0.3599409004711396,
+          "tMv": 0.20712088313509916,
+          "pMv": 0.10109670911273631,
+          "noiseMv": 5.659742029653096e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.26333997420576094,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 87.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "II": {
+          "qrsMs": 97,
+          "jMv": -0.008049363899245899,
+          "stMv": -0.0005354605492973734,
+          "rMv": 1.0990522848573159,
+          "sMv": -0.2007873174402992,
+          "tMv": 0.2910423590022287,
+          "pMv": 0.13992839325599263,
+          "noiseMv": 7.95271853870789e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.2648121140478892,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 86.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V1": {
+          "qrsMs": 123,
+          "jMv": 0.006844450329283026,
+          "stMv": -0.0077210706068442546,
+          "rMv": 0.8279353854858227,
+          "sMv": -0.38247358401888054,
+          "tMv": -0.20364965596814164,
+          "pMv": null,
+          "noiseMv": 5.8503461039532525e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.24597288573267398,
+            "deltaSlurMs": null,
+            "qMv": -0.38263691395739646,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V2": {
+          "qrsMs": 123,
+          "jMv": 0.0069561682503796116,
+          "stMv": -0.007624106689683399,
+          "rMv": 0.8279918712988682,
+          "sMv": -0.3824534767333838,
+          "tMv": -0.20364065952836813,
+          "pMv": null,
+          "noiseMv": 5.860389554023417e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.24594524002864626,
+            "deltaSlurMs": null,
+            "qMv": -0.38261619834181854,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V3": {
+          "qrsMs": 87,
+          "jMv": -0.010968686453381478,
+          "stMv": -0.0009505377337165426,
+          "rMv": 0.3953697905510047,
+          "sMv": -0.07273003844415701,
+          "tMv": 0.10265641710987375,
+          "pMv": 0.049898913619609346,
+          "noiseMv": 3.617378263224111e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.25964658798743134,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 85.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V4": {
+          "qrsMs": 95,
+          "jMv": -0.009599376961556076,
+          "stMv": -1.7881346263540817e-05,
+          "rMv": 0.9890141940042989,
+          "sMv": -0.18089364384476475,
+          "tMv": 0.2627766679757059,
+          "pMv": 0.12542668105074137,
+          "noiseMv": 7.315733023046369e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.2656955477168447,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 86.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V5": {
+          "qrsMs": 168,
+          "jMv": -0.019745701546582766,
+          "stMv": 0.0072534343693433,
+          "rMv": 1.1792949513410278,
+          "sMv": -0.5402182265597284,
+          "tMv": 0.3119891164519279,
+          "pMv": 0.15104547211205527,
+          "noiseMv": 8.387866242131914e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.26455562800226645,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 86.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V6": {
+          "qrsMs": 163,
+          "jMv": -0.023926239274730268,
+          "stMv": 0.003272885548164372,
+          "rMv": 0.884015989213766,
+          "sMv": -0.40581936676888486,
+          "tMv": 0.23552496617269286,
+          "pMv": 0.11338325198629376,
+          "noiseMv": 6.90350258857593e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.26642613826721184,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 86.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "III": {
+          "qrsMs": 141,
+          "jMv": 0.048111083069767656,
+          "stMv": 0.02620678770977066,
+          "rMv": 0.3852768223097986,
+          "sMv": -0.07885888791365535,
+          "tMv": 0.10602428102286306,
+          "pMv": null,
+          "noiseMv": 0.00010097613842616653,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.2751898761706709,
+            "deltaSlurMs": 40.0,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "supported",
+              "polarity": "positive",
+              "durationMs": 40.0,
+              "initialSlopeMvPerMs": 0.00420891888704312,
+              "terminalSlopeMvPerMs": 0.011269887282051685,
+              "repeatableBeats": 8,
+              "analyzedBeats": 8,
+              "windows": [
+                {
+                  "start": 0.417,
+                  "end": 0.457,
+                  "peak": 0.505,
+                  "polarity": "positive"
+                },
+                {
+                  "start": 1.217,
+                  "end": 1.257,
+                  "peak": 1.305,
+                  "polarity": "positive"
+                },
+                {
+                  "start": 2.817,
+                  "end": 2.857,
+                  "peak": 2.905,
+                  "polarity": "positive"
+                },
+                {
+                  "start": 3.617,
+                  "end": 3.657,
+                  "peak": 3.705,
+                  "polarity": "positive"
+                },
+                {
+                  "start": 5.217,
+                  "end": 5.257,
+                  "peak": 5.305,
+                  "polarity": "positive"
+                },
+                {
+                  "start": 6.017,
+                  "end": 6.057,
+                  "peak": 6.105,
+                  "polarity": "positive"
+                },
+                {
+                  "start": 7.617,
+                  "end": 7.657,
+                  "peak": 7.705,
+                  "polarity": "positive"
+                },
+                {
+                  "start": 9.217,
+                  "end": 9.257,
+                  "peak": 9.305,
+                  "polarity": "positive"
+                }
+              ]
+            }
+          }
+        },
+        "aVR": {
+          "qrsMs": 84,
+          "jMv": 0.1507725113372666,
+          "stMv": 0.05556133841892793,
+          "rMv": 0.16237836143333303,
+          "sMv": -0.9424845093823176,
+          "tMv": -0.2480053137262163,
+          "pMv": -0.12066515707589923,
+          "noiseMv": 6.900166515645541e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 1.527329821147621,
+            "deltaSlurMs": null,
+            "qMv": -0.9427926880259456,
+            "qMs": null,
+            "qsComplex": true,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 87.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "aVL": {
+          "qrsMs": 140,
+          "jMv": -0.002698822625294743,
+          "stMv": 0.021501660739156346,
+          "rMv": 0.25646618609905913,
+          "sMv": -0.33998062014428243,
+          "tMv": 0.08433736131455405,
+          "pMv": null,
+          "noiseMv": 8.249253942686592e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.3288439797750923,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "aVF": {
+          "qrsMs": 102,
+          "jMv": 0.17336420165298114,
+          "stMv": 0.010680323204593061,
+          "rMv": 0.7065724983745386,
+          "sMv": -0.14823565257326313,
+          "tMv": 0.18566539753968528,
+          "pMv": 0.0894686867939826,
+          "noiseMv": 5.4240769916022445e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.26276906894452623,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 86.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        }
+      },
+      "rhythm": null,
+      "qtcMs": null
+    },
+    "lbbb": {
+      "values": {
+        "rateBpm": 75.0,
+        "prMs": null,
+        "qrsMs": 161,
+        "qtMs": 397.33285099648725,
+        "axisDeg": -43.26885531863649
+      },
+      "global": {
+        "pAxisDeg": null,
+        "tAxisDeg": null,
+        "prVariable": null,
+        "pConductedFraction": null,
+        "qrsAlternans": null,
+        "pPresent": null,
+        "preexcitation": {
+          "status": "not-supported",
+          "supportingLeads": [],
+          "limitations": [
+            "Candidatos por derivaci\u00f3n y latido, sin suponer simultaneidad; t\u00e9cnica no validada cl\u00ednicamente.",
+            "La falta de evidencia no excluye preexcitaci\u00f3n; confirmar l\u00edmites en el ECG original."
+          ]
+        }
+      },
+      "details": {
+        "I": {
+          "qrsMs": 156,
+          "jMv": 0.024655800579556922,
+          "stMv": -0.012761615078435123,
+          "rMv": 0.5748943773354624,
+          "sMv": 0.016628742581825826,
+          "tMv": -0.25189540569400615,
+          "pMv": null,
+          "noiseMv": 0.00025756095393741256,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.43815945263110495,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V1": {
+          "qrsMs": 145,
+          "jMv": -0.026672324100571125,
+          "stMv": 0.0028076026811751234,
+          "rMv": -0.016631089373103796,
+          "sMv": -1.0198497810325993,
+          "tMv": 0.23928063729188534,
+          "pMv": null,
+          "noiseMv": 8.378261382318232e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": null,
+            "deltaSlurMs": null,
+            "qMv": -1.0198720132900585,
+            "qMs": null,
+            "qsComplex": true,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V2": {
+          "qrsMs": 145,
+          "jMv": -0.026604289405621366,
+          "stMv": 0.0029504988745514635,
+          "rMv": -0.016647778195419065,
+          "sMv": -1.0198277574249501,
+          "tMv": 0.239374871986886,
+          "pMv": null,
+          "noiseMv": 8.069022968297293e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": null,
+            "deltaSlurMs": null,
+            "qMv": -1.0198515444497118,
+            "qMs": null,
+            "qsComplex": true,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V3": {
+          "qrsMs": 87,
+          "jMv": -0.010968686453381478,
+          "stMv": -0.0009505377337165426,
+          "rMv": 0.3953697905510047,
+          "sMv": -0.07273003844415701,
+          "tMv": 0.10265641710987375,
+          "pMv": 0.049898913619609346,
+          "noiseMv": 3.617378263224111e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.25964658798743134,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 85.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V4": {
+          "qrsMs": 95,
+          "jMv": -0.009599376961556076,
+          "stMv": -1.7881346263540817e-05,
+          "rMv": 0.9890141940042989,
+          "sMv": -0.18089364384476475,
+          "tMv": 0.2627766679757059,
+          "pMv": 0.12542668105074137,
+          "noiseMv": 7.315733023046369e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.2656955477168447,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": 86.0,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V5": {
+          "qrsMs": 161,
+          "jMv": 0.04413720809594003,
+          "stMv": -0.011072500374226607,
+          "rMv": 0.868825192480179,
+          "sMv": 0.013502663871131318,
+          "tMv": -0.2504146527753456,
+          "pMv": null,
+          "noiseMv": 0.00038068016221887017,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.2882221359863002,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "V6": {
+          "qrsMs": 161,
+          "jMv": 0.03056884063690052,
+          "stMv": -0.01029867304353356,
+          "rMv": 0.6492427653653693,
+          "sMv": 0.007940195434166422,
+          "tMv": -0.24765807585905825,
+          "pMv": null,
+          "noiseMv": 0.0002894141885834197,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.38145681256792385,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "III": {
+          "qrsMs": 161,
+          "jMv": -0.006753765115596999,
+          "stMv": 0.009709702125640512,
+          "rMv": -0.006753765115596999,
+          "sMv": -0.764342220872583,
+          "tMv": 0.18097570805267899,
+          "pMv": null,
+          "noiseMv": 9.932784834250496e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": null,
+            "deltaSlurMs": null,
+            "qMv": -0.7644863435340263,
+            "qMs": 157,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "aVL": {
+          "qrsMs": 160,
+          "jMv": 0.009317413969182418,
+          "stMv": -0.007740854338257541,
+          "rMv": 0.6727976222872377,
+          "sMv": 0.009317413969182418,
+          "tMv": -0.21238087988603294,
+          "pMv": null,
+          "noiseMv": 8.238790801128001e-05,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": 0.31566829734627255,
+            "deltaSlurMs": null,
+            "qMv": 0.0,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        },
+        "aVF": {
+          "qrsMs": 152,
+          "jMv": -0.022031463588103983,
+          "stMv": 0.011417347490924601,
+          "rMv": -0.019637101276900243,
+          "sMv": -0.46860646408167134,
+          "tMv": 0.06376140459659946,
+          "pMv": null,
+          "noiseMv": 0.0002278235043073305,
+          "morphology": {
+            "stSlope": "flat",
+            "prSegMv": null,
+            "tQrsRatio": null,
+            "deltaSlurMs": null,
+            "qMv": -0.46869317836272995,
+            "qMs": null,
+            "qsComplex": false,
+            "rPeakMs": null,
+            "rPrime": null,
+            "notched": null,
+            "pMs": null,
+            "pTerminalMv": null,
+            "pTerminalMs": null,
+            "pBiphasic": null,
+            "deltaEvidence": {
+              "status": "not-supported",
+              "polarity": null,
+              "durationMs": null,
+              "initialSlopeMvPerMs": null,
+              "terminalSlopeMvPerMs": null,
+              "repeatableBeats": 0,
+              "analyzedBeats": 8,
+              "windows": []
+            }
+          }
+        }
+      },
+      "rhythm": null,
+      "qtcMs": null
+    }
+  }
+}

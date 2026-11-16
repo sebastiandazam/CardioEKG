@@ -1,0 +1,11 @@
+const names=['I','II','III','aVR','aVL','aVF','V1','V2','V3','V4','V5','V6'];
+const text=message=>({es:message,en:message});
+const confidence={level:'moderate',calibrated:false,probability:.997,explanation:text('Evidence requires verification.')};
+function fixture(){
+ const trace={mv:Array.from({length:2500},(_,i)=>.8*Math.sin(i/22)+.3*Math.sin(i/3)),seconds:10,quality:.95};
+ const item={id:'PATIENT-SECRET-8791',origin:'research',findingOrigin:'manual',pattern:'indeterminate',synchronized:false,rhythmLead:'II',traces:Object.fromEntries(names.map(n=>[n,trace])),measurements:{rateBpm:75,prMs:180,qrsMs:90,qtMs:400,axisDeg:0},measurementOrigins:{prMs:'caliper',axisDeg:'caliper'},captureProvenance:{commonRecording:true,commonCalibration:true,speed:25,gain:10,layout:'4x3',timing:'sequential',leadSources:{I:'PRIVATE-SOURCE-7'}}};
+ const analysis={schemaVersion:1,algorithmVersion:'measurement-test-1.0',measurements:Object.entries(item.measurements).map(([key,value])=>({key,value,unit:key==='rateBpm'?'bpm':key==='axisDeg'?'°':'ms',status:key==='prMs'||key==='axisDeg'?'manual':'estimated',method:text('Recorded signal boundaries.'),reason:text(''),confidence,sourceLeads:['II']})),leads:names.map(lead=>({lead,status:'evaluated',quality:.95,summary:text('Signal available.'),observations:[text('Verify morphology before clinical use.')],markers:[{phase:'qrs',start:.4,end:.49}],features:{qrsMs:90,netQrsMvMs:15,stMv:.02,rMv:.8,sMv:-.2,tMv:.2},confidence,referenceIds:['ref-1']})),findings:[{id:'f1',label:text('Signal finding'),evidence:[text('Support in leads II and V5.')],limitations:[text('Not independently validated.')],confidence,sourceLeads:['II','V5'],referenceIds:['ref-1'],category:'quality',urgent:false}],impression:text('An interpretation requiring confirmation.'),differential:[text('Alternative interpretation.')],confidence,limitations:[text('Educational analysis only.')],references:[{id:'ref-1',name:'Clinical reference',url:'https://example.org/reference',reviewedAt:'2026-11-11'}],axisContext:text('Comparable sequential representative complexes.'),reconstructionConfidence:confidence,warnings:[text('Urgent symptoms require urgent care.')],clinicalUse:text('Patient records require institutional authorization.')};
+ return {item,analysis};
+}
+
+export {names,text,confidence,fixture};

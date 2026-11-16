@@ -1,0 +1,487 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-13",
+  "scope": {
+    "es": "Ampliación de literatura para isquemia, repolarización y enfermedad estructural/sistémica en adultos. No modifica criterios ejecutables, umbrales, fórmulas, exactitud diagnóstica ni urgencia.",
+    "en": "Literature enrichment for adult ischaemia, repolarization and structural/systemic disease. Does not change executable criteria, thresholds, formulae, diagnostic accuracy or urgency."
+  },
+  "method": {
+    "primaryRetrieval": "Healthcare Public Data native PubMed search/get and rights-eligible PMC full-text connector",
+    "fallback": "Exa fetch of official JACC, AHA and Oxford/ESC full-text sections",
+    "fullTextMeaning": "Claim-relevant body sections reviewed; not a claim that every page or guideline recommendation was reviewed.",
+    "copyright": "Only bibliographic metadata and original bilingual synthesis are public; full texts and abstracts remain in ignored artifacts/literature/systemic.",
+    "searchLimit": "Focused enrichment, not a systematic review; search results were selected by relevance, current guidance and accessible claim-level text."
+  },
+  "counts": {
+    "newClinicalWorks": 11,
+    "newCorrectionRecords": 3,
+    "existingWorksRechecked": 1,
+    "reviewedRecords": 15,
+    "changedEntities": 23
+  },
+  "sources": [
+    {
+      "referenceId": "rao-2025-acs",
+      "pmid": "40014670",
+      "doi": "10.1161/CIR.0000000000001309",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "clinical-practice-guideline",
+      "population": "Adults with suspected or confirmed ACS",
+      "locator": "Table 3; sections 3.1.1–3.1.2, recommendations 1–4 and supportive text",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/40014670/",
+        "https://pubmed.ncbi.nlm.nih.gov/40013746/",
+        "https://www.jacc.org/doi/pdf/10.1016/j.jacc.2024.11.009"
+      ],
+      "mappedEntityIDs": [
+        "anterior-stemi",
+        "de-winter-pattern",
+        "inferior-stemi",
+        "ischemic-t-inversion",
+        "lateral-stemi",
+        "nste-ischemia",
+        "posterior-mi",
+        "rv-infarction",
+        "wellens-pattern"
+      ],
+      "summary": {
+        "es": "El ECG inicial normal o no diagnóstico no excluye SCA; los síntomas persistentes o el deterioro requieren ECG seriados y troponina. V7–V9 y derivaciones derechas se seleccionan según la sospecha clínica.",
+        "en": "A normal or nondiagnostic initial ECG does not exclude ACS; persistent symptoms or deterioration call for serial ECGs and troponin assessment. Posterior and right-sided leads depend on clinical suspicion."
+      },
+      "limitations": "One guideline copublished as PMID 40013746 and PMID 40014670; counted once. Relevant full-text diagnostic sections reviewed; no new executable thresholds or treatment rules.",
+      "netNew": true
+    },
+    {
+      "referenceId": "rao-2025-acs-correction-march",
+      "pmid": "40163565",
+      "doi": "10.1161/CIR.0000000000001328",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "published-erratum",
+      "population": "Correction to the 2025 ACS guideline",
+      "locator": "Correction items 1–2, page e865",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/40163565/",
+        "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001328"
+      ],
+      "mappedEntityIDs": [
+        "anterior-stemi",
+        "de-winter-pattern",
+        "inferior-stemi",
+        "ischemic-t-inversion",
+        "lateral-stemi",
+        "nste-ischemia",
+        "posterior-mi",
+        "rv-infarction",
+        "wellens-pattern"
+      ],
+      "summary": {
+        "es": "La corrección modifica los efectos adversos de ezetimiba y la inicial de una revisora; no cambia los criterios ECG revisados.",
+        "en": "The correction changes the ezetimibe adverse-effect entry and a reviewer initial; it does not change the reviewed ECG criteria."
+      },
+      "limitations": "Version-control record linked to the parent guideline; not independent diagnostic evidence.",
+      "netNew": true
+    },
+    {
+      "referenceId": "rao-2025-acs-correction-june",
+      "pmid": "40549849",
+      "doi": "10.1161/CIR.0000000000001346",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "published-erratum",
+      "population": "Correction to the 2025 ACS guideline",
+      "locator": "Correction items 1–3, page e1098",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/40549849/",
+        "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001346"
+      ],
+      "mappedEntityIDs": [
+        "anterior-stemi",
+        "de-winter-pattern",
+        "inferior-stemi",
+        "ischemic-t-inversion",
+        "lateral-stemi",
+        "nste-ischemia",
+        "posterior-mi",
+        "rv-infarction",
+        "wellens-pattern"
+      ],
+      "summary": {
+        "es": "La segunda corrección modifica la cita y una nota de monitorización de heparina; no cambia los criterios ECG revisados.",
+        "en": "The second correction changes the citation and a heparin-monitoring footnote; it does not change the reviewed ECG criteria."
+      },
+      "limitations": "Version-control record, not independent diagnostic evidence. Drug dosing was not incorporated.",
+      "netNew": true
+    },
+    {
+      "referenceId": "moak-2024-stemi-mimics",
+      "pmid": "39564439",
+      "doi": "10.4103/tjem.tjem_137_24",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "narrative-review",
+      "population": "Adult emergency patients with chest pain and ST elevation",
+      "locator": "Sections STEMI; LVH; LBBB; RV paced rhythm; myocarditis/myopericarditis; LV aneurysm",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/39564439/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11573177/"
+      ],
+      "mappedEntityIDs": [
+        "anterior-stemi",
+        "inferior-stemi",
+        "lateral-stemi",
+        "lbbb-mi-sgarbossa",
+        "lv-aneurysm",
+        "lvh-strain",
+        "paced-mi-sgarbossa"
+      ],
+      "summary": {
+        "es": "HVI, BRI, estimulación ventricular, repolarización precoz, miopericarditis y aneurisma ventricular pueden simular IAMCEST. El ECG previo y la evolución ayudan; una causa alternativa no descarta infarto coexistente.",
+        "en": "LVH, LBBB, ventricular pacing, early repolarization, myopericarditis and ventricular aneurysm can mimic STEMI. Prior and serial ECGs help; an alternative cause does not exclude coexisting infarction."
+      },
+      "limitations": "Narrative review; no pooled diagnostic accuracy. Concave ST morphology or short-term stability alone must not be used to rule out ACS.",
+      "netNew": true
+    },
+    {
+      "referenceId": "herman-2024-omi",
+      "pmid": "38505483",
+      "doi": "10.1093/ehjdh/ztad074",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "retrospective-model-validation",
+      "population": "Selected international cohorts with suspected ACS; test set 2222 patients, 3254 ECGs",
+      "locator": "Methods: study design and OMI definition; Results: comparison with STEMI; Limitations",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/38505483/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10944682/"
+      ],
+      "mappedEntityIDs": [
+        "anterior-stemi",
+        "de-winter-pattern",
+        "nste-ischemia",
+        "wellens-pattern"
+      ],
+      "summary": {
+        "es": "La oclusión coronaria puede no cumplir criterios milimétricos de IAMCEST; el estudio apoya mantener la sospecha clínica cuando persisten síntomas.",
+        "en": "Coronary occlusion may fail to meet STEMI millimetre criteria; the study supports continued clinical suspicion when symptoms persist."
+      },
+      "limitations": "Retrospective selected cohorts; broad OMI endpoint included flow-limiting lesions. AI performance is not validation of this rule engine, cannot supply its sensitivity/LRs, and has not established mortality benefit.",
+      "netNew": true
+    },
+    {
+      "referenceId": "schulz-menger-2025-imps",
+      "pmid": "40878297",
+      "doi": "10.1093/eurheartj/ehaf192",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "clinical-practice-guideline",
+      "population": "Suspected myocarditis and/or pericarditis; app applies adult scope",
+      "locator": "Table 4; sections 3.3.1–3.3.2, 5.1–5.6",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/40878297/",
+        "https://academic.oup.com/eurheartj/article/46/40/3952/8234483"
+      ],
+      "mappedEntityIDs": [
+        "acute-pericarditis",
+        "electrical-alternans",
+        "low-qrs-voltage",
+        "myocarditis"
+      ],
+      "summary": {
+        "es": "Los cambios ST-T o PR apoyan un síndrome inflamatorio, pero un ECG normal no lo excluye. En pericarditis, los cambios ECG sugieren afectación miocárdica y deben motivar su evaluación.",
+        "en": "ST-T or PR changes support an inflammatory syndrome, but a normal ECG does not exclude it. ECG changes in pericarditis suggest myocardial involvement and warrant its assessment."
+      },
+      "limitations": "PubMed has no abstract; substantive support comes from the official full-text sections, not metadata. ECG alone cannot establish definite myocarditis or the clinical diagnosis of pericarditis.",
+      "netNew": true
+    },
+    {
+      "referenceId": "drazner-2024-myocarditis",
+      "pmid": "39665703",
+      "doi": "10.1016/j.jacc.2024.10.080",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "expert-consensus-decision-pathway",
+      "population": "Adults with suspected myocarditis",
+      "locator": "Section 4.2.1: Electrocardiogram",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/39665703/",
+        "https://www.jacc.org/doi/pdf/10.1016/j.jacc.2024.10.080"
+      ],
+      "mappedEntityIDs": [
+        "myocarditis"
+      ],
+      "summary": {
+        "es": "El ECG es una prueba inicial con hallazgos inespecíficos; un trazado normal o inespecífico no descarta miocarditis.",
+        "en": "ECG is an initial test with nonspecific findings; a normal or nonspecific tracing cannot exclude myocarditis."
+      },
+      "limitations": "2024-named pathway published in JACC in 2025. Reviewed ECG section; no numerical sensitivity imported into engine.",
+      "netNew": true
+    },
+    {
+      "referenceId": "andrews-2023-digoxin",
+      "pmid": "37650725",
+      "doi": "10.1097/MEJ.0000000000001065",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "narrative-review-and-delphi-consensus",
+      "population": "Adults with suspected acute or chronic digoxin toxicity",
+      "locator": "Table 1; Diagnosis of digoxin toxicity; Serum digoxin concentrations",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/37650725/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10599802/"
+      ],
+      "mappedEntityIDs": [
+        "digoxin-effect",
+        "digoxin-toxicity"
+      ],
+      "summary": {
+        "es": "El efecto digitálico puede aparecer sin toxicidad. El diagnóstico exige clínica, función renal, electrolitos y niveles de digoxina interpretados según el tiempo de ingesta; los niveles no se correlacionan de forma constante con toxicidad.",
+        "en": "Digitalis effect can occur without toxicity. Diagnosis integrates symptoms, renal function, electrolytes and digoxin levels interpreted against ingestion timing; levels do not consistently correlate with toxicity."
+      },
+      "limitations": "Expert consensus with limited clinical evidence, not a universally accepted guideline. No ECG sign or serum value alone proves or excludes toxicity; no antidote dosing added.",
+      "netNew": true
+    },
+    {
+      "referenceId": "khatib-2021-drug-qt",
+      "pmid": "33122341",
+      "doi": "10.1136/postgradmedj-2020-138661",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "clinical-review",
+      "population": "Patients exposed to QT-prolonging medicines; app applies adult scope",
+      "locator": "QT measurement; Assessing risk; Drug interactions; Monitoring; When to refer",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/33122341/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8237186/"
+      ],
+      "mappedEntityIDs": [
+        "drug-induced-qt-prolongation"
+      ],
+      "summary": {
+        "es": "Revisar medición del QT, frecuencia, ancho del QRS, electrolitos e interacciones. El QTc aislado no atribuye causalidad a un fármaco ni cuantifica el riesgo individual de torsades.",
+        "en": "Review QT measurement, heart rate, QRS width, electrolytes and interactions. Isolated QTc does not assign drug causality or quantify individual torsades risk."
+      },
+      "limitations": "Clinical review, not a prospective risk model. Bazett may overcorrect at fast rates and undercorrect at slow rates; ordinary QT interpretation is unreliable with abnormal QRS duration. No formula or threshold changed.",
+      "netNew": true
+    },
+    {
+      "referenceId": "huang-2024-qt-hf",
+      "pmid": "39159176",
+      "doi": "10.1371/journal.pone.0308999",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "retrospective-cohort",
+      "population": "Hospitalized dofetilide/sotalol recipients: HFpEF 109, HFrEF 138, no HF 729",
+      "locator": "Methods; Results; Discussion and study limitations",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/39159176/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11332914/"
+      ],
+      "mappedEntityIDs": [
+        "drug-induced-qt-prolongation"
+      ],
+      "summary": {
+        "es": "La insuficiencia cardíaca, también con fracción de eyección preservada, se asoció con más prolongación del QT durante dofetilida o sotalol en esta cohorte hospitalaria.",
+        "en": "Heart failure, including preserved ejection fraction, was associated with more QT prolongation during dofetilide or sotalol exposure in this inpatient cohort."
+      },
+      "limitations": "Retrospective drug-specific inpatient cohort; incomplete baseline/daily ECGs and possible residual confounding. QT prolongation was the endpoint, not proof of torsades, drug causality, or general risk for every medicine.",
+      "netNew": true
+    },
+    {
+      "referenceId": "raffee-2022-hyperkalemia",
+      "pmid": "35619089",
+      "doi": "10.1186/s12245-022-00422-8",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "prospective-observational-study",
+      "population": "67 adults with serum potassium at least 5.5 mmol/L in a single emergency department",
+      "locator": "Methods; Results: ECG findings; Discussion: limitations; Conclusions",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/35619089/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9137132/"
+      ],
+      "mappedEntityIDs": [
+        "hyperkalemia"
+      ],
+      "summary": {
+        "es": "La ausencia de cambios ECG no descarta hiperpotasemia; se requiere potasio sérico y evaluación clínica. El estudio encontró ECG normales incluso entre pacientes con hiperpotasemia confirmada.",
+        "en": "Absent ECG changes do not exclude hyperkalemia; serum potassium and clinical assessment are required. Normal ECGs occurred despite laboratory-confirmed hyperkalemia."
+      },
+      "limitations": "Small single-centre sample without a normokalemic control group; specificity and predictive values cannot be estimated. Reader performance is not an accuracy estimate for this engine.",
+      "netNew": true
+    },
+    {
+      "referenceId": "scafa-2024-takotsubo",
+      "pmid": "38360558",
+      "doi": "10.1186/s12245-024-00595-4",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "narrative-review",
+      "population": "Patients with suspected Takotsubo versus acute MI",
+      "locator": "ECG; Echocardiography; Coronary angiography; CMR; Conclusions",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/38360558/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10870686/"
+      ],
+      "mappedEntityIDs": [
+        "takotsubo"
+      ],
+      "summary": {
+        "es": "Takotsubo y el infarto pueden compartir dolor, troponina elevada y cambios ECG. La diferenciación requiere evaluación coronaria y cardíaca por imagen según el contexto; puede haber complicaciones graves.",
+        "en": "Takotsubo and infarction can share chest pain, troponin elevation and ECG changes. Differentiation requires coronary evaluation and cardiac imaging according to context; serious complications can occur."
+      },
+      "limitations": "Narrative review. No single ECG appearance establishes Takotsubo; stress history and apparent recovery potential must not delay ACS evaluation.",
+      "netNew": true
+    },
+    {
+      "referenceId": "pavo-2024-cardiomyopathies",
+      "pmid": "38051386",
+      "doi": "10.1007/s00059-023-05224-z",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "guideline-focused-review",
+      "population": "Suspected or established cardiomyopathy; adult recommendations used",
+      "locator": "Phänotyporientierter diagnostischer Pfad; Multimodale Bildgebung; Genetisches Testen",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/38051386/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10830601/"
+      ],
+      "mappedEntityIDs": [
+        "hypertrophic-cardiomyopathy",
+        "low-qrs-voltage"
+      ],
+      "summary": {
+        "es": "La sospecha ECG de miocardiopatía requiere un estudio multiparamétrico con clínica, familia, monitorización y ecocardiografía/RM; el patrón ECG no confirma el fenotipo ni la causa genética.",
+        "en": "ECG suspicion of cardiomyopathy requires multiparametric evaluation with symptoms, family history, monitoring and echo/CMR; the ECG pattern does not establish phenotype or genetic cause."
+      },
+      "limitations": "German-language secondary review of ESC 2023, not independent validation of ECG criteria. Most guideline recommendations rest on limited trials/expert consensus.",
+      "netNew": true
+    },
+    {
+      "referenceId": "arbelo-2023",
+      "pmid": "37622657",
+      "doi": "10.1093/eurheartj/ehad194",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "clinical-practice-guideline",
+      "population": "Known or suspected cardiomyopathy; adult scope retained",
+      "locator": "Sections6.3,6.5–6.8; Table 7; imaging recommendations",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/37622657/",
+        "https://academic.oup.com/eurheartj/article/44/37/3503/7246608"
+      ],
+      "mappedEntityIDs": [
+        "hypertrophic-cardiomyopathy",
+        "low-qrs-voltage"
+      ],
+      "summary": {
+        "es": "El ECG puede preceder al fenotipo estructural y ocasionalmente ser normal. Voltajes altos o bajos y preexcitación son pistas que deben interpretarse junto con imagen y contexto familiar.",
+        "en": "ECG abnormalities may precede the structural phenotype, and ECG can occasionally be normal. High/low voltages and preexcitation are clues to interpret with imaging and family context."
+      },
+      "limitations": "Existing reference rechecked, not a net-new source. High voltage alone is not HCM and low voltage alone is not amyloidosis. Phenocopies and coexisting disease require clinical evaluation.",
+      "netNew": false
+    },
+    {
+      "referenceId": "rao-2025-acs-correction-november",
+      "pmid": "41212941",
+      "doi": "10.1161/CIR.0000000000001397",
+      "reviewedAt": "2026-11-13",
+      "verificationLevel": "full-text",
+      "evidenceType": "published-erratum",
+      "population": "Correction to the 2025 ACS guideline",
+      "locator": "Correction to Table 10, enoxaparin row, page e795",
+      "sourceURLs": [
+        "https://pubmed.ncbi.nlm.nih.gov/41212941/",
+        "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001397"
+      ],
+      "mappedEntityIDs": [
+        "anterior-stemi",
+        "de-winter-pattern",
+        "inferior-stemi",
+        "ischemic-t-inversion",
+        "lateral-stemi",
+        "nste-ischemia",
+        "posterior-mi",
+        "rv-infarction",
+        "wellens-pattern"
+      ],
+      "summary": {
+        "es": "La tercera corrección modifica una unidad de dosificación de enoxaparina en la tabla 10; no modifica los criterios ECG revisados.",
+        "en": "The third correction changes an enoxaparin dosing unit in Table 10; it does not change the reviewed ECG criteria."
+      },
+      "limitations": "Version-control record, not independent diagnostic evidence. Drug dosing was not incorporated.",
+      "netNew": true
+    }
+  ],
+  "retrievalGaps": [
+    {
+      "pmid": "40977465",
+      "verificationLevel": "metadata-only",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40977465/",
+      "reason": "PubMed record has no abstract; no substantive text retrieved. Not integrated or marked verified. Official ESC 2025 guideline sections were retrieved instead."
+    }
+  ],
+  "deduplication": [
+    {
+      "canonicalReferenceId": "rao-2025-acs",
+      "pmids": [
+        "40013746",
+        "40014670"
+      ],
+      "reason": "Same 2025 ACS guideline copublished in JACC and Circulation; counted once. Errata are version records, not independent clinical evidence."
+    },
+    {
+      "canonicalReferenceId": "arbelo-2023",
+      "pmid": "37622657",
+      "reason": "Existing source updated in place; not counted as new. Pavo 2024 is a secondary guideline review, not independent diagnostic validation."
+    }
+  ],
+  "changedEntityIDs": [
+    "acute-pericarditis",
+    "anterior-stemi",
+    "de-winter-pattern",
+    "digoxin-effect",
+    "digoxin-toxicity",
+    "drug-induced-qt-prolongation",
+    "electrical-alternans",
+    "hyperkalemia",
+    "hypertrophic-cardiomyopathy",
+    "inferior-stemi",
+    "ischemic-t-inversion",
+    "lateral-stemi",
+    "lbbb-mi-sgarbossa",
+    "low-qrs-voltage",
+    "lv-aneurysm",
+    "lvh-strain",
+    "myocarditis",
+    "nste-ischemia",
+    "paced-mi-sgarbossa",
+    "posterior-mi",
+    "rv-infarction",
+    "takotsubo",
+    "wellens-pattern"
+  ],
+  "citationAudit": [
+    {
+      "formerId": "smith-2012",
+      "referenceId": "smith-modified-sgarbossa-2012",
+      "domain": "ischemia",
+      "pmid": "22939607",
+      "doi": "10.1016/j.annemergmed.2012.07.119",
+      "metadataReviewedAt": "2026-11-13",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22939607/",
+      "reason": "The former shared ID collapsed two distinct 2012 papers in the merged bibliography. All references within this domain were retargeted; numerical criteria unchanged."
+    },
+    {
+      "formerId": "smith-2012",
+      "referenceId": "smith-anterior-2012",
+      "domain": "repolarization",
+      "pmid": "22520989",
+      "doi": "10.1016/j.annemergmed.2012.02.015",
+      "metadataReviewedAt": "2026-11-13",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22520989/",
+      "reason": "Distinct early repolarization versus subtle anterior STEMI paper; citation identity confirmed through native PubMed. Reference-only correction; no executable threshold changes."
+    }
+  ]
+}

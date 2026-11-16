@@ -1,0 +1,26 @@
+[
+  {
+    "utc": "2026-11-12T01:53:55.838483+00:00",
+    "attempt": 1,
+    "returncode": 22,
+    "error": "curl: (22) The requested URL returned error: 503\n"
+  },
+  {
+    "utc": "2026-11-12T01:54:40.980249+00:00",
+    "attempt": 2,
+    "returncode": 22,
+    "error": "curl: (22) The requested URL returned error: 503\n"
+  },
+  {
+    "utc": "2026-11-12T01:55:26.239892+00:00",
+    "attempt": 3,
+    "returncode": 22,
+    "error": "curl: (22) The requested URL returned error: 503\n"
+  },
+  {
+    "utc": "2026-11-12T01:56:11.327445+00:00",
+    "attempt": 4,
+    "returncode": 22,
+    "error": "curl: (22) The requested URL returned error: 503\n"
+  }
+]

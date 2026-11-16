@@ -1,0 +1,7 @@
+{
+  "rounded_weights_test_correct": 384,
+  "rounded_weights_max_confidence_difference": 1.4356726918407503e-10,
+  "background_probe_crops": 128,
+  "background_false_accepts_at_locked_threshold": 116,
+  "background_scope": "unlabelled paper/grid crops from heldout sheets, not a new threshold selection set; no unknown class was fitted"
+}

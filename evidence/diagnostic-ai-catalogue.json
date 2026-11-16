@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-13T20:09:17.160Z",
+  "source": "https://openrouter.ai/api/v1/models",
+  "models": [
+    {
+      "id": "nvidia/nemotron-3.5-super-vl:free",
+      "input": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output": [
+        "text"
+      ],
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "provider": "nvidia",
+      "endpointStatus": 0
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "input": [
+        "text",
+        "audio",
+        "image",
+        "video"
+      ],
+      "output": [
+        "text"
+      ],
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "provider": "nvidia",
+      "endpointStatus": 0
+    }
+  ],
+  "inferenceTested": false,
+  "apiKeyUsed": false,
+  "caseDataSent": false,
+  "clinicalValidation": false
+}

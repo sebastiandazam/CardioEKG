@@ -1,0 +1,10 @@
+**
+!package.json
+!package-lock.json
+!src/
+!src/**
+!server/
+!server/**
+server/runtime/
+server/__pycache__/
+server/.env*

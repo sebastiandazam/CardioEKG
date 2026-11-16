@@ -1,0 +1,28 @@
+{
+  "files_requested": 14690,
+  "failures": [],
+  "elapsed_seconds": 452.9873278141022,
+  "stopped_early": false,
+  "sources": {
+    "ptb": {
+      "url": "https://physionet.org/files/ptb-xl/1.0.3/",
+      "license": "CC BY4.0",
+      "license_sha256": "9a78e7f22742dde9f66ae235ec793ba2212019dc4d0ced75c4da09ced0b35fb2"
+    },
+    "chapman": {
+      "url": "https://physionet.org/files/ecg-arrhythmia/1.0.0/",
+      "license": "CC BY4.0",
+      "license_sha256": "9a78e7f22742dde9f66ae235ec793ba2212019dc4d0ced75c4da09ced0b35fb2"
+    },
+    "ludb": {
+      "url": "https://physionet.org/files/ludb/1.0.1/",
+      "license": "ODC-By1.0",
+      "license_sha256": "86c0ad300f6d380591298bc03652e30b81f65954bbf22435812bcfd46812ab06"
+    },
+    "qt": {
+      "url": "https://physionet.org/files/qtdb/1.0.0/",
+      "license": "ODC-By1.0",
+      "license_sha256": "8024ce6c22a33cae4dc15e6a793744af64f67fe293a18e1100687007b27c5ae7"
+    }
+  }
+}

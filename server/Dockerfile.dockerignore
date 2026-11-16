@@ -1,0 +1,11 @@
+*
+!package.json
+!package-lock.json
+!src/
+!src/**
+!server/
+!server/app.py
+!server/onnx_manifest.py
+!server/requirements.txt
+!server/build-runtime.mjs
+!server/Dockerfile

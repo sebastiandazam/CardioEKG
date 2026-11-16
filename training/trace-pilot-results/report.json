@@ -1,0 +1,261 @@
+{
+  "dataset": "PTB-XL 1.0.3",
+  "url": "https://physionet.org/files/ptb-xl/1.0.3/",
+  "license": "CC BY 4.0",
+  "license_sha256": "9a78e7f22742dde9f66ae235ec793ba2212019dc4d0ced75c4da09ced0b35fb2",
+  "seed": 20261111,
+  "record_selection": "first unique patients in CSV order, fit folds 1-7, selection fold 8, test fold 10",
+  "records": [
+    {
+      "ecg_id": "1",
+      "patient_id": "15709.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "2",
+      "patient_id": "13243.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "3",
+      "patient_id": "20372.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "4",
+      "patient_id": "17014.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "5",
+      "patient_id": "17448.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "6",
+      "patient_id": "19005.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "7",
+      "patient_id": "16193.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "11",
+      "patient_id": "11243.0",
+      "strat_fold": "5",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "13",
+      "patient_id": "19953.0",
+      "strat_fold": "2",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "14",
+      "patient_id": "12925.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "15",
+      "patient_id": "13375.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "16",
+      "patient_id": "10999.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "19",
+      "patient_id": "11116.0",
+      "strat_fold": "7",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "21",
+      "patient_id": "17102.0",
+      "strat_fold": "6",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "22",
+      "patient_id": "20978.0",
+      "strat_fold": "4",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "24",
+      "patient_id": "9012.0",
+      "strat_fold": "3",
+      "split": "fit"
+    },
+    {
+      "ecg_id": "12",
+      "patient_id": "11031.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "43",
+      "patient_id": "11315.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "53",
+      "patient_id": "21409.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "71",
+      "patient_id": "15551.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "74",
+      "patient_id": "11671.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "92",
+      "patient_id": "10239.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "98",
+      "patient_id": "10804.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "108",
+      "patient_id": "11810.0",
+      "strat_fold": "8",
+      "split": "selection"
+    },
+    {
+      "ecg_id": "9",
+      "patient_id": "18792.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "38",
+      "patient_id": "17076.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "40",
+      "patient_id": "19501.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "57",
+      "patient_id": "16063.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "59",
+      "patient_id": "19475.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "63",
+      "patient_id": "15265.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "65",
+      "patient_id": "19170.0",
+      "strat_fold": "10",
+      "split": "test"
+    },
+    {
+      "ecg_id": "75",
+      "patient_id": "18502.0",
+      "strat_fold": "10",
+      "split": "test"
+    }
+  ],
+  "results": {
+    "selection": {
+      "classical": {
+        "strips": 64,
+        "accepted": 62,
+        "coverage": 0.96875,
+        "median_mae_mv": 0.034677754688161255
+      },
+      "learned": {
+        "strips": 64,
+        "accepted": 64,
+        "coverage": 1.0,
+        "median_mae_mv": 0.04187790108648947
+      }
+    },
+    "test": {
+      "classical": {
+        "strips": 64,
+        "accepted": 61,
+        "coverage": 0.953125,
+        "median_mae_mv": 0.031391914561186667
+      },
+      "learned": {
+        "strips": 64,
+        "accepted": 64,
+        "coverage": 1.0,
+        "median_mae_mv": 0.03526560014363856
+      }
+    }
+  },
+  "selection_thresholds": [
+    [
+      1.0,
+      -0.04187790108648947,
+      0.25
+    ],
+    [
+      1.0,
+      -0.04187790108648947,
+      0.4
+    ],
+    [
+      1.0,
+      -0.04187790108648947,
+      0.55
+    ],
+    [
+      1.0,
+      -0.04187790108648947,
+      0.7
+    ]
+  ],
+  "limitations": [
+    "Small convenience sample",
+    "Images are synthetic renderings of real ECG waveforms, not independent clinical photographs",
+    "Manual known calibration for extraction experiment",
+    "No diagnostic classifier training",
+    "Candidate not approved for patient use"
+  ]
+}

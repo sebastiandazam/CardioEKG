@@ -1,0 +1,3244 @@
+{
+  "domain": "conduction",
+  "references": [
+    {
+      "id": "surawicz-2009",
+      "citation": "Surawicz B, Childers R, Deal BJ, Gettes LS, et al. AHA/ACCF/HRS recommendations for the standardization and interpretation of the electrocardiogram. Part III: intraventricular conduction disturbances. Circulation. 2009;119:e235-e240.",
+      "url": "https://hrsonline.org/documents/interpretation-electrocardiogram-part-iii-intraventricular-conduction-disturbancespdf/download",
+      "doi": "10.1161/CIRCULATIONAHA.108.191095",
+      "verified": true
+    },
+    {
+      "id": "rautaharju-2009",
+      "citation": "Rautaharju PM, Surawicz B, Gettes LS. AHA/ACCF/HRS recommendations for the standardization and interpretation of the electrocardiogram. Part IV: the ST segment, T and U waves, and the QT interval. Circulation. 2009;119(10):e241-e250.",
+      "url": "https://hrsonline.org/documents/interpretation-electrocardiogram-part-iv-st-segment-t-and-u-waves-and-qt-intervalpdf/download",
+      "doi": "10.1161/CIRCULATIONAHA.108.191096",
+      "verified": true
+    },
+    {
+      "id": "strauss-2011",
+      "citation": "Strauss DG, Selvester RH, Wagner GS. Defining left bundle branch block in the era of cardiac resynchronization therapy. Am J Cardiol. 2011;107(6):927-934.",
+      "url": "https://read.qxmd.com/read/21376930/defining-left-bundle-branch-block-in-the-era-of-cardiac-resynchronization-therapy",
+      "doi": "10.1016/j.amjcard.2010.11.010",
+      "pmid": "21376930",
+      "verified": true
+    },
+    {
+      "id": "andersson-2013",
+      "citation": "Andersson LG, Wu KC, Wieslander B, et al. Left ventricular mechanical dyssynchrony by cardiac magnetic resonance is greater in patients with strict vs. non-strict ECG criteria for left bundle branch block. Am Heart J. 2013;165(6):956-963.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3664936",
+      "doi": "10.1016/j.ahj.2013.03.013",
+      "verified": true
+    },
+    {
+      "id": "priori-2013",
+      "citation": "Priori SG, Wilde AA, Horie M, Cho Y, Behr ER, et al. Executive summary: HRS/EHRA/APHRS expert consensus statement on the diagnosis and management of patients with inherited primary arrhythmia syndromes. Heart Rhythm. 2013;10(12) (versión abierta en la URL; ed. también en J Arrhythm 2014;30(1):29-47).",
+      "url": "https://hrsonline.org/documents/2013-inherited-primary-arrhythmia-syndromeespdf/download",
+      "doi": "10.1016/j.hrthm.2013.07.021",
+      "verified": true
+    },
+    {
+      "id": "zeppenfeld-2022",
+      "citation": "Zeppenfeld K, Tfelt-Hansen J, de Riva M, Winkel BG, Behr ER, Blom NA, et al. 2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death. Eur Heart J. 2022;43(40):3997-4126.",
+      "url": "https://academic.oup.com/eurheartj/article/43/40/3997/6675633",
+      "doi": "10.1093/eurheartj/ehac262",
+      "verified": true
+    },
+    {
+      "id": "schwartz-2011",
+      "citation": "Schwartz PJ, Crotti L. QTc behavior during exercise and genetic testing for the long-QT syndrome. Circulation. 2011;124(20):2181-2184.",
+      "url": "https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.111.062182",
+      "doi": "10.1161/CIRCULATIONAHA.111.062182",
+      "pmid": "22083145",
+      "verified": true
+    },
+    {
+      "id": "bayes-de-luna-2012",
+      "citation": "Bayés de Luna A, Brugada J, Baranchuk A, Borggrefe M, Breithardt G, et al. Current electrocardiographic criteria for diagnosis of Brugada pattern: a consensus report. J Electrocardiol. 2012;45(5):433-442.",
+      "url": "https://read.qxmd.com/read/22920782/current-electrocardiographic-criteria-for-diagnosis-of-brugada-pattern-a-consensus-report",
+      "pmid": "22920782",
+      "verified": true
+    },
+    {
+      "id": "bayes-de-luna-2014",
+      "citation": "Bayés de Luna A, García-Niebla J, Baranchuk A. New electrocardiographic features in Brugada syndrome. Curr Cardiol Rev. 2014;10(3):175-180. (Revisión secundaria que resume el consenso de 2012.)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4040869",
+      "doi": "10.2174/1573403X10666140514101546",
+      "verified": true
+    },
+    {
+      "id": "marcus-2010",
+      "citation": "Marcus FI, McKenna WJ, Sherrill D, et al. Diagnosis of arrhythmogenic right ventricular cardiomyopathy/dysplasia: proposed modification of the Task Force Criteria. Circulation. 2010;121(13):1533-1541.",
+      "url": "https://pesquisa.bvsalud.org/oncologiauy/resource/en/mdl-20172911",
+      "pmid": "20172911",
+      "verified": true
+    },
+    {
+      "id": "corrado-2020",
+      "citation": "Corrado D, Perazzolo Marra M, Zorzi A, et al. Diagnosis of arrhythmogenic cardiomyopathy: the Padua criteria. Int J Cardiol. 2020;319:106-114.",
+      "url": "https://research-information.bris.ac.uk/en/publications/diagnosis-of-arrhythmogenic-cardiomyopathy-the-padua-criteria/",
+      "doi": "10.1016/j.ijcard.2020.06.005",
+      "pmid": "32561223",
+      "verified": true
+    },
+    {
+      "id": "peters-2012",
+      "citation": "Peters MN, Katz MJ, Alkadri ME. Diagnosis of arrhythmogenic right ventricular cardiomyopathy. Proc (Bayl Univ Med Cent). 2012;25(4):349-353. (Fuente secundaria que reproduce la tabla del Task Force 2010.)",
+      "url": "https://scispace.com/pdf/diagnosis-of-arrhythmogenic-right-ventricular-cardiomyopathy-19msfzii20.pdf",
+      "verified": true
+    },
+    {
+      "id": "arruda-1998",
+      "citation": "Arruda MS, McClelland JH, Wang X, Beckman KJ, Widman LE, Gonzalez MD, Nakagawa H, Lazzara R, Jackman WM. Development and validation of an ECG algorithm for identifying accessory pathway ablation site in Wolff-Parkinson-White syndrome. J Cardiovasc Electrophysiol. 1998;9(1):2-12.",
+      "url": "https://pure.psu.edu/en/publications/development-and-validation-of-an-ecg-algorithm-for-identifying-ac/",
+      "doi": "10.1111/j.1540-8167.1998.tb00861.x",
+      "pmid": "9475572",
+      "verified": true
+    },
+    {
+      "id": "litfl-paced",
+      "citation": "Life in the Fast Lane. Pacemaker rhythms: normal patterns. litfl.com (fuente secundaria de apoyo).",
+      "url": "https://litfl.com/pacemaker-rhythms-normal-patterns/",
+      "verified": true
+    },
+    {
+      "id": "ungaro-2024-preexcitation",
+      "citation": "Simone Ungaro, Francesca Graziano, Sergei Bondarev, et al. Electrocardiographic Clues for Early Diagnosis of Ventricular Pre-Excitation and Non-Invasive Risk Stratification in Athletes: A Practical Guide for Sports Cardiologists. Journal of cardiovascular development and disease. 2024 Oct 14;11(10):324. doi:10.3390/jcdd11100324. PMID:39452294.",
+      "doi": "10.3390/jcdd11100324",
+      "pmid": "39452294",
+      "pmcid": "PMC11508300",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39452294/",
+      "publicationDate": "2024 Oct 14",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "reviewedAt": "2026-11-13",
+      "population": "Sports-cardiology review focused on young competitive and recreational athletes; not a general-population validation study.",
+      "locator": "Sections 2, 4, 5 and 6: ECG features, subtle/latent pre-excitation, intermittent patterns and exercise pitfalls.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11508300/"
+    },
+    {
+      "id": "antiperovitch-2023-preexcitation",
+      "citation": "Pavel Antiperovitch, Allan Skanes, George Klein, et al. Approach to a patient with asymptomatic pre-excitation. Heart (British Cardiac Society). 2023 Jul 27;109(16):1254-1259. doi:10.1136/heartjnl-2022-321639. PMID:36990680.",
+      "doi": "10.1136/heartjnl-2022-321639",
+      "pmid": "36990680",
+      "pmcid": "PMC10423537",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36990680/",
+      "publicationDate": "2023 Jul 27",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "reviewedAt": "2026-11-13",
+      "population": "Clinical review of asymptomatic ventricular pre-excitation, primarily adult management; no new cohort.",
+      "locator": "Non-invasive evaluation; Figure 2; concealed versus manifest accessory pathway discussion.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10423537/"
+    },
+    {
+      "id": "jemtren-2024-preexcitation-risk",
+      "citation": "Anette Jemtrén, Serkan Saygi, Finn Åkerström, et al. Risk assessment in patients with symptomatic and asymptomatic pre-excitation. Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology. 2024 Feb 01;26(2):euae036. doi:10.1093/europace/euae036. PMID:38363996.",
+      "doi": "10.1093/europace/euae036",
+      "pmid": "38363996",
+      "pmcid": "PMC10873488",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38363996/",
+      "publicationDate": "2024 Feb 01",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "prospective-cohort",
+      "reviewedAt": "2026-11-13",
+      "population": "164 consecutively referred patients with pre-excitation (59 asymptomatic, 105 symptomatic), exercise test followed by EPS, with isoproterenol when needed.",
+      "locator": "Methods: Exercise stress test/Electrophysiology study; Results: EPS findings; Table 3; Limitations.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10873488/"
+    },
+    {
+      "id": "glikson-2021-pacing",
+      "citation": "Michael Glikson, Jens Cosedis Nielsen, Mads Brix Kronborg, et al. 2021 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy. European heart journal. 2021 Sep 14;42(35):3427-3520. doi:10.1093/eurheartj/ehab364. PMID:34455430.",
+      "doi": "10.1093/eurheartj/ehab364",
+      "pmid": "34455430",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34455430/",
+      "publicationDate": "2021 Sep 14",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "guideline",
+      "reviewedAt": "2026-11-13",
+      "population": "Adults evaluated for bradycardia, conduction disease or pacing/CRT indications; guideline with indication-specific evidence.",
+      "locator": "Sections 4, 5.1.1, 5.2.1.1–5.2.1.4, 5.2.2.2 and 5.3; relevant publisher body sections read via Exa after PMC retrieval failure.",
+      "sourceUrl": "https://academic.oup.com/eurheartj/article/42/35/3427/6358547"
+    },
+    {
+      "id": "wilde-2023-brugada-challenge",
+      "citation": "Arthur A M Wilde, Ahmad S Amin, Hiroshi Morita, et al. Use, misuse, and pitfalls of the drug challenge test in the diagnosis of the Brugada syndrome. European heart journal. 2023 Jul 14;44(27):2427-2439. doi:10.1093/eurheartj/ehad295. PMID:37345279.",
+      "doi": "10.1093/eurheartj/ehad295",
+      "pmid": "37345279",
+      "pmcid": "PMC10702857",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37345279/",
+      "publicationDate": "2023 Jul 14",
+      "verificationLevel": "full-text",
+      "verified": true,
+      "evidenceType": "review",
+      "reviewedAt": "2026-11-13",
+      "population": "Patients evaluated for suspected Brugada syndrome, symptomatic and asymptomatic; expert review of sodium-channel-blocker challenge studies.",
+      "locator": "Sensitivity and specificity; Determinants; Prognosis; Conclusions/Figure 4.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10702857/"
+    }
+  ],
+  "entities": [
+    {
+      "id": "rbbb-complete",
+      "name": {
+        "es": "Bloqueo completo de rama derecha",
+        "en": "Complete right bundle branch block"
+      },
+      "category": "conduction",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "rbbb-c-qrs",
+          "role": "required",
+          "text": {
+            "es": "QRS ≥120 ms (adultos)",
+            "en": "QRS duration ≥120 ms (adults)"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">=",
+            "value": 120
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA/ACCF/HRS 2009 parte III: ≥120 ms en adultos; >100 ms entre 4 y 16 años; >90 ms en <4 años."
+        },
+        {
+          "id": "rbbb-c-rsr",
+          "role": "required",
+          "text": {
+            "es": "Patrón rsr′, rsR′ o rSR′ en V1 o V2 (o R ancha mellada en V1 con tiempo al pico de R >50 ms)",
+            "en": "rsr′, rsR′ or rSR′ pattern in V1 or V2 (or broad notched R in V1 with R peak time >50 ms)"
+          },
+          "predicate": {
+            "any": [
+              {
+                "feature": "lead.V1.rPrime",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "lead.V2.rPrime",
+                "op": "==",
+                "value": true
+              },
+              {
+                "all": [
+                  {
+                    "feature": "lead.V1.notched",
+                    "op": "==",
+                    "value": true
+                  },
+                  {
+                    "feature": "lead.V1.rPeakMs",
+                    "op": ">",
+                    "value": 50
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 parte III: R′ en V1 o V2; si hay R dominante pura en V1 (con o sin mella) debe cumplirse tiempo al pico de R >50 ms en V1. La rama 'notched' es una aproximación a 'R ancha mellada'."
+        },
+        {
+          "id": "rbbb-c-s",
+          "role": "supporting",
+          "text": {
+            "es": "Onda S presente en I y V6 (aproximación a S más larga que R o >40 ms)",
+            "en": "S wave present in I and V6 (proxy for S longer than R or >40 ms)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "lead.I.sMv",
+                "op": "<",
+                "value": 0
+              },
+              {
+                "feature": "lead.V6.sMv",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 exige S más larga que la R, o >40 ms, en I y V6 (adultos) y lo cuenta entre los 3 primeros criterios obligatorios. Los rasgos disponibles no miden la duración de la onda S; este predicado solo comprueba su presencia (aproximación más laxa que la fuente)."
+        },
+        {
+          "id": "rbbb-c-rpeak-v1",
+          "role": "supporting",
+          "text": {
+            "es": "Tiempo al pico de R en V1 >50 ms",
+            "en": "R peak time in V1 >50 ms"
+          },
+          "predicate": {
+            "feature": "lead.V1.rPeakMs",
+            "op": ">",
+            "value": 50
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 parte III: tiempo al pico de R normal en V5-V6 pero >50 ms en V1."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "ageYears",
+            "op": "<",
+            "value": 16
+          },
+          "effect": "lower",
+          "text": {
+            "es": "En menores de 16 años los umbrales de QRS de la AHA 2009 son otros (p. ej., >100 ms entre 4 y 16 años en BRD/BRI completos); esta regla usa los de adultos.",
+            "en": "Under 16 years the AHA 2009 QRS thresholds differ (e.g., >100 ms at ages 4-16 for complete RBBB/LBBB); this rule uses the adult values."
+          },
+          "ref": "surawicz-2009"
+        }
+      ],
+      "mimics": [
+        "rbbb-incomplete",
+        "brugada-type1",
+        "brugada-type2",
+        "arvc",
+        "right-ventricular-hypertrophy",
+        "acute-pe-rv-strain",
+        "wpw-pattern",
+        "ventricular-paced-rhythm"
+      ],
+      "nextSteps": {
+        "es": "Comparar con ECG previo y correlacionar con antecedentes cardiopulmonares. Si coexiste desviación del eje, valorar bloqueo fascicular asociado.",
+        "en": "Compare with a prior ECG and correlate with cardiopulmonary history. If axis deviation coexists, consider an associated fascicular block."
+      },
+      "limitations": {
+        "es": "Duración de la onda S (criterio obligatorio de la AHA) no medible con los rasgos disponibles; solo se comprueba su presencia. No distingue de morfología similar por preexcitación, marcapasos o patrón de Brugada. Umbrales de adulto.",
+        "en": "S-wave duration (an AHA required criterion) is not measurable with the available features; only its presence is checked. Cannot separate from similar morphology caused by preexcitation, pacing or Brugada pattern. Adult thresholds."
+      },
+      "references": [
+        "surawicz-2009"
+      ],
+      "confounders": [
+        {
+          "when": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "text": {
+            "es": "La preexcitación medida puede modificar el QRS, el eje y ST-T y simular este patrón. No se puede atribuir este hallazgo a una enfermedad coexistente ni descartarla sin trazado basal/no preexcitado, evolución y valoración clínica.",
+            "en": "Measured preexcitation can alter QRS, axis and ST-T and mimic this pattern. This finding cannot establish or exclude coexisting disease without a baseline/non-preexcited tracing, serial assessment and clinical evaluation."
+          },
+          "ref": "surawicz-2009",
+          "criteria": [
+            "rbbb-c-qrs",
+            "rbbb-c-rsr"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "rbbb-incomplete",
+      "name": {
+        "es": "Bloqueo incompleto de rama derecha",
+        "en": "Incomplete right bundle branch block"
+      },
+      "category": "conduction",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "rbbb-i-qrs",
+          "role": "required",
+          "text": {
+            "es": "QRS de 110 a <120 ms (adultos)",
+            "en": "QRS 110 to <120 ms (adults)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "qrsMs",
+                "op": ">=",
+                "value": 110
+              },
+              {
+                "feature": "qrsMs",
+                "op": "<",
+                "value": 120
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 parte III: 110-120 ms en adultos (90-100 ms de 4 a 16 años; 86-90 ms en <8 años). Se usa <120 ms para no solaparse con el bloqueo completo (≥120 ms)."
+        },
+        {
+          "id": "rbbb-i-rsr",
+          "role": "required",
+          "text": {
+            "es": "Patrón rsr′, rsR′ o rSR′ en V1 o V2 (resto de criterios como el completo)",
+            "en": "rsr′, rsR′ or rSR′ pattern in V1 or V2 (other criteria as for complete RBBB)"
+          },
+          "predicate": {
+            "any": [
+              {
+                "feature": "lead.V1.rPrime",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "lead.V2.rPrime",
+                "op": "==",
+                "value": true
+              },
+              {
+                "all": [
+                  {
+                    "feature": "lead.V1.notched",
+                    "op": "==",
+                    "value": true
+                  },
+                  {
+                    "feature": "lead.V1.rPeakMs",
+                    "op": ">",
+                    "value": 50
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009: 'los demás criterios son los del bloqueo completo'. Misma aproximación de morfología que en rbbb-complete."
+        },
+        {
+          "id": "rbbb-i-s",
+          "role": "supporting",
+          "text": {
+            "es": "Onda S presente en I y V6",
+            "en": "S wave present in I and V6"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "lead.I.sMv",
+                "op": "<",
+                "value": 0
+              },
+              {
+                "feature": "lead.V6.sMv",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "Aproximación; ver nota del bloqueo completo."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "ageYears",
+            "op": "<",
+            "value": 16
+          },
+          "effect": "lower",
+          "text": {
+            "es": "En menores de 16 años los umbrales de QRS de la AHA 2009 son otros (p. ej., >100 ms entre 4 y 16 años en BRD/BRI completos); esta regla usa los de adultos.",
+            "en": "Under 16 years the AHA 2009 QRS thresholds differ (e.g., >100 ms at ages 4-16 for complete RBBB/LBBB); this rule uses the adult values."
+          },
+          "ref": "surawicz-2009"
+        }
+      ],
+      "mimics": [
+        "rbbb-complete",
+        "brugada-type2",
+        "right-ventricular-hypertrophy",
+        "athlete-heart",
+        "arvc",
+        "early-repolarization"
+      ],
+      "nextSteps": {
+        "es": "Correlacionar con la clínica; es un hallazgo frecuente sin cardiopatía. Si hay r′ en V1-V2 con ST elevado, considerar patrón de Brugada.",
+        "en": "Correlate clinically; it is a frequent finding without heart disease. If r′ in V1-V2 with ST elevation, consider Brugada pattern."
+      },
+      "limitations": {
+        "es": "La AHA señala que puede darse sin cardiopatía, sobre todo si V1 se registra más alto o a la derecha de lo normal; la posición de los electrodos no se conoce en un ECG digitalizado.",
+        "en": "AHA notes it may occur without heart disease, especially when V1 is recorded higher or further right than normal; electrode position is unknown on a digitized ECG."
+      },
+      "references": [
+        "surawicz-2009",
+        "bayes-de-luna-2012"
+      ],
+      "confounders": [
+        {
+          "when": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "text": {
+            "es": "La preexcitación medida puede modificar el QRS, el eje y ST-T y simular este patrón. No se puede atribuir este hallazgo a una enfermedad coexistente ni descartarla sin trazado basal/no preexcitado, evolución y valoración clínica.",
+            "en": "Measured preexcitation can alter QRS, axis and ST-T and mimic this pattern. This finding cannot establish or exclude coexisting disease without a baseline/non-preexcited tracing, serial assessment and clinical evaluation."
+          },
+          "ref": "surawicz-2009",
+          "criteria": [
+            "rbbb-i-qrs",
+            "rbbb-i-rsr"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "lbbb-complete-aha",
+      "name": {
+        "es": "Bloqueo completo de rama izquierda (criterios AHA/ACCF/HRS 2009)",
+        "en": "Complete left bundle branch block (AHA/ACCF/HRS 2009 criteria)"
+      },
+      "category": "conduction",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "lbbb-a-qrs",
+          "role": "required",
+          "text": {
+            "es": "QRS ≥120 ms (adultos)",
+            "en": "QRS duration ≥120 ms (adults)"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">=",
+            "value": 120
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 parte III: ≥120 ms en adultos; >100 ms de 4 a 16 años; >90 ms en <4 años."
+        },
+        {
+          "id": "lbbb-a-rpeak",
+          "role": "required",
+          "text": {
+            "es": "Tiempo al pico de R >60 ms en V5 y V6",
+            "en": "R peak time >60 ms in V5 and V6"
+          },
+          "predicate": {
+            "countLeads": [
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "rPeakMs",
+              "op": ">",
+              "value": 60
+            },
+            "op": ">=",
+            "value": 2
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009: tiempo al pico de R >60 ms en V5 y V6, normal en V1-V3."
+        },
+        {
+          "id": "lbbb-a-notch",
+          "role": "supporting",
+          "text": {
+            "es": "R ancha mellada o empastada en I, aVL, V5 o V6",
+            "en": "Broad notched or slurred R in I, aVL, V5 or V6"
+          },
+          "predicate": {
+            "countLeads": [
+              "I",
+              "aVL",
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "notched",
+              "op": "==",
+              "value": true
+            },
+            "op": ">=",
+            "value": 1
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 criterio 2. 'notched' (R mellada sin cruzar la línea de base) aproxima 'mellada'; el empastamiento sin mella no se detecta."
+        },
+        {
+          "id": "lbbb-a-noq",
+          "role": "supporting",
+          "text": {
+            "es": "Ausencia de onda q en I, V5 y V6",
+            "en": "Absent q waves in I, V5 and V6"
+          },
+          "predicate": null,
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 criterio 3 (una q estrecha en aVL puede ser normal). Predicado nulo: no está garantizado cómo codifica el digitalizador la ausencia de q (qMv/qMs nulos o cero); haría falta un rasgo explícito 'q ausente'."
+        },
+        {
+          "id": "lbbb-a-stt",
+          "role": "supporting",
+          "text": {
+            "es": "En V1 (QRS negativo): ST y T positivos (discordantes)",
+            "en": "In V1 (negative QRS): positive ST and T (discordant)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "lead.V1.stMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "feature": "lead.V1.tMv",
+                "op": ">",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009: ST y T usualmente opuestos al QRS. Aproximación en una sola derivación; la concordancia anormal (parte VI) no se evalúa aquí."
+        },
+        {
+          "id": "lbbb-a-paced",
+          "role": "exclusion",
+          "text": {
+            "es": "Ritmo de marcapasos ventricular indicado en el contexto",
+            "en": "Ventricular paced rhythm stated in the context"
+          },
+          "predicate": {
+            "context": "paced",
+            "op": "==",
+            "value": "yes"
+          },
+          "ref": "litfl-paced",
+          "note": "La estimulación del VD produce un QRS de tipo BRI (fuente secundaria LITFL); no es bloqueo intrínseco."
+        },
+        {
+          "id": "lbbb-wpw-excl",
+          "role": "exclusion",
+          "text": {
+            "es": "PR corto con preexcitación manifiesta (patrón WPW simulando BRI).",
+            "en": "Short PR with overt preexcitation (WPW pattern mimicking LBBB)."
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "prMs",
+                "op": "<",
+                "value": 110
+              },
+              {
+                "feature": "preexcitationSupported",
+                "op": "==",
+                "value": true
+              }
+            ]
+          },
+          "ref": "surawicz-2009"
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "ageYears",
+            "op": "<",
+            "value": 16
+          },
+          "effect": "lower",
+          "text": {
+            "es": "En menores de 16 años los umbrales de QRS de la AHA 2009 son otros (p. ej., >100 ms entre 4 y 16 años en BRD/BRI completos); esta regla usa los de adultos.",
+            "en": "Under 16 years the AHA 2009 QRS thresholds differ (e.g., >100 ms at ages 4-16 for complete RBBB/LBBB); this rule uses the adult values."
+          },
+          "ref": "surawicz-2009"
+        }
+      ],
+      "mimics": [
+        "lbbb-strauss",
+        "lbbb-incomplete",
+        "ventricular-paced-rhythm",
+        "ivcd-nonspecific",
+        "lvh-strain",
+        "hyperkalemia",
+        "sodium-channel-blocker-toxicity",
+        "lbbb-mi-sgarbossa"
+      ],
+      "nextSteps": {
+        "es": "Comparar con ECG previo. Si hay dolor torácico o clínica isquémica, evaluar la concordancia ST-T anormal según AHA 2009 parte VI y no atribuir todo al bloqueo.",
+        "en": "Compare with a prior ECG. With chest pain or ischemic symptoms, assess abnormal ST-T concordance per AHA 2009 part VI and do not attribute everything to the block."
+      },
+      "limitations": {
+        "es": "Strauss 2011 sostiene que cerca de 1/3 de los pacientes con BRI por criterios convencionales no tienen BRI completo verdadero (ver lbbb-strauss). Falta el criterio de q ausente. Umbrales de adulto.",
+        "en": "Strauss 2011 argues that about 1/3 of patients labelled LBBB by conventional criteria lack true complete LBBB (see lbbb-strauss). Absent-q criterion not evaluable. Adult thresholds."
+      },
+      "references": [
+        "surawicz-2009",
+        "strauss-2011",
+        "litfl-paced"
+      ],
+      "group": "lbbb",
+      "confounders": [
+        {
+          "when": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "text": {
+            "es": "La preexcitación medida puede modificar el QRS, el eje y ST-T y simular este patrón. No se puede atribuir este hallazgo a una enfermedad coexistente ni descartarla sin trazado basal/no preexcitado, evolución y valoración clínica.",
+            "en": "Measured preexcitation can alter QRS, axis and ST-T and mimic this pattern. This finding cannot establish or exclude coexisting disease without a baseline/non-preexcited tracing, serial assessment and clinical evaluation."
+          },
+          "ref": "surawicz-2009",
+          "criteria": [
+            "lbbb-a-qrs",
+            "lbbb-a-rpeak"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "lbbb-strauss",
+      "name": {
+        "es": "Bloqueo completo de rama izquierda estricto (criterios de Strauss 2011)",
+        "en": "Strict complete left bundle branch block (Strauss 2011 criteria)"
+      },
+      "category": "conduction",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "lbbb-s-qrs",
+          "role": "required",
+          "text": {
+            "es": "QRS ≥140 ms en hombres o ≥130 ms en mujeres",
+            "en": "QRS ≥140 ms in men or ≥130 ms in women"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "male"
+                  },
+                  {
+                    "feature": "qrsMs",
+                    "op": ">=",
+                    "value": 140
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "female"
+                  },
+                  {
+                    "feature": "qrsMs",
+                    "op": ">=",
+                    "value": 130
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "strauss-2011",
+          "note": "Strauss 2011 (resumen): ≥140 ms hombres, ≥130 ms mujeres, propuestos por simulación computacional. Requiere el sexo en el contexto; sin él el criterio no se cumple."
+        },
+        {
+          "id": "lbbb-s-v1",
+          "role": "required",
+          "text": {
+            "es": "QS o rS en V1",
+            "en": "QS or rS in V1"
+          },
+          "predicate": {
+            "any": [
+              {
+                "feature": "lead.V1.qs",
+                "op": "==",
+                "value": true
+              },
+              {
+                "expr": "lead.V1.rMv+lead.V1.sMv",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "andersson-2013",
+          "note": "Los criterios estrictos tal como se aplican en Andersson 2013 (métodos) incluyen QS o rS en V1. rS se aproxima como r menor que |S| (rMv+sMv<0). El resumen de Strauss 2011 abierto no detalla este punto."
+        },
+        {
+          "id": "lbbb-s-notch",
+          "role": "required",
+          "text": {
+            "es": "Mellado o empastamiento a mitad del QRS en ≥2 derivaciones contiguas",
+            "en": "Mid-QRS notching or slurring in ≥2 contiguous leads"
+          },
+          "predicate": {
+            "any": [
+              {
+                "contiguous": "lateral",
+                "where": {
+                  "field": "notched",
+                  "op": "==",
+                  "value": true
+                },
+                "min": 2
+              },
+              {
+                "contiguous": "septal",
+                "where": {
+                  "field": "notched",
+                  "op": "==",
+                  "value": true
+                },
+                "min": 2
+              }
+            ]
+          },
+          "ref": "strauss-2011",
+          "note": "Strauss 2011: ≥2 derivaciones contiguas; Andersson 2013 las enumera como I, aVL, V1, V2, V5, V6. 'notched' mide la mella de R sin cruzar la línea de base: subestima el mellado medio del QRS en V1-V2 (rS/QS) y el empastamiento."
+        },
+        {
+          "id": "lbbb-s-rpeak",
+          "role": "supporting",
+          "text": {
+            "es": "Tiempo al pico de R >60 ms en V5 y V6",
+            "en": "R peak time >60 ms in V5 and V6"
+          },
+          "predicate": {
+            "countLeads": [
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "rPeakMs",
+              "op": ">",
+              "value": 60
+            },
+            "op": ">=",
+            "value": 2
+          },
+          "ref": "surawicz-2009",
+          "note": "Criterio de la AHA 2009, no de Strauss; se añade como apoyo."
+        },
+        {
+          "id": "lbbb-s-wpw-excl",
+          "role": "exclusion",
+          "text": {
+            "es": "PR corto con preexcitación manifiesta (patrón WPW simulando BRI).",
+            "en": "Short PR with overt preexcitation (WPW pattern mimicking LBBB)."
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "prMs",
+                "op": "<",
+                "value": 110
+              },
+              {
+                "feature": "preexcitationSupported",
+                "op": "==",
+                "value": true
+              }
+            ]
+          },
+          "ref": "surawicz-2009"
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "ageYears",
+            "op": "<",
+            "value": 16
+          },
+          "effect": "lower",
+          "text": {
+            "es": "En menores de 16 años los umbrales de QRS de la AHA 2009 son otros (p. ej., >100 ms entre 4 y 16 años en BRD/BRI completos); esta regla usa los de adultos.",
+            "en": "Under 16 years the AHA 2009 QRS thresholds differ (e.g., >100 ms at ages 4-16 for complete RBBB/LBBB); this rule uses the adult values."
+          },
+          "ref": "surawicz-2009"
+        }
+      ],
+      "mimics": [
+        "lbbb-complete-aha",
+        "lbbb-incomplete",
+        "lvh-strain",
+        "bifascicular-rbbb-lafb",
+        "ventricular-paced-rhythm",
+        "ivcd-nonspecific"
+      ],
+      "nextSteps": {
+        "es": "Comparar con ECG previo; ante dolor torácico aplicar los criterios ST-T de BRI que la AHA 2009 remite a su parte VI.",
+        "en": "Compare with a prior ECG; with chest pain apply the LBBB ST-T criteria that AHA 2009 defers to its part VI."
+      },
+      "limitations": {
+        "es": "Criterios propuestos por simulación y revisión (Strauss 2011), no validados en esta revisión como guía de práctica; los autores piden más estudios. El mellado medio del QRS en V1-V2 y el empastamiento no son medibles con los rasgos disponibles. Requiere sexo.",
+        "en": "Criteria proposed from simulation and review (Strauss 2011), not a practice guideline; the authors call for further study. Mid-QRS notching in V1-V2 and slurring are not measurable with the available features. Requires sex."
+      },
+      "references": [
+        "strauss-2011",
+        "andersson-2013",
+        "surawicz-2009"
+      ],
+      "group": "lbbb",
+      "confounders": [
+        {
+          "when": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "text": {
+            "es": "La preexcitación medida puede modificar el QRS, el eje y ST-T y simular este patrón. No se puede atribuir este hallazgo a una enfermedad coexistente ni descartarla sin trazado basal/no preexcitado, evolución y valoración clínica.",
+            "en": "Measured preexcitation can alter QRS, axis and ST-T and mimic this pattern. This finding cannot establish or exclude coexisting disease without a baseline/non-preexcited tracing, serial assessment and clinical evaluation."
+          },
+          "ref": "surawicz-2009",
+          "criteria": [
+            "lbbb-s-qrs",
+            "lbbb-s-v1",
+            "lbbb-s-notch"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "lbbb-incomplete",
+      "name": {
+        "es": "Bloqueo incompleto de rama izquierda",
+        "en": "Incomplete left bundle branch block"
+      },
+      "category": "conduction",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "lbbb-i-qrs",
+          "role": "required",
+          "text": {
+            "es": "QRS de 110 a 119 ms (adultos)",
+            "en": "QRS 110 to 119 ms (adults)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "qrsMs",
+                "op": ">=",
+                "value": 110
+              },
+              {
+                "feature": "qrsMs",
+                "op": "<=",
+                "value": 119
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 parte III: 110-119 ms en adultos (90-100 ms de 8 a 16 años; 80-90 ms en <8 años)."
+        },
+        {
+          "id": "lbbb-i-rpeak",
+          "role": "required",
+          "text": {
+            "es": "Tiempo al pico de R >60 ms en V4, V5 y V6",
+            "en": "R peak time >60 ms in V4, V5 and V6"
+          },
+          "predicate": {
+            "countLeads": [
+              "V4",
+              "V5",
+              "V6"
+            ],
+            "where": {
+              "field": "rPeakMs",
+              "op": ">",
+              "value": 60
+            },
+            "op": ">=",
+            "value": 3
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 parte III."
+        },
+        {
+          "id": "lbbb-i-lvh",
+          "role": "supporting",
+          "text": {
+            "es": "Patrón de hipertrofia ventricular izquierda",
+            "en": "Left ventricular hypertrophy pattern"
+          },
+          "predicate": null,
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 lo incluye como criterio del BRI incompleto sin cifra; los umbrales de HVI se definen en otra parte de la guía (parte V) y en otro dominio de esta base. Predicado nulo para no duplicar ni inventar un umbral."
+        },
+        {
+          "id": "lbbb-i-noq",
+          "role": "supporting",
+          "text": {
+            "es": "Ausencia de onda q en I, V5 y V6",
+            "en": "Absent q waves in I, V5 and V6"
+          },
+          "predicate": null,
+          "ref": "surawicz-2009",
+          "note": "AHA 2009; predicado nulo por la misma razón que en lbbb-complete-aha."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "ageYears",
+            "op": "<",
+            "value": 16
+          },
+          "effect": "lower",
+          "text": {
+            "es": "En menores de 16 años los umbrales de QRS de la AHA 2009 son otros (p. ej., >100 ms entre 4 y 16 años en BRD/BRI completos); esta regla usa los de adultos.",
+            "en": "Under 16 years the AHA 2009 QRS thresholds differ (e.g., >100 ms at ages 4-16 for complete RBBB/LBBB); this rule uses the adult values."
+          },
+          "ref": "surawicz-2009"
+        }
+      ],
+      "mimics": [
+        "lbbb-complete-aha",
+        "lvh-cornell",
+        "lvh-sokolow-lyon",
+        "lvh-strain",
+        "lafb",
+        "ivcd-nonspecific"
+      ],
+      "nextSteps": {
+        "es": "Comparar con ECG previo y valorar si coexiste hipertrofia ventricular izquierda.",
+        "en": "Compare with a prior ECG and assess for coexisting left ventricular hypertrophy."
+      },
+      "limitations": {
+        "es": "La AHA exige un patrón de HVI, que aquí no se evalúa; sin él el hallazgo puede ser simple HVI con QRS algo ancho. Umbrales de adulto.",
+        "en": "AHA requires an LVH pattern, which is not evaluated here; without it the finding may be plain LVH with a slightly wide QRS. Adult thresholds."
+      },
+      "references": [
+        "surawicz-2009"
+      ],
+      "confounders": [
+        {
+          "when": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "text": {
+            "es": "La preexcitación medida puede modificar el QRS, el eje y ST-T y simular este patrón. No se puede atribuir este hallazgo a una enfermedad coexistente ni descartarla sin trazado basal/no preexcitado, evolución y valoración clínica.",
+            "en": "Measured preexcitation can alter QRS, axis and ST-T and mimic this pattern. This finding cannot establish or exclude coexisting disease without a baseline/non-preexcited tracing, serial assessment and clinical evaluation."
+          },
+          "ref": "surawicz-2009",
+          "criteria": [
+            "lbbb-i-qrs",
+            "lbbb-i-rpeak"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "lafb",
+      "name": {
+        "es": "Hemibloqueo anterior izquierdo",
+        "en": "Left anterior fascicular block"
+      },
+      "category": "conduction",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "lafb-axis",
+          "role": "required",
+          "text": {
+            "es": "Eje QRS frontal entre −45° y −90°",
+            "en": "Frontal QRS axis between −45° and −90°"
+          },
+          "predicate": {
+            "feature": "axisDeg",
+            "op": "between",
+            "value": [
+              -90,
+              -45
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 parte III. Nota del extractor: el signo menos se pierde en la transcripción web; el rango −45° a −90° es el de la tabla."
+        },
+        {
+          "id": "lafb-qr",
+          "role": "required",
+          "text": {
+            "es": "Patrón qR en aVL",
+            "en": "qR pattern in aVL"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "lead.aVL.qMv",
+                "op": "<",
+                "value": 0
+              },
+              {
+                "feature": "lead.aVL.rMv",
+                "op": ">",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 criterio 2."
+        },
+        {
+          "id": "lafb-rpeak",
+          "role": "required",
+          "text": {
+            "es": "Tiempo al pico de R en aVL ≥45 ms",
+            "en": "R peak time in aVL ≥45 ms"
+          },
+          "predicate": {
+            "feature": "lead.aVL.rPeakMs",
+            "op": ">=",
+            "value": 45
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 criterio 3."
+        },
+        {
+          "id": "lafb-qrs",
+          "role": "required",
+          "text": {
+            "es": "QRS <120 ms",
+            "en": "QRS <120 ms"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": "<",
+            "value": 120
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 criterio 4."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "lbbb-incomplete",
+        "old-mi-q-waves",
+        "inferior-stemi",
+        "lvh-cornell",
+        "bifascicular-rbbb-lafb",
+        "dilated-cardiomyopathy-hf"
+      ],
+      "nextSteps": {
+        "es": "Comparar con ECG previo. Si coexiste BRD, ver bifascicular-rbbb-lafb; si hay síncope, ampliar el estudio de la conducción.",
+        "en": "Compare with a prior ECG. If RBBB coexists see bifascicular-rbbb-lafb; with syncope, broaden conduction work-up."
+      },
+      "limitations": {
+        "es": "La AHA aclara que los criterios no se aplican a cardiopatías congénitas con desviación izquierda del eje desde la infancia. Un infarto inferior antiguo (q inferiores) puede simular el eje. Los requisitos son los cuatro criterios de la AHA; q ausente en aVL por digitalización impide el diagnóstico.",
+        "en": "AHA states the criteria do not apply to congenital heart disease with left axis deviation since infancy. Old inferior MI can mimic the axis. Requirements are AHA's four criteria; a q missed in aVL by digitization prevents the label."
+      },
+      "references": [
+        "surawicz-2009"
+      ],
+      "confounders": [
+        {
+          "when": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "text": {
+            "es": "La preexcitación medida puede modificar el QRS, el eje y ST-T y simular este patrón. No se puede atribuir este hallazgo a una enfermedad coexistente ni descartarla sin trazado basal/no preexcitado, evolución y valoración clínica.",
+            "en": "Measured preexcitation can alter QRS, axis and ST-T and mimic this pattern. This finding cannot establish or exclude coexisting disease without a baseline/non-preexcited tracing, serial assessment and clinical evaluation."
+          },
+          "ref": "surawicz-2009",
+          "criteria": [
+            "lafb-axis",
+            "lafb-qr",
+            "lafb-rpeak",
+            "lafb-qrs"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "lpfb",
+      "name": {
+        "es": "Hemibloqueo posterior izquierdo",
+        "en": "Left posterior fascicular block"
+      },
+      "category": "conduction",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "lpfb-axis",
+          "role": "required",
+          "text": {
+            "es": "Eje QRS frontal entre 90° y 180° (adultos)",
+            "en": "Frontal QRS axis between 90° and 180° (adults)"
+          },
+          "predicate": {
+            "feature": "axisDeg",
+            "op": "between",
+            "value": [
+              90,
+              180
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 parte III. En niños hasta 16 años solo si se documenta un cambio claro del eje a la derecha."
+        },
+        {
+          "id": "lpfb-rs",
+          "role": "required",
+          "text": {
+            "es": "Patrón rS en I y aVL",
+            "en": "rS pattern in I and aVL"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "lead.I.rMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "expr": "lead.I.rMv+lead.I.sMv",
+                "op": "<",
+                "value": 0
+              },
+              {
+                "feature": "lead.aVL.rMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "expr": "lead.aVL.rMv+lead.aVL.sMv",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 criterio 2. rS aproximado como r presente y S más profunda que r."
+        },
+        {
+          "id": "lpfb-qr",
+          "role": "required",
+          "text": {
+            "es": "Patrón qR en III y aVF",
+            "en": "qR pattern in III and aVF"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "lead.III.qMv",
+                "op": "<",
+                "value": 0
+              },
+              {
+                "expr": "lead.III.rMv+lead.III.qMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "feature": "lead.aVF.qMv",
+                "op": "<",
+                "value": 0
+              },
+              {
+                "expr": "lead.aVF.rMv+lead.aVF.qMv",
+                "op": ">",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 criterio 3. qR aproximado como q presente y R mayor que |q|."
+        },
+        {
+          "id": "lpfb-qrs",
+          "role": "required",
+          "text": {
+            "es": "QRS <120 ms",
+            "en": "QRS <120 ms"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": "<",
+            "value": 120
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 criterio 4."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "right-ventricular-hypertrophy",
+        "lateral-stemi",
+        "copd-pattern",
+        "dextrocardia",
+        "limb-lead-reversal-la-ra",
+        "bifascicular-rbbb-lpfb"
+      ],
+      "nextSteps": {
+        "es": "Descartar otras causas de eje derecho (hipertrofia de VD, enfermedad pulmonar, infarto lateral, colocación de electrodos) y comparar con ECG previo.",
+        "en": "Exclude other causes of right axis (RV hypertrophy, lung disease, lateral infarct, lead placement) and compare with a prior ECG."
+      },
+      "limitations": {
+        "es": "Diagnóstico de exclusión; la AHA 2009 solo da los 4 criterios y el motor no puede excluir por sí mismo hipertrofia de VD, EPOC o inversión de electrodos. Umbrales de adulto.",
+        "en": "A diagnosis of exclusion; AHA 2009 gives only the 4 criteria and the engine cannot exclude RV hypertrophy, COPD or lead reversal by itself. Adult thresholds."
+      },
+      "references": [
+        "surawicz-2009"
+      ],
+      "confounders": [
+        {
+          "when": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "text": {
+            "es": "La preexcitación medida puede modificar el QRS, el eje y ST-T y simular este patrón. No se puede atribuir este hallazgo a una enfermedad coexistente ni descartarla sin trazado basal/no preexcitado, evolución y valoración clínica.",
+            "en": "Measured preexcitation can alter QRS, axis and ST-T and mimic this pattern. This finding cannot establish or exclude coexisting disease without a baseline/non-preexcited tracing, serial assessment and clinical evaluation."
+          },
+          "ref": "surawicz-2009",
+          "criteria": [
+            "lpfb-axis",
+            "lpfb-rs",
+            "lpfb-qr",
+            "lpfb-qrs"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "bifascicular-rbbb-lafb",
+      "name": {
+        "es": "Bloqueo bifascicular (BRD + hemibloqueo anterior izquierdo)",
+        "en": "Bifascicular block (RBBB + left anterior fascicular block)"
+      },
+      "category": "conduction",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "bif-a-rbbb-qrs",
+          "role": "required",
+          "text": {
+            "es": "BRD: QRS ≥120 ms",
+            "en": "RBBB: QRS ≥120 ms"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">=",
+            "value": 120
+          },
+          "ref": "surawicz-2009",
+          "note": "Criterio de BRD completo, AHA 2009."
+        },
+        {
+          "id": "bif-a-rbbb-rsr",
+          "role": "required",
+          "text": {
+            "es": "BRD: rsR′ en V1 o V2 (o R ancha mellada con pico >50 ms en V1)",
+            "en": "RBBB: rsR′ in V1 or V2 (or broad notched R with peak >50 ms in V1)"
+          },
+          "predicate": {
+            "any": [
+              {
+                "feature": "lead.V1.rPrime",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "lead.V2.rPrime",
+                "op": "==",
+                "value": true
+              },
+              {
+                "all": [
+                  {
+                    "feature": "lead.V1.notched",
+                    "op": "==",
+                    "value": true
+                  },
+                  {
+                    "feature": "lead.V1.rPeakMs",
+                    "op": ">",
+                    "value": 50
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "Ver rbbb-complete."
+        },
+        {
+          "id": "bif-a-axis",
+          "role": "required",
+          "text": {
+            "es": "Eje QRS frontal entre −45° y −90°",
+            "en": "Frontal QRS axis between −45° and −90°"
+          },
+          "predicate": {
+            "feature": "axisDeg",
+            "op": "between",
+            "value": [
+              -90,
+              -45
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "Criterio de eje del HBAI (AHA 2009). Con BRD el QRS es ≥120 ms, por lo que el criterio 'QRS <120 ms' del HBAI no es aplicable; esta combinación es operativa, no una definición publicada."
+        },
+        {
+          "id": "bif-a-qr",
+          "role": "supporting",
+          "text": {
+            "es": "qR en aVL",
+            "en": "qR in aVL"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "lead.aVL.qMv",
+                "op": "<",
+                "value": 0
+              },
+              {
+                "feature": "lead.aVL.rMv",
+                "op": ">",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "Criterio de HBAI, AHA 2009."
+        },
+        {
+          "id": "bif-a-rpeak",
+          "role": "supporting",
+          "text": {
+            "es": "Tiempo al pico de R en aVL ≥45 ms",
+            "en": "R peak time in aVL ≥45 ms"
+          },
+          "predicate": {
+            "feature": "lead.aVL.rPeakMs",
+            "op": ">=",
+            "value": 45
+          },
+          "ref": "surawicz-2009",
+          "note": "Criterio de HBAI, AHA 2009."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "ageYears",
+            "op": "<",
+            "value": 16
+          },
+          "effect": "lower",
+          "text": {
+            "es": "En menores de 16 años los umbrales de QRS de la AHA 2009 son otros (p. ej., >100 ms entre 4 y 16 años en BRD/BRI completos); esta regla usa los de adultos.",
+            "en": "Under 16 years the AHA 2009 QRS thresholds differ (e.g., >100 ms at ages 4-16 for complete RBBB/LBBB); this rule uses the adult values."
+          },
+          "ref": "surawicz-2009"
+        }
+      ],
+      "mimics": [
+        "rbbb-complete",
+        "lafb",
+        "third-degree-av-block",
+        "second-degree-mobitz-ii",
+        "first-degree-av-block"
+      ],
+      "nextSteps": {
+        "es": "Medir el PR (bloqueo trifascicular/AV asociado) y comparar con ECG previo; si hay síncope, ampliar el estudio de la conducción. Si hay síncope inexplicado, investigar bloqueo AV intermitente con monitorización y/o evaluación electrofisiológica según ESC 2021; el patrón bifascicular aislado no identifica la causa del síncope.",
+        "en": "Measure the PR interval (associated trifascicular/AV block) and compare with a prior ECG; with syncope, broaden conduction work-up. With unexplained syncope, investigate intermittent AV block using monitoring and/or electrophysiological evaluation according to ESC 2021; an isolated bifascicular pattern does not identify the cause of syncope."
+      },
+      "limitations": {
+        "es": "La AHA/ACCF/HRS 2009 desaconseja los términos 'bifascicular' y 'trifascicular' y recomienda describir cada defecto por la estructura afectada; esta entrada es una combinación descriptiva. El eje puede alterarse por el propio BRD, y el criterio de QRS <120 ms del HBAI no es aplicable.",
+        "en": "AHA/ACCF/HRS 2009 discourages the terms 'bifascicular' and 'trifascicular' and recommends describing each defect by the structure involved; this entry is a descriptive combination. The axis may be affected by the RBBB itself, and the LAFB QRS <120 ms criterion does not apply."
+      },
+      "references": [
+        "surawicz-2009",
+        "glikson-2021-pacing"
+      ],
+      "group": "bifascicular-block",
+      "confounders": [
+        {
+          "when": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "text": {
+            "es": "La preexcitación medida puede modificar el QRS, el eje y ST-T y simular este patrón. No se puede atribuir este hallazgo a una enfermedad coexistente ni descartarla sin trazado basal/no preexcitado, evolución y valoración clínica.",
+            "en": "Measured preexcitation can alter QRS, axis and ST-T and mimic this pattern. This finding cannot establish or exclude coexisting disease without a baseline/non-preexcited tracing, serial assessment and clinical evaluation."
+          },
+          "ref": "surawicz-2009",
+          "criteria": [
+            "bif-a-rbbb-qrs",
+            "bif-a-rbbb-rsr",
+            "bif-a-axis"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "bifascicular-rbbb-lpfb",
+      "name": {
+        "es": "Bloqueo bifascicular (BRD + hemibloqueo posterior izquierdo)",
+        "en": "Bifascicular block (RBBB + left posterior fascicular block)"
+      },
+      "category": "conduction",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "bif-p-rbbb-qrs",
+          "role": "required",
+          "text": {
+            "es": "BRD: QRS ≥120 ms",
+            "en": "RBBB: QRS ≥120 ms"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">=",
+            "value": 120
+          },
+          "ref": "surawicz-2009",
+          "note": "Criterio de BRD completo, AHA 2009."
+        },
+        {
+          "id": "bif-p-rbbb-rsr",
+          "role": "required",
+          "text": {
+            "es": "BRD: rsR′ en V1 o V2 (o R ancha mellada con pico >50 ms en V1)",
+            "en": "RBBB: rsR′ in V1 or V2 (or broad notched R with peak >50 ms in V1)"
+          },
+          "predicate": {
+            "any": [
+              {
+                "feature": "lead.V1.rPrime",
+                "op": "==",
+                "value": true
+              },
+              {
+                "feature": "lead.V2.rPrime",
+                "op": "==",
+                "value": true
+              },
+              {
+                "all": [
+                  {
+                    "feature": "lead.V1.notched",
+                    "op": "==",
+                    "value": true
+                  },
+                  {
+                    "feature": "lead.V1.rPeakMs",
+                    "op": ">",
+                    "value": 50
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "Ver rbbb-complete."
+        },
+        {
+          "id": "bif-p-axis",
+          "role": "required",
+          "text": {
+            "es": "Eje QRS frontal entre 90° y 180° (adultos)",
+            "en": "Frontal QRS axis between 90° and 180° (adults)"
+          },
+          "predicate": {
+            "feature": "axisDeg",
+            "op": "between",
+            "value": [
+              90,
+              180
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "Criterio de eje del HBPI (AHA 2009). Combinación operativa, no definición publicada; el BRD por sí solo puede desviar el eje a la derecha."
+        },
+        {
+          "id": "bif-p-rs",
+          "role": "required",
+          "text": {
+            "es": "rS en I y aVL",
+            "en": "rS in I and aVL"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "lead.I.rMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "expr": "lead.I.rMv+lead.I.sMv",
+                "op": "<",
+                "value": 0
+              },
+              {
+                "feature": "lead.aVL.rMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "expr": "lead.aVL.rMv+lead.aVL.sMv",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "Criterio de HPBI, AHA 2009."
+        },
+        {
+          "id": "bif-p-qr",
+          "role": "required",
+          "text": {
+            "es": "qR en III y aVF",
+            "en": "qR in III and aVF"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "lead.III.qMv",
+                "op": "<",
+                "value": 0
+              },
+              {
+                "expr": "lead.III.rMv+lead.III.qMv",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "feature": "lead.aVF.qMv",
+                "op": "<",
+                "value": 0
+              },
+              {
+                "expr": "lead.aVF.rMv+lead.aVF.qMv",
+                "op": ">",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "Criterio de HPBI, AHA 2009."
+        },
+        {
+          "id": "bif-p-excl-rvh-context",
+          "role": "exclusion",
+          "text": {
+            "es": "EPOC o hipertensión pulmonar conocidas (el eje derecho se explica sin bloqueo fascicular)",
+            "en": "Known COPD or pulmonary hypertension (right axis explained without fascicular block)"
+          },
+          "predicate": {
+            "any": [
+              {
+                "context": "history",
+                "op": "contains",
+                "value": "copd"
+              },
+              {
+                "context": "history",
+                "op": "contains",
+                "value": "pulmonary-hypertension"
+              }
+            ]
+          },
+          "note": "AHA 2009 parte III: el HFPI exige descartar otras causas de eje derecho (HVD, enfisema, infarto lateral). Auditoría v22."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "ageYears",
+            "op": "<",
+            "value": 16
+          },
+          "effect": "lower",
+          "text": {
+            "es": "En menores de 16 años los umbrales de QRS de la AHA 2009 son otros (p. ej., >100 ms entre 4 y 16 años en BRD/BRI completos); esta regla usa los de adultos.",
+            "en": "Under 16 years the AHA 2009 QRS thresholds differ (e.g., >100 ms at ages 4-16 for complete RBBB/LBBB); this rule uses the adult values."
+          },
+          "ref": "surawicz-2009"
+        }
+      ],
+      "mimics": [
+        "rbbb-complete",
+        "lpfb",
+        "right-ventricular-hypertrophy",
+        "acute-pe-rv-strain",
+        "copd-pattern",
+        "limb-lead-reversal-la-ra",
+        "dextrocardia"
+      ],
+      "nextSteps": {
+        "es": "Descartar hipertrofia de VD, enfermedad pulmonar crónica y error de colocación de electrodos antes de atribuir el eje a un hemibloqueo; medir el PR. Si hay síncope inexplicado, investigar bloqueo AV intermitente con monitorización y/o evaluación electrofisiológica según ESC 2021; el patrón bifascicular aislado no identifica la causa del síncope.",
+        "en": "Exclude RV hypertrophy, chronic lung disease and lead misplacement before attributing the axis to a fascicular block; measure the PR interval. With unexplained syncope, investigate intermittent AV block using monitoring and/or electrophysiological evaluation according to ESC 2021; an isolated bifascicular pattern does not identify the cause of syncope."
+      },
+      "limitations": {
+        "es": "Entre los diagnósticos diferenciales de eje derecho con BRD están la hipertrofia de VD y el cor pulmonale; la AHA 2009 desaconseja el término 'bifascicular'. Combinación descriptiva, no definición publicada.",
+        "en": "Right-axis differentials with RBBB include RV hypertrophy and cor pulmonale; AHA 2009 discourages the term 'bifascicular'. Descriptive combination, not a published definition."
+      },
+      "references": [
+        "surawicz-2009",
+        "glikson-2021-pacing"
+      ],
+      "group": "bifascicular-block",
+      "confounders": [
+        {
+          "when": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "text": {
+            "es": "La preexcitación medida puede modificar el QRS, el eje y ST-T y simular este patrón. No se puede atribuir este hallazgo a una enfermedad coexistente ni descartarla sin trazado basal/no preexcitado, evolución y valoración clínica.",
+            "en": "Measured preexcitation can alter QRS, axis and ST-T and mimic this pattern. This finding cannot establish or exclude coexisting disease without a baseline/non-preexcited tracing, serial assessment and clinical evaluation."
+          },
+          "ref": "surawicz-2009",
+          "criteria": [
+            "bif-p-rbbb-qrs",
+            "bif-p-rbbb-rsr",
+            "bif-p-axis",
+            "bif-p-rs",
+            "bif-p-qr"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "ivcd-nonspecific",
+      "name": {
+        "es": "Trastorno inespecífico de la conducción intraventricular",
+        "en": "Nonspecific intraventricular conduction disturbance"
+      },
+      "category": "conduction",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "ivcd-qrs",
+          "role": "required",
+          "text": {
+            "es": "QRS >110 ms (adultos)",
+            "en": "QRS >110 ms (adults)"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">",
+            "value": 110
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 parte III: >110 ms adultos; >90 ms de 8 a 16 años; >80 ms en <8 años."
+        },
+        {
+          "id": "ivcd-not-rbbb",
+          "role": "exclusion",
+          "text": {
+            "es": "Cumple morfología de BRD completo",
+            "en": "Meets complete RBBB morphology"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "qrsMs",
+                "op": ">=",
+                "value": 120
+              },
+              {
+                "any": [
+                  {
+                    "feature": "lead.V1.rPrime",
+                    "op": "==",
+                    "value": true
+                  },
+                  {
+                    "feature": "lead.V2.rPrime",
+                    "op": "==",
+                    "value": true
+                  },
+                  {
+                    "all": [
+                      {
+                        "feature": "lead.V1.notched",
+                        "op": "==",
+                        "value": true
+                      },
+                      {
+                        "feature": "lead.V1.rPeakMs",
+                        "op": ">",
+                        "value": 50
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "La AHA define el trastorno inespecífico como QRS ancho sin criterios de BRD ni BRI."
+        },
+        {
+          "id": "ivcd-not-lbbb",
+          "role": "exclusion",
+          "text": {
+            "es": "Cumple morfología de BRI completo",
+            "en": "Meets complete LBBB morphology"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "qrsMs",
+                "op": ">=",
+                "value": 120
+              },
+              {
+                "countLeads": [
+                  "V5",
+                  "V6"
+                ],
+                "where": {
+                  "field": "rPeakMs",
+                  "op": ">",
+                  "value": 60
+                },
+                "op": ">=",
+                "value": 2
+              }
+            ]
+          },
+          "ref": "surawicz-2009",
+          "note": "Idem; aproximación con QRS ≥120 ms y pico de R >60 ms en V5-V6."
+        },
+        {
+          "id": "ivcd-paced",
+          "role": "exclusion",
+          "text": {
+            "es": "Ritmo de marcapasos indicado",
+            "en": "Paced rhythm stated"
+          },
+          "predicate": {
+            "context": "paced",
+            "op": "==",
+            "value": "yes"
+          },
+          "ref": "litfl-paced",
+          "note": "El QRS ancho es de estimulación, no un trastorno de conducción intrínseco."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "ageYears",
+            "op": "<",
+            "value": 16
+          },
+          "effect": "lower",
+          "text": {
+            "es": "En menores de 16 años los umbrales de QRS de la AHA 2009 son otros (p. ej., >100 ms entre 4 y 16 años en BRD/BRI completos); esta regla usa los de adultos.",
+            "en": "Under 16 years the AHA 2009 QRS thresholds differ (e.g., >100 ms at ages 4-16 for complete RBBB/LBBB); this rule uses the adult values."
+          },
+          "ref": "surawicz-2009"
+        }
+      ],
+      "mimics": [
+        "hyperkalemia",
+        "sodium-channel-blocker-toxicity",
+        "wpw-pattern",
+        "ventricular-paced-rhythm",
+        "lvh-strain",
+        "rbbb-complete",
+        "lbbb-complete-aha"
+      ],
+      "nextSteps": {
+        "es": "Comparar con ECG previo, revisar medicación y electrolitos y correlacionar con cardiopatía estructural.",
+        "en": "Compare with a prior ECG, review medication and electrolytes and correlate with structural heart disease."
+      },
+      "limitations": {
+        "es": "Umbral de QRS de adulto. Es un diagnóstico por descarte: las exclusiones son aproximaciones de los criterios de BRD/BRI. Fármacos o hiperpotasemia pueden ensanchar el QRS sin lesión estructural (inferencia clínica, no criterio de la AHA 2009).",
+        "en": "Adult QRS threshold. A diagnosis by exclusion: exclusions are approximations of RBBB/LBBB criteria. Drugs or hyperkalemia can widen the QRS without structural disease (clinical inference, not an AHA 2009 criterion)."
+      },
+      "references": [
+        "surawicz-2009",
+        "litfl-paced"
+      ],
+      "confounders": [
+        {
+          "when": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "text": {
+            "es": "La preexcitación medida puede modificar el QRS, el eje y ST-T y simular este patrón. No se puede atribuir este hallazgo a una enfermedad coexistente ni descartarla sin trazado basal/no preexcitado, evolución y valoración clínica.",
+            "en": "Measured preexcitation can alter QRS, axis and ST-T and mimic this pattern. This finding cannot establish or exclude coexisting disease without a baseline/non-preexcited tracing, serial assessment and clinical evaluation."
+          },
+          "ref": "surawicz-2009",
+          "criteria": [
+            "ivcd-qrs"
+          ],
+          "logic": "all"
+        }
+      ]
+    },
+    {
+      "id": "wpw-pattern",
+      "name": {
+        "es": "Preexcitación ventricular / patrón de Wolff-Parkinson-White",
+        "en": "Ventricular preexcitation / Wolff-Parkinson-White pattern"
+      },
+      "category": "conduction",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "wpw-pr",
+          "role": "required",
+          "text": {
+            "es": "PR <120 ms (≤122 ms con tolerancia de medición) en adultos",
+            "en": "PR <120 ms (≤122 ms measurement tolerance) in adults"
+          },
+          "predicate": {
+            "feature": "prMs",
+            "op": "<=",
+            "value": 122
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 parte III (preexcitación tipo WPW sugerida): PR <120 ms en adultos y <90 ms en niños en ritmo sinusal, sin bloqueo."
+        },
+        {
+          "id": "wpw-delta",
+          "role": "required",
+          "text": {
+            "es": "Inicio lento del QRS compatible con delta, positiva o negativa, corroborado por pendientes y repetibilidad en varias derivaciones",
+            "en": "Slow QRS onset compatible with positive or negative delta, corroborated by slopes and repeatability across leads"
+          },
+          "predicate": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": true
+          },
+          "ref": "surawicz-2009",
+          "note": "Uses the single Python record: aggregate supported status corroborated by at least three supported leads; each lead must have at least two repeatable beats and >=2/3 repeatability, measured duration, initial/terminal slopes and polarity. These are conservative detector quality gates, not published diagnostic sensitivity/specificity thresholds. An isolated slur duration, including >=30 ms, is insufficient."
+        },
+        {
+          "id": "wpw-qrs",
+          "role": "supporting",
+          "text": {
+            "es": "QRS >120 ms en adultos",
+            "en": "QRS >120 ms in adults"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">",
+            "value": 120
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 lo lista entre los rasgos que sugieren preexcitación; puede ser <120 ms en preexcitación parcial, por eso no es obligatorio."
+        },
+        {
+          "id": "wpw-stt",
+          "role": "supporting",
+          "text": {
+            "es": "Cambios secundarios de ST-T",
+            "en": "Secondary ST-T changes"
+          },
+          "predicate": null,
+          "ref": "surawicz-2009",
+          "note": "AHA 2009 criterio 4 sin cifra; los cambios secundarios discordantes con la delta no se pueden extraer con los rasgos disponibles."
+        },
+        {
+          "id": "wpw-loc",
+          "role": "supporting",
+          "text": {
+            "es": "Localización de la vía por polaridad de la onda delta (algoritmo de Arruda)",
+            "en": "Pathway location from delta-wave polarity (Arruda algorithm)"
+          },
+          "predicate": null,
+          "ref": "arruda-1998",
+          "note": "Arruda 1998 clasifica los primeros 20 ms de la delta en I, II, aVF y V1 (+, − o isoeléctrica) y la razón R/S en III y V1; el resumen abierto no da las reglas de decisión. No existe un rasgo de polaridad de la delta, así que no es evaluable. Precisión del algoritmo para el sitio de ablación en su cohorte de validación: sensibilidad 90 %, especificidad 99 % (no es sensibilidad para detectar WPW)."
+        },
+        {
+          "id": "wpw-not-av",
+          "role": "exclusion",
+          "text": {
+            "es": "Sin onda P antes del QRS (PR no definido)",
+            "en": "No P wave before QRS (PR undefined)"
+          },
+          "predicate": {
+            "feature": "pPresent",
+            "op": "==",
+            "value": false
+          },
+          "ref": "surawicz-2009",
+          "note": "El criterio de PR exige ritmo sinusal con P identificable."
+        },
+        {
+          "id": "wpw-paced",
+          "role": "exclusion",
+          "text": {
+            "es": "Ritmo de marcapasos indicado",
+            "en": "Paced rhythm stated"
+          },
+          "predicate": {
+            "context": "paced",
+            "op": "==",
+            "value": "yes"
+          },
+          "ref": "litfl-paced",
+          "note": "La estimulación ventricular produce QRS ancho que puede simular delta."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "short-pr-no-preexcitation",
+        "lbbb-complete-aha",
+        "rbbb-complete",
+        "ivcd-nonspecific",
+        "old-mi-q-waves",
+        "ventricular-paced-rhythm",
+        "hypertrophic-cardiomyopathy",
+        "avnrt-avrt"
+      ],
+      "nextSteps": {
+        "es": "Confirmar en ECG repetido en ritmo sinusal y correlacionar con síntomas (palpitaciones, síncope); derivar para valoración electrofisiológica según el contexto clínico. Revisar ECG previos y considerar monitorización y prueba de ejercicio interpretadas por cardiología/electrofisiología. Síncope, taquiarritmia documentada, deporte competitivo u ocupación de riesgo modifican la evaluación; una sola captura no estratifica la vía.",
+        "en": "Confirm on a repeat sinus-rhythm ECG and correlate with symptoms (palpitations, syncope); refer for electrophysiology assessment according to the clinical context. Review prior ECGs and consider monitoring and exercise testing interpreted by cardiology/electrophysiology. Syncope, documented tachyarrhythmia, competitive sport or a high-risk occupation modify evaluation; one capture cannot risk-stratify the pathway."
+      },
+      "limitations": {
+        "es": "La evidencia multiderivación de delta y PR corto apoya un patrón de preexcitación; el síndrome WPW clínico requiere contexto de taquiarritmia y valoración especializada. El detector por latidos/pendientes es heurístico y no está calibrado ni validado externamente. Admite delta negativa y preexcitación parcial con QRS <120 ms. Sin datos suficientes no puede excluirse preexcitación sutil o intermitente; no localiza una vía para ablación. La preexcitación mínima o intermitente puede tener QRS <120 ms o PR aparentemente normal. La pérdida gradual de delta con ejercicio puede ser fusión cambiante y no equivale a bloqueo de la vía. Incluso la pérdida brusca no excluye de forma absoluta conducción rápida: en una cohorte remitida de 164 pacientes, 6/45 con hallazgos de bajo riesgo en ejercicio tuvieron APERP/SPERRI ≤250 ms en el EEF (Jemtrén 2024); es un marcador electrofisiológico de cohorte, no probabilidad individual de muerte súbita.",
+        "en": "Multilead delta evidence and short PR support a preexcitation pattern; clinical WPW syndrome requires tachyarrhythmia context and specialist assessment. The beat/slope detector is heuristic, uncalibrated and not externally validated. Negative delta and partial preexcitation with QRS <120 ms are accepted. Insufficient data cannot exclude subtle or intermittent preexcitation; pathway ablation location is not established. Minimal or intermittent pre-excitation can have QRS <120 ms or an apparently normal PR. Gradual delta loss during exercise can reflect changing fusion and is not equivalent to pathway block. Even abrupt loss does not categorically exclude rapid conduction: in a referral cohort of 164 patients, 6/45 with low-risk exercise findings had APERP/SPERRI ≤250 ms at EPS (Jemtrén 2024); this is a cohort electrophysiological marker, not an individual sudden-death probability."
+      },
+      "references": [
+        "surawicz-2009",
+        "arruda-1998",
+        "litfl-paced",
+        "ungaro-2024-preexcitation",
+        "antiperovitch-2023-preexcitation",
+        "jemtren-2024-preexcitation-risk"
+      ]
+    },
+    {
+      "id": "short-pr-no-preexcitation",
+      "name": {
+        "es": "PR corto sin preexcitación demostrada",
+        "en": "Short PR without demonstrated preexcitation"
+      },
+      "category": "conduction",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "spr-pr",
+          "role": "required",
+          "text": {
+            "es": "PR <120 ms en adultos",
+            "en": "PR <120 ms in adults"
+          },
+          "predicate": {
+            "feature": "prMs",
+            "op": "<",
+            "value": 120
+          },
+          "ref": "surawicz-2009",
+          "note": "Se usa el umbral que la AHA 2009 parte III aplica a la preexcitación (<120 ms adultos, <90 ms niños). Esa parte no define el 'PR corto aislado'; es un umbral prestado."
+        },
+        {
+          "id": "spr-nodelta",
+          "role": "required",
+          "text": {
+            "es": "Evaluación multiderivación disponible sin evidencia corroborada de preexcitación",
+            "en": "Available multilead evaluation without corroborated preexcitation evidence"
+          },
+          "predicate": {
+            "feature": "preexcitationSupported",
+            "op": "==",
+            "value": false
+          },
+          "ref": "surawicz-2009",
+          "note": "An explicit not-supported aggregate with at least three evaluable leads is required. Missing delta data are unknown, not absence. No raw deltaSlurMs threshold is used; this does not exclude an accessory pathway or intermittent/partial preexcitation."
+        },
+        {
+          "id": "spr-qrs",
+          "role": "required",
+          "text": {
+            "es": "QRS ≤120 ms",
+            "en": "QRS ≤120 ms"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": "<=",
+            "value": 120
+          },
+          "ref": "surawicz-2009",
+          "note": "AHA 2009: la preexcitación sugerida tiene QRS >120 ms; el complemento se usa para separar de WPW."
+        },
+        {
+          "id": "spr-p",
+          "role": "required",
+          "text": {
+            "es": "Onda P presente antes del QRS",
+            "en": "P wave present before QRS"
+          },
+          "predicate": {
+            "feature": "pPresent",
+            "op": "==",
+            "value": true
+          },
+          "ref": "surawicz-2009",
+          "note": "Sin P identificable el PR no está definido."
+        },
+        {
+          "id": "spr-paced",
+          "role": "exclusion",
+          "text": {
+            "es": "Ritmo de marcapasos indicado",
+            "en": "Paced rhythm stated"
+          },
+          "predicate": {
+            "context": "paced",
+            "op": "==",
+            "value": "yes"
+          },
+          "ref": "litfl-paced",
+          "note": "PR no interpretable."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "wpw-pattern",
+        "junctional-rhythm",
+        "ectopic-atrial-rhythm",
+        "hyperthyroidism-ecg",
+        "sinus-tachycardia"
+      ],
+      "nextSteps": {
+        "es": "Repetir el ECG, comprobar la polaridad de la P (ritmo auricular bajo/unional) y correlacionar con síntomas; revisar en ECG con derivaciones bien colocadas la posible delta sutil.",
+        "en": "Repeat the ECG, check P polarity (low atrial/junctional rhythm) and correlate with symptoms; re-inspect a well-recorded ECG for a subtle delta wave."
+      },
+      "limitations": {
+        "es": "El umbral <120 ms se toma de AHA 2009 para preexcitación y no define un síndrome específico de PR corto aislado. Una evaluación disponible sin delta corroborada no excluye preexcitación anterógrada mínima o intermitente; datos no disponibles siguen siendo desconocidos. Una vía oculta con conducción solo retrógrada puede causar AVRT sin delta, pero no es preexcitación anterógrada oculta en este ECG (Antiperovitch 2023).",
+        "en": "The <120 ms threshold is borrowed from AHA 2009 pre-excitation criteria and does not define a specific isolated-short-PR syndrome. An available evaluation without corroborated delta does not exclude minimal or intermittent antegrade pre-excitation; unavailable data remain unknown. A concealed retrograde-only pathway may cause AVRT without delta, but is not concealed antegrade pre-excitation on this ECG (Antiperovitch 2023)."
+      },
+      "references": [
+        "surawicz-2009",
+        "ungaro-2024-preexcitation",
+        "antiperovitch-2023-preexcitation"
+      ]
+    },
+    {
+      "id": "brugada-type1",
+      "name": {
+        "es": "Patrón de Brugada tipo 1 (coved)",
+        "en": "Brugada pattern type 1 (coved)"
+      },
+      "category": "repolarization",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "bru1-st",
+          "role": "required",
+          "text": {
+            "es": "V1 o V2: elevación del punto J ≥0,2 mV (≥2 mm) con ST descendente y T negativa",
+            "en": "V1 or V2: J-point elevation ≥0.2 mV (≥2 mm) with descending ST and negative T"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "feature": "lead.V1.jMv",
+                    "op": ">=",
+                    "value": 0.2
+                  },
+                  {
+                    "feature": "lead.V1.stSlope",
+                    "op": "==",
+                    "value": "down"
+                  },
+                  {
+                    "feature": "lead.V1.tMv",
+                    "op": "<",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "feature": "lead.V2.jMv",
+                    "op": ">=",
+                    "value": 0.2
+                  },
+                  {
+                    "feature": "lead.V2.stSlope",
+                    "op": "==",
+                    "value": "down"
+                  },
+                  {
+                    "feature": "lead.V2.tMv",
+                    "op": "<",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "priori-2013",
+          "note": "HRS/EHRA/APHRS 2013: elevación ST tipo 1 ≥2 mm en ≥1 derivación precordial derecha (V1/V2) en 2.º-4.º espacio intercostal, espontánea o inducida por antiarrítmicos clase I. Consenso 2012 (vía revisión de 2014): punto de máxima elevación ≥2 mm, ST descendente seguido de T negativa; 1-2 mm es solo sugestivo. ESC 2022 define el tipo 1 como elevación del punto J con ST en 'coved' y T negativa en V1-V2 (el texto abierto da la amplitud en mV con una posible errata; se mantiene el 2 mm de la HRS). 0,2 mV = 2 mm solo con calibración estándar 10 mm/mV; 'stSlope=down' aproxima el ST descendente."
+        },
+        {
+          "id": "bru1-not-v3",
+          "role": "supporting",
+          "text": {
+            "es": "El hallazgo está en V1 o V2 (no solo en V3)",
+            "en": "Finding in V1 or V2 (not exclusively V3)"
+          },
+          "predicate": {
+            "any": [
+              {
+                "feature": "lead.V1.jMv",
+                "op": ">=",
+                "value": 0.2
+              },
+              {
+                "feature": "lead.V2.jMv",
+                "op": ">=",
+                "value": 0.2
+              }
+            ]
+          },
+          "ref": "bayes-de-luna-2014",
+          "note": "Revisión de 2014 del consenso: el tipo 1 puede verse en una sola derivación, V1 o V2, pero nunca exclusivamente en V3."
+        },
+        {
+          "id": "bru1-drug",
+          "role": "supporting",
+          "text": {
+            "es": "Bloqueante de canales de sodio en la medicación",
+            "en": "Sodium-channel blocker in medication"
+          },
+          "predicate": {
+            "context": "medications",
+            "op": "contains",
+            "value": "sodium-channel-blocker"
+          },
+          "ref": "priori-2013",
+          "note": "HRS/EHRA/APHRS 2013: el patrón tipo 1 puede ser espontáneo o inducido por antiarrítmicos intravenosos clase I. Es dato de contexto, no criterio morfológico; no distingue por sí mismo patrón espontáneo de inducido."
+        },
+        {
+          "id": "bru1-coved-vs-concave",
+          "role": "supporting",
+          "text": {
+            "es": "Morfología cóncava vs. convexa (coved) del ST",
+            "en": "Concave vs. convex (coved) ST morphology"
+          },
+          "predicate": null,
+          "ref": "bayes-de-luna-2012",
+          "note": "El consenso describe coved (cóncavo o convexo, ocasionalmente rectilíneo en la revisión 2014) con descenso lento del ST. La digitalización a rasgos globales no permite distinguir curvatura; solo se usa stSlope."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "rbbb-incomplete",
+        "rbbb-complete",
+        "arvc",
+        "early-repolarization",
+        "athlete-heart",
+        "anterior-stemi",
+        "hyperkalemia",
+        "sodium-channel-blocker-toxicity",
+        "hypothermia",
+        "pericardial-effusion-tamponade",
+        "acute-pe-rv-strain"
+      ],
+      "nextSteps": {
+        "es": "Repetir el ECG con V1-V2 en 2.º-3.er espacio intercostal y revisar fiebre, fármacos y electrolitos; el diagnóstico requiere valoración especializada y correlación clínica (síncope, antecedentes familiares).",
+        "en": "Repeat the ECG with V1-V2 in the 2nd-3rd intercostal space and review fever, drugs and electrolytes; diagnosis requires specialist assessment and clinical correlation (syncope, family history)."
+      },
+      "limitations": {
+        "es": "No se conoce la posición de los electrodos (el diagnóstico HRS 2013 se define en 2.º-4.º espacio intercostal); la morfología coved/cóncava no es distinguible; el patrón es dinámico y puede ser oculto; el diagnóstico de síndrome de Brugada requiere además contexto clínico. El consenso 2012 lista como diagnósticos diferenciales el BRD, los atletas, el pectus excavatum y la ARVC, y describe fenocopias de Brugada por otras causas. La provocación con bloqueantes de sodio tiene especificidad imperfecta y depende del fármaco y de la selección clínica. Un tipo 1 inducido no debe equipararse automáticamente a síndrome ni a riesgo individual sin síntomas, familia y valoración especializada (Wilde 2023).",
+        "en": "Electrode position is unknown (HRS 2013 diagnosis is defined for 2nd-4th intercostal spaces); coved/concave morphology is not distinguishable; the pattern is dynamic and may be concealed; diagnosing Brugada syndrome also needs clinical context. The 2012 consensus lists RBBB, athletes, pectus excavatum and ARVC as differentials and describes Brugada phenocopies from other causes. Sodium-channel-blocker challenge has imperfect specificity and depends on the drug and clinical selection. Drug-induced type 1 must not automatically be equated with a syndrome or individual risk without symptoms, family history and specialist evaluation (Wilde 2023)."
+      },
+      "references": [
+        "priori-2013",
+        "bayes-de-luna-2012",
+        "bayes-de-luna-2014",
+        "zeppenfeld-2022",
+        "wilde-2023-brugada-challenge"
+      ],
+      "group": "brugada"
+    },
+    {
+      "id": "brugada-type2",
+      "name": {
+        "es": "Patrón de Brugada tipo 2 (silla de montar)",
+        "en": "Brugada pattern type 2 (saddle-back)"
+      },
+      "category": "repolarization",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "bru2-rprime",
+          "role": "required",
+          "text": {
+            "es": "V1 o V2: r′ verdadera (rsr′) con R′ ≥0,2 mV",
+            "en": "V1 or V2: true r′ (rsr′) with R′ ≥0.2 mV"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "feature": "lead.V1.rPrime",
+                    "op": "==",
+                    "value": true
+                  },
+                  {
+                    "feature": "lead.V1.rMv",
+                    "op": ">=",
+                    "value": 0.2
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "feature": "lead.V2.rPrime",
+                    "op": "==",
+                    "value": true
+                  },
+                  {
+                    "feature": "lead.V2.rMv",
+                    "op": ">=",
+                    "value": 0.2
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "bayes-de-luna-2014",
+          "note": "Revisión de 2014 del consenso 2012: r′ verdadera de 0,2 mV en V1-V2. rMv es la amplitud de R, no necesariamente de R′; aproximación."
+        },
+        {
+          "id": "bru2-st",
+          "role": "required",
+          "text": {
+            "es": "V1 o V2: elevación del ST ≥0,05 mV (0,5 mm) con T positiva",
+            "en": "V1 or V2: ST elevation ≥0.05 mV (0.5 mm) with positive T"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "feature": "lead.V1.stMv",
+                    "op": ">=",
+                    "value": 0.05
+                  },
+                  {
+                    "feature": "lead.V1.tMv",
+                    "op": ">",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "feature": "lead.V2.stMv",
+                    "op": ">=",
+                    "value": 0.05
+                  },
+                  {
+                    "feature": "lead.V2.tMv",
+                    "op": ">",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "bayes-de-luna-2014",
+          "note": "Revisión de 2014: elevación del ST ≥0,5 mm respecto a la isoeléctrica, seguida de T, morfología en silla de montar, sobre todo en V2. El consenso 2012 fusionó los antiguos tipos 2 y 3 en un único patrón 2."
+        },
+        {
+          "id": "bru2-not1",
+          "role": "exclusion",
+          "text": {
+            "es": "Cumple criterios de tipo 1",
+            "en": "Meets type 1 criteria"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "feature": "lead.V1.jMv",
+                    "op": ">=",
+                    "value": 0.2
+                  },
+                  {
+                    "feature": "lead.V1.stSlope",
+                    "op": "==",
+                    "value": "down"
+                  },
+                  {
+                    "feature": "lead.V1.tMv",
+                    "op": "<",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "feature": "lead.V2.jMv",
+                    "op": ">=",
+                    "value": 0.2
+                  },
+                  {
+                    "feature": "lead.V2.stSlope",
+                    "op": "==",
+                    "value": "down"
+                  },
+                  {
+                    "feature": "lead.V2.tMv",
+                    "op": "<",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "priori-2013",
+          "note": "Si hay J ≥0,2 mV con ST descendente y T negativa se asigna al tipo 1."
+        },
+        {
+          "id": "bru2-beta",
+          "role": "supporting",
+          "text": {
+            "es": "Ángulo beta >58° y base del triángulo ≥4 mm a 5 mm del punto de máxima elevación",
+            "en": "Beta angle >58° and triangle base ≥4 mm at 5 mm from the high take-off"
+          },
+          "predicate": null,
+          "ref": "bayes-de-luna-2014",
+          "note": "Revisión de 2014: ángulo beta >58° (sensibilidad 79 %, especificidad 83 %) discrimina Brugada de bloqueo incompleto de rama derecha; ángulo alfa >50° (71 % / 79 %) y base del triángulo ≥4 mm a 5 mm del pico también se citan. Las cifras están referidas a esa comparación, no a la detección general. Requiere medir ángulos sobre el trazo: no evaluable."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "brugada-type1",
+        "rbbb-incomplete",
+        "right-ventricular-hypertrophy",
+        "athlete-heart",
+        "early-repolarization",
+        "arvc"
+      ],
+      "nextSteps": {
+        "es": "El patrón tipo 2 por sí solo no diagnostica síndrome de Brugada. Repetir con V1-V2 en espacios altos y revisar fiebre, fármacos, electrolitos y antecedentes. La indicación de provocación farmacológica corresponde a evaluación especializada: un hallazgo incidental asintomático sin antecedentes relevantes no la justifica automáticamente (Wilde 2023).",
+        "en": "Type 2 alone does not diagnose Brugada syndrome. Repeat with high V1-V2 leads and review fever, drugs, electrolytes and history. Drug-challenge selection requires specialist assessment: an incidental asymptomatic finding without relevant history does not automatically justify it (Wilde 2023)."
+      },
+      "limitations": {
+        "es": "Difícil de separar del bloqueo incompleto de rama derecha sin medir ángulos; los umbrales en mV proceden de una revisión secundaria del consenso (no se pudo abrir el texto completo del consenso). Posición de electrodos desconocida. La provocación con bloqueantes de sodio tiene especificidad imperfecta y depende del fármaco y de la selección clínica. Un tipo 1 inducido no debe equipararse automáticamente a síndrome ni a riesgo individual sin síntomas, familia y valoración especializada (Wilde 2023).",
+        "en": "Hard to separate from incomplete RBBB without measuring angles; the mV thresholds come from a secondary review of the consensus (the full consensus text could not be opened). Electrode position unknown. Sodium-channel-blocker challenge has imperfect specificity and depends on the drug and clinical selection. Drug-induced type 1 must not automatically be equated with a syndrome or individual risk without symptoms, family history and specialist evaluation (Wilde 2023)."
+      },
+      "references": [
+        "bayes-de-luna-2012",
+        "bayes-de-luna-2014",
+        "priori-2013",
+        "wilde-2023-brugada-challenge"
+      ],
+      "group": "brugada"
+    },
+    {
+      "id": "long-qt-congenital",
+      "name": {
+        "es": "Síndrome de QT largo (patrón; congénito si se descartan causas secundarias)",
+        "en": "Long QT syndrome (pattern; congenital if secondary causes are excluded)"
+      },
+      "category": "repolarization",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "lqt-480",
+          "role": "required",
+          "text": {
+            "es": "QTc ≥480 ms",
+            "en": "QTc ≥480 ms"
+          },
+          "predicate": {
+            "feature": "qtcMs",
+            "op": ">=",
+            "value": 480
+          },
+          "ref": "zeppenfeld-2022",
+          "note": "ESC 2022: diagnóstico clínico con QTc ≥480 ms o puntuación de riesgo de SQTL >3, en ECG repetidos. Los umbrales publicados son de Bazett; el motor usa Fridericia (da valores menores que Bazett con FC >60 y mayores con FC <60): el corte se mantiene sin conversión."
+        },
+        {
+          "id": "lqt-460-syncope",
+          "role": "required",
+          "text": {
+            "es": "QTc ≥460 ms con síncope",
+            "en": "QTc ≥460 ms with syncope"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "qtcMs",
+                "op": ">=",
+                "value": 460
+              },
+              {
+                "context": "symptoms",
+                "op": "contains",
+                "value": "syncope"
+              }
+            ]
+          },
+          "ref": "zeppenfeld-2022",
+          "note": "ESC 2022: con síncope arrítmico o parada cardiaca basta QTc ≥460 ms. Aquí 'síncope' no distingue su causa arrítmica. HRS 2013: QTc 480-499 ms con síncope inexplicado también diagnostica."
+        },
+        {
+          "id": "lqt-500",
+          "role": "supporting",
+          "text": {
+            "es": "QTc ≥500 ms",
+            "en": "QTc ≥500 ms"
+          },
+          "predicate": {
+            "feature": "qtcMs",
+            "op": ">=",
+            "value": 500
+          },
+          "ref": "priori-2013",
+          "note": "HRS/EHRA/APHRS 2013: QTc ≥500 ms (Bazett) en ECG repetidos diagnostica SQTL sin causa secundaria; también marca alto riesgo."
+        },
+        {
+          "id": "lqt-sex",
+          "role": "supporting",
+          "text": {
+            "es": "QTc prolongado según sexo: ≥450 ms en hombres, ≥460 ms en mujeres",
+            "en": "Prolonged QTc by sex: ≥450 ms in men, ≥460 ms in women"
+          },
+          "predicate": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "male"
+                  },
+                  {
+                    "feature": "qtcMs",
+                    "op": ">=",
+                    "value": 450
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "context": "sexAtBirth",
+                    "op": "==",
+                    "value": "female"
+                  },
+                  {
+                    "feature": "qtcMs",
+                    "op": ">=",
+                    "value": 460
+                  }
+                ]
+              }
+            ]
+          },
+          "ref": "rautaharju-2009",
+          "note": "AHA/ACCF/HRS 2009 parte IV: QT prolongado ≥450 ms (hombres) y ≥460 ms (mujeres), 'compromiso práctico'. Es un umbral de cribado, inferior al diagnóstico de SQTL."
+        },
+        {
+          "id": "lqt-schwartz",
+          "role": "supporting",
+          "text": {
+            "es": "Puntuación de Schwartz ≥3,5 con componentes medibles: QTc ≥480 ms (3 puntos) + síncope (≥1 punto)",
+            "en": "Schwartz score ≥3.5 from measurable components: QTc ≥480 ms (3 points) + syncope (≥1 point)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "qtcMs",
+                "op": ">=",
+                "value": 480
+              },
+              {
+                "context": "symptoms",
+                "op": "contains",
+                "value": "syncope"
+              }
+            ]
+          },
+          "ref": "schwartz-2011",
+          "note": "Schwartz y Crotti 2011: QTc ≥480 ms = 3 puntos; síncope con estrés 2, sin estrés 1; ≥3,5 = alta probabilidad. Solo se evalúan estos dos componentes (3+≥1 ≥3,5). No medibles: alternancia de T, T mellada en 3 derivaciones, QTc a 4.º min de recuperación, FC <percentil 2 para la edad, sordera, torsades, antecedente familiar. Puntuación definida con Bazett y sin causas secundarias."
+        },
+        {
+          "id": "lqt-notched-t",
+          "role": "supporting",
+          "text": {
+            "es": "Onda T mellada en 3 derivaciones o alternancia de T",
+            "en": "Notched T wave in 3 leads or T-wave alternans"
+          },
+          "predicate": null,
+          "ref": "schwartz-2011",
+          "note": "1 punto cada uno en la puntuación de Schwartz 2011; el rasgo 'notched' del motor describe la R, no la T, y no hay rasgo de alternancia de T."
+        },
+        {
+          "id": "lqt-excl-tachy",
+          "role": "exclusion",
+          "text": {
+            "es": "Taquicardia rápida (≥115 lpm): el acortamiento diastólico y la superposición P-T limitan la fiabilidad de la corrección de QT",
+            "en": "Rapid tachycardia (≥115 bpm): diastolic shortening and P-T fusion limit QTc reliability"
+          },
+          "predicate": {
+            "feature": "rateBpm",
+            "op": ">=",
+            "value": 115
+          },
+          "ref": "rautaharju-2009"
+        }
+      ],
+      "requiredLogic": "any",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "medications",
+            "op": "contains",
+            "value": "qt-prolonging"
+          },
+          "effect": "lower",
+          "text": {
+            "es": "Medicación que prolonga el QT: suele ser causa secundaria; considerar QT largo adquirido/inducido por fármacos (la definición HRS 2013 exige ausencia de causa secundaria).",
+            "en": "QT-prolonging medication: usually a secondary cause; consider acquired/drug-induced long QT (HRS 2013 definition requires no secondary cause)."
+          },
+          "ref": "priori-2013"
+        },
+        {
+          "when": {
+            "context": "potassium",
+            "op": "==",
+            "value": "low"
+          },
+          "effect": "lower",
+          "text": {
+            "es": "Hipopotasemia: causa secundaria de QT largo; corregir y repetir.",
+            "en": "Hypokalemia: a secondary cause of long QT; correct and repeat."
+          },
+          "ref": "priori-2013"
+        },
+        {
+          "when": {
+            "context": "calcium",
+            "op": "==",
+            "value": "low"
+          },
+          "effect": "lower",
+          "text": {
+            "es": "Hipocalcemia: causa secundaria de QT largo; corregir y repetir.",
+            "en": "Hypocalcemia: a secondary cause of long QT; correct and repeat."
+          },
+          "ref": "priori-2013"
+        },
+        {
+          "when": {
+            "context": "history",
+            "op": "contains",
+            "value": "family-sudden-death"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Antecedente familiar de muerte súbita: componente de la puntuación de Schwartz solo si es en <30 años o SQTL conocido (edad no disponible).",
+            "en": "Family history of sudden death: a Schwartz component only if <30 years or known LQTS (age not available)."
+          },
+          "ref": "schwartz-2011"
+        }
+      ],
+      "mimics": [
+        "drug-induced-qt-prolongation",
+        "hypokalemia",
+        "hypocalcemia",
+        "hypomagnesemia",
+        "hypothermia",
+        "bifascicular-rbbb-lafb",
+        "lbbb-complete-aha"
+      ],
+      "nextSteps": {
+        "es": "Repetir el ECG (la HRS 2013 pide ECG repetidos), medir el QT a mano, revisar fármacos y electrolitos (K, Ca, Mg) y completar la puntuación de Schwartz con la clínica y los antecedentes familiares.",
+        "en": "Repeat the ECG (HRS 2013 asks for repeated ECGs), measure the QT manually, review drugs and electrolytes (K, Ca, Mg) and complete the Schwartz score with history and family history."
+      },
+      "limitations": {
+        "es": "Los cortes publicados son de Bazett; el motor usa Fridericia. El QT medido sobre un ECG digitalizado es sensible a la definición del final de la T y la onda U, y el QRS ancho alarga el QT sin implicar repolarización anormal. La puntuación de Schwartz solo se evalúa parcialmente. El ECG no distingue congénito de adquirido. Con QRS ≥ 120 ms el QTc sobrestima la repolarización (valorar JT o QT ajustado al QRS).",
+        "en": "Published cut-offs are Bazett-based; the engine uses Fridericia. QT measured on a digitized ECG is sensitive to the T-end and U-wave definition, and a wide QRS lengthens QT without abnormal repolarization. The Schwartz score is only partially evaluated. The ECG cannot separate congenital from acquired. With QRS ≥ 120 ms QTc overestimates repolarisation (consider JT or QRS-adjusted QT)."
+      },
+      "references": [
+        "zeppenfeld-2022",
+        "priori-2013",
+        "rautaharju-2009",
+        "schwartz-2011"
+      ],
+      "group": "qt-prolongation"
+    },
+    {
+      "id": "short-qt",
+      "name": {
+        "es": "Patrón de QT corto (evaluar síndrome de QT corto)",
+        "en": "Short QT pattern (evaluate for short QT syndrome)"
+      },
+      "category": "repolarization",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "sqt-320",
+          "role": "required",
+          "text": {
+            "es": "QTc ≤320 ms",
+            "en": "QTc ≤320 ms"
+          },
+          "predicate": {
+            "feature": "qtcMs",
+            "op": "<=",
+            "value": 320
+          },
+          "ref": "zeppenfeld-2022",
+          "note": "ESC 2022: QTc ≤320 ms por sí solo, o ≤360 ms con rasgos adicionales. HRS/EHRA/APHRS 2013 daba ≤330 ms. Los cortes derivan de QT corregido por Bazett; el motor usa Fridericia."
+        },
+        {
+          "id": "sqt-360-feat",
+          "role": "supporting",
+          "text": {
+            "es": "QTc ≤360 ms con antecedente familiar de muerte súbita",
+            "en": "QTc ≤360 ms with a family history of sudden death"
+          },
+          "predicate": {
+            "all": [
+              {
+                "feature": "qtcMs",
+                "op": "<=",
+                "value": 360
+              },
+              {
+                "context": "history",
+                "op": "contains",
+                "value": "family-sudden-death"
+              }
+            ]
+          },
+          "ref": "zeppenfeld-2022",
+          "note": "ESC 2022: ≤360 ms con antecedente familiar de SQTC, parada cardiaca sin cardiopatía o mutación patogénica; HRS 2013: antecedente familiar de SQTC o de muerte súbita a ≤40 años, supervivencia a TV/FV sin cardiopatía o mutación. El contexto del motor solo indica muerte súbita familiar sin edad: aproximación. Nonspecific family sudden death without age or a documented family SQTS diagnosis is supporting only; it cannot satisfy the syndrome criteria."
+        },
+        {
+          "id": "sqt-ahasex",
+          "role": "supporting",
+          "text": {
+            "es": "QT corto según la AHA 2009: QTc ≤390 ms",
+            "en": "Short QT per AHA 2009: QTc ≤390 ms"
+          },
+          "predicate": {
+            "feature": "qtcMs",
+            "op": "<=",
+            "value": 390
+          },
+          "ref": "rautaharju-2009",
+          "note": "AHA/ACCF/HRS 2009 parte IV (cribado, ambos sexos); no es criterio diagnóstico de síndrome de QT corto."
+        }
+      ],
+      "requiredLogic": "any",
+      "contextModifiers": [],
+      "mimics": [
+        "hypercalcemia",
+        "hyperkalemia",
+        "digoxin-effect",
+        "digoxin-toxicity",
+        "early-repolarization"
+      ],
+      "nextSteps": {
+        "es": "Repetir el ECG, medir el QT manualmente a frecuencias sinusales estables y revisar calcio, potasio y digoxina antes de considerar canalopatía.",
+        "en": "Repeat the ECG, measure the QT manually at stable sinus rates and review calcium, potassium and digoxin before considering a channelopathy."
+      },
+      "limitations": {
+        "es": "Cortes publicados de Bazett; el motor usa Fridericia. El QT corto se mide mal con frecuencias altas. Los antecedentes (SQTC familiar, mutación) no están en el contexto del motor, solo 'muerte súbita familiar'. La guía ESC 2022 requiere correlación clínica.",
+        "en": "Published cut-offs are Bazett-based; the engine uses Fridericia. Short QT is hard to measure at high rates. Family SQTS history and mutation are not in the engine context, only 'family sudden death'. ESC 2022 requires clinical correlation."
+      },
+      "references": [
+        "zeppenfeld-2022",
+        "priori-2013",
+        "rautaharju-2009"
+      ]
+    },
+    {
+      "id": "arvc",
+      "name": {
+        "es": "Patrón de T negativas precordiales derechas (miocardiopatía arritmogénica en el diferencial)",
+        "en": "Right-precordial T-wave inversion pattern (arrhythmogenic cardiomyopathy in the differential)"
+      },
+      "category": "structural-systemic",
+      "urgency": "urgent",
+      "criteria": [
+        {
+          "id": "arvc-t-v1v3",
+          "role": "required",
+          "text": {
+            "es": "Onda T negativa en V1, V2 y V3 sin BRD completo (mayor de 14 años)",
+            "en": "Negative T waves in V1, V2 and V3 without complete RBBB (age >14)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "countLeads": [
+                  "V1",
+                  "V2",
+                  "V3"
+                ],
+                "where": {
+                  "field": "tMv",
+                  "op": "<",
+                  "value": 0
+                },
+                "op": ">=",
+                "value": 3
+              },
+              {
+                "not": {
+                  "all": [
+                    {
+                      "feature": "qrsMs",
+                      "op": ">=",
+                      "value": 120
+                    },
+                    {
+                      "any": [
+                        {
+                          "feature": "lead.V1.rPrime",
+                          "op": "==",
+                          "value": true
+                        },
+                        {
+                          "feature": "lead.V2.rPrime",
+                          "op": "==",
+                          "value": true
+                        },
+                        {
+                          "all": [
+                            {
+                              "feature": "lead.V1.notched",
+                              "op": "==",
+                              "value": true
+                            },
+                            {
+                              "feature": "lead.V1.rPeakMs",
+                              "op": ">",
+                              "value": 50
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "context": "ageYears",
+                "op": ">",
+                "value": 14
+              }
+            ]
+          },
+          "ref": "marcus-2010",
+          "note": "Task Force 2010 (Marcus): criterio mayor de repolarización = T invertidas en precordiales derechas (V1, V2, V3) 'o más allá' en >14 años, sin BRD completo (QRS ≥120 ms). Padua 2020 (Corrado) lo mantiene como mayor. La ausencia de BRD se aproxima con QRS ≥120 ms y rsR′/R mellada en V1-V2."
+        },
+        {
+          "id": "arvc-t-v1v2",
+          "role": "supporting",
+          "text": {
+            "es": "Onda T negativa en V1 y V2 (criterio menor)",
+            "en": "Negative T waves in V1 and V2 (minor criterion)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "countLeads": [
+                  "V1",
+                  "V2"
+                ],
+                "where": {
+                  "field": "tMv",
+                  "op": "<",
+                  "value": 0
+                },
+                "op": ">=",
+                "value": 2
+              },
+              {
+                "not": {
+                  "all": [
+                    {
+                      "feature": "qrsMs",
+                      "op": ">=",
+                      "value": 120
+                    },
+                    {
+                      "any": [
+                        {
+                          "feature": "lead.V1.rPrime",
+                          "op": "==",
+                          "value": true
+                        },
+                        {
+                          "feature": "lead.V2.rPrime",
+                          "op": "==",
+                          "value": true
+                        },
+                        {
+                          "all": [
+                            {
+                              "feature": "lead.V1.notched",
+                              "op": "==",
+                              "value": true
+                            },
+                            {
+                              "feature": "lead.V1.rPeakMs",
+                              "op": ">",
+                              "value": 50
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "context": "ageYears",
+                "op": ">",
+                "value": 14
+              }
+            ]
+          },
+          "ref": "corrado-2020",
+          "note": "Padua 2020: menor = T invertidas en V1-V2 con pubertad completada, sin BRD completo."
+        },
+        {
+          "id": "arvc-t-v1v4-rbbb",
+          "role": "supporting",
+          "text": {
+            "es": "Con BRD completo: onda T negativa en V1-V4",
+            "en": "With complete RBBB: negative T waves in V1-V4"
+          },
+          "predicate": {
+            "all": [
+              {
+                "all": [
+                  {
+                    "feature": "qrsMs",
+                    "op": ">=",
+                    "value": 120
+                  },
+                  {
+                    "any": [
+                      {
+                        "feature": "lead.V1.rPrime",
+                        "op": "==",
+                        "value": true
+                      },
+                      {
+                        "feature": "lead.V2.rPrime",
+                        "op": "==",
+                        "value": true
+                      },
+                      {
+                        "all": [
+                          {
+                            "feature": "lead.V1.notched",
+                            "op": "==",
+                            "value": true
+                          },
+                          {
+                            "feature": "lead.V1.rPeakMs",
+                            "op": ">",
+                            "value": 50
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "countLeads": [
+                  "V1",
+                  "V2",
+                  "V3",
+                  "V4"
+                ],
+                "where": {
+                  "field": "tMv",
+                  "op": "<",
+                  "value": 0
+                },
+                "op": ">=",
+                "value": 4
+              }
+            ]
+          },
+          "ref": "corrado-2020",
+          "note": "Padua 2020: menor = T invertidas en V1-V4 en presencia de BRD completo."
+        },
+        {
+          "id": "arvc-t-v4v6",
+          "role": "supporting",
+          "text": {
+            "es": "Onda T negativa en V4-V6 (fenotipo izquierdo, criterio menor de Padua)",
+            "en": "Negative T waves in V4-V6 (left-dominant phenotype, Padua minor)"
+          },
+          "predicate": {
+            "all": [
+              {
+                "countLeads": [
+                  "V4",
+                  "V5",
+                  "V6"
+                ],
+                "where": {
+                  "field": "tMv",
+                  "op": "<",
+                  "value": 0
+                },
+                "op": ">=",
+                "value": 3
+              },
+              {
+                "not": {
+                  "all": [
+                    {
+                      "feature": "qrsMs",
+                      "op": ">=",
+                      "value": 120
+                    },
+                    {
+                      "countLeads": [
+                        "V5",
+                        "V6"
+                      ],
+                      "where": {
+                        "field": "rPeakMs",
+                        "op": ">",
+                        "value": 60
+                      },
+                      "op": ">=",
+                      "value": 2
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "ref": "corrado-2020",
+          "note": "Padua 2020: criterio menor del ventrículo izquierdo, T invertidas en V4-V6 en ausencia de BRI completo (aprox. con QRS ≥120 ms y pico de R >60 ms en V5-V6)."
+        },
+        {
+          "id": "arvc-epsilon",
+          "role": "supporting",
+          "text": {
+            "es": "Onda épsilon en V1-V3",
+            "en": "Epsilon wave in V1-V3"
+          },
+          "predicate": null,
+          "ref": "marcus-2010",
+          "note": "Task Force 2010: criterio mayor (señal reproducible de baja amplitud entre el final del QRS y el inicio de la T); en Padua 2020 pasa a menor. Ondas de microvoltios: no detectables tras digitalizar."
+        },
+        {
+          "id": "arvc-tad",
+          "role": "supporting",
+          "text": {
+            "es": "Duración de activación terminal del QRS ≥55 ms en V1-V3",
+            "en": "Terminal activation duration of QRS ≥55 ms in V1-V3"
+          },
+          "predicate": null,
+          "ref": "marcus-2010",
+          "note": "Medida desde el nadir de la S hasta el final del QRS sin BRD completo (Task Force 2010, menor; Padua 2020, menor). No hay rasgo equivalente ('rPeakMs' no mide ese intervalo)."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [
+        {
+          "when": {
+            "context": "symptoms",
+            "op": "contains",
+            "value": "palpitations"
+          },
+          "effect": "raise",
+          "text": {
+            "es": "Palpitaciones/síncope con T negativas derechas: correlación clínica relevante (arritmia ventricular de morfología BRI).",
+            "en": "Palpitations/syncope with right-sided T inversion: clinically relevant (LBBB-morphology ventricular arrhythmia)."
+          },
+          "ref": "marcus-2010"
+        }
+      ],
+      "mimics": [
+        "brugada-type1",
+        "rbbb-complete",
+        "rbbb-incomplete",
+        "right-ventricular-hypertrophy",
+        "acute-pe-rv-strain",
+        "athlete-heart",
+        "anterior-stemi",
+        "hypertrophic-cardiomyopathy",
+        "myocarditis"
+      ],
+      "nextSteps": {
+        "es": "Comparar con ECG previo y completar el estudio según el Task Force 2010/Padua 2020: ecocardiograma o resonancia, monitorización de arritmias ventriculares y antecedentes familiares.",
+        "en": "Compare with a prior ECG and complete the work-up per Task Force 2010/Padua 2020: echocardiography or MRI, ventricular arrhythmia monitoring and family history."
+      },
+      "limitations": {
+        "es": "Las ondas épsilon y la activación terminal del QRS no se detectan tras digitalizar; la T negativa en V1-V3 es frecuente en otros contextos (embolia pulmonar, hipertrofia de VD, patrón juvenil <14 años). El diagnóstico exige criterios de imagen, histología, arritmia y genética, ausentes aquí; el ECG solo orienta.",
+        "en": "Epsilon waves and terminal QRS activation are not detectable after digitization; negative T in V1-V3 is common in other settings (pulmonary embolism, RV hypertrophy, juvenile pattern <14 years). Diagnosis requires imaging, histologic, arrhythmic and genetic criteria, absent here; the ECG only suggests."
+      },
+      "references": [
+        "marcus-2010",
+        "corrado-2020",
+        "peters-2012"
+      ]
+    },
+    {
+      "id": "ventricular-paced-rhythm",
+      "name": {
+        "es": "Posible ritmo de marcapasos ventricular (captura por confirmar)",
+        "en": "Possible ventricular paced rhythm (capture unconfirmed)"
+      },
+      "category": "technical",
+      "urgency": "routine",
+      "criteria": [
+        {
+          "id": "vpr-context",
+          "role": "required",
+          "text": {
+            "es": "Marcapasos indicado en el contexto",
+            "en": "Pacemaker stated in the context"
+          },
+          "predicate": {
+            "context": "paced",
+            "op": "==",
+            "value": "yes"
+          },
+          "ref": "litfl-paced",
+          "note": "Las espigas no se detectan tras digitalizar (pacedSpikes siempre nulo); la entidad solo puede apoyarse en el dato clínico."
+        },
+        {
+          "id": "vpr-spikes",
+          "role": "required",
+          "text": {
+            "es": "Espigas de estimulación ventricular seguidas de captura QRS en el trazado",
+            "en": "Ventricular pacing spikes followed by QRS capture on the tracing"
+          },
+          "predicate": {
+            "feature": "pacedSpikes",
+            "op": "==",
+            "value": true
+          },
+          "ref": "litfl-paced",
+          "note": "A history of a pacemaker does not establish active ventricular pacing (intrinsic, atrial-paced and inhibited rhythms are possible). This detector does not establish spikes/capture, so the rhythm remains a differential."
+        },
+        {
+          "id": "vpr-wide",
+          "role": "supporting",
+          "text": {
+            "es": "QRS ancho (≥120 ms)",
+            "en": "Wide QRS (≥120 ms)"
+          },
+          "predicate": {
+            "feature": "qrsMs",
+            "op": ">=",
+            "value": 120
+          },
+          "ref": "surawicz-2009",
+          "note": "Umbral de QRS ancho en adultos de la AHA 2009 parte III, usado como umbral operativo; no es un criterio publicado de ritmo de marcapasos."
+        },
+        {
+          "id": "vpr-lbbb",
+          "role": "supporting",
+          "text": {
+            "es": "Morfología tipo BRI (QS o rS en V1)",
+            "en": "LBBB-like morphology (QS or rS in V1)"
+          },
+          "predicate": {
+            "any": [
+              {
+                "feature": "lead.V1.qs",
+                "op": "==",
+                "value": true
+              },
+              {
+                "expr": "lead.V1.rMv+lead.V1.sMv",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          },
+          "ref": "litfl-paced",
+          "note": "LITFL: la estimulación del VD da un QRS similar al BRI; la estimulación epicárdica izquierda, similar al BRD. Fuente secundaria."
+        }
+      ],
+      "requiredLogic": "all",
+      "contextModifiers": [],
+      "mimics": [
+        "lbbb-complete-aha",
+        "lbbb-strauss",
+        "ivcd-nonspecific",
+        "ventricular-escape-rhythm",
+        "ventricular-tachycardia-wct",
+        "paced-mi-sgarbossa"
+      ],
+      "nextSteps": {
+        "es": "Confirmar el modo de estimulación con el dispositivo o ECG previo; si hay dolor torácico usar criterios de ST en ritmo estimulado.",
+        "en": "Confirm the pacing mode with the device or prior ECG; with chest pain use paced-rhythm ST criteria."
+      },
+      "limitations": {
+        "es": "Las espigas de marcapasos no se detectan tras digitalizar: sin el dato de contexto, un QRS ancho por estimulación se leerá como BRI o trastorno inespecífico. La estimulación auricular o biventricular puede dar QRS estrecho o morfología distinta.",
+        "en": "Pacing spikes are not detected after digitization: without the context flag, a paced wide QRS will be read as LBBB or nonspecific IVCD. Atrial or biventricular pacing can produce a narrow QRS or different morphology."
+      },
+      "references": [
+        "litfl-paced",
+        "surawicz-2009"
+      ]
+    }
+  ]
+}
